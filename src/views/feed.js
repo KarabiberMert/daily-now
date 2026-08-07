@@ -31,7 +31,6 @@ export function visibleStories() {
   let stories = collectStories(docs);
   for (const s of stories) s.category = catByDoc.get(s.articleId);
 
-  if (f.source) stories = stories.filter(s => s.source === f.source);
   if (f.unread) stories = stories.filter(s => !isStoryRead(s.key));
   if (f.starred) stories = stories.filter(s => isStoryStarred(s.key));
   return stories;
@@ -67,16 +66,17 @@ export function renderFeed(root) {
 
   const unread = list.filter(s => !isStoryRead(s.key)).length;
   const stamp = f.range === 'today' ? `${formatDay(dayKey())} · ` : '';
-  document.getElementById('feedSub').textContent = list.length
+  const status = list.length
     ? `${stamp}${list.length} başlık${unread ? ` · ${unread} okunmadı` : ' · hepsi okundu'}`
     : `${stamp}Henüz başlık yok`;
+  document.getElementById('feedSub').textContent = `${status} · her gün 07:00’de güncellenir`;
 
   root.innerHTML = list.length ? '' : emptyState();
 }
 
 function emptyState() {
   const f = state.filters;
-  const filtered = f.unread || f.starred || f.source || f.tag || f.range !== 'all';
+  const filtered = f.unread || f.starred || f.tag || f.range !== 'all';
 
   if (state.articles.length && filtered) {
     return `<div class="empty">
@@ -88,24 +88,18 @@ function emptyState() {
   }
 
   if (state.serverInbox) {
-    const n = (state.serverInbox.files || []).length + (state.serverInbox.articles || []).length;
     return `<div class="empty">
       <div class="em-ico">📥</div>
-      <h3>${n ? `inbox klasöründe ${n} dosya var` : 'inbox klasörü boş'}</h3>
-      <p>${n
-        ? 'Taramaya bas, başlıklar gündeme alınsın.'
-        : `Claude'a “bugünün gündemini hazırla” de — seçtiği başlıkları özetleyip
-           <code>DailyNews/inbox/</code> klasörüne bırakır.`}</p>
-      <button class="btn btn-primary" data-act="sync">inbox'ı tara</button>
+      <h3>Bugünün gündemi henüz gelmedi</h3>
+      <p>Gündem her gün sabah 07:00’de otomatik güncelleniyor.</p>
+      <button class="btn btn-primary" data-act="sync">Yenile</button>
     </div>`;
   }
 
   return `<div class="empty">
     <div class="em-ico">🔌</div>
-    <h3>inbox klasörü okunamıyor</h3>
-    <p>Gündem <code>DailyNews/inbox/</code> klasöründen gelir. Uygulamayı
-       <code>python3 DailyNews/serve.py</code> ile açıp
-       <code>http://localhost:8123</code> adresine git.</p>
+    <h3>Gündem şu an okunamıyor</h3>
+    <p>Bağlantını kontrol edip tekrar dene.</p>
     <button class="btn btn-primary" data-act="sync">Tekrar dene</button>
   </div>`;
 }

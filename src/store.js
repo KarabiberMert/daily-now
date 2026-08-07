@@ -12,7 +12,7 @@ const DEFAULT_SETTINGS = {
 export const state = {
   articles: [],
   settings: { ...DEFAULT_SETTINGS },
-  filters: { range: 'today', unread: false, starred: false, source: null, tag: null },
+  filters: { range: 'today', unread: false, starred: false, tag: null },
   query: '',
   view: 'feed',
   serverInbox: null, // inbox/index.json'un icerigi — tek haber kaynagi

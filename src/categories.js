@@ -9,11 +9,13 @@ import { fold } from './util.js';
 export const OTHER = 'other';
 
 export const CATEGORIES = [
-  { id: 'world',   label: 'Dünya' },
-  { id: 'turkey',  label: 'Türkiye' },
-  { id: 'tech',    label: 'Teknoloji' },
-  { id: 'markets', label: 'ABD Borsa' },
-  { id: OTHER,     label: 'Diğer' },
+  { id: 'world',      label: 'Dünya' },
+  { id: 'turkey',     label: 'Türkiye' },
+  { id: 'trmarkets',  label: 'Türkiye Borsa' },
+  { id: 'tech',       label: 'Teknoloji' },
+  { id: 'markets',    label: 'ABD Borsa' },
+  { id: 'health',     label: 'Sağlık' },
+  { id: OTHER,        label: 'Diğer' },
 ];
 
 export const CATEGORY_LABEL = Object.fromEntries(CATEGORIES.map(c => [c.id, c.label]));
@@ -22,10 +24,12 @@ export const CATEGORY_LABEL = Object.fromEntries(CATEGORIES.map(c => [c.id, c.la
 /* Not: "ekonomi", "finans", "politika" gibi tek basina hangi sekmeye ait oldugu
    belirsiz sozcukler bilerek disarida — onlari anahtar kelime puanlamasi cozuyor. */
 const ALIASES = {
-  world:   ['dunya', 'world', 'uluslararasi', 'global', 'dis haberler', 'diplomasi'],
-  turkey:  ['turkiye', 'turkey', 'gundem', 'yurt', 'ulusal', 'ic haberler'],
-  tech:    ['teknoloji', 'tech', 'technology', 'yazilim', 'dijital'],
-  markets: ['borsa', 'markets', 'piyasalar', 'piyasa', 'abd borsa', 'wall street'],
+  world:      ['dunya', 'world', 'uluslararasi', 'global', 'dis haberler', 'diplomasi'],
+  turkey:     ['turkiye', 'turkey', 'gundem', 'yurt', 'ulusal', 'ic haberler'],
+  trmarkets:  ['turkiye borsa', 'tr borsa', 'bist', 'borsa istanbul'],
+  tech:       ['teknoloji', 'tech', 'technology', 'yazilim', 'dijital'],
+  markets:    ['borsa', 'markets', 'piyasalar', 'piyasa', 'abd borsa', 'wall street'],
+  health:     ['saglik', 'health', 'tip'],
 };
 
 /* Agirlikli anahtar kelimeler. Hepsi fold() edilmis bicimde yazili:
@@ -34,8 +38,7 @@ const ALIASES = {
 const KEYWORDS = {
   turkey: {
     3: ['turkiye', 'ankara', 'istanbul', 'izmir', 'tbmm', 'meclis', 'cumhurbaskani',
-        'borsa istanbul', 'bist', 'tcmb', 'anadolu ajansi', 'afad', 'valilik', 'belediye',
-        'para politikasi kurulu'],
+        'anadolu ajansi', 'afad', 'valilik', 'belediye'],
     1: ['turk', 'bakanlik', 'bakan', 'lira', 'gundem', 'emniyet', 'bursa', 'antalya',
         'diyarbakir', 'trabzon', 'yerel', 'milli'],
   },
@@ -44,6 +47,14 @@ const KEYWORDS = {
         'israil', 'iran', 'cin', 'hindistan', 'ortadogu', 'brüksel', 'bruksel'],
     1: ['dunya', 'world', 'avrupa', 'asya', 'afrika', 'zirve', 'diplomasi', 'savas',
         'multeci', 'goc', 'iklim', 'kuresel', 'uluslararasi'],
+  },
+  trmarkets: {
+    // Turkiye'nin kendi piyasa/ekonomi belirtecleri — genel Turkiye sekmesinden
+    // ayrisiyor ki Merkez Bankasi/Borsa Istanbul haberleri kendi sekmesinde toplansin.
+    3: ['borsa istanbul', 'bist', 'bist 100', 'tcmb', 'para politikasi kurulu',
+        'hazine ve maliye bakanligi', 'sermaye piyasasi kurulu', 'spk'],
+    1: ['hisse', 'endeks', 'tahvil', 'faiz', 'enflasyon', 'lira', 'yatirimci',
+        'sirket', 'kar', 'ihracat', 'ithalat', 'ekonomi', 'buyume', 'piyasa'],
   },
   tech: {
     3: ['yapay zeka', 'teknoloji', 'yazilim', 'siber', 'veri merkezi', 'openai', 'nvidia',
@@ -58,6 +69,11 @@ const KEYWORDS = {
         'new york borsasi', 'halka arz', 'ipo', 'temettu'],
     1: ['borsa', 'hisse', 'endeks', 'tahvil', 'piyasa', 'faiz', 'resesyon', 'ceyrek',
         'yatirimci', 'dolar', 'enflasyon', 'emtia', 'petrol', 'bilanco'],
+  },
+  health: {
+    3: ['saglik bakanligi', 'dso', 'who', 'asi', 'kanser', 'salgin', 'pandemi'],
+    1: ['doktor', 'tedavi', 'ilac', 'virus', 'hastalik', 'hastane', 'klinik',
+        'beslenme', 'ameliyat', 'tibbi'],
   },
 };
 
@@ -145,11 +161,13 @@ export function countByCategory(items, getId) {
    beslenir. Tek turuncu her yerde tekrarlaninca kartlar birbirinden ayirt
    edilemiyordu. */
 const TONE = {
-  world:   'var(--cyan)',
-  turkey:  'var(--accent)',
-  tech:    'var(--green)',
-  markets: 'var(--amber)',
-  [OTHER]: 'var(--mute)',
+  world:     'var(--cyan)',
+  turkey:    'var(--accent)',
+  trmarkets: 'var(--rose)',
+  tech:      'var(--green)',
+  markets:   'var(--amber)',
+  health:    'var(--violet)',
+  [OTHER]:   'var(--mute)',
 };
 
 export const toneOf = id => TONE[id] || 'var(--accent)';

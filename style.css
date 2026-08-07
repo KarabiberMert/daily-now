@@ -17,6 +17,8 @@
   --cyan:      #4cc9f0;
   --green:     #3ddc97;
   --amber:     #ffc857;
+  --violet:    #a78bfa;
+  --rose:      #fb7185;
   --shadow:    0 1px 2px rgba(0,0,0,.4), 0 12px 32px -12px rgba(0,0,0,.7);
   --shadow-lg: 0 24px 70px -20px rgba(0,0,0,.85);
 
@@ -44,6 +46,8 @@
   --cyan:      #0d80a8;
   --green:     #14915f;
   --amber:     #b47f11;
+  --violet:    #6d43c9;
+  --rose:      #c23a56;
   --shadow:    0 1px 2px rgba(30,25,15,.06), 0 10px 26px -14px rgba(30,25,15,.28);
   --shadow-lg: 0 24px 60px -22px rgba(30,25,15,.35);
 }
@@ -151,13 +155,6 @@ svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width:
 .chip:hover { border-color: var(--mute); color: var(--text); }
 .chip.on { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 600; }
 .chip i { font-style: normal; opacity: .55; margin-left: 5px; }
-
-.side-foot { margin-top: auto; padding-top: 18px; display: flex; align-items: center; gap: 8px; }
-.folder-state { display: flex; align-items: center; gap: 7px; font-size: 11.5px; color: var(--mute); min-width: 0; }
-.folder-state .dot { width: 7px; height: 7px; border-radius: 99px; background: var(--mute); flex: none; }
-.folder-state.on .dot { background: var(--green); box-shadow: 0 0 0 3px color-mix(in srgb, var(--green) 22%, transparent); }
-.folder-state span:last-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.side-foot .btn { margin-left: auto; flex: none; }
 
 /* ───────────────────────── topbar ───────────────────────── */
 .main { flex: 1; display: flex; flex-direction: column; min-width: 0; }

@@ -1,22 +1,19 @@
 /* Daily Now — uygulama girisi: yonlendirme, olaylar, senkron. */
 
-import { state, loadAll, subscribe, emit, saveSettings, upsert, get,
+import { state, loadAll, subscribe, saveSettings, upsert, get,
          patchArticle, tags } from './store.js';
-import { Articles, Files } from './db.js';
 import { probeServerInbox, syncInbox } from './library.js';
 import { initReader, openArticle, isOpen as readerOpen } from './reader.js';
 import { bindCards } from './cards.js';
-import { renderFeed, storySources, unreadStoryCount } from './views/feed.js';
+import { renderFeed, unreadStoryCount } from './views/feed.js';
 import { initCategorySheet, openCategory, isOpen as sheetOpen } from './views/category.js';
 import { renderSearch } from './views/search.js';
 import { renderStats } from './views/stats.js';
-import { renderSettings } from './views/settings.js';
-import { $, $$, esc, debounce, dayKey, toast, TR_DAYS, TR_MONTHS } from './util.js';
+import { $, $$, esc, debounce, toast, TR_DAYS, TR_MONTHS } from './util.js';
 
-const VIEWS = ['feed', 'search', 'stats', 'settings'];
+const VIEWS = ['feed', 'search', 'stats'];
 const body = {
   feed: $('#feedBody'), search: $('#searchBody'), stats: $('#statsBody'),
-  settings: $('#settingsBody'),
 };
 
 /* ────────────────────────── boot ────────────────────────── */
@@ -65,8 +62,7 @@ function bootFailed(err) {
 
 /* ────────────────────────── render ────────────────────────── */
 
-function onChange(what) {
-  if (what === 'settings') renderChrome();
+function onChange() {
   render();
 }
 
@@ -76,7 +72,6 @@ function render() {
   if (v === 'feed') renderFeed(body.feed);
   else if (v === 'search') renderSearch(body.search, state.query);
   else if (v === 'stats') renderStats(body.stats);
-  else if (v === 'settings') renderSettings(body.settings);
 }
 
 function renderChrome() {
@@ -94,11 +89,6 @@ function renderChrome() {
   $$('#feedRange button').forEach(b => b.classList.toggle('is-active', b.dataset.range === state.filters.range));
   $$('#filterRow .pill[data-filter]').forEach(b => b.classList.toggle('on', !!state.filters[b.dataset.filter]));
 
-  // kaynak / etiket cipleri
-  $('#sourceChips').innerHTML = storySources().slice(0, 12).map(s =>
-    `<button class="chip ${state.filters.source === s.name ? 'on' : ''}" data-src="${esc(s.name)}">${esc(s.name)}<i>${s.count}</i></button>`
-  ).join('') || '<span class="chip" style="opacity:.5">henüz yok</span>';
-
   const t = tags();
   $('#sideTags').hidden = !t.length;
   $('#tagChips').innerHTML = t.slice(0, 14).map(x =>
@@ -107,17 +97,8 @@ function renderChrome() {
 
   // aktif filtre rozetleri
   const af = [];
-  if (state.filters.source) af.push(`<button class="pill on" data-clear="source">${esc(state.filters.source)}</button>`);
   if (state.filters.tag) af.push(`<button class="pill on" data-clear="tag">#${esc(state.filters.tag)}</button>`);
   $('#activeFilters').innerHTML = af.join('');
-
-  // gelen kutusu durumu
-  $('#inboxState').classList.toggle('on', !!state.serverInbox);
-  $('#inboxLabel').textContent = state.syncing
-    ? 'Taranıyor…'
-    : state.serverInbox
-      ? `inbox · ${state.serverInbox.files.length} PDF`
-      : 'inbox okunamıyor';
 }
 
 function go(view) {
@@ -163,18 +144,14 @@ function wireEvents() {
   });
 
   $('#sidebar').addEventListener('click', e => {
-    const s = e.target.closest('[data-src]');
-    if (s) { state.filters.source = state.filters.source === s.dataset.src ? null : s.dataset.src; go('feed'); return; }
     const t = e.target.closest('[data-tag]');
     if (t) { state.filters.tag = state.filters.tag === t.dataset.tag ? null : t.dataset.tag; go('feed'); return; }
   });
 
-  $('#btnSyncSide').onclick = () => sync();
   $('#btnMenu').onclick = () => $('#sidebar').classList.toggle('open');
   $('#scrim').onclick = closeSidebar;
   $('#btnTheme').onclick = () => saveSettings({ theme: state.settings.theme === 'dark' ? 'light' : 'dark' })
     .then(() => applyTheme(state.settings.theme));
-  $('#btnSync').onclick = () => sync();
 
   const searchInput = $('#globalSearch');
   const runSearch = debounce(() => {
@@ -208,31 +185,7 @@ async function onAction(e) {
 
   if (act === 'sync') sync();
   else if (act === 'clear-filters') {
-    state.filters = { range: 'all', unread: false, starred: false, source: null, tag: null };
-    render();
-  }
-  else if (act === 'go-settings') go('settings');
-  else if (act === 'toggle') {
-    await saveSettings({ [btn.dataset.key]: !state.settings[btn.dataset.key] });
-  }
-  else if (act === 'theme') {
-    await saveSettings({ theme: btn.dataset.theme });
-    applyTheme(btn.dataset.theme);
-  }
-  else if (act === 'mark-all-read') {
-    const unread = state.articles.filter(a => !a.read);
-    unread.forEach(a => { a.read = true; });
-    await Articles.putMany(unread);
-    toast(`${unread.length} haber okundu işaretlendi`, 'ok');
-    emit('articles');
-  }
-  else if (act === 'export') exportArchive();
-  else if (act === 'wipe') {
-    if (!confirm('Tüm arşiv kaydı silinecek. Klasördeki PDF dosyaların silinmez. Emin misin?')) return;
-    await Articles.clear();
-    await Files.clear();
-    state.articles = [];
-    toast('Arşiv temizlendi', 'ok');
+    state.filters = { range: 'all', unread: false, starred: false, tag: null };
     render();
   }
 }
@@ -248,7 +201,7 @@ function onKey(e) {
   if (typing) return;
 
   if (e.key === '/') { e.preventDefault(); $('#globalSearch').focus(); }
-  else if (e.key >= '1' && e.key <= '5') go(VIEWS[+e.key - 1]);
+  else if (e.key >= '1' && e.key <= '3') go(VIEWS[+e.key - 1]);
   else if (e.key.toLowerCase() === 'r') sync();
 }
 
@@ -261,7 +214,7 @@ async function sync({ quiet = false } = {}) {
   state.serverInbox = await probeServerInbox();
   if (!state.serverInbox) {
     renderChrome();
-    if (!quiet) toast('inbox okunamıyor — python3 DailyNews/serve.py çalışıyor mu?', 'err');
+    if (!quiet) toast('Gündem okunamıyor — internet bağlantını kontrol et', 'err');
     return;
   }
   lastInboxSignature = signatureOf(state.serverInbox);
@@ -271,9 +224,7 @@ async function sync({ quiet = false } = {}) {
 
   let result = null, error = null;
   try {
-    result = await syncInbox(state.serverInbox, state.articles, (i, total) => {
-      $('#inboxLabel').textContent = total ? `${i}/${total} alınıyor…` : 'Taranıyor…';
-    });
+    result = await syncInbox(state.serverInbox, state.articles);
     upsert(result.imported);
   } catch (err) {
     console.error(err);
@@ -328,24 +279,6 @@ function startAutoRefresh() {
 }
 
 /* ────────────────────────── yardimcilar ────────────────────────── */
-
-function exportArchive() {
-  const data = state.articles.map(a => ({
-    title: a.title, source: a.source, author: a.author, date: a.date,
-    publishedAt: a.publishedAt, addedAt: a.addedAt, tags: a.tags,
-    summary: a.summary, url: a.url, fileName: a.fileName, path: a.path,
-    pages: a.pages, size: a.size, read: a.read, starred: a.starred,
-  }));
-  const blob = new Blob([JSON.stringify({ app: 'Daily Now', exportedAt: new Date().toISOString(), articles: data }, null, 2)],
-    { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = `daily-now-${dayKey()}.json`;
-  a.click();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
-  toast('Dışa aktarıldı', 'ok');
-}
 
 function applyTheme(theme) {
   document.documentElement.dataset.theme = theme;
