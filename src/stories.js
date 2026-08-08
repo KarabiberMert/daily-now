@@ -38,6 +38,7 @@ function normalize(raw, article, order) {
     source: (raw.source || article.source || '').trim(),
     url: /^https?:\/\//i.test(raw.url || '') ? raw.url : '',
     time: (raw.time || '').trim(),
+    fetchedAt: (raw.fetched_at || '').trim(),
     publishedAt: raw.publishedAt || article.publishedAt || '',
     date: raw.date || article.date,
     articleId: article.id,

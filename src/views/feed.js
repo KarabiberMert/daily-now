@@ -69,7 +69,13 @@ export function renderFeed(root) {
   const status = list.length
     ? `${stamp}${list.length} başlık${unread ? ` · ${unread} okunmadı` : ' · hepsi okundu'}`
     : `${stamp}Henüz başlık yok`;
-  document.getElementById('feedSub').textContent = `${status} · her gün 07:00’de güncellenir`;
+  const lastUpdate = list.reduce((latest, s) => {
+    const t = s.fetchedAt || s.time || '';
+    return t > latest ? t : latest;
+  }, '');
+  document.getElementById('feedSub').textContent = lastUpdate
+    ? `${status} · son güncelleme ${lastUpdate}`
+    : status;
 
   root.innerHTML = list.length ? '' : emptyState();
 }
@@ -91,7 +97,7 @@ function emptyState() {
     return `<div class="empty">
       <div class="em-ico">📥</div>
       <h3>Bugünün gündemi henüz gelmedi</h3>
-      <p>Gündem her gün sabah 07:00’de otomatik güncelleniyor.</p>
+      <p>Gündem düzenli aralıklarla otomatik güncelleniyor.</p>
       <button class="btn btn-primary" data-act="sync">Yenile</button>
     </div>`;
   }

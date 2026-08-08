@@ -188,6 +188,12 @@ function storyPage(s, rank) {
     : '';
 
   const stamp = [s.source, rel || formatDay(s.date), time].filter(Boolean).join(' · ');
+  const fetchedBadge = s.fetchedAt ? `
+    <span class="ss-fetched" title="Ollama bu haberi ${esc(s.fetchedAt)}'de işleyip yayınladı">
+      <svg class="ss-fetched-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+           stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 2.6-6.4M3 4v5h5"/></svg>
+      ${esc(s.fetchedAt)}’de güncellendi
+    </span>` : '';
 
   return `
   <article class="ss ${isStoryRead(s.key) ? 'is-read' : ''}" data-story-read="${esc(s.key)}">
@@ -195,7 +201,7 @@ function storyPage(s, rank) {
       <span class="ss-rank">${String(rank).padStart(2, '0')}</span>
       <div class="ss-head">
         ${s.title ? `<h3>${esc(s.title)}</h3>` : ''}
-        <div class="ss-stamp">${esc(stamp)}</div>
+        <div class="ss-stamp">${esc(stamp)}${fetchedBadge}</div>
       </div>
       <button class="ss-star ${isStoryStarred(s.key) ? 'on' : ''}"
               data-story-star="${esc(s.key)}" aria-label="Yıldızla">

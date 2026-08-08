@@ -593,6 +593,14 @@ span.na-src { color: var(--mute); border-bottom: 0; }
 .ss-star.on, .ss:hover .ss-star.on { opacity: 1; color: var(--amber); }
 .ss-star.on svg { fill: var(--amber); }
 .ss-stamp { font-size: 11px; color: var(--mute); margin-top: 5px; }
+.ss-fetched {
+  display: inline-flex; align-items: center; gap: 4px;
+  margin-left: 8px; padding: 2px 8px 2px 6px;
+  font-size: 10px; font-weight: 600; letter-spacing: .01em;
+  color: var(--mute); border: 1px solid var(--line); border-radius: 999px;
+  vertical-align: middle;
+}
+.ss-fetched-ico { width: 10px; height: 10px; flex: none; }
 .ss-lead {
   font-family: var(--serif); font-size: 15.5px; line-height: 1.6; color: var(--dim);
   margin: 13px 0 0; padding-left: 44px;

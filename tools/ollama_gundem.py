@@ -264,6 +264,11 @@ Metin: {source_text}
 """
 
 
+def now_hhmm():
+    """Makine zaten Turkiye saatinde (UTC+3) calisiyor, ek donusum gerekmiyor."""
+    return datetime.now().strftime("%H:%M")
+
+
 def derive_time(pub_date):
     try:
         dt = parsedate_to_datetime(pub_date)
@@ -305,6 +310,7 @@ def summarize_article(article, body_text):
                 "detail": detail,
                 "source": article["source"],
                 "url": article["link"],
+                "fetched_at": now_hhmm(),
             }
             if points:
                 story["points"] = points[:4]
@@ -319,7 +325,12 @@ def summarize_article(article, body_text):
 
 
 def headline_only_story(article):
-    story = {"title": article["title"], "source": article["source"], "url": article["link"]}
+    story = {
+        "title": article["title"],
+        "source": article["source"],
+        "url": article["link"],
+        "fetched_at": now_hhmm(),
+    }
     t = derive_time(article["pubDate"])
     if t:
         story["time"] = t
@@ -361,6 +372,7 @@ def build_category(category, seen_urls):
         "date": today.strftime("%Y-%m-%d"),
         "source": "Ollama Günlük Özet",
         "author": "Ollama",
+        "generated_at": now_hhmm(),
         "stories": stories,
     }
     print(f"[{category}] {len(stories)} haber yayına hazır.")
