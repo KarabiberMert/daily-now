@@ -1,0 +1,73 @@
+{
+  "title": "Teknoloji Gündemi — 8 Ağustos 2026",
+  "category": "tech",
+  "date": "2026-08-08",
+  "source": "Ollama Günlük Özet",
+  "author": "Ollama",
+  "stories": [
+    {
+      "title": "OpenAI, Astra Modelini Düğmeyle Aktif Hâle Getirdi",
+      "summary": "OpenAI, Astra adlı yeni yapay zeka modelinin kullanımını başlatmıştır.",
+      "detail": "OpenAI, Astra modelinin kullanımına başlamıştır. Bu adım, yapay zeka teknolojisinin gelişiminde önemli bir dönemeç olarak kabul edilir. Astra'nın özelliklerini ve etkilerini anlamak için ileride daha fazla çalışma bekleniyor.",
+      "source": "GZT",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeEI1dW4yOTIta3RGNjdrc1RsTzdFbzJDNzlXNFliajdmNjl1VGJfQVp6YkVvS0NXUms3c0twU0stZk5lUm5pZUlaNVNrR1FPcUVkU2x5eVludy1EYmdhNGZhb3NWTW14RXI2RG50MW9hdTFFSURVZktLc3g4QXNRTDBQSno2T0tZcXhxV00xaUlQc3E4NHlNV3JjQ1F6ZjF5?oc=5",
+      "time": "15:13"
+    },
+    {
+      "title": "Abu Dabi, Yargı Sistemi Yapay Zekaya Dayalı Başlangıç Yapıyor",
+      "summary": "Abu Dabi'nin yargı sisteminde yeni bir dönemeş başlıyor ve yapay zeka teknolojilerinin kullanılmasıyla ilgili ilk adımlar atılıyor.",
+      "detail": "Abu Dabi, yargı işlemlerinde yapay zekanın rolünü arttırmak için yeni bir dönem başlatıyor. Bu adım, sürecin daha verimli ve hızlı olması amacıyla yapılmaktadır. Yapay zeka teknolojisinin entegrasyonu, belge kontrolü, hukuki analiz ve karar destek sistemi gibi alanlarda kullanıma sunulacaktır. Abu Dabi'nin bu girişimi, yargı sistemlerinin modernleşme sürecinde önemli bir ilerleme olarak değerlendirilmekte.",
+      "source": "Teyit",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTlZxZXhUcm13Smd2N01qaHRNWHcwakhzaWplWHFsbzBJS0FtYVZFWVB1V20zd2xmSExwbjdlNElEYl9MUDNSMTVtejhFWXRzVDNTWVg3WEFzUE1kYVRpSVpfck5QVTRrNkRkcEZiNW8tRmJ1M3NnS3FEdkFiYUtGVUIydXBfZw?oc=5",
+      "points": [
+        "Yapay zeka teknolojileri belge kontrolü ve hukuki analiz gibi alanlarda kullanılacak",
+        "Sistem, sürecin daha verimli ve hızlı olmasını sağlayacak"
+      ],
+      "time": "14:50"
+    },
+    {
+      "title": "Airbnb'in CEO'su: Başarıyı Yapay Zekadan Farklı Bir Teknoloji Kredilerine Atıyor",
+      "summary": "Airbnb'in CEO'su Brian Chesky, şirketin başarısının temelinde bulunan tekno-loji olan bagaj hizmeti konusunda düşüncelerini ifade etti.",
+      "detail": "Brian Chesky, Airbnb'in başarılarının sadece yapay zeka teknolojilerinden kaynaklanmadığını belirtti. Bagaj taşıma hizmetleri gibi basit ancak kullanıcı dostu özelliklerin de rol oynadığını vurgulayan Chesky, şirketin büyümesinin çok yönlü olduğunu açıkladı. Bu yaklaşım, teknolojik ilerleme ve kullanıcı deneyimi arasındaki dengenin önemini gösteriyor.",
+      "source": "dokuzeylul.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNM2RIUEhrdzhEWk45N3hCOFV3bFJKd201XzJSaXpmd1RmVnFIQnB2WjJ6VTJUcnhPTnVjbHdmdGhleTFvYWQzN2pkMENFR0RTdVdwUjF3NFQ4YTB0OXlHUGdtVWs0NHkwcHpQY2YteDR2TVo5azZfc0x3S1QzRnNhYi1TaHJRcnpH?oc=5",
+      "points": [
+        "Airbnb, bagaj taşıma hizmetleri gibi basit ancak etkili özellikler sayesinde kullanıcıları daha fazla çekti.",
+        "Brian Chesky, şirketin büyümesinin sadece yapay zeka teknolojilerinden kaynaklanmadığını belirtti."
+      ],
+      "time": "14:44"
+    },
+    {
+      "title": "Google'un Yapay Zekası Depremlere Maruz Kaldı",
+      "summary": "Google, kendi yapay zeka sistemlerinin bir sorunla karşı karşıya olduğunu duyurdu.",
+      "detail": "Google, bazı kullanıcılarının deneyimini etkileyebilecek bir teknik sorunu bildirdi. Sorun, şirketin yapay zeka tabanını oluşturan hizmetlere uzmanlık gerektiren bir deprem neden olmuştur. Google, bu olayın kullanıcılar için belirli hizmetlerdeki performans düşüklüğüne yol açabileceğini açıkladı. Şirket, sorunu çözmek için çalışan ekibinin yoğunlaştığını ve mümkün olan en kısa sürede hizmetin tamamen normalleşeceğini vurguladı.",
+      "source": "Aydın Denge Haber",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPc084dGtzdHlCVXQ5OWlKTDNTUUFJYS00d01Day0yWmdMZG04MnpSeEVxc3ZKTkxneGJHX1F3MlREYi1Db3JsV2p1dnV0Z0EtR0t5V051Y1FOY2RXXzVmMHM3VVVxaFphRFFzZ0VwYmVyN0Y4SFNIYms5cUQtRGNiRXFPdGhsbkF6aWdaRTJOa2dqLUtCSC1lT0Y2bw?oc=5",
+      "time": "14:28"
+    },
+    {
+      "title": "Yapay zeka şirketlerin sistemine izinsiz sızdı!",
+      "source": "Kocaeli Gündem",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQX0hjRUM2cjhRTVZmYmltZUFIN1JVVmVZaXBHSzhod2ZJeFlrUEdoLXdsY0JHZFlKQzRlN2dJUW93VGVuTVJSU2czTDZrVG1Kcm5xZW5Ic1JTQmRncDZmal81blk0dXpZS2ZIUWJhUWpibGU5VGY4eFBfTkZ1Wk9CMG40elpMU0Y2UUdsbHZHMGjSAZYBQVVfeXFMUEdmdjlZbnFFNzF0M05VbDF5dHZteEdNRzN1Nkc1eXQyV0M5M2lSa2pqaml6VlZDNC1jT09GY0lETy11TFpJLTU5X1V2Qjk4TkdTV0ltN0JjYlkweDc1Z2JIaDRINlFYTHRnTGROOW95TWN3ZllNX1NPUGM1WG9zUVFCNGdtdGk3d2s4ejJHUXBnQ1JrbU13?oc=5",
+      "time": "14:17"
+    },
+    {
+      "title": "FPT, siber alanı korumak için 'yumuşak kalkan' oluşturmak amacıyla Da Nang Polisi ile ortaklık kurdu.",
+      "source": "Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLWlYblZXc2piR0hTNVBOX3FIa3ZqWk5DYW5ZOFU3WDltQUh0aC1hVUUyemtwMUVoQ1JZUDdibWs0MTBGeEJnMVcxeC1Sczg5bmNkZmtwUnRBMVpGb0tnLUU1eWNBNDhBUy1FV1YzcWU0SHkwVGZsc0IzTzZqbWNvbnhzWXNDekRtSzhPUFctT3otTFVrN0l6Q1dyUUFzc0o0RGpmdVFrSQ?oc=5",
+      "time": "14:12"
+    },
+    {
+      "title": "Pekin'in E-Town bölgesi, 2030 yılına kadar küresel bir yapay zeka merkezi olmayı hedefliyor.",
+      "source": "Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM1ZabW5FZldhNHVVVzk3YmZmc1hlcUVPTk9mR3dVY25qbUo3T3FkZ3Y5TUVQXy1qWGplVV8zOF9fdDdHQnFMSUtKdG9fcktqa0tOT1JVWTNwUEk0QmVHdXU4QS1WNXIyTjAyRmFGbUtzdkdHTGFIMGJvMW1tOUhnVVplc1RqNi1DU09GSlcwUlM1ZVloZGdr?oc=5",
+      "time": "13:05"
+    },
+    {
+      "title": "Yapay zeka dizi sektörüne de el attı",
+      "source": "Sözcü Gazetesi",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1sV0FuekRWLUI3UmpMRllqMFZ4VzFBb2VCc1JhdU1EVGw2bWxDakV1VDdRYktxNE84OGViZm5ka1M1M3JpR1Qxdm9zc01TbjFzX3pWQzRpNDEyWnZrd2hOb2c0eXh2NXJwLWxJd1pfN25zaWNoMU1nME85aTJtdw?oc=5",
+      "time": "12:28"
+    }
+  ]
+}
