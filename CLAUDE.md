@@ -26,6 +26,12 @@ haberini oraya koyma.
 
 ### Haber seçimi ve yazım
 
+- **Her haberin `url`si benzersiz olmalı.** Uygulama okundu/yıldız durumunu ve
+  haber kimliğini `url`ye bağlıyor — aynı `url`yi iki farklı haberde kullanırsan
+  ikinci haber ilkiyle **sessizce birleşip kaybolur** (arayüzde hiç görünmez,
+  hata da vermez). Bir kaynaktan (ör. bir "günün haberleri" derlemesi) birden
+  fazla gerçek gelişme çıkarıyorsan bunları ayrı story yapma — **tek bir
+  haberde `points` listesiyle birleştir.**
 - Kategori başına **mümkünse en az 4-5 haber** (zorlama yok — önemli olan azsa
   azıyla yetin, doldurmak için önemsiz/tekrar haber ekleme).
 - Her haber: `title` (kısa, Türkçe, tıklama tuzağı yok), `summary` (1-2 cümle),
