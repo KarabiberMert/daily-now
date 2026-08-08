@@ -40,7 +40,7 @@ Model: `claude-sonnet-5`.
 
 Üç yerde aynı akış tanımlı, biri değişince diğerleri de güncellenmeli:
 
-- **`CLAUDE.md`** (repo kökü) — bu repoda çalışan her Claude Code/Cowork oturumu
+- **[`CLAUDE.md`](CLAUDE.md)** (repo kökü) — bu repoda çalışan her Claude Code/Cowork oturumu
   (rutin dahil) tarafından otomatik yüklenir. Kota/token sınırları ve editoryal
   kurallar için **tek doğru kaynak** burası.
 - **`.claude/skills/haber-yayinla/`** (proje kökünün dışında, `Proje/.claude/skills/`) —
@@ -81,5 +81,5 @@ neden gittiğini hatırla:
 ## Maliyet notu
 
 Otomasyon Claude Pro kotasından çalışıyor (ayrı bir API faturası yok). Kota/token
-sınırlarının somut değerleri (arama sayısı, haber sayısı, model seçimi) `CLAUDE.md`'de
+sınırlarının somut değerleri (arama sayısı, haber sayısı, model seçimi) [`CLAUDE.md`](CLAUDE.md)'de
 tutuluyor — burada tekrarlamıyoruz ki iki yer birbirinden kopup eskimesin.
