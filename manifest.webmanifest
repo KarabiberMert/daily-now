@@ -1,7 +1,7 @@
 {
   "name": "Daily Now",
   "short_name": "Daily Now",
-  "description": "Coworker'ın hazırladığı haber PDF'lerini günlük takip et.",
+  "description": "Günün önemli haberlerini her sabah tek yerden takip et.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
