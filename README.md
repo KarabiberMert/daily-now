@@ -28,15 +28,26 @@ Cowork/bulut rutini
   `markets` (ABD Borsa — yalnızca Wall Street/Fed), `health` (Sağlık).
 - **Story birimi**: bir inbox kaydı birden çok "story" (haber satırı) üretebilir —
   `stories: [...]` alanı önerilen biçim. Okundu/yıldız durumu belge değil, story
-  anahtarına (URL) bağlı.
+  anahtarına (URL) bağlı — **aynı URL iki story'de kullanılırsa ikincisi
+  sessizce kaybolur**, bu yüzden her story'nin url'si benzersiz olmalı.
 
 ## Otomasyon
 
 Bulut rutini her gün **07:00 (İstanbul) / 04:00 UTC**'de çalışıyor:
 6 kategori için haber araştırıp Türkçe özetliyor, `publish_news.py` ile yayınlıyor,
 depoya push ediyor. Kurulum/düzenleme: [claude.ai/code/routines](https://claude.ai/code/routines).
-Model: `claude-sonnet-5`. Manuel/interaktif yayın için aynı akışı `.claude/skills/haber-yayinla/`
-skill'i (proje kökünün dışında, `Proje/.claude/skills/`) tanımlıyor.
+Model: `claude-sonnet-5`.
+
+Üç yerde aynı akış tanımlı, biri değişince diğerleri de güncellenmeli:
+
+- **`CLAUDE.md`** (repo kökü) — bu repoda çalışan her Claude Code/Cowork oturumu
+  (rutin dahil) tarafından otomatik yüklenir. Kota/token sınırları ve editoryal
+  kurallar için **tek doğru kaynak** burası.
+- **`.claude/skills/haber-yayinla/`** (proje kökünün dışında, `Proje/.claude/skills/`) —
+  manuel/interaktif yayın için aynı akışı tanımlıyor.
+- **Rutinin kendi prompt'u** (claude.ai/code/routines üzerinde) — otomatik CLAUDE.md
+  okumuyorsa (rutinin çalışma ortamı bu repoyu klonlamıyorsa) aynı kuralları kendi
+  metninde de tekrarlaman gerekir; oradan manuel güncellenir, buradan görülemez.
 
 ## Barındırma
 
@@ -69,6 +80,6 @@ neden gittiğini hatırla:
 
 ## Maliyet notu
 
-Otomasyon Claude Pro kotasından çalışıyor (ayrı bir API faturası yok). Kotayı düşük
-tutmak için: günde 1 kez, `sonnet` modeli, kategori başına "mümkünse en az 8 ama
-zorlama yok" talimatı ve WebFetch'in gereksiz yere kullanılmaması hedefleniyor.
+Otomasyon Claude Pro kotasından çalışıyor (ayrı bir API faturası yok). Kota/token
+sınırlarının somut değerleri (arama sayısı, haber sayısı, model seçimi) `CLAUDE.md`'de
+tutuluyor — burada tekrarlamıyoruz ki iki yer birbirinden kopup eskimesin.
