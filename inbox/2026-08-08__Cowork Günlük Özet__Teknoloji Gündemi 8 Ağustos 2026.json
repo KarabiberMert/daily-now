@@ -1,0 +1,30 @@
+{
+  "title": "Teknoloji Gündemi — 8 Ağustos 2026",
+  "category": "tech",
+  "date": "2026-08-08",
+  "source": "Cowork Günlük Özet",
+  "stories": [
+    {
+      "title": "Yapay zeka altyapısında büyük hafta: AMD-Taalas, Tesla-SpaceX çip fabrikası, Suno ve Google'a tepki",
+      "summary": "AMD bir çip girişimini satın aldı, Tesla ile SpaceX 16,8 milyar dolarlık fabrikada birleşti, Suno kurallarını sıkılaştırdı, Google'ın Hindistan projesine tepki geldi.",
+      "detail": "AMD, Toronto merkezli yapay zeka çip girişimi Taalas'ı satın aldığını duyurdu; anlaşmayla çıkarım (inference) alanında uzmanlaşmış teknolojiyi bünyesine katan şirket, Nvidia'nın çip pazarındaki hakimiyetine karşı rekabet gücünü artırmayı hedefliyor.\n\nTesla ve SpaceX ise Teksas'ın Grimes County bölgesinde kurulacak 'Terafab' adlı yarı iletken üretim kompleksi için güç birliği yaptı; projeye başlangıç yatırımı 16,8 milyar dolar olarak açıklandı ve iki şirketin de ileri çip tedarikinde dışa bağımlılığı azaltması bekleniyor.\n\nYapay zeka müzik platformu Suno, CEO Mikey Shulman'ın açıklamasıyla yeni kullanım kuralları ve daha sıkı indirme limitleri getirdi; adım, üretilen şarkıların akış platformlarında sahte gelir elde etmek için kötüye kullanılmasının tespit edilmesinin ardından geldi.\n\nAyrıca Google'ın Hindistan'da planladığı 15 milyar dolarlık yapay zeka veri merkezi projesi, bölgedeki su kaynakları ve yaban hayatı üzerindeki etkileri gerekçesiyle yerel muhalefetle karşılaştı.",
+      "points": [
+        "AMD → Taalas satın alımı (çıkarım çipleri)",
+        "Tesla + SpaceX → Terafab, 16,8 milyar dolar, Teksas",
+        "Suno → indirme/kullanım kuralları sıkılaştı",
+        "Google → Hindistan'daki 15 milyar dolarlık veri merkezi projesine tepki"
+      ],
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/08/07/top-tech-news-today-august-7-2026-amd-cloudflare-google-meta-nvidia-spacex-suno-tesla-more/"
+    },
+    {
+      "title": "OpenAI'nin yapay zeka hoparlörünün detayları netleşiyor",
+      "summary": "OpenAI'nin geliştirdiği yapay zeka destekli akıllı hoparlör cihazına dair yeni bilgiler ortaya çıktı.",
+      "detail": "OpenAI'nin üzerinde çalıştığı yapay zeka destekli hoparlör cihazına ilişkin yeni ayrıntılar gün yüzüne çıktı. Cihazın, şirketin sesli asistan ve donanım stratejisinin bir parçası olarak geliştirildiği belirtiliyor. Hamle, büyük yapay zeka şirketlerinin yazılımdan fiziksel donanıma doğru genişleme eğiliminin son örneklerinden biri olarak öne çıkıyor. Cihazın piyasaya çıkış tarihi ve fiyatlandırmasına dair resmi bir açıklama henüz yapılmadı.",
+      "points": [],
+      "source": "Foundern",
+      "url": "https://foundern.com/2026/08/openainin-yapay-zeka-hoparloru-detaylaniyor/"
+    }
+  ],
+  "author": "Cowork"
+}

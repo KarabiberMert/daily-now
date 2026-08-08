@@ -1,0 +1,32 @@
+{
+  "title": "ABD Borsa Gündemi — 8 Ağustos 2026",
+  "category": "markets",
+  "date": "2026-08-08",
+  "source": "Cowork Günlük Özet",
+  "stories": [
+    {
+      "title": "Beklenmedik istihdam daralması Fed'in faiz baskısını azalttı, borsalar yükseldi",
+      "summary": "Temmuz ayında ABD'de istihdamın beklenmedik şekilde daralması, Fed'in yakın vadede faiz artırmayacağı beklentisini güçlendirdi.",
+      "detail": "ABD'de temmuz ayı tarım dışı istihdam verileri, piyasa beklentisinin tam tersine 23 bin kişilik bir daralmaya işaret etti; oysa ekonomistler 83 bin kişilik artış bekliyordu. İşsizlik oranı da beklenenin altında, yüzde 4,1 olarak açıklandı. Zayıf istihdam tablosu, Federal Rezerv'in yakın vadede faiz artırmak zorunda kalmayacağı yönündeki beklentileri güçlendirdi ve tahvil getirilerinde gerilemeye yol açtı. Veri sonrası borsalarda risk iştahı arttı, hisse senetleri günü yükselişle tamamladı.",
+      "points": [
+        "Temmuz istihdamı: -23 bin (beklenti: +83 bin)",
+        "İşsizlik oranı: %4,1"
+      ],
+      "source": "Washington Post",
+      "url": "https://www.washingtonpost.com/business/2026/08/07/stocks-dow-jones-iran-oil-fed-interest-rates/1f4daa84-929d-11f1-9fdc-0a725c989a7b_story.html"
+    },
+    {
+      "title": "S&P 500 rekor kapanışla haftayı yüzde 3,6 artışla tamamladı",
+      "summary": "Wall Street'te S&P 500 tarihi zirvesini yeniledi, Nasdaq ve Dow Jones de güçlü bir seans geçirdi.",
+      "detail": "S&P 500 endeksi Cuma günü yüzde 0,62 yükselerek 7.757,64 puanla rekor bir kapanış gerçekleştirdi. Nasdaq Bileşik Endeksi yüzde 1,3 artışla 26.690,62 puana, Dow Jones Sanayi Endeksi ise 151,83 puanlık kazançla 54.036,93 puana yükseldi. Böylece S&P 500 hafta genelinde yüzde 3,6 değer kazanarak son dönemin en güçlü haftalık performanslarından birini sergiledi. Yükseliş, zayıf istihdam verisinin Fed'in şahin duruşunu yumuşatacağı beklentisiyle destek buldu.",
+      "points": [
+        "S&P 500: 7.757,64 (rekor kapanış)",
+        "Haftalık getiri: %3,6",
+        "Nasdaq: 26.690,62 / Dow: 54.036,93"
+      ],
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/06/stock-market-today-live-updates.html"
+    }
+  ],
+  "author": "Cowork"
+}

@@ -366,6 +366,226 @@
       "path": "2026-08-07__Cowork__Türkiye Gündemi 7 Ağustos 2026.json",
       "size": 3427,
       "mtime": 1786132766450
+    },
+    {
+      "title": "ABD Borsa Gündemi — 8 Ağustos 2026",
+      "category": "markets",
+      "date": "2026-08-08",
+      "source": "Cowork Günlük Özet",
+      "stories": [
+        {
+          "title": "Beklenmedik istihdam daralması Fed'in faiz baskısını azalttı, borsalar yükseldi",
+          "summary": "Temmuz ayında ABD'de istihdamın beklenmedik şekilde daralması, Fed'in yakın vadede faiz artırmayacağı beklentisini güçlendirdi.",
+          "detail": "ABD'de temmuz ayı tarım dışı istihdam verileri, piyasa beklentisinin tam tersine 23 bin kişilik bir daralmaya işaret etti; oysa ekonomistler 83 bin kişilik artış bekliyordu. İşsizlik oranı da beklenenin altında, yüzde 4,1 olarak açıklandı. Zayıf istihdam tablosu, Federal Rezerv'in yakın vadede faiz artırmak zorunda kalmayacağı yönündeki beklentileri güçlendirdi ve tahvil getirilerinde gerilemeye yol açtı. Veri sonrası borsalarda risk iştahı arttı, hisse senetleri günü yükselişle tamamladı.",
+          "points": [
+            "Temmuz istihdamı: -23 bin (beklenti: +83 bin)",
+            "İşsizlik oranı: %4,1"
+          ],
+          "source": "Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/08/07/stocks-dow-jones-iran-oil-fed-interest-rates/1f4daa84-929d-11f1-9fdc-0a725c989a7b_story.html"
+        },
+        {
+          "title": "S&P 500 rekor kapanışla haftayı yüzde 3,6 artışla tamamladı",
+          "summary": "Wall Street'te S&P 500 tarihi zirvesini yeniledi, Nasdaq ve Dow Jones de güçlü bir seans geçirdi.",
+          "detail": "S&P 500 endeksi Cuma günü yüzde 0,62 yükselerek 7.757,64 puanla rekor bir kapanış gerçekleştirdi. Nasdaq Bileşik Endeksi yüzde 1,3 artışla 26.690,62 puana, Dow Jones Sanayi Endeksi ise 151,83 puanlık kazançla 54.036,93 puana yükseldi. Böylece S&P 500 hafta genelinde yüzde 3,6 değer kazanarak son dönemin en güçlü haftalık performanslarından birini sergiledi. Yükseliş, zayıf istihdam verisinin Fed'in şahin duruşunu yumuşatacağı beklentisiyle destek buldu.",
+          "points": [
+            "S&P 500: 7.757,64 (rekor kapanış)",
+            "Haftalık getiri: %3,6",
+            "Nasdaq: 26.690,62 / Dow: 54.036,93"
+          ],
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/06/stock-market-today-live-updates.html"
+        }
+      ],
+      "author": "Cowork",
+      "path": "2026-08-08__Cowork Günlük Özet__ABD Borsa Gündemi 8 Ağustos 2026.json",
+      "size": 2312,
+      "mtime": 1786172116117
+    },
+    {
+      "title": "Dünya Gündemi — 8 Ağustos 2026",
+      "category": "world",
+      "date": "2026-08-08",
+      "source": "Cowork Günlük Özet",
+      "stories": [
+        {
+          "title": "Rusya'nın Kiev bölgesine saldırısında bir çocuk dahil üç kişi öldü",
+          "summary": "Rusya'nın gece Kiev bölgesine düzenlediği saldırıda bir çocuğun da aralarında bulunduğu üç sivil hayatını kaybetti.",
+          "detail": "Rusya'nın Kiev bölgesine yönelik son saldırısında üç kişi hayatını kaybetti, ölenler arasında bir çocuk da bulunuyor. Saldırı, Rusya'nın Ukrayna'nın başkent çevresindeki yerleşim bölgelerini hedef almaya devam ettiği bir dönemde gerçekleşti. Ukrayna makamları bölgede arama kurtarma ve hasar tespit çalışmalarını sürdürüyor. Saldırı, tarafların ateşkes veya müzakere çabalarına rağmen sivil bölgelere yönelik saldırıların kesilmediğini bir kez daha gösterdi.",
+          "points": [
+            "3 sivil hayatını kaybetti",
+            "Ölenler arasında bir çocuk var"
+          ],
+          "source": "Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/08/08/russian-attack-on-kyiv-region-kills-three-including-a-child"
+        },
+        {
+          "title": "Türkiye, Suudi Arabistan ve Pakistan Riyad'da üçlü savunma anlaşması imzaladı",
+          "summary": "Üç ülke arasında imzalanan savunma iş birliği anlaşması, bölgesel dengeler üzerinde geniş yankı uyandırdı.",
+          "detail": "Türkiye, Suudi Arabistan ve Pakistan, Riyad'da üçlü bir savunma anlaşmasına imza attı. Anlaşmanın imzalanması, üç ülke arasındaki askeri ve stratejik iş birliğinin derinleştiğinin bir işareti olarak okunuyor. Gelişme, bölgesel güç dengeleri açısından geniş yankı uyandırdığı şeklinde değerlendiriliyor ve çeşitli başkentlerde yakından takip ediliyor. Anlaşmanın kapsamına, olası ortak tatbikatlara ve ekonomik boyutlarına dair ayrıntılar önümüzdeki günlerde netleşecek.",
+          "points": [],
+          "source": "Canlı Gaste",
+          "url": "https://www.canligaste.com/gundem-ozeti-8-agustos-2026/891041/"
+        },
+        {
+          "title": "Avrupa'da güneş ve rüzgar enerjisi fazlası batarya depolama tartışmasını büyütüyor",
+          "summary": "Avrupa'da yenilenebilir enerji üretimindeki artış, depolama altyapısının yetersizliği nedeniyle blackout riskini gündeme getiriyor.",
+          "detail": "Avrupa'da güneş ve rüzgar enerjisi üretimi hızla artarken, üretilen fazla enerjiyi depolayacak batarya altyapısının yetersiz kalması yeni bir tartışma başlattı. Uzmanlar, depolama kapasitesi genişletilmezse şebekelerin aşırı yüklenip elektrik kesintisi riskiyle karşı karşıya kalabileceğini belirtiyor. Bazı ülkelerde büyük ölçekli batarya yatırımlarına karşı yerel itirazlar da yükseliyor. Tartışma, kıtanın iklim hedeflerine ulaşma sürecinde depolama teknolojisinin kritik bir darboğaz haline gelebileceğine işaret ediyor.",
+          "points": [],
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/08/08/batteries-can-save-europes-solar-and-wind-power-from-being-wasted-but-are-they-a-blackout-"
+        }
+      ],
+      "author": "Cowork",
+      "path": "2026-08-08__Cowork Günlük Özet__Dünya Gündemi 8 Ağustos 2026.json",
+      "size": 3215,
+      "mtime": 1786172116021
+    },
+    {
+      "title": "Sağlık Gündemi — 8 Ağustos 2026",
+      "category": "health",
+      "date": "2026-08-08",
+      "source": "Cowork Günlük Özet",
+      "stories": [
+        {
+          "title": "Yüksek doz intravenöz vitamin C, kanser tedavisinde yeniden gündemde",
+          "summary": "Linus Pauling'in eski iddiasının aksine, araştırmacılar damardan verilen yüksek doz vitamin C'nin kanser hücreleri üzerinde farklı etki gösterebileceğini belirtiyor.",
+          "detail": "Vitamin C'nin kanserle mücadelede etkili olabileceği fikri, Nobel ödüllü bilim insanı Linus Pauling tarafından yıllar önce öne sürülmüş ve dönemin bilim çevrelerince eleştirilmişti. Yeni araştırmalar, ağızdan alınan vitamin C ile damar yoluyla verilen vitamin C arasındaki farkın gözden kaçırıldığını öne sürüyor. Araştırmacılara göre intravenöz uygulama kanda çok daha yüksek konsantrasyonlara ulaşabiliyor ve bu da hücreler üzerinde farklı bir etki mekanizması ortaya çıkarabiliyor. Bulgular hâlâ erken aşamada olsa da, konsept yeniden bilimsel ilginin odağına giriyor.",
+          "points": [],
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260806050717.htm"
+        },
+        {
+          "title": "Otizm tedavisi yetişkin farelerde de etkili bulundu",
+          "summary": "Belirli bir taşıyıcı proteinin bloke edilmesi, otizm modeli farelerde sosyal davranışları yetişkinlikte bile iyileştirdi.",
+          "detail": "Araştırmacılar, SLC6A20 adlı glisin taşıyıcı proteinini bloke etmenin, otizm spektrum bozukluğu modeli oluşturulan farelerde sosyal ve iletişimsel davranışları iyileştirdiğini buldu. Dikkat çeken nokta, bu iyileşmenin sadece erken yaşta değil, yetişkin farelerde de gözlenmiş olması; bu da tedavi penceresinin düşünülenden daha geniş olabileceğine işaret ediyor. Etkinin insan biyolojisiyle ilgisini test etmek için kullanılan insan beyin organoitlerinde de benzer sonuçlar elde edildi. Bulgular, otizmde halihazırda sınırlı olan farmakolojik tedavi seçeneklerine yeni bir aday ekleyebilir.",
+          "points": [],
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260805082508.htm"
+        },
+        {
+          "title": "Giyilebilir ultrason yaması ilaçsız şekilde REM uykusunu uzatıyor",
+          "summary": "Yeni bir cihaz, kullanıcıların REM uykusuna daha hızlı geçmesini ve bu evrede daha uzun kalmasını sağlıyor.",
+          "detail": "Araştırmacıların geliştirdiği giyilebilir bir ultrason yaması, 28 katılımcıyla yapılan bir çalışmada REM uykusuna geçiş süresini ortalama 43 dakika kısalttı ve bu evrede geçirilen süreyi yaklaşık 16 dakika uzattı. Cihaz, ilaç veya cerrahi bir müdahaleye ihtiyaç duymadan çalışıyor olmasıyla dikkat çekiyor. REM uykusu, bellek pekiştirme ve duygusal düzenleme açısından kritik kabul edildiğinden, bu tür non-invaziv çözümler uyku bozukluğu olan kişiler için umut verici görülüyor. Çalışma küçük bir katılımcı grubuyla yapıldığından, bulguların daha geniş popülasyonlarda doğrulanması gerekiyor.",
+          "points": [
+            "Katılımcı sayısı: 28",
+            "REM'e geçiş: 43 dakika kısaldı",
+            "REM süresi: ~16 dakika arttı"
+          ],
+          "source": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/08/260806050709.htm"
+        }
+      ],
+      "author": "Cowork",
+      "path": "2026-08-08__Cowork Günlük Özet__Sağlık Gündemi 8 Ağustos 2026.json",
+      "size": 3451,
+      "mtime": 1786172116142
+    },
+    {
+      "title": "Teknoloji Gündemi — 8 Ağustos 2026",
+      "category": "tech",
+      "date": "2026-08-08",
+      "source": "Cowork Günlük Özet",
+      "stories": [
+        {
+          "title": "Yapay zeka altyapısında büyük hafta: AMD-Taalas, Tesla-SpaceX çip fabrikası, Suno ve Google'a tepki",
+          "summary": "AMD bir çip girişimini satın aldı, Tesla ile SpaceX 16,8 milyar dolarlık fabrikada birleşti, Suno kurallarını sıkılaştırdı, Google'ın Hindistan projesine tepki geldi.",
+          "detail": "AMD, Toronto merkezli yapay zeka çip girişimi Taalas'ı satın aldığını duyurdu; anlaşmayla çıkarım (inference) alanında uzmanlaşmış teknolojiyi bünyesine katan şirket, Nvidia'nın çip pazarındaki hakimiyetine karşı rekabet gücünü artırmayı hedefliyor.\n\nTesla ve SpaceX ise Teksas'ın Grimes County bölgesinde kurulacak 'Terafab' adlı yarı iletken üretim kompleksi için güç birliği yaptı; projeye başlangıç yatırımı 16,8 milyar dolar olarak açıklandı ve iki şirketin de ileri çip tedarikinde dışa bağımlılığı azaltması bekleniyor.\n\nYapay zeka müzik platformu Suno, CEO Mikey Shulman'ın açıklamasıyla yeni kullanım kuralları ve daha sıkı indirme limitleri getirdi; adım, üretilen şarkıların akış platformlarında sahte gelir elde etmek için kötüye kullanılmasının tespit edilmesinin ardından geldi.\n\nAyrıca Google'ın Hindistan'da planladığı 15 milyar dolarlık yapay zeka veri merkezi projesi, bölgedeki su kaynakları ve yaban hayatı üzerindeki etkileri gerekçesiyle yerel muhalefetle karşılaştı.",
+          "points": [
+            "AMD → Taalas satın alımı (çıkarım çipleri)",
+            "Tesla + SpaceX → Terafab, 16,8 milyar dolar, Teksas",
+            "Suno → indirme/kullanım kuralları sıkılaştı",
+            "Google → Hindistan'daki 15 milyar dolarlık veri merkezi projesine tepki"
+          ],
+          "source": "Tech Startups",
+          "url": "https://techstartups.com/2026/08/07/top-tech-news-today-august-7-2026-amd-cloudflare-google-meta-nvidia-spacex-suno-tesla-more/"
+        },
+        {
+          "title": "OpenAI'nin yapay zeka hoparlörünün detayları netleşiyor",
+          "summary": "OpenAI'nin geliştirdiği yapay zeka destekli akıllı hoparlör cihazına dair yeni bilgiler ortaya çıktı.",
+          "detail": "OpenAI'nin üzerinde çalıştığı yapay zeka destekli hoparlör cihazına ilişkin yeni ayrıntılar gün yüzüne çıktı. Cihazın, şirketin sesli asistan ve donanım stratejisinin bir parçası olarak geliştirildiği belirtiliyor. Hamle, büyük yapay zeka şirketlerinin yazılımdan fiziksel donanıma doğru genişleme eğiliminin son örneklerinden biri olarak öne çıkıyor. Cihazın piyasaya çıkış tarihi ve fiyatlandırmasına dair resmi bir açıklama henüz yapılmadı.",
+          "points": [],
+          "source": "Foundern",
+          "url": "https://foundern.com/2026/08/openainin-yapay-zeka-hoparloru-detaylaniyor/"
+        }
+      ],
+      "author": "Cowork",
+      "path": "2026-08-08__Cowork Günlük Özet__Teknoloji Gündemi 8 Ağustos 2026.json",
+      "size": 2982,
+      "mtime": 1786172220472
+    },
+    {
+      "title": "Türkiye Borsa Gündemi — 8 Ağustos 2026",
+      "category": "trmarkets",
+      "date": "2026-08-08",
+      "source": "Cowork Günlük Özet",
+      "stories": [
+        {
+          "title": "BIST 100 haftayı hafif düşüşle kapattı",
+          "summary": "BIST 100 endeksi 7 Ağustos'u yüzde 0,14 değer kaybıyla 13.779 puandan tamamladı.",
+          "detail": "Borsa İstanbul'da BIST 100 endeksi haftanın son işlem gününü yüzde 0,14 düşüşle 13.779,39 puandan kapattı. Endeks gün içinde en yüksek 13.956,18, en düşük ise 13.698,81 puana kadar geriledi. Gün, önceki kapanışa göre yüzde 0,21 yükselişle 13.827 puandan açılmıştı, ancak seans ilerledikçe kazançlar eridi. Kâr satışlarının ve gün içi dalgalanmaların etkili olduğu seansta, endeksin haftalık performansı sınırlı kaldı.",
+          "points": [
+            "Kapanış: 13.779,39 puan (%-0,14)",
+            "Gün içi bant: 13.698,81 - 13.956,18"
+          ],
+          "source": "Bloomberg HT",
+          "url": "https://www.bloomberght.com/piyasa-ozeti-7-agustos-2026-borsa-doviz-altin-ve-kripto-piyasalarindaki-son-durum-pkh-3785006"
+        },
+        {
+          "title": "TCMB gösterge kurlarında dolar 47,60, euro 54,87 TL seviyesinde",
+          "summary": "Merkez Bankası'nın gösterge niteliğindeki kurlarında dolar günü sınırlı yükselişle, euro ise hafif düşüşle tamamladı.",
+          "detail": "TCMB'nin gösterge niteliğindeki döviz kurlarına göre dolar/TL yüzde 0,04'lük artışla 47,6085 seviyesinde belirlendi. Euro/TL ise yüzde 0,11 gerileyerek 54,8736 TL'ye indi. Kurlardaki hareket, son dönemde piyasalarda gözlenen sınırlı dalgalanma eğilimiyle uyumlu seyrediyor. Güncel kurlar, TCMB'nin günlük 15:30 sonrası yayımladığı gösterge tablosundan alındı.",
+          "points": [
+            "USD/TRY: 47,6085 (+%0,04)",
+            "EUR/TRY: 54,8736 (-%0,11)"
+          ],
+          "source": "Bigpara",
+          "url": "https://bigpara.hurriyet.com.tr/doviz/merkez-bankasi-doviz-kurlari/"
+        }
+      ],
+      "author": "Cowork",
+      "path": "2026-08-08__Cowork Günlük Özet__Türkiye Borsa Gündemi 8 Ağustos 2026.json",
+      "size": 2014,
+      "mtime": 1786172116070
+    },
+    {
+      "title": "Türkiye Gündemi — 8 Ağustos 2026",
+      "category": "turkey",
+      "date": "2026-08-08",
+      "source": "Cowork Günlük Özet",
+      "stories": [
+        {
+          "title": "Avcılar Belediyesi ihale soruşturmasında 12 şüpheli tutuklandı",
+          "summary": "Avcılar Belediyesi'nin 2022'deki asfalt ihalesine ilişkin soruşturmada gözaltına alınan 12 şüpheli tutuklandı.",
+          "detail": "Küçükçekmece Cumhuriyet Başsavcılığı'nın yürüttüğü soruşturma, Avcılar Belediyesi Fen İşleri Müdürlüğü'nün 2022 yılında gerçekleştirdiği asfalt üretim ihalesindeki usulsüzlük iddialarına dayanıyor. İddiaya göre yaklaşık maliyet araştırması kamu kurumları üzerinden yapılmayarak ihale bedeli yapay şekilde yükseltildi ve kamu zararına yol açıldı. İstanbul merkezli, 4 ilde eş zamanlı düzenlenen operasyonlarda gözaltına alınan 12 şüpheli Küçükçekmece Adliyesi'ne sevk edildi. İfadelerinin ardından kamu kurumu ihalesine fesat karıştırma suçlamasıyla nöbetçi sulh ceza hakimliğine çıkarılan şüpheliler tutuklandı.",
+          "points": [
+            "12 şüpheli tutuklandı",
+            "Operasyon 4 ilde eş zamanlı yapıldı"
+          ],
+          "source": "Yeni Asır",
+          "url": "https://www.yeniasir.com.tr/gundem/2026/08/07/avcilar-belediyesine-yonelik-ihaleye-fesat-karistirma-sorusturmasinda-yeni-gelisme-12-supheli-tutuklandi"
+        },
+        {
+          "title": "8 Ağustos Resmi Gazete'de üniversite yönetmelikleri ve EPDK kararları yayımlandı",
+          "summary": "Bugünkü Resmi Gazete'de çeşitli üniversite yönetmelik değişiklikleri, EPDK kararları ve atamalar yer aldı.",
+          "detail": "8 Ağustos 2026 tarihli ve 33334 sayılı Resmi Gazete'de bir dizi düzenleme yayımlandı. Yayımlanan metinler arasında çeşitli üniversitelerin yönetmelik değişiklikleri, Enerji Piyasası Düzenleme Kurumu'nun (EPDK) aldığı kararlar ve günün resmi atamaları bulunuyor. Bu tür Resmi Gazete yayınları, kamu kurumlarının işleyişini ve yükseköğretim mevzuatını doğrudan etkileyen düzenlemeleri içeriyor. Değişikliklerin ayrıntıları ilgili kurumların resmi duyurularıyla netleşecek.",
+          "points": [],
+          "source": "ABC Gazetesi",
+          "url": "https://abcgazetesi.com.tr/gundem/8-agustos-2026-resmi-gazete-yayimlandi-iste-bugunun-kararlari-ve-atamalar-869889"
+        },
+        {
+          "title": "Meteorolojiden Doğu Karadeniz ve Marmara için sağanak ve kuvvetli rüzgar uyarısı",
+          "summary": "Meteoroloji, bazı bölgelerde sağanak yağış, Kuzey Ege ve Marmara'da ise kuvvetli rüzgar bekliyor.",
+          "detail": "Meteoroloji Genel Müdürlüğü'nün son tahminlerine göre bugün Doğu Karadeniz, Kırklareli, Çorum, Amasya ve Toroslar çevresinde yer yer sağanak yağış görülmesi bekleniyor. Kuzey Ege ve Marmara bölgesinde ise kuvvetli rüzgarın etkili olması öngörülüyor. Sıcak hava dalgasının bazı bölgelerde etkisini sürdürmesi de uyarılar arasında yer alıyor. Vatandaşlara özellikle kıyı kesimlerde deniz ulaşımı ve tarımsal faaliyetler açısından dikkatli olmaları tavsiye ediliyor.",
+          "points": [],
+          "source": "Habertürk",
+          "url": "https://www.haberturk.com/gundem/son-dakika-haberi-meteoroloji-den-sicak-hava-yagmur-ve-ruzgar-uyarilari-8-agustos-hava-durumu-3904165"
+        }
+      ],
+      "author": "Cowork",
+      "path": "2026-08-08__Cowork Günlük Özet__Türkiye Gündemi 8 Ağustos 2026.json",
+      "size": 3386,
+      "mtime": 1786172116047
     }
   ]
 }

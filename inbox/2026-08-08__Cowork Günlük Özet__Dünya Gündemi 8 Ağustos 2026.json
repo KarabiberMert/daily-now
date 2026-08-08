@@ -1,0 +1,36 @@
+{
+  "title": "Dünya Gündemi — 8 Ağustos 2026",
+  "category": "world",
+  "date": "2026-08-08",
+  "source": "Cowork Günlük Özet",
+  "stories": [
+    {
+      "title": "Rusya'nın Kiev bölgesine saldırısında bir çocuk dahil üç kişi öldü",
+      "summary": "Rusya'nın gece Kiev bölgesine düzenlediği saldırıda bir çocuğun da aralarında bulunduğu üç sivil hayatını kaybetti.",
+      "detail": "Rusya'nın Kiev bölgesine yönelik son saldırısında üç kişi hayatını kaybetti, ölenler arasında bir çocuk da bulunuyor. Saldırı, Rusya'nın Ukrayna'nın başkent çevresindeki yerleşim bölgelerini hedef almaya devam ettiği bir dönemde gerçekleşti. Ukrayna makamları bölgede arama kurtarma ve hasar tespit çalışmalarını sürdürüyor. Saldırı, tarafların ateşkes veya müzakere çabalarına rağmen sivil bölgelere yönelik saldırıların kesilmediğini bir kez daha gösterdi.",
+      "points": [
+        "3 sivil hayatını kaybetti",
+        "Ölenler arasında bir çocuk var"
+      ],
+      "source": "Euronews",
+      "url": "https://www.euronews.com/my-europe/2026/08/08/russian-attack-on-kyiv-region-kills-three-including-a-child"
+    },
+    {
+      "title": "Türkiye, Suudi Arabistan ve Pakistan Riyad'da üçlü savunma anlaşması imzaladı",
+      "summary": "Üç ülke arasında imzalanan savunma iş birliği anlaşması, bölgesel dengeler üzerinde geniş yankı uyandırdı.",
+      "detail": "Türkiye, Suudi Arabistan ve Pakistan, Riyad'da üçlü bir savunma anlaşmasına imza attı. Anlaşmanın imzalanması, üç ülke arasındaki askeri ve stratejik iş birliğinin derinleştiğinin bir işareti olarak okunuyor. Gelişme, bölgesel güç dengeleri açısından geniş yankı uyandırdığı şeklinde değerlendiriliyor ve çeşitli başkentlerde yakından takip ediliyor. Anlaşmanın kapsamına, olası ortak tatbikatlara ve ekonomik boyutlarına dair ayrıntılar önümüzdeki günlerde netleşecek.",
+      "points": [],
+      "source": "Canlı Gaste",
+      "url": "https://www.canligaste.com/gundem-ozeti-8-agustos-2026/891041/"
+    },
+    {
+      "title": "Avrupa'da güneş ve rüzgar enerjisi fazlası batarya depolama tartışmasını büyütüyor",
+      "summary": "Avrupa'da yenilenebilir enerji üretimindeki artış, depolama altyapısının yetersizliği nedeniyle blackout riskini gündeme getiriyor.",
+      "detail": "Avrupa'da güneş ve rüzgar enerjisi üretimi hızla artarken, üretilen fazla enerjiyi depolayacak batarya altyapısının yetersiz kalması yeni bir tartışma başlattı. Uzmanlar, depolama kapasitesi genişletilmezse şebekelerin aşırı yüklenip elektrik kesintisi riskiyle karşı karşıya kalabileceğini belirtiyor. Bazı ülkelerde büyük ölçekli batarya yatırımlarına karşı yerel itirazlar da yükseliyor. Tartışma, kıtanın iklim hedeflerine ulaşma sürecinde depolama teknolojisinin kritik bir darboğaz haline gelebileceğine işaret ediyor.",
+      "points": [],
+      "source": "Euronews",
+      "url": "https://www.euronews.com/2026/08/08/batteries-can-save-europes-solar-and-wind-power-from-being-wasted-but-are-they-a-blackout-"
+    }
+  ],
+  "author": "Cowork"
+}
