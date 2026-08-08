@@ -26,7 +26,7 @@ from xml.etree import ElementTree
 
 ROOT = Path(__file__).resolve().parent.parent
 OLLAMA_HOST = "http://127.0.0.1:11434"
-MODEL = "qwen2.5:14b"
+MODEL = "qwen3.5:9b"
 FETCH_TIMEOUT = 8
 ARTICLE_MAX_CHARS = 6000
 MAX_CANDIDATES_PER_CATEGORY = 16
@@ -225,6 +225,9 @@ def call_ollama(prompt):
             "required": ["title", "summary", "detail"],
         },
         "options": {"temperature": 0.2},
+        # think:true olan modellerde (ör. qwen3.5) 'format' semali cikti 'response'
+        # yerine 'thinking' alanina gidiyor ve response bos kaliyor; kapatiyoruz.
+        "think": False,
     }).encode("utf-8")
     req = urllib.request.Request(
         f"{OLLAMA_HOST}/api/generate",
@@ -386,11 +389,14 @@ def git(args):
 
 
 def main():
+    global MODEL
     ap = argparse.ArgumentParser()
     ap.add_argument("--categories", nargs="*", default=list(CATEGORY_LABELS.keys()))
     ap.add_argument("--no-push", action="store_true")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--model", default=MODEL, help="test icin farkli bir Ollama modeli kullan")
     args = ap.parse_args()
+    MODEL = args.model
 
     seen_urls = set()
     specs = []
