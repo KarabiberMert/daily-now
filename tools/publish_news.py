@@ -14,7 +14,7 @@ Onerilen bicim — kategori basina bir dosya:
 
     {
       "title":    "Türkiye Gündemi — 7 Ağustos 2026",
-      "category": "turkey",              // world | turkey | tech | markets
+      "category": "turkey",              // world | turkey | markets | tech | sports | health
       "date":     "2026-08-07",
       "source":   "Cowork Günlük Özet",
       "stories": [

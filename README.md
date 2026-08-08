@@ -24,8 +24,8 @@ Cowork/bulut rutini
 - **`serve.py`** — yalnızca **yerel geliştirme** için düz statik dosya sunucusu
   (`python3 serve.py` → `localhost:8123`). Canlı sitenin çalışması için gerekmiyor.
 - **Kategoriler** (`src/categories.js`): `world` (Dünya), `turkey` (Türkiye — genel iç
-  gündem), `trmarkets` (Türkiye Borsa — TCMB/BİST/Türkiye ekonomisi), `tech` (Teknoloji),
-  `markets` (ABD Borsa — yalnızca Wall Street/Fed), `health` (Sağlık).
+  gündem), `markets` (Borsa — hem Türkiye/TCMB/BİST hem ABD/Wall Street/Fed), `tech`
+  (Teknoloji), `sports` (Spor), `health` (Sağlık).
 - **Story birimi**: bir inbox kaydı birden çok "story" (haber satırı) üretebilir —
   `stories: [...]` alanı önerilen biçim. Okundu/yıldız durumu belge değil, story
   anahtarına (URL) bağlı — **aynı URL iki story'de kullanılırsa ikincisi

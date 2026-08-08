@@ -11,9 +11,9 @@ export const OTHER = 'other';
 export const CATEGORIES = [
   { id: 'world',      label: 'Dünya' },
   { id: 'turkey',     label: 'Türkiye' },
-  { id: 'trmarkets',  label: 'Türkiye Borsa' },
+  { id: 'markets',    label: 'Borsa' },
   { id: 'tech',       label: 'Teknoloji' },
-  { id: 'markets',    label: 'ABD Borsa' },
+  { id: 'sports',     label: 'Spor' },
   { id: 'health',     label: 'Sağlık' },
   { id: OTHER,        label: 'Diğer' },
 ];
@@ -26,9 +26,12 @@ export const CATEGORY_LABEL = Object.fromEntries(CATEGORIES.map(c => [c.id, c.la
 const ALIASES = {
   world:      ['dunya', 'world', 'uluslararasi', 'global', 'dis haberler', 'diplomasi'],
   turkey:     ['turkiye', 'turkey', 'gundem', 'yurt', 'ulusal', 'ic haberler'],
-  trmarkets:  ['turkiye borsa', 'tr borsa', 'bist', 'borsa istanbul'],
   tech:       ['teknoloji', 'tech', 'technology', 'yazilim', 'dijital'],
-  markets:    ['borsa', 'markets', 'piyasalar', 'piyasa', 'abd borsa', 'wall street'],
+  // Turkiye Borsa (eski "trmarkets") ile ABD Borsa tek sekmede birlesti; eski
+  // kayitlardaki "trmarkets" degeri de burada eslenmeye devam etsin diye alias'ta.
+  markets:    ['borsa', 'markets', 'piyasalar', 'piyasa', 'abd borsa', 'wall street',
+               'turkiye borsa', 'tr borsa', 'bist', 'borsa istanbul', 'trmarkets'],
+  sports:     ['spor', 'sport', 'sports', 'futbol'],
   health:     ['saglik', 'health', 'tip'],
 };
 
@@ -48,14 +51,6 @@ const KEYWORDS = {
     1: ['dunya', 'world', 'avrupa', 'asya', 'afrika', 'zirve', 'diplomasi', 'savas',
         'multeci', 'goc', 'iklim', 'kuresel', 'uluslararasi'],
   },
-  trmarkets: {
-    // Turkiye'nin kendi piyasa/ekonomi belirtecleri — genel Turkiye sekmesinden
-    // ayrisiyor ki Merkez Bankasi/Borsa Istanbul haberleri kendi sekmesinde toplansin.
-    3: ['borsa istanbul', 'bist', 'bist 100', 'tcmb', 'para politikasi kurulu',
-        'hazine ve maliye bakanligi', 'sermaye piyasasi kurulu', 'spk'],
-    1: ['hisse', 'endeks', 'tahvil', 'faiz', 'enflasyon', 'lira', 'yatirimci',
-        'sirket', 'kar', 'ihracat', 'ithalat', 'ekonomi', 'buyume', 'piyasa'],
-  },
   tech: {
     3: ['yapay zeka', 'teknoloji', 'yazilim', 'siber', 'veri merkezi', 'openai', 'nvidia',
         'chatgpt', 'algoritma', 'uygulama magazasi', 'yari iletken', 'kuantum'],
@@ -63,12 +58,21 @@ const KEYWORDS = {
         'donanim', 'iphone', 'android', 'google', 'apple', 'microsoft', 'meta', 'model'],
   },
   markets: {
-    // Yalnizca ABD piyasalarina ozgu belirtecler guclu sayilir: "faiz", "enflasyon",
-    // "piyasa" gibi sozcukler Turkiye ekonomi haberlerinde de aynen geciyor.
-    3: ['wall street', 'nasdaq', 'dow jones', 's&p', 'nyse', 'fed', 'sec',
+    // Turkiye Borsa (TCMB/BIST) ile ABD Borsa (Wall Street/Fed) tek sekmede
+    // birlestigi icin ikisinin de guclu belirtecleri burada bir arada.
+    3: ['borsa istanbul', 'bist', 'bist 100', 'tcmb', 'para politikasi kurulu',
+        'hazine ve maliye bakanligi', 'sermaye piyasasi kurulu', 'spk',
+        'wall street', 'nasdaq', 'dow jones', 's&p', 'nyse', 'fed', 'sec',
         'new york borsasi', 'halka arz', 'ipo', 'temettu'],
-    1: ['borsa', 'hisse', 'endeks', 'tahvil', 'piyasa', 'faiz', 'resesyon', 'ceyrek',
-        'yatirimci', 'dolar', 'enflasyon', 'emtia', 'petrol', 'bilanco'],
+    1: ['hisse', 'endeks', 'tahvil', 'faiz', 'enflasyon', 'lira', 'yatirimci',
+        'sirket', 'kar', 'ihracat', 'ithalat', 'ekonomi', 'buyume', 'piyasa',
+        'borsa', 'resesyon', 'ceyrek', 'dolar', 'emtia', 'petrol', 'bilanco'],
+  },
+  sports: {
+    3: ['futbol', 'basketbol', 'voleybol', 'super lig', 'sampiyonlar ligi', 'milli takim',
+        'galatasaray', 'fenerbahce', 'besiktas', 'trabzonspor', 'olimpiyat'],
+    1: ['spor', 'mac', 'gol', 'sampiyon', 'lig', 'teknik direktor', 'oyuncu',
+        'sporcu', 'turnuva', 'transfer'],
   },
   health: {
     3: ['saglik bakanligi', 'dso', 'who', 'asi', 'kanser', 'salgin', 'pandemi'],
@@ -163,9 +167,9 @@ export function countByCategory(items, getId) {
 const TONE = {
   world:     'var(--cyan)',
   turkey:    'var(--accent)',
-  trmarkets: 'var(--rose)',
-  tech:      'var(--green)',
   markets:   'var(--amber)',
+  tech:      'var(--green)',
+  sports:    'var(--rose)',
   health:    'var(--violet)',
   [OTHER]:   'var(--mute)',
 };

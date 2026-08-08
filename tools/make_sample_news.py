@@ -88,7 +88,7 @@ DIGESTS = [
         ],
     ),
     dict(
-        category='markets', label='ABD Borsa Gündemi', days_ago=0,
+        category='markets', label='Borsa Gündemi', days_ago=0,
         stories=[
             dict(title='Petrol üst üste dördüncü haftayı düşüşle kapattı',
                  summary='Brent, arz artışı ve stok verilerindeki beklenmedik yükselişle varil '

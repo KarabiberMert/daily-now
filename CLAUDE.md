@@ -5,13 +5,13 @@ rutini dahil) tarafından otomatik yüklenir. Amaç: kota/token tüketimini dü�
 
 ## Haber yayınlama görevi
 
-Kategoriler: `world` (Dünya), `turkey` (Türkiye — genel iç gündem), `trmarkets`
-(Türkiye Borsa — TCMB/BİST/Türkiye ekonomisi), `tech` (Teknoloji), `markets`
-(ABD Borsa — yalnızca Wall Street/Fed/Nasdaq), `health` (Sağlık).
+Kategoriler: `world` (Dünya), `turkey` (Türkiye — genel iç gündem), `markets`
+(Borsa — hem Türkiye hem ABD piyasaları: TCMB/BİST, Wall Street/Fed/Nasdaq),
+`tech` (Teknoloji), `sports` (Spor), `health` (Sağlık).
 
-`turkey` genel iç gündem içindir; Borsa İstanbul/TCMB/Türkiye ekonomisi haberleri
-`trmarkets`'e gider. `markets` yalnızca ABD piyasalarınadır, Türkiye ekonomi
-haberini oraya koyma.
+`turkey` genel iç gündem içindir; Borsa İstanbul/TCMB, Türkiye ekonomisi ve
+ABD piyasa haberlerinin hepsi tek çatı altında `markets`'e gider (eskiden
+`trmarkets`/`markets` diye ikiye ayrılıyordu, artık tek kategori).
 
 ### Kota/token sınırları — bunlara kesinlikle uy
 
