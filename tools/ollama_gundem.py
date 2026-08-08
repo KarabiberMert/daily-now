@@ -224,7 +224,7 @@ def call_ollama(prompt):
             },
             "required": ["title", "summary", "detail"],
         },
-        "options": {"temperature": 0.2},
+        "options": {"temperature": 0.1},
         # think:true olan modellerde (ör. qwen3.5) 'format' semali cikti 'response'
         # yerine 'thinking' alanina gidiyor ve response bos kaliyor; kapatiyoruz.
         "think": False,
@@ -248,6 +248,9 @@ Kurallar:
 - title: kısa, net, Türkçe, tıklama tuzağı olmayan bir başlık (kaynak başlığını birebir kopyalama, kendi cümlenle yaz)
 - summary: 1-2 cümlelik Türkçe özet
 - detail: 4-6 cümlelik Türkçe anlatı - ne oldu, rakamlar, arka plan, neden önemli. Kısa geçme, boş bırakma.
+  detail, summary'de söylediklerini AYNEN TEKRAR ETMEMELİ — summary'de zaten verilen
+  cümleleri kopyalamak yerine YENİ bilgi/detay/arka plan ekle. Sonunda da özetin
+  bir tekrarını yazma, en son cümle de yeni bir bilgi taşımalı.
 - points: varsa 2-4 maddelik önemli rakam/veri listesi (yoksa boş liste bırak)
 - Kaynak metni birebir kopyalama, kendi cümlelerinle yaz.
 - Rakam veya bilgi uydurma; sadece verilen metinde olanı kullan.
@@ -255,6 +258,18 @@ Kurallar:
   aynen "Fed" olarak bırak. "Federal Temyiz Mahkemesi" gibi bir kurum ADI
   ASLA YAZMA, bu kesinlikle yanlıştır ve kullanılması yasaktır.
 - Diğer kurum/kısaltma isimlerini de olduğu gibi koru, yanlış çevirme.
+- Sık karışan terimler için doğru Türkçe karşılıklar (İNGİLİZCE metinde geçiyorsa
+  bunları kullan, başka bir çeviri uydurma):
+    nonfarm payrolls -> tarım dışı istihdam
+    unemployment rate -> işsizlik oranı
+    interest rate cut -> faiz indirimi
+    earnings/profit -> kâr / kazanç
+    stake/share -> hisse
+    surge/rally -> yükseliş / ralli
+    plunge/tumble -> sert düşüş
+- Yazdığın her cümleyi bir Türkçe dilbilgisi kontrolünden geçir: uydurma kelime
+  (ör. "tarısal", "kapatı", "rekord") KULLANMA — doğru çekim ve doğru kelime
+  formunu kullan (ör. "rekor", "kapattı", "gösterdi").
 - Kesinlikle yatırım tavsiyesi (al/sat/tut yorumu) verme, sadece haberi anlat.
 - Emoji kullanma. Sadece Türkçe/Latin alfabe kullan.
 
