@@ -33,6 +33,10 @@ Cowork/bulut rutini
   yayın anında yazılıyor. Çevirisi eksik bir alan İngilizcesine düşer. Arama üç dili
   birden tarar.
 - **Görünümler**: Akış (kategori kartları) ve Arama. İstatistik görünümü kaldırıldı.
+- **Düzen**: kenar çubuğu yok — tek kolon. Üst barda solda marka (tıklayınca akışa
+  döner, okunmamış sayısı rozette), ortada arama, sağda EN/ES/TR seçicisi ve tema
+  düğmesi. Dar ekranda arama alt satıra iner. Konu etiketleri akışın süzgeç
+  satırında.
 - **Story birimi**: bir inbox kaydı birden çok "story" (haber satırı) üretebilir —
   `stories: [...]` alanı önerilen biçim. Okundu/yıldız durumu belge değil, story
   anahtarına (URL) bağlı — **aynı URL iki story'de kullanılırsa ikincisi

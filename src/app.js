@@ -37,11 +37,10 @@ const body = {
   // Popup kapanınca akış tazelensin: içeride okunan başlıklar sönükleşsin.
   initCategorySheet({ onChange: render });
   buildLangSwitch();
-  buildTabbar();
   wireEvents();
   subscribe(onChange);
   // Dil degisince hem sabit metinler hem de cizilmis gorunumler tazelenir.
-  onLangChange(() => { applyStaticI18n(); buildLangSwitch(); buildTabbar(); render(); });
+  onLangChange(() => { applyStaticI18n(); buildLangSwitch(); render(); });
 
   render();
   $('#app').hidden = false;
@@ -89,14 +88,12 @@ function renderChrome() {
   badge.hidden = !n;
   badge.textContent = n;
 
-  $$('.nav-item').forEach(b => b.classList.toggle('is-active', b.dataset.view === state.view));
-  $$('#tabbar button').forEach(b => b.classList.toggle('is-active', b.dataset.view === state.view));
   $$('#feedRange button').forEach(b => b.classList.toggle('is-active', b.dataset.range === state.filters.range));
   $$('#filterRow .pill[data-filter]').forEach(b => b.classList.toggle('on', !!state.filters[b.dataset.filter]));
 
+  // Etiketler akisin süzgeç satirinda; hic etiket yoksa satirda yer kaplamaz.
   const tagList = tags();
-  $('#sideTags').hidden = !tagList.length;
-  $('#tagChips').innerHTML = tagList.slice(0, 14).map(x =>
+  $('#tagChips').innerHTML = tagList.slice(0, 10).map(x =>
     `<button class="chip ${state.filters.tag === x.name ? 'on' : ''}" data-tag="${esc(x.name)}">${esc(x.name)}<i>${x.count}</i></button>`
   ).join('');
 
@@ -111,22 +108,18 @@ function go(view) {
   state.view = view;
   $$('.view').forEach(s => s.classList.toggle('is-active', s.dataset.view === view));
   $('#views').scrollTop = 0;
-  closeSidebar();
   render();
 }
 
 /* ────────────────────────── events ────────────────────────── */
 
 function wireEvents() {
-  $('#nav').addEventListener('click', e => {
-    const b = e.target.closest('[data-view]');
-    if (b) go(b.dataset.view);
-  });
-
-  $('#tabbar').addEventListener('click', e => {
-    const b = e.target.closest('[data-view]');
-    if (b) go(b.dataset.view);
-  });
+  // Marka = "ana sayfa": aramadan akisa donmenin gorunur yolu.
+  $('#brandHome').onclick = () => {
+    const input = $('#globalSearch');
+    if (input.value) { input.value = ''; state.query = ''; }
+    go('feed');
+  };
 
   $('#feedRange').addEventListener('click', e => {
     const b = e.target.closest('[data-range]');
@@ -142,19 +135,14 @@ function wireEvents() {
   });
 
   $('#filterRow').addEventListener('click', e => {
+    const tg = e.target.closest('[data-tag]');
+    if (tg) { state.filters.tag = state.filters.tag === tg.dataset.tag ? null : tg.dataset.tag; render(); return; }
     const f = e.target.closest('[data-filter]');
     if (f) { state.filters[f.dataset.filter] = !state.filters[f.dataset.filter]; render(); return; }
     const c = e.target.closest('[data-clear]');
     if (c) { state.filters[c.dataset.clear] = null; render(); }
   });
 
-  $('#sidebar').addEventListener('click', e => {
-    const tg = e.target.closest('[data-tag]');
-    if (tg) { state.filters.tag = state.filters.tag === tg.dataset.tag ? null : tg.dataset.tag; go('feed'); return; }
-  });
-
-  $('#btnMenu').onclick = () => $('#sidebar').classList.toggle('open');
-  $('#scrim').onclick = closeSidebar;
   $('#btnTheme').onclick = () => saveSettings({ theme: state.settings.theme === 'dark' ? 'light' : 'dark' })
     .then(() => applyTheme(state.settings.theme));
 
@@ -312,19 +300,6 @@ function buildLangSwitch() {
             title="${esc(l.label)}" lang="${l.id}">${l.short}</button>`).join('');
 }
 
-function buildTabbar() {
-  $('#tabbar').innerHTML = $$('.nav-item').map(b => `
-    <button data-view="${b.dataset.view}" class="${b.dataset.view === state.view ? 'is-active' : ''}">
-      ${b.querySelector('svg').outerHTML}
-      <span>${b.querySelector('span').textContent}</span>
-    </button>`).join('');
-}
-
-function closeSidebar() {
-  $('#sidebar').classList.remove('open');
-  $('#scrim').hidden = true;
-}
-
 function registerSW() {
   if (!('serviceWorker' in navigator)) return;
   if (location.protocol === 'file:') return;
@@ -333,8 +308,3 @@ function registerSW() {
 
 // Konsoldan hata ayiklama icin kucuk bir kanca.
 window.DailyNow = { state, sync, go, render };
-
-// mobilde kenar cubugu acikken karartma
-new MutationObserver(() => {
-  $('#scrim').hidden = !$('#sidebar').classList.contains('open');
-}).observe($('#sidebar'), { attributes: true, attributeFilter: ['class'] });

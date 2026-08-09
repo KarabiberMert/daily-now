@@ -22,35 +22,16 @@
 
 <div class="app" id="app" hidden>
 
-  <!-- ───────────────────────── Sidebar ───────────────────────── -->
-  <aside class="sidebar" id="sidebar">
-    <div class="brand">
-      <div class="brand-mark">DN</div>
-      <div class="brand-text">
-        <strong>Daily Now</strong>
-        <span id="brandDate">—</span>
-      </div>
-    </div>
-
-    <nav class="nav" id="nav">
-      <button class="nav-item is-active" data-view="feed">
-        <svg viewBox="0 0 24 24"><path d="M4 5h16M4 10h10M4 15h16M4 20h10"/></svg>
-        <span data-i18n="nav.feed">Feed</span>
-        <em class="nav-badge" id="badgeUnread" hidden>0</em>
-      </button>
-    </nav>
-
-    <div class="side-section" id="sideTags">
-      <div class="side-title" data-i18n="side.tags">Tags</div>
-      <div class="chip-list" id="tagChips"></div>
-    </div>
-  </aside>
-
   <!-- ───────────────────────── Main ───────────────────────── -->
   <main class="main">
     <header class="topbar">
-      <button class="icon-btn only-mobile" id="btnMenu" aria-label="Menu" data-i18n-aria="a11y.menu">
-        <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <button class="brand" id="brandHome" type="button">
+        <span class="brand-mark">DN</span>
+        <span class="brand-text">
+          <strong>Daily Now</strong>
+          <span id="brandDate">—</span>
+        </span>
+        <em class="brand-badge" id="badgeUnread" hidden>0</em>
       </button>
 
       <div class="search-wrap">
@@ -88,6 +69,7 @@
         <div class="filter-row" id="filterRow">
           <button class="pill" data-filter="unread" data-i18n="filter.unread">Unread</button>
           <button class="pill" data-filter="starred" data-i18n="filter.starred">Starred</button>
+          <div class="chip-list" id="tagChips"></div>
           <div class="active-filters" id="activeFilters"></div>
         </div>
 
@@ -110,9 +92,6 @@
 
     </div>
   </main>
-
-  <!-- Mobil alt gezinme -->
-  <nav class="tabbar" id="tabbar"></nav>
 </div>
 
 <!-- ───────────────────────── Reader ───────────────────────── -->
@@ -161,7 +140,6 @@
   </div>
 </div>
 
-<div class="scrim" id="scrim" hidden></div>
 <div class="toasts" id="toasts"></div>
 
 <script type="module" src="src/app.js"></script>

@@ -4,7 +4,7 @@
 
 // Surum numarasini degistirmek eski onbellegi tamamen sildirir; kod
 // degistiginde tarayicida bayat dosya kalmasin diye artiriliyor.
-const CACHE = 'daily-now-v11';
+const CACHE = 'daily-now-v12';
 const SHELL = [
   './',
   './index.html',

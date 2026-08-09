@@ -27,7 +27,6 @@
   --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
 
   --r-sm: 8px;  --r: 14px;  --r-lg: 20px;
-  --sidebar-w: 244px;
   --pad: 28px;
 }
 
@@ -102,51 +101,33 @@ svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width:
 @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
 
 /* ───────────────────────── shell ───────────────────────── */
-.app { display: flex; height: 100dvh; }
+/* Tek kolonlu duzen: kenar cubugu yok, her sey ust barda toplandi. */
+.app { display: flex; flex-direction: column; height: 100dvh; }
 
-.sidebar {
-  width: var(--sidebar-w); flex: none;
-  display: flex; flex-direction: column;
-  background: var(--bg-soft);
-  border-right: 1px solid var(--line-soft);
-  padding: 18px 14px 12px;
-  overflow-y: auto;
+/* Marka = ust barin solunda duran "ana sayfa" dugmesi. */
+.brand {
+  display: flex; gap: 10px; align-items: center; flex: none;
+  padding: 3px 8px 3px 3px; border-radius: 12px;
+  transition: background .15s;
 }
-
-.brand { display: flex; gap: 11px; align-items: center; padding: 2px 6px 20px; }
+.brand:hover { background: var(--elev); }
 .brand-mark {
-  width: 36px; height: 36px; border-radius: 11px; flex: none;
+  width: 34px; height: 34px; border-radius: 11px; flex: none;
   display: grid; place-items: center;
   background: var(--accent); color: var(--accent-ink);
-  font-family: var(--serif); font-weight: 700; font-size: 15px;
+  font-family: var(--serif); font-weight: 700; font-size: 14px;
 }
-.brand-text { display: flex; flex-direction: column; line-height: 1.25; min-width: 0; }
-.brand-text strong { font-family: var(--serif); font-size: 16px; letter-spacing: .01em; }
-.brand-text span { font-size: 11px; color: var(--mute); text-transform: capitalize; }
-
-.nav { display: flex; flex-direction: column; gap: 2px; }
-.nav-item {
-  display: flex; align-items: center; gap: 11px;
-  padding: 9px 11px; border-radius: 10px;
-  color: var(--dim); font-size: 13.5px; font-weight: 500;
-  transition: background .15s, color .15s;
-}
-.nav-item svg { width: 17px; height: 17px; opacity: .85; }
-.nav-item:hover { background: var(--elev); color: var(--text); }
-.nav-item.is-active { background: var(--elev-2); color: var(--text); }
-.nav-item.is-active svg { color: var(--accent); opacity: 1; }
-.nav-badge {
-  margin-left: auto; font-style: normal; font-size: 11px; font-weight: 700;
+.brand-text { display: flex; flex-direction: column; line-height: 1.25; min-width: 0; text-align: left; }
+.brand-text strong { font-family: var(--serif); font-size: 15.5px; letter-spacing: .01em; }
+.brand-text span { font-size: 11px; color: var(--mute); white-space: nowrap; }
+.brand-badge {
+  font-style: normal; font-size: 11px; font-weight: 700; flex: none;
   background: var(--accent); color: var(--accent-ink);
   padding: 1px 7px; border-radius: 99px;
 }
 
-.side-section { margin-top: 22px; }
-.side-title {
-  font-size: 10.5px; letter-spacing: .13em; text-transform: uppercase;
-  color: var(--mute); font-weight: 600; padding: 0 11px 9px;
-}
-.chip-list { display: flex; flex-wrap: wrap; gap: 5px; padding: 0 8px; }
+/* Konu etiketleri — akisin suzgec satirinda. */
+.chip-list { display: contents; }
 .chip {
   font-size: 11.5px; padding: 3.5px 9px; border-radius: 99px;
   background: var(--elev); border: 1px solid var(--line-soft); color: var(--dim);
@@ -158,6 +139,7 @@ svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width:
 
 /* ───────────────────────── topbar ───────────────────────── */
 .main { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+
 
 .topbar {
   display: flex; align-items: center; gap: 12px;
@@ -229,7 +211,7 @@ svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width:
 /* overflow-x: clip — grafik ipuclari (tooltip) panel disina tasabilsin ama
    yatay kaydirma cubugu olusturmasin. */
 .views { flex: 1; overflow-y: auto; overflow-x: clip; overscroll-behavior: contain; }
-.view { display: none; padding: 26px var(--pad) 90px; max-width: 1240px; margin: 0 auto; }
+.view { display: none; padding: 30px var(--pad) 80px; max-width: 1060px; margin: 0 auto; width: 100%; }
 .view.is-active { display: block; animation: rise .3s cubic-bezier(.2,.7,.3,1); }
 @keyframes rise { from { opacity: 0; transform: translateY(7px) } to { opacity: 1; transform: none } }
 
@@ -660,8 +642,6 @@ span.na-src { color: var(--mute); border-bottom: 0; }
 }
 
 /* ───────────────────────── misc ───────────────────────── */
-.scrim { position: fixed; inset: 0; background: rgba(0,0,0,.5); z-index: 40; backdrop-filter: blur(2px); }
-
 .toasts { position: fixed; bottom: 22px; left: 50%; transform: translateX(-50%); z-index: 300;
   display: flex; flex-direction: column; gap: 8px; align-items: center; pointer-events: none; }
 .toast {
@@ -677,21 +657,19 @@ span.na-src { color: var(--mute); border-bottom: 0; }
 .progress { height: 2px; background: var(--line-soft); border-radius: 99px; overflow: hidden; margin: 10px 0 0; }
 .progress i { display: block; height: 100%; background: var(--accent); transition: width .3s; }
 
-.tabbar { display: none; }
-
 /* ───────────────────────── responsive ───────────────────────── */
 @media (max-width: 900px) {
   :root { --pad: 16px; }
-  .sidebar {
-    position: fixed; left: 0; top: 0; bottom: 0; z-index: 50; width: 268px;
-    transform: translateX(-102%); transition: transform .26s cubic-bezier(.2,.7,.3,1);
-    box-shadow: var(--shadow-lg);
-  }
-  .sidebar.open { transform: none; }
   .only-mobile { display: grid !important; }
   .view-head h1 { font-size: 24px; }
+
+  /* Dar ekranda ust bar iki satira boluniyor: marka + eylemler ustte,
+     arama altta tam genislikte. */
+  .topbar { flex-wrap: wrap; gap: 10px; padding: 10px var(--pad); }
+  .search-wrap { order: 3; flex-basis: 100%; max-width: none; }
+  .brand-text span { display: none; }
   .panel-grid { grid-template-columns: 1fr; }
-  .view { padding-bottom: 96px; }
+  .view { padding-bottom: 64px; }
   .topbar-actions .btn span { display: none; }
   .topbar-actions .btn { padding: 8px 10px; }
   .search-wrap kbd { display: none; }
@@ -703,19 +681,6 @@ span.na-src { color: var(--mute); border-bottom: 0; }
   /* dar ekranda etiketler alt alta dizilip kartlari egriltmesin */
   .card-foot { flex-wrap: nowrap; overflow: hidden; }
   .card-foot .tag ~ .tag { display: none; }
-
-  .tabbar {
-    display: flex; position: fixed; bottom: 0; left: 0; right: 0; z-index: 45;
-    background: color-mix(in srgb, var(--bg-soft) 92%, transparent); backdrop-filter: blur(18px);
-    border-top: 1px solid var(--line-soft);
-    padding: 6px 6px calc(6px + env(safe-area-inset-bottom));
-  }
-  .tabbar button {
-    flex: 1; display: flex; flex-direction: column; align-items: center; gap: 3px;
-    padding: 6px 2px; border-radius: 10px; color: var(--mute); font-size: 10px; font-weight: 550;
-  }
-  .tabbar button.is-active { color: var(--accent); }
-  .tabbar svg { width: 19px; height: 19px; }
 
   .reader-tools .pager { order: 3; }
   #rdZoomIn, #rdZoomOut, #rdDownload { display: none; }

@@ -104,3 +104,5 @@ proje kökü dışındaki `haber-yayinla` skill'ine bak.
   arayüzdeyken İspanyolca ya da Türkçe çeviride geçen bir kelimeyle de sonuç bulunur.
   `fold()` hem Türkçe hem İspanyolca aksanları sadeleştirir.
 - **İstatistik görünümü kaldırıldı** — uygulamada Akış ve Arama var, başka sekme yok.
+- **Tek kolonlu düzen**: kenar çubuğu, mobil alt gezinme ve karartma katmanı yok.
+  Marka/arama/dil/tema üst barda; `#brandHome` akışa dönüş düğmesi.
