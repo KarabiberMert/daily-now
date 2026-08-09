@@ -8,13 +8,12 @@ import { bindCards } from './cards.js';
 import { renderFeed, unreadStoryCount } from './views/feed.js';
 import { initCategorySheet, openCategory, isOpen as sheetOpen } from './views/category.js';
 import { renderSearch } from './views/search.js';
-import { renderStats } from './views/stats.js';
 import { $, $$, esc, debounce, toast } from './util.js';
 import { t, lang, setLang, LANGS, onLangChange, months, days } from './i18n.js';
 
-const VIEWS = ['feed', 'search', 'stats'];
+const VIEWS = ['feed', 'search'];
 const body = {
-  feed: $('#feedBody'), search: $('#searchBody'), stats: $('#statsBody'),
+  feed: $('#feedBody'), search: $('#searchBody'),
 };
 
 /* ────────────────────────── boot ────────────────────────── */
@@ -77,7 +76,6 @@ function render() {
   const v = state.view;
   if (v === 'feed') renderFeed(body.feed);
   else if (v === 'search') renderSearch(body.search, state.query);
-  else if (v === 'stats') renderStats(body.stats);
 }
 
 function renderChrome() {
@@ -213,7 +211,7 @@ function onKey(e) {
   if (typing) return;
 
   if (e.key === '/') { e.preventDefault(); $('#globalSearch').focus(); }
-  else if (e.key >= '1' && e.key <= '3') go(VIEWS[+e.key - 1]);
+  else if (e.key >= '1' && e.key <= '2') go(VIEWS[+e.key - 1]);
   else if (e.key.toLowerCase() === 'r') sync();
 }
 

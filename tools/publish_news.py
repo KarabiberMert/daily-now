@@ -11,11 +11,13 @@ UYGULAMA ICINDE, yerinde acilir (detail + points gorunur); kaynak sayfasina
 gitmek isterse acilan panelde duran baglantiya basar.
 
 DIL — uygulama varsayilan olarak INGILIZCE acilir, sag ustteki secici
-Turkce'ye gecirir. Bu yuzden her metin alani IKI DILLI yazilir:
+Ispanyolca ve Turkce'ye gecirir. Bu yuzden her metin alani UC DILLI yazilir:
 
-    "title": { "en": "English headline", "tr": "Türkçe başlık" }
+    "title": { "en": "English headline",
+               "es": "Titular en español",
+               "tr": "Türkçe başlık" }
 
-Ceviri yazilmazsa (duz metin verilirse) o alan her iki dilde de ayni gorunur.
+Ceviri yazilmazsa (duz metin verilirse) o alan her uc dilde de ayni gorunur.
 Ceviri gerektirmeyen alanlar (url, time, source) duz metin kalir.
 
 Kategoriler (yalnizca bunlar gecerli):
@@ -30,19 +32,25 @@ Kategoriler (yalnizca bunlar gecerli):
 Onerilen bicim — kategori basina bir dosya:
 
     {
-      "title":    { "en": "World — 9 August 2026", "tr": "Dünya — 9 Ağustos 2026" },
+      "title":    { "en": "World — 9 August 2026",
+                    "es": "Mundo — 9 de agosto de 2026",
+                    "tr": "Dünya — 9 Ağustos 2026" },
       "category": "world",
       "date":     "2026-08-09",
       "source":   "Daily Now",
       "stories": [
         {
           "title":   { "en": "Short, clear headline",
+                       "es": "Titular breve y claro",
                        "tr": "Kısa, net Türkçe başlık" },
           "summary": { "en": "The 1-2 sentence summary shown in the list.",
+                       "es": "El resumen de 1-2 frases que se ve en la lista.",
                        "tr": "Listede görünen 1-2 cümlelik özet." },
           "detail":  { "en": "The 4-6 sentence story shown when the row is opened.",
+                       "es": "El relato de 4-6 frases que se abre al pulsar la fila.",
                        "tr": "Tıklayınca açılan 4-6 cümlelik anlatı." },
           "points":  { "en": ["optional bullet", "another one"],
+                       "es": ["punto opcional", "otro más"],
                        "tr": ["isteğe bağlı madde", "bir tane daha"] },
           "source":  "Reuters",
           "url":     "https://…",
@@ -52,11 +60,11 @@ Onerilen bicim — kategori basina bir dosya:
     }
 
 Story alanlari:
-  title    zorunlu sayilir            (iki dilli)
-  summary  listede gorunur — kisa tut (iki dilli)
+  title    zorunlu sayilir            (uc dilli)
+  summary  listede gorunur — kisa tut (uc dilli)
   detail   yerinde acilan asil ozet. YAZILMAZSA satir acilmaz, tiklama
-           dogrudan url'e gider; o yuzden her zaman yaz.   (iki dilli)
-  points   istege bagli madde listesi (iki dilli)
+           dogrudan url'e gider; o yuzden her zaman yaz.   (uc dilli)
+  points   istege bagli madde listesi (uc dilli)
   url      "kaynak sayfasina git" baglantisi — ZORUNLU, benzersiz olmali
   source   haber kaynagi (Reuters, AP…)  — cevrilmez
   time     biliniyorsa yayin saati       — cevrilmez
@@ -80,12 +88,12 @@ from inbox_index import write_index  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-LANGS = ('en', 'tr')
+LANGS = ('en', 'es', 'tr')
 PRIMARY = 'en'
 
 CATEGORIES = ('world', 'economy', 'usmarkets', 'tech', 'health', 'sports')
 
-# Iki dilli yazilmasi beklenen story alanlari.
+# Cevrilmesi beklenen story alanlari (digerleri — url, source, time — duz metin).
 TRANSLATED = ('title', 'summary', 'detail', 'points')
 
 
@@ -157,7 +165,8 @@ def bad_category(spec):
 
 
 def untranslated(spec):
-    """Turkce karsiligi eksik olan alanlar — uyari olarak listelenir."""
+    """Cevirisi eksik olan alanlar — uyari olarak listelenir."""
+    others = [l for l in LANGS if l != PRIMARY]
     out = []
     for i, s in enumerate(spec.get('stories') or []):
         if not isinstance(s, dict):
@@ -168,9 +177,11 @@ def untranslated(spec):
             if v is None or v == '' or v == []:
                 continue
             if not is_lang_map(v):
-                gaps.append(name)
-            elif not v.get('tr'):
-                gaps.append(name)
+                gaps.append('%s (hicbir ceviri yok)' % name)
+                continue
+            eksik = [l for l in others if not v.get(l)]
+            if eksik:
+                gaps.append('%s (%s)' % (name, '/'.join(eksik)))
         if gaps:
             out.append('%d. %s — %s' % (i + 1, as_plain(s.get('title')) or '(basliksiz)',
                                         ', '.join(gaps)))
@@ -226,8 +237,8 @@ def publish(spec, out_dir, require_url=True, require_category=True):
     gaps = untranslated(spec)
     if gaps:
         sys.stderr.write(
-            'Uyari: su haberlerde Turkce karsilik eksik — Turkce secildiginde'
-            ' Ingilizcesi gorunecek:\n  ' + '\n  '.join(gaps) + '\n')
+            'Uyari: su haberlerde ceviri eksik — o dil secildiginde Ingilizcesi'
+            ' gorunecek:\n  ' + '\n  '.join(gaps) + '\n')
 
     spec = dict(spec)
     spec.setdefault('date', date.today().isoformat())

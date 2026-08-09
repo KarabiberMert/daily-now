@@ -37,15 +37,6 @@ export function visibleStories() {
   return stories;
 }
 
-/** Sol menüdeki kaynak çipleri haber kaynaklarını (AA, Reuters…) sayar. */
-export function storySources() {
-  const m = new Map();
-  for (const s of collectStories(state.articles.filter(a => !a.missing))) {
-    if (s.source) m.set(s.source, (m.get(s.source) || 0) + 1);
-  }
-  return Array.from(m, ([name, count]) => ({ name, count })).sort((x, y) => y.count - x.count);
-}
-
 export function unreadStoryCount() {
   return collectStories(state.articles.filter(a => !a.missing))
     .filter(s => !isStoryRead(s.key)).length;

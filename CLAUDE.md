@@ -5,19 +5,19 @@ rutini dahil) tarafından otomatik yüklenir. Amaç: kota/token tüketimini dü�
 
 ## Haber yayınlama görevi
 
-Uygulama **varsayılan olarak İngilizce** açılır; sağ üstteki EN/TR seçicisi Türkçe'ye
-geçirir. Bu yüzden her haber **iki dilli** yazılır (aşağıya bak).
+Uygulama **varsayılan olarak İngilizce** açılır; sağ üstteki **EN / ES / TR** seçicisi
+İspanyolca ve Türkçe'ye geçirir. Bu yüzden her haber **üç dilli** yazılır (aşağıya bak).
 
 Kategoriler — yalnızca bu altısı geçerlidir, `publish_news.py` başkasını reddeder:
 
-| id | Ekranda (EN / TR) | Kapsam |
+| id | Ekranda (EN / ES / TR) | Kapsam |
 |---|---|---|
-| `world` | World / Dünya | Dünya gündemi, diplomasi, çatışmalar, seçimler, iklim |
-| `economy` | Economy / Ekonomi | Makro ekonomi: enflasyon, merkez bankaları, büyüme, ticaret, istihdam, enerji fiyatları |
-| `usmarkets` | US Markets / ABD Borsası | ABD borsası: Wall Street, Nasdaq, S&P 500, Dow, Fed, bilançolar, halka arzlar |
-| `tech` | Technology / Teknoloji | Teknoloji, yapay zeka, yarı iletken, uzay, siber güvenlik |
-| `health` | Health / Sağlık | Sağlık, tıp, ilaç, salgın, halk sağlığı |
-| `sports` | Sports / Spor | Spor |
+| `world` | World / Mundo / Dünya | Dünya gündemi, diplomasi, çatışmalar, seçimler, iklim |
+| `economy` | Economy / Economía / Ekonomi | Makro ekonomi: enflasyon, merkez bankaları, büyüme, ticaret, istihdam, enerji fiyatları |
+| `usmarkets` | US Markets / Bolsa de EE. UU. / ABD Borsası | ABD borsası: Wall Street, Nasdaq, S&P 500, Dow, Fed, bilançolar, halka arzlar |
+| `tech` | Technology / Tecnología / Teknoloji | Teknoloji, yapay zeka, yarı iletken, uzay, siber güvenlik |
+| `health` | Health / Salud / Sağlık | Sağlık, tıp, ilaç, salgın, halk sağlığı |
+| `sports` | Sports / Deportes / Spor | Spor |
 
 `economy` makro ekonomi içindir, `usmarkets` özel olarak ABD hisse piyasasıdır — Fed
 faiz kararının piyasa yansıması `usmarkets`'e, enflasyon/büyüme verisi `economy`'ye gider.
@@ -31,29 +31,33 @@ Türkiye'ye özel bir kategori yok; Türkiye haberi gerçekten küresel öneme s
 - **WebFetch: sadece gerekirse.** Arama sonucundaki snippet zaten `summary`/`detail`
   yazmaya yetiyorsa sayfayı çekme. Rakam/detay eksikse ya da snippet yetersizse kullan.
 - Aynı konuyu doğrulamak için tekrar arama yapma — ilk yeterli sonuçla devam et.
-- **Çeviri için ayrı arama/fetch yapma.** Türkçe karşılığı kendin yaz; ek tur atma.
+- **Çeviri için ayrı arama/fetch yapma.** İspanyolca ve Türkçe karşılıkları kendin
+  yaz; ek tur atma. Üçüncü dil ek arama değil, yalnızca biraz daha metin demektir.
 - **Kategoriler arasında uzun anlatım yazma.** Bir kategoriyi yayınladıktan sonra
   tek satır "X: N haber yayınlandı" de ve doğrudan sıradaki kategoriye geç.
 - **Önceki kategoriye geri dönüp özetleme/tekrar okuma yapma.** Context'i büyütme.
 
-### İki dillilik — zorunlu
+### Üç dillilik — zorunlu
 
-Metin alanları `{ "en": "…", "tr": "…" }` biçiminde yazılır:
+Metin alanları `{ "en": "…", "es": "…", "tr": "…" }` biçiminde yazılır:
 
 ```json
-"title":   { "en": "Fed holds rates steady", "tr": "Fed faizi sabit tuttu" },
-"summary": { "en": "…", "tr": "…" },
-"detail":  { "en": "…", "tr": "…" },
-"points":  { "en": ["…", "…"], "tr": ["…", "…"] }
+"title":   { "en": "Fed holds rates steady",
+             "es": "La Fed mantiene los tipos sin cambios",
+             "tr": "Fed faizi sabit tuttu" },
+"summary": { "en": "…", "es": "…", "tr": "…" },
+"detail":  { "en": "…", "es": "…", "tr": "…" },
+"points":  { "en": ["…", "…"], "es": ["…", "…"], "tr": ["…", "…"] }
 ```
 
-- **İngilizce asıl metindir** — yazılmazsa yayın reddedilir. Türkçe eksikse uyarı
-  verilir ve Türkçe seçildiğinde İngilizcesi görünür; bunu istemiyoruz, hep ikisini yaz.
-- Türkçe çeviri **birebir kelime çevirisi değil**, akıcı Türkçe olsun; İngilizce
-  metinle aynı bilgiyi versin, kısaltma.
+- **İngilizce asıl metindir** — yazılmazsa yayın reddedilir. İspanyolca/Türkçe
+  eksikse uyarı verilir ve o dil seçildiğinde İngilizcesi görünür; bunu
+  istemiyoruz, hep üçünü birden yaz.
+- Çeviriler **birebir kelime çevirisi değil**, akıcı olsun; İngilizce metinle aynı
+  bilgiyi versin, kısaltma.
 - `url`, `source`, `time` çevrilmez — düz metin kalır.
-- Çeviri gerektirmeyen bir alanı düz metin olarak da yazabilirsin; o zaman her iki
-  dilde aynı görünür.
+- Çeviri gerektirmeyen bir alanı düz metin olarak da yazabilirsin; o zaman üç dilde
+  de aynı görünür.
 
 ### Haber seçimi ve yazım
 
@@ -89,11 +93,14 @@ proje kökü dışındaki `haber-yayinla` skill'ine bak.
 ## Uygulama tarafı — dil katmanı
 
 - `src/i18n.js` — arayüz metinleri (`t()`), dil seçimi (`lang()`/`setLang()`) ve
-  iki dilli içerik alanlarını çözen `pick()`/`field()`. Yeni bir arayüz metni
-  eklerken sözlüğe **hem `en` hem `tr`** yaz.
+  çok dilli içerik alanlarını çözen `pick()`/`field()`. Yeni bir arayüz metni
+  eklerken sözlüğe **`en`, `es` ve `tr` üçünü birden** yaz. Dil eklemek için
+  `LANGS`, `MONTHS`, `DAYS`, `LOCALES` girdilerini tamamlamak yeterli.
 - `index.html`'deki sabit metinler `data-i18n` / `data-i18n-placeholder` /
   `data-i18n-title` / `data-i18n-aria` öznitelikleriyle işaretlenir; `app.js`
   içindeki `applyStaticI18n()` bunları dolduruyor.
 - Dil seçimi `localStorage`'da (`dn-lang`) tutulur, varsayılan `en`.
-- Arama iki dili birden tarar (`util.js` içindeki `allText()`), yani İngilizce
-  arayüzdeyken Türkçe çeviride geçen bir kelimeyle de sonuç bulunur.
+- Arama üç dili birden tarar (`util.js` içindeki `allText()`), yani İngilizce
+  arayüzdeyken İspanyolca ya da Türkçe çeviride geçen bir kelimeyle de sonuç bulunur.
+  `fold()` hem Türkçe hem İspanyolca aksanları sadeleştirir.
+- **İstatistik görünümü kaldırıldı** — uygulamada Akış ve Arama var, başka sekme yok.

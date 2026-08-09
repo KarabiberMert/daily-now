@@ -21,26 +21,36 @@ export function formatDay(key) {
   const dt = new Date(y, m - 1, d);
   const month = months()[m - 1];
   const day = days()[dt.getDay()];
-  return lang() === 'tr'
-    ? `${d} ${month} ${y}, ${day}`
-    : `${month} ${d}, ${y}, ${day}`;
+  const l = lang();
+  if (l === 'tr') return `${d} ${month} ${y}, ${day}`;
+  if (l === 'es') return `${d} de ${month} de ${y}, ${day}`;
+  return `${month} ${d}, ${y}, ${day}`;
 }
 
 /** Kisa tarih: "9 Ağustos" / "August 9" */
 export function formatDayShort(key) {
   const [, m, d] = key.split('-').map(Number);
   const month = months()[m - 1];
-  return lang() === 'tr' ? `${d} ${month}` : `${month} ${d}`;
+  const l = lang();
+  if (l === 'tr') return `${d} ${month}`;
+  if (l === 'es') return `${d} de ${month}`;
+  return `${month} ${d}`;
 }
+
+const RELATIVE = {
+  en: { today: 'Today', yesterday: 'Yesterday', ago: n => `${n} days ago`, ahead: 'Upcoming' },
+  es: { today: 'Hoy',   yesterday: 'Ayer',      ago: n => `hace ${n} días`, ahead: 'Próximamente' },
+  tr: { today: 'Bugün', yesterday: 'Dün',       ago: n => `${n} gün önce`,  ahead: 'İleri tarihli' },
+};
 
 export function relativeDay(key) {
   const today = dayKey();
-  const tr = lang() === 'tr';
-  if (key === today) return tr ? 'Bugün' : 'Today';
-  if (key === dayKeyOffset(1)) return tr ? 'Dün' : 'Yesterday';
+  const words = RELATIVE[lang()] || RELATIVE.en;
+  if (key === today) return words.today;
+  if (key === dayKeyOffset(1)) return words.yesterday;
   const diff = Math.round((new Date(today) - new Date(key)) / 86400000);
-  if (diff > 1 && diff < 7) return tr ? `${diff} gün önce` : `${diff} days ago`;
-  if (diff < 0) return tr ? 'İleri tarihli' : 'Upcoming';
+  if (diff > 1 && diff < 7) return words.ago(diff);
+  if (diff < 0) return words.ahead;
   return '';
 }
 
@@ -86,7 +96,10 @@ export function lower(s) {
 export function fold(s) {
   return lower(allText(s))
     .replace(/ı/g, 'i').replace(/ğ/g, 'g').replace(/ü/g, 'u')
-    .replace(/ş/g, 's').replace(/ö/g, 'o').replace(/ç/g, 'c');
+    .replace(/ş/g, 's').replace(/ö/g, 'o').replace(/ç/g, 'c')
+    // Ispanyolca aksanlar: "economía" ile "economia" ayni sonuca dussun.
+    .replace(/á/g, 'a').replace(/é/g, 'e').replace(/í/g, 'i')
+    .replace(/ó/g, 'o').replace(/ú/g, 'u').replace(/ñ/g, 'n');
 }
 
 export function uid() {

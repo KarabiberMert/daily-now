@@ -14,13 +14,13 @@ export const OTHER = 'other';
 
 /* Sira = Akis ekranindaki kart sirasi. */
 export const CATEGORIES = [
-  { id: 'world',     label: { en: 'World',       tr: 'Dünya' } },
-  { id: 'economy',   label: { en: 'Economy',     tr: 'Ekonomi' } },
-  { id: 'usmarkets', label: { en: 'US Markets',  tr: 'ABD Borsası' } },
-  { id: 'tech',      label: { en: 'Technology',  tr: 'Teknoloji' } },
-  { id: 'health',    label: { en: 'Health',      tr: 'Sağlık' } },
-  { id: 'sports',    label: { en: 'Sports',      tr: 'Spor' } },
-  { id: OTHER,       label: { en: 'Other',       tr: 'Diğer' } },
+  { id: 'world',     label: { en: 'World',      es: 'Mundo',            tr: 'Dünya' } },
+  { id: 'economy',   label: { en: 'Economy',    es: 'Economía',         tr: 'Ekonomi' } },
+  { id: 'usmarkets', label: { en: 'US Markets', es: 'Bolsa de EE. UU.', tr: 'ABD Borsası' } },
+  { id: 'tech',      label: { en: 'Technology', es: 'Tecnología',       tr: 'Teknoloji' } },
+  { id: 'health',    label: { en: 'Health',     es: 'Salud',            tr: 'Sağlık' } },
+  { id: 'sports',    label: { en: 'Sports',     es: 'Deportes',         tr: 'Spor' } },
+  { id: OTHER,       label: { en: 'Other',      es: 'Otros',            tr: 'Diğer' } },
 ];
 
 export const CATEGORY_IDS = CATEGORIES.map(c => c.id);
@@ -35,17 +35,21 @@ export function categoryLabel(id) {
 /* Not: "ekonomi"/"economy" gibi sozcukler burada bilerek var — ama tek basina
    hangi sekmeye ait oldugu belirsiz olanlari anahtar kelime puanlamasi cozuyor. */
 const ALIASES = {
-  world:     ['dunya', 'world', 'global', 'international', 'foreign', 'diplomacy',
-              'uluslararasi', 'dis haberler', 'diplomasi', 'gundem', 'turkey', 'turkiye'],
-  economy:   ['ekonomi', 'economy', 'economics', 'macro', 'finance', 'business',
-              'trade', 'is dunyasi'],
+  world:     ['dunya', 'world', 'mundo', 'global', 'international', 'internacional',
+              'foreign', 'diplomacy', 'diplomacia', 'uluslararasi', 'dis haberler',
+              'diplomasi', 'gundem', 'turkey', 'turkiye'],
+  economy:   ['ekonomi', 'economy', 'economia', 'economics', 'macro', 'finance',
+              'finanzas', 'business', 'negocios', 'trade', 'is dunyasi'],
   // Eski surumlerdeki "markets" / "trmarkets" degerleri de ABD borsasina dussun.
   usmarkets: ['us markets', 'usmarkets', 'abd borsa', 'abd borsasi', 'wall street',
               'stocks', 'stock market', 'equities', 'markets', 'borsa', 'piyasalar',
-              'piyasa', 'trmarkets'],
-  tech:      ['teknoloji', 'tech', 'technology', 'software', 'yazilim', 'dijital', 'digital'],
-  health:    ['saglik', 'health', 'medicine', 'medical', 'tip'],
-  sports:    ['spor', 'sport', 'sports', 'football', 'soccer', 'futbol'],
+              'piyasa', 'trmarkets', 'bolsa', 'bolsa de ee. uu.', 'mercados',
+              'acciones'],
+  tech:      ['teknoloji', 'tech', 'technology', 'tecnologia', 'software', 'yazilim',
+              'dijital', 'digital'],
+  health:    ['saglik', 'health', 'salud', 'medicine', 'medicina', 'medical', 'tip'],
+  sports:    ['spor', 'sport', 'sports', 'deportes', 'deporte', 'football', 'soccer',
+              'futbol'],
 };
 
 /* Agirlikli anahtar kelimeler. Hepsi fold() edilmis bicimde yazili:
