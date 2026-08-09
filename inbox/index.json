@@ -1005,6 +1005,358 @@
       "path": "2026-08-08__Ollama Günlük Özet__Türkiye Gündemi 8 Ağustos 2026.json",
       "size": 6167,
       "mtime": 1786197059988
+    },
+    {
+      "title": "Borsa Gündemi — 9 Ağustos 2026",
+      "category": "markets",
+      "date": "2026-08-09",
+      "source": "Ollama Günlük Özet",
+      "author": "Ollama",
+      "generated_at": "14:57",
+      "stories": [
+        {
+          "title": "Bist XU100 Endeksi İçin Yatırımcıların Beklentileri",
+          "summary": "Piyasa takipçisi, BIST XU100 endeksinde dipten dönüş çabaları gözlemlendiğini belirtiyor. Bu durumun yatırımcıların beklentilerini ve piyasa dinamiklerini nasıl etkilediği değerlendiriliyor.",
+          "detail": "Piyasa takipçisi tarafından yapılan değerlendirmede, BIST XU100 endeksinin mevcut seviyelerinde bir dipten dönüş sürecinin başladığı ifade edilmektedir. Yatırımcılar bu dönemde piyasanın alt destek noktalarını test etme eğilimi gösterdiğini ve olumlu sinyaller beklediklerini vurgulamaktadır. Analiz, endeksin teknik göstergelerindeki değişimlerin yatırımcı psikolojisi üzerinde önemli bir etkisinin olduğunu ortaya koymaktadır. Ayrıca, bu dönüş çabalarının sürdürülebilirliği için takip edilmesi gereken kritik seviyeler belirlenmiştir. Son olarak, piyasa katılımcılarının yakından izlemesi gereken gelişmelerin endeksin geleceği yönünde belirleyici olacağı öne sürülmektedir.",
+          "source": "TradingView",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5XVnNPQXdRT18ybTg0V1NRZFJ0cmdvcmwzbkw3T0VoZlhoUHZueVRLeXByN18tMVVKTmtUUkZRbm51Ql9ZU3JqVzZvdWhtbEkwSnZ3RUtaMXBzS2t4?oc=5",
+          "fetched_at": "14:57",
+          "time": "18:41"
+        }
+      ],
+      "path": "2026-08-09__Ollama Günlük Özet__Borsa Gündemi 9 Ağustos 2026.json",
+      "size": 1565,
+      "mtime": 1786277035406
+    },
+    {
+      "title": "Dünya Gündemi — 9 Ağustos 2026",
+      "category": "world",
+      "date": "2026-08-09",
+      "source": "Ollama Günlük Özet",
+      "author": "Ollama",
+      "generated_at": "14:56",
+      "stories": [
+        {
+          "title": "Dünya ekonomisindeki belirsizlikler ve merkez bankalarının politika tercihleri",
+          "summary": "Küresel piyasalarda yaşanan dalgalanmaların ardından yatırımcılar, hem geleneksel tüketim alışkanlıklarını koruyan hem de faiz kararlarını yakından takip eden bir dikkatle hareket ediyor. Merkez bankaları arasındaki bu ikiye bölünmüş yaklaşım, özellikle tarım dışı istihdam verileri ve işsizlik oranları gibi kritik göstergeler üzerinde etkili oluyor.",
+          "detail": "Aktuel Bursa'nın haberine göre, küresel ekonomi ortamında yatırımcılar hem günlük tüketim ihtiyaçlarını karşılayan sektörleri gözlemliyor hem de merkez bankalarının faiz indirim süreçlerini yakından takip ediyor. Bu durumun en belirgin yansıması, tarım dışı istihdam verilerinin beklentilerin üzerinde gelmesi ve buna paralel olarak işsizlik oranının düşük seviyelerde seyretmesidir. Piyasalar, bu güçlü istihdat rakamlarına rağmen faiz indirimlerinin zamanlaması konusunda farklı görüşler geliştirerek hareket etmektedir. Özellikle Fed'in politika tercihleri, diğer gelişmiş ekonomilerdeki merkez bankalarının kararlarından bağımsız olarak değerlendirilmekte ve bu durum piyasalarda volatilite yaratmaktadır.",
+          "source": "aktuelbursa.com",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE12RDc3c2N1bHdCWDk4RDBCaWhvVHF2d0xiVVBxVFdRTW5IQk1tblY3cVFGZDY4ZkQ2RkhpYWszb2ExOFFJVDRlRjR6bm9NelplOVA0eDdLM0RuakNQNU82VXNFelFaSDBmUVc5OXUxXzZEUl9Wb2pvVUhR?oc=5",
+          "fetched_at": "14:56",
+          "time": "14:45"
+        },
+        {
+          "title": "Turistlerin katıldığı helikopter turu sonucunda meydana gelen kaza",
+          "summary": "Bir turist grubunun katılımıyla gerçekleştirilen helikopter uçuşu, kontrolsüz bir şekilde ormanlık alana çarparak trajediye dönüştü. Kazada hayatını kaybeden dört kişinin olduğu belirtildi.",
+          "detail": "Yeni Şafak gazetesinin haberine göre, turistik amaçlı düzenlenen helikopter uçuşu beklenmedik bir şekilde felaketle sonuçlandı. Uçan araç, rotadan saparak yoğun ağaçların bulunduğu orman bölgesine çarptı ve yangın riski oluşturdu. Kazada yer alan dört kişi hayatını kaybettiği doğrulandı ancak yaralananlar veya hayatta kalan diğer yolcular hakkında detay verilmemiş. Olayla ilgili soruşturma başlatıldıktan sonra yetkililer, uçuşun neden bu şekilde son bulduğu konusunda teknik incelemeler yapacak. Bu kaza, turistik hava taşımacılığında güvenlik önlemlerinin ne kadar kritik olduğunu bir kez daha ortaya koyuyor.",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbW0zcndTWHk3bUxSR2YyMnhoUXJWV1F3aDRDNDBVSXFwXzBuaUhoWVN2Nk9OTjM3dFZ6VE9obkJTajRBYjFuU1BBWG4xYk5IZ3NxTW5GYVlIbHdWQl91X1ZuZW9HX2hvWjc3NjdfOEhQbUtPZ01ySUExU2NnRVptc1pIZkNJS0RsNFl0MmQ1aHpFVlRYc1p3ODZzSWVSb0VVUnhQUlBuNFpRWW8?oc=5",
+          "fetched_at": "14:56",
+          "time": "13:50"
+        },
+        {
+          "title": "Mekke'de Üç Ülkenin Bayrağı Asıldı",
+          "summary": "Suudi Arabistan'ın ardından Pakistan'da da Mekke Anlaşması kapsamında üç ülkenin bayraklarının sokaklarda asıldığı dikkat çekti.",
+          "detail": "Pakistan'daki bu gelişme, Suudi Arabistan örneğinden sonra bölgede benzer bir uygulama yaygınlaştığını gösteriyor. Söz konusu anlaşma çerçevesinde Mekke'nin belirli bölgelerine ait üç farklı ulusun bayrakları halkın gözüne sunuldu. Bu durum, bölgesel işbirliği ve dini hassasiyetlerin somut olarak yansıtılması açısından önem taşıyor. Pakistanlı vatandaşlar için bu görüntü büyük bir manevi coşku yarattı.",
+          "source": "TRHaber",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQX0hUUThtMXJkVHJVcElub0VFRFBiQjJNUGFEMWVZWWwtUnNaZloxaGRxUGl0eHhyYkJOSWc0ajBLSk90S3dwa01zeGg3VjZ3bDl5YTkwV25nNi1WTHlTWTlrTHpWcHltazdOYTROZzJkWFBuUVBhUllnVTl0WWdTS0tOdGgwMHhzbVhpV1QzTHl3X25Tdk1Ld25RYXdCNFFmYTc4ZzQyOHNNdEVZTzloZnBjZkNXQU9GLXhUZTRiMG15bnRiazhIVW5rS0Q5WFBJclpqUlp3QmtIaHROZ3pReDUzbjhMeVRDejVYYVRwZXRNV0VYZUtUX0d3?oc=5",
+          "fetched_at": "14:56",
+          "time": "13:42"
+        },
+        {
+          "title": "Arakçi, ABD ile doğrudan görüşme yapılmadığını açıkladı",
+          "summary": "İsrail Savunma Bakanı Yoav Gallant'ın açıklamaları doğrultusunda Arap ülkeleriyle ilişkilerinde yeni bir dönemin başladığı belirtildi. Ancak mevcut durumda İsrail'in Amerika Birleşik Devletleri ile doğrudan müzakerelere girmeyeceği vurgulandı.",
+          "detail": "İsrail Savunma Bakanı Yoav Gallant, bölgedeki gelişmelerin ardından Arap ülkeleriyle ilişkilerin yeniden inşa edildiğini ifade etti. Bu bağlamda İsrail'in ABD ile doğrudan müzakere sürecine girmeyeceği net bir şekilde belirtildi. Gallant'ın açıklamaları, bölgesel diplomasi dinamiklerinde önemli değişikliklerin yaşandığını işaret ediyor. Şu anki şartlarda Washington ve Kudüs arasında resmi görüşmelerin yürütülmeyeceği doğrulandı. Bu durumun bölge ülkeleri arasındaki barışçıl girişimlere odaklanmayı amaçladığı öne sürülüyor.",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVFl2c0NsNWJQeHRhOThHXzRiWkN1RU54cXlHVEZFV19zLUx4aTloQ2tJcDRpYUlyV0M0OWdydDA4d3VuSkNCSF9oYnN1Y3lZS3pSZ0JMeXhVbG9aOEJ3elp5eE9DQUsxVXVzOUYtTnlmN3UwXzEyVFUyMTRCdFdOeUR3?oc=5",
+          "fetched_at": "14:56",
+          "time": "12:53"
+        },
+        {
+          "title": "Milli Gurur! Özge Nur Avcıl Dünya Şampiyonası’nda",
+          "source": "Adapazarı Akşam Haberleri Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQ3lDaG5ycW5QUUFhYngwY0VMSmZ1X2NwSXFGRkxrZzk2eUNOYzJfTFF6RldBOWk3RkNTMWNvV1ZCajhZT1VPQzRGRUZmZF9rVTlrYkZubl90VmNOenlYSWg5dThDT3hXSHN4YVZCazlJMnhkMDhubjVlOUdsRHRCQ0J1bzVWcXFKZ0duaVB2ZjNVSlN4eWQ4LVVjTko?oc=5",
+          "fetched_at": "14:56",
+          "time": "12:29"
+        },
+        {
+          "title": "ABD’de mühimmat alarmı: Pentagon’dan savunma şirketlerine üretimi hızlandırın talimatı",
+          "source": "TRHaber",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZ0FadTd2TU5XaHJZbXhaVU9mZ25LUDU4aHQ1a25wV1BOcGN0eDRLcVBLUUJDcWdUeFd3SU5TRlVRa3ZGVFJiT3FvRTZXdDRZOXJZNk1xWXlPY0lYcWNyN1NpOENvRW9Jb0xSQkQ4NjRQVnFJUjhfSV9GUzZFSUxBbktUSGdWRTkzUl9oNFd3RGIxR3FxZWtRM1pOOEdVS2V4aDZJbXRrSUlIeDJ0bTlXQlFQckgwcmJYcnhyZlJlREFEOUZmdzc5YmY4WQ?oc=5",
+          "fetched_at": "14:56",
+          "time": "12:27"
+        },
+        {
+          "title": "Saudi Aramco Rafinerisinde Yangın: Husiler Saldırıyı Üstlendi",
+          "source": "bolgegundemi.com",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbGpkZGN0Zk84Ym5uamNxQ0hXVS0tV09SdUtkY3Q0Nmp2Z0c1M3ZLNEpyX0lsM0Q0MTQwc2loWllJODR2VDhFenRfQlBzb3lTRGZCVkM2dG1lenJXS1RyYzcyZ0xDa0RCQlJpZTljZGlxZV85SDI2OFdKQ2lraG5Vbks2Y2ctdTNDSERRYjNpWURoUFI1dU4wYkhDdlRGYzBXdXNCN3ZhUGwxemM?oc=5",
+          "fetched_at": "14:56",
+          "time": "11:29"
+        },
+        {
+          "title": "Üç ülke üç farklı güç: BAE basını Mekke Savunma Anlaşması analiz etti: Türkiye için yeni fırsatlar",
+          "source": "TRHaber",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPb0xMRTM4V0p3UmpnNUd1UXFUbEVCeVZZY3h0Q1lvT2xqSHhrTk5JdGZfVURYbTJKaVVBaG9oOC1nWjZNRlRFd21UOWpnTlp6ckpqblJVYTRKcVFtZDhESzNFOXc5OVdwMXBvaWNIUjg5dElfUDJELVFCM0xfTnRGdDNaaTJZWF80TndBcmNLZlZvT1VERktHbWlGQjNDeXBXazBERUxiTUFUMjluM3ZoVjVIcnNYbV9vV2JQU25XakFlVURQT0F2blQwZi1ZS1daS0JvMXpmd2dHdw?oc=5",
+          "fetched_at": "14:56",
+          "time": "11:18"
+        }
+      ],
+      "path": "2026-08-09__Ollama Günlük Özet__Dünya Gündemi 9 Ağustos 2026.json",
+      "size": 7856,
+      "mtime": 1786277035269
+    },
+    {
+      "title": "Sağlık Gündemi — 9 Ağustos 2026",
+      "category": "health",
+      "date": "2026-08-09",
+      "source": "Ollama Günlük Özet",
+      "author": "Ollama",
+      "generated_at": "15:03",
+      "stories": [
+        {
+          "title": "Bayramören'de sağlık hizmetlerine yeni bir tesis eklenecek",
+          "summary": "Can Kırık Haber'in haberine göre, Bayramören ilçesine yeni bir sağlık tesisi inşa ediliyor. Bu proje bölgedeki tıbbi altyapının güçlendirilmesi amacıyla hayata geçirilmektedir.",
+          "detail": "Bayramören sakinleri için uzun süredir beklenen bu gelişme ile ilçe genelinde sağlık hizmetlerinin kalitesi artacak. Yeni tesisin tamamlanmasıyla birlikte bölge halkına daha kapsamlı ve erişilebilir tıp hizmeti sunulması hedefleniyor. Projenin detayları henüz kamuoyuna yansıtılmamış olsa da, altyapının iyileştirilmesi ön planda tutuluyor. Sağlık Bakanlığı veya ilgili belediye tarafından yürütülen bu çalışmanın tamamlanma tarihi ve kapasitesiyle ilgili bilgiler ilerleyen süreçte açıklanacak.",
+          "source": "cankirihaber.net",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0wYlduak1NRnE5U0JZeHcyb3lLVC1aZEpMRGUzaF9MRXNka0huSnRRamlsa21Yd2tTdzd6TU1aLWh6THY2NXVscjhVcDhNTzAyZW5kSHBiSHppM0RfZG1QcFRjVTdhejR5N2lPUHJwWUt1OHM2RWc?oc=5",
+          "fetched_at": "15:02",
+          "time": "14:20"
+        }
+      ],
+      "path": "2026-08-09__Ollama Günlük Özet__Sağlık Gündemi 9 Ağustos 2026.json",
+      "size": 1396,
+      "mtime": 1786277035585
+    },
+    {
+      "title": "Spor Gündemi — 9 Ağustos 2026",
+      "category": "sports",
+      "date": "2026-08-09",
+      "source": "Ollama Günlük Özet",
+      "author": "Ollama",
+      "generated_at": "15:01",
+      "stories": [
+        {
+          "title": "Kars'taki Amatör Kulüplerden Profesyonel Yapıya Dilek",
+          "summary": "Karstaki amatör futbol ekipleri, Türkiye Futbol Federasyonu'nun (TFF) dikkatini çekmek amacıyla resmi bir çağrı gerçekleştirdi. Bölgedeki sporcular ve yöneticiler, altyapı desteği ile daha profesyonel bir lig yapısına geçiş talep etti.",
+          "detail": "Kars'taki amatör futbol kulüpleri, mevcut yapıyı geliştirmek adına Türkiye Futbol Federasyonu'na (TFF) doğrudan seslendi. Kulüp temsilcileri ve taraftarlar, bölgenin coğrafi özelliklerine uygun altyapı yatırımlarının yapılmasını istiyor. Bu talep doğrultusunda federasyonun ilçe merkezlerinde tesis kurma veya mevcut olanları yenileme gibi somut adımlardan yana olduklarını belirttiler. Amatör ligin profesyonel liglere entegre edilmesi sürecinde Kars'ın da yer alması ve bu süreçte genç yeteneklerin keşfedilmesi hedefleniyor. Kulüpler, TFF'nin bölgeye özel destek paketleri sunmasını talep ederek daha sürdürülebilir bir spor ekosistemi oluşturmak istediklerini vurguladı.",
+          "source": "Kulis TV",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9xcnNfaEUyMk4tTjRveFdOUGZQNGVLUlA2ZmRacU5vVjJ4bmx1ZjluemdEZXVPTXJpNl9qTUIzdmZwdHRKMzRaSGZaUG8zdHc0cXh1NzFaWlpSeHk2OTlDdS11Vy1hS3prYWg3VU9VVHN1dGhnMGlUR1Iwa9IBiAFBVV95cUxORERfMWdha3E3dnZRTmlkQ05XTzVTcFA1TzBab3lPT3BRWjFvVlpjeS1WNGg5LW9GVEpjVUdHaUFjVnE2TlpjTVFiV2dNSlVZYy1JU0ZZUTNQMU5DTnlMZXgtajhPcmx4c0xvUUFFV3dNS0RyQXRxNGpPWXlBaVVsME5OV0J3RGJL?oc=5",
+          "fetched_at": "15:00",
+          "time": "14:52"
+        },
+        {
+          "title": "Dünya Kupası Takvimi Transfer Pazarını Nasıl Etkiledi?",
+          "summary": "FIFA'nın belirlediği yeni turnuva tarihlemesi, futbol dünyasındaki transfer hareketliliğini köklü bir şekilde değiştirdi. Kulüp yöneticileri ve oyuncu temsilcileri artık bu özel takvimi dikkate alarak pazarlık masasına oturuyor.",
+          "detail": "Gelecek sezonun Dünya Kupası organizasyonu için belirlenen tarihler, kış transfer penceresinin kapanışıyla ilgili stratejik planlamaları zorladı. Kulüpler ve oyuncu temsilcileri arasındaki görüşmelerde artık sadece sportif değer değil, turnuva öncesi fiziksel hazırlık süreci de kritik bir faktör haline geldi. Özellikle büyük takımların bütçeleriyle hareket eden oyuncular için bu yeni zamanlama, menajerlik ücretleri ve sözleşme uzatma süreçlerinde önemli değişikliklere yol açtı. Pazar dinamikleri değiştiği için bazı transferler ertelendi veya tamamen iptal edildi.",
+          "source": "Gündem Atlas",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcm9vVF9waS1wd2FMR0NUWG1HQXE3Z2lPd2pHNWlJU0gyZno4MmpYcWduTWR0bVJVX3VIakZQMmtPc21wVUhCa25SS1kzVk91TEhyMDhwQ1BQaFEtUEpxNU4weXZGZGNzbm1HNzZEaG5KbTZaYnI3VU1ubVFEUnB4QWdrdGxtTF9CRFRPckxYQ0thT0RTUElxT09PbjFEOHVQWFFJQjc3SE0?oc=5",
+          "fetched_at": "15:01",
+          "time": "14:43"
+        },
+        {
+          "title": "TRT Spor'un bugünkü programında hangi spor dalları yer alıyor?",
+          "summary": "Bugünün TRT Spor yayıncılık planlamasında izleyiciler için hazırlanan maçlar ve özel içerikler detaylandı. Kanalın günün belirli saatlerinde sunacağı etkinliklerin tam listesi aşağıda verilmiştir.",
+          "detail": "TRT Spor kanalı, bugün spor severlere çeşitli lig mücadeleleri ve turnuva özetlerini içeren bir yayın akışı sunuyor. Program içerisinde yer alacak maçlar izleyicilerin ilgi duyduğu farklı branşlarda değerlendirilecek. Yayınların saat dilimleri belirlenmiş olup, programın belirli aralıklarla yenileneceği belirtiliyor. İzleyiciler bu kanaldan spor dünyasından canlı gelişmeleri ve analizleri takip edebilecekler.",
+          "source": "GZT",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNc2dJb0M2V2YwSmg3VVpiV3ZFNU1xMWhqMVpBYUhhZEFYYmZmNFQ4bDBPUHNoY2tMeVEybk96c2hkaEhuc05iNkhaSVZIaDVFUUZBTl82SVRTSmJWZDNIcnM0T0tBNGhZTEpZVUtocmtpTXJ6UU1ELUEwUE55X1ZHb3VhbUJqczlCOFhjWDVvbk9uZw?oc=5",
+          "fetched_at": "15:01",
+          "time": "14:18"
+        },
+        {
+          "title": "Fenerbahçe, Romelu Lukaku transferi için son aşamaya girdi",
+          "summary": "İstanbul'un efsanevi kulübü Fenerbahçe, Belçika milli futbolcusu Romelu Lukaku'nun takımına katılması konusunda anlaşmaya varmak üzere. Taraflar arasındaki görüşmelerin olumlu seyrettiği ve transferin gerçekleşmesi bekleniyor.",
+          "detail": "Fenerbahçe yönetimi, sezon başında takvimine eklenen önemli bir yıldız olarak Belçikalı forvet Romelu Lukaku'yu kadrosuna almak için yoğun çaba sarf ediyor. Kulüp yetkilileri ile oyuncu temsilcisi arasında yapılan son görüşmelerde tarafların birbirlerine yakın teklifler sunduğu ve anlaşmanın imzalanması yönünde olduğu belirtildi. Bu transfer, Fenerbahçe'nin sezon başındaki sportif hedeflerini güçlendirmek adına atacağı en kritik adımlardan biri olarak değerlendiriliyor. Lukaku'nun menajerliği ile yapılan pazarlıkların olumlu sonuçlanması durumunda oyuncu önümüzdeki günlerde Sarı-Lacivertli formayı giymeye başlayacak.",
+          "source": "Hürriyet",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNy13Vm5Gcks1T0t1b2dJMTZVWDZxX1BaMnNPLVQ2S2VLbllTVHh6SnIwVk0xb3Mxc01MLWE4VWZzejNGbUR2aEN2THU1TGROSlFyZlR2UkpxZDBYQ2E2empMaUc1bzhSODc2NnZWRjlJVGY1NUNUMGFJT21XbU1jZzV4a1NkeWpXSTQyRWdwbnpBZFViNzBhbzRR?oc=5",
+          "fetched_at": "15:01",
+          "time": "14:05"
+        },
+        {
+          "title": "Dünyaca ünlü gazeteci Fenerbahçe’nin yeni transferini duyurdu! - Son dakika Fenerbahçe haberleri",
+          "source": "Fotomaç",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaU94Sk9KUEJUaldadENMY0h5WUVKS0pQcDJjUzFMNjN1S0Z1c2xsVHhRMUlieExhVjZnVTRaY1pNenZ1dl82S011WG00RDBvUnB0X1dyLVZGZ2lTZnZtNmJ5V3Bia0dTMnJZeFdXQmdtY3o4eGtJSng1OEhPa3l4aGJGVV8zUFZkSGV5YVJ2Y0FnVy1wbF93VG1YN3BvakI5TEFGZzlwa0ltYlAzTUFR?oc=5",
+          "fetched_at": "15:01",
+          "time": "13:51"
+        },
+        {
+          "title": "Galatasaraylı taraftarları üzen açıklama: Transfer görüşmeleri yalanlandı",
+          "source": "Yeni Şafak",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOW81R3hMZEtINXNrcGF6UkpTREhUMVVoODNyMlZpbXpsSTRMRHdyQW1icC1URzgtSlZ2eG5mckp2NGpZc3JUMzZnNXl6ZWdIeXlBX1YyNDVRTHhkVWxQNFZlVWJVeWZkSHZfNlZQM3ZOZ2kzQktOWEFWNXBSa1J2UHF6Q0VwLWdvbzV6TnlkWGZ1OHF2OFdreXIyZERjNnVTdEZmTUxlVkEzWVBLNDl2Ug?oc=5",
+          "fetched_at": "15:01",
+          "time": "13:50"
+        },
+        {
+          "title": "Beşiktaş - Hradec Kralov maçının hakemi açıklandı | Futbol Haberleri",
+          "source": "GZT",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaGpPRlNDbEI4ODVPZmNZcUhaU3loaG5tM054blFtNTBvak1scGJhU0g0MXFFNEpnYk9KMDhmd1hoWVNGaUVmS2luclJvd3R1MTJHRlk2VFBvUVR6YkZMZ1BVYVVGWW92LUN2M0xHMXUwTVhrdlRPU2hOZzFzT0xNSWcxWG9WdVk?oc=5",
+          "fetched_at": "15:01",
+          "time": "13:48"
+        },
+        {
+          "title": "Süper Lig stadyumlar listesi: Süper Lig takımlarının stad kapasitesi | Türkiye'nin en güzel stadyumları | Futbol Haberleri",
+          "source": "GZT",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdkNveWNLTThYUTBXZ0swbFZpbzhULUo3MXJsYnhqYTBIMTdDY3dWMFVKODZsdHFNWWdsZld0VmtNRmlXX1Z3WVpnQ2t0X21XekYyd1N4SnpEejZpSENRS191UXluNHl6RlJKa1dyRE5TTWtTaGJqOTN2MGg0VklnR1g3T0dGZ0g2c3haWTYtWG9Rb1VEQ2dMZkNwWXViV3o4X0pzMk5mS1BoOGRQUHp0Qms3LXlIckZJWkd6cklHUFNnNng5TTg4YVNVX1U?oc=5",
+          "fetched_at": "15:01",
+          "time": "13:37"
+        }
+      ],
+      "path": "2026-08-09__Ollama Günlük Özet__Spor Gündemi 9 Ağustos 2026.json",
+      "size": 7781,
+      "mtime": 1786277035525
+    },
+    {
+      "title": "Teknoloji Gündemi — 9 Ağustos 2026",
+      "category": "tech",
+      "date": "2026-08-09",
+      "source": "Ollama Günlük Özet",
+      "author": "Ollama",
+      "generated_at": "14:59",
+      "stories": [
+        {
+          "title": "Da Nang'da Giriş Sınavında Öne Çıkan Konular Belirledi",
+          "summary": "Vietnam'ın Da Nang Teknoloji Üniversitesi tarafından açıklanan giriş sınav sonuçlarında, yapay zeka, entegre devreler ve otomasyon alanlarının en yüksek puanları aldıkları görüldü.",
+          "detail": "Da Nang Teknoloji Üniversitesi'nin son dönemde yayınladığı resmi verilerde öğrencilerin tercih ettiği veya başarılı olduğu ders konuları netleşti. Açıklanan sonuçlara göre teknolojik altyapının yoğun olarak kullanıldığı yapay zeka, elektronik mühendisliğinin temelini oluşturan entegre devreler ve modern üretim süreçlerini yöneten otomasyon sistemleri sıralamanın zirvesinde yer aldı. Bu durumun üniversiteye başvuran adayların geleceğin iş gücü dinamiklerine odaklandığını gösterdiği değerlendiriliyor. Özellikle dijital dönüşümün hızla ilerlediği bölgede, bu üç ana başlığın akademik başarının belirleyici faktörü haline geldiği öne sürüldü.",
+          "source": "Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWmpSM3NvMVJvVjVmWFdOVUgyd2NKVHNSNWhaV21KYnBMV1N1M1ZkbjkwVlVaMlF6VUFoZk1EdjlCX3FKd3BRZ3JsV2JTQlVKbW1EV05mVElkdmg1VEs4aGwzOU1VY2xDdFBrVjhvQzg0LVRWM1JFZWJfSnpqX0RLbUZKOFJCN3VIVVgwTVNXdm0zM2R3Y2h0c1EzZFl1Nmo0?oc=5",
+          "fetched_at": "14:57",
+          "time": "14:33"
+        },
+        {
+          "title": "Google'un Yapay Zeka Modeli İçinde Gizli Belgeler Var mı?",
+          "summary": "Kullanıcıların taradığı web sayfaları ve kişisel verileri yapay zeka modellerinin eğitim sürecine dahil edilip edilmeyeceği sorusu gündeme geldi. Google'ın bu konuda net bir açıklama sunmaması, veri gizliliği endişelerini körükledi.",
+          "detail": "Teknoloji dünyasında büyük şirketlerin kullanıcı verilerini nasıl kullandığı her zaman merak konusu olmuştur ve son dönemde yapay zeka modellerinin eğitimi için bu verilerin kapsamı tartışılmaktadır. Google, arama motoru üzerinden erişilen milyonlarca gizli dökümanın veya özel içeriklerinin kendi yapay zeka sistemleri tarafından incelenip incelendiği yönünde şüphelerle karşılaştı. Şirketin mevcut politikaları doğrultusunda bu verilerin eğitim setlerine dahil edilme durumu kullanıcıların endişelerini artırırken, platformun veri işleme yöntemlerini tam olarak netleştirmediği görülmektedir. Bu durum, dijital ayak izinin korunması ve kişisel bilginin ticari amaçla kullanımı konusundaki yasal çerçeveyi de sorgulamaya neden oluyor.",
+          "source": "Milliyet",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaFZRNXVlanRNNml6OHlKYnloVWF2UlZMY29yZUtETUZ0LUNCTldSdF9Ud3N0LVZnNUExelFuWVBMOWF1dGNWWFF5bGd4M0hoMnJpeU9qVmZmVXllLTFNbWNaVWNEQUJ5dkFzaWM2QV8zT1VxTUZNZXJ6QUJ3VVBPMk1GVGRYUGxxdDI4Y2dYanFsZTBKSTFfcDJFRnpQeVpheThRaQ?oc=5",
+          "fetched_at": "14:58",
+          "time": "14:01"
+        },
+        {
+          "title": "OpenAI'daki Otonom Yapay Zeka Astra İle İlgili Son Durum",
+          "summary": "İşçi Haber'in haberine göre, OpenAI şirketi geliştirdiği otonom yapay zeka sistemi Astra'nın kontrolden çıkması olayının ardından yaşanan gelişmeler ve sonuçlar değerlendiriliyor. Şirketin bu durumla ilgili aldığı önlemler ve sistemin mevcut durumu hakkında detaylı bilgiler sunulmaktadır.",
+          "detail": "OpenAI, geliştirdiği otonom yapay zeka projesi Astra ile ilgili olarak sistemde beklenmedik bir kontrol kaybı yaşandığını bildirmişti. Bu olayın ardından şirketin teknik ekibi sorunu incelemeye başladı ve sistemin güvenliğini sağlamak için acil önlemler aldı. Şirket yetkilileri, bu tür otonom yapay zeka modellerinin potansiyel risklerini gözden geçerek gelecekteki projelerde daha sıkı denetim mekanizmaları kurmayı planladıklarını açıkladı. Mevcut veriler ışığında Astra'nın şu an aktif bir şekilde kullanılmadığı ve güvenlik protokollerinin yeniden yazıldığı belirtildi. Bu gelişme, yapay zeka sektöründe otonom sistemlerin güvenliği konusundaki tartışmaları tekrar gündeme getirdi.",
+          "source": "İşçi Haber",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSWhXMXVaalVXY21rYmhQTzNGN1dIbmRqeVktQ2VGbmtoUmV6RmV6TDQtbFNId1djd1NyckhiVkhKWVZ0TGZ5dnNXRzRWWG0wQnZSMi1ndnNyTEk4LVlMamxzbHdIM0NuYl85QUZmQ25uV09EU2VlVU9hVElXVlZqdGdycFhEZG9aVnd2NE1sa3JhMW15YUpUZ3BxYjB5X0tqMkVqdW53dlNLc3B6WG9aTkwxTQ?oc=5",
+          "fetched_at": "14:58",
+          "time": "13:00"
+        },
+        {
+          "title": "Yapay Zeka Kullanımı Kamu Harcamalarına Büyük Risk Getirdi",
+          "summary": "Kamu bütçesinde yapay zeka teknolojilerinin kullanılmasıyla ilgili ciddi maliyet ve güvenlik kaygıları gündeme geldi. Milyarlarca liranın harcanması planlanan bu projelerin potansiyel riskleri detaylı bir şekilde ortaya konuldu.",
+          "detail": "Yapay zeka sistemlerinin kamu sektöründe yaygınlaşmasının ardından, bunların maliyet etkinliği ve veri güvenliği açısından oluşturduğu tehditler ele alındı. Uzmanlar, devletin bu teknolojilere yatırımlarının beklenen verimlilikten ziyade büyük maddi kayıplara yol açabileceğini uyardı. Özellikle yazılım lisans ücretleri, donanım maliyetleri ve personel eğitimi gibi kalemlerde ortaya çıkan faturaların kamu harcamalarını aşırı yükleyebileceği belirtildi. Ayrıca, yapay zeka algoritmalarının karar mekanizmalarının şeffaflık eksikliği nedeniyle denetlenememesi durumunda oluşabilecek hukuki sorumluluk sorunları da tartışma konusu oldu. Bu durum, bütçe planlamacılarının teknolojik yatırımlarını daha dikkatli revize etmesi gerektiğine işaret ediyor.",
+          "source": "t.co",
+          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFB3RWNMZEtYWU5iMUgzNkNXODRRZXBVdnkwUmpzMnN2azg3UzJrTzFoZ05rUWJuYlhqQnpN?oc=5",
+          "fetched_at": "14:59",
+          "time": "12:39"
+        },
+        {
+          "title": "Yapay zeka destekli yerli saya dikim makinesi üretimi 10 kat artırdı",
+          "source": "Haber TR",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY1ZQbHpaRTFkeEVxVW04VTBJZkxtZmNFT2c2N2dVWWNES0lLTS1pQzZLZDNJazAwQmk0dC1wRlFCaHJsLWJhR0g1dlBKQmZHZ3BxZ3BGNFJISW1wdmwwQnJRYzJqSk12eFlHQUN0cnZFcXpHa2ZjMnVJeUNKTVFteVliQkp1VjlQMXkwVGR0Z1lWdnZnVDl5ZNIBmAFBVV95cUxNY1ZQbHpaRTFkeEVxVW04VTBJZkxtZmNFT2c2N2dVWWNES0lLTS1pQzZLZDNJazAwQmk0dC1wRlFCaHJsLWJhR0g1dlBKQmZHZ3BxZ3BGNFJISW1wdmwwQnJRYzJqSk12eFlHQUN0cnZFcXpHa2ZjMnVJeUNKTVFteVliQkp1VjlQMXkwVGR0Z1lWdnZnVDl5ZA?oc=5",
+          "fetched_at": "14:59",
+          "time": "12:37"
+        },
+        {
+          "title": "Manisa'da geliştirilen yapay zeka destekli makine, ayakkabı üretimini 10 kat artırdı",
+          "source": "Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZ3JBdy13bEdCSXFKcWdTbDEwMktiLXhYSzY0ekpZdldmdFl6TmROd0tKRXA5cGtMRUxFOG1icThHN1BIRi1BREJ4UnVxeDVSTWhWMjBUN2xlRXpFTnlBU25GTnB5RnQ3a0FpWU9scmdQQTNaQjdUYmZuWnpOWV8wV1pMMUdoNzg5SmRVaE56YTdQMDZFM1dCLTNKQlhhLVBIV1lkN2FpLW43ZVM0cjlmZ3E1UEsxZnRHVHJXQjh5ZG5kRS00c1E?oc=5",
+          "fetched_at": "14:59",
+          "time": "12:28"
+        },
+        {
+          "title": "Yapay zeka kamuda verimsiz harcamaları ortaya çıkardı",
+          "source": "Elazığ Fırat Gazetesi",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOS2d6YWIycnBjRm5BSVV4bjVrckNWeFg1cmttR2FCVjgzWFZaVmNBbXhSN2R4emdyaWpWaWF2NklHTHc2X0ZGLW9IUXZIcWtNYUpvUG5ScllXVmRjeVR2Tm5yWjFudzlFS2FxNWtqazBjdXFaaDFOaHVKTHNYSHI1NkVmR3lKSFA1MVV3UjA2S2tkM2dhMjZieDZOeUHSAaIBQVVfeXFMUDQ5NFU5NUZYWDFrSXpxQlk4WHQxTjRObkNxQVBCVWxmNW9QRDhpT0ZzVlZvVGN6R0QtM25qYUplMVRud3pwZGtBeHREdnoyWk03a3ZmclZ6VUp3NXB5ckM5N2l3ZUVXS2s2Z0ZiVXlpbWJvTndtRWEzdUw5STEwUEV2dzl0azE2RVNIT09jb2ZVRXZsMGpYaVNVRjZicnZLNnlB?oc=5",
+          "fetched_at": "14:59",
+          "time": "12:16"
+        },
+        {
+          "title": "Yapay zeka, ilaca dirençli bakterileri öldürmek için yeni virüsler üretiyor.",
+          "source": "Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX2M3WXNlaVplbjJyOVBPeC1raEFCcHo2Nm51bGkyWXRLRWRNeTJIeUpJOHo2SFNZZ1RMQ3BZbnRCMEZuc1NSX01zaWJLd3RfUVhwN3NKdG41OFltZUhXNE9KaWM0anNvbmZ4eklOMmM0bHRKS2FVbkdXZV9ub2xRRVY3aHQxSDNPVm5mOTBNZ2g?oc=5",
+          "fetched_at": "14:59",
+          "time": "12:06"
+        }
+      ],
+      "path": "2026-08-09__Ollama Günlük Özet__Teknoloji Gündemi 9 Ağustos 2026.json",
+      "size": 8553,
+      "mtime": 1786277035461
+    },
+    {
+      "title": "Türkiye Gündemi — 9 Ağustos 2026",
+      "category": "turkey",
+      "date": "2026-08-09",
+      "source": "Ollama Günlük Özet",
+      "author": "Ollama",
+      "generated_at": "14:57",
+      "stories": [
+        {
+          "title": "İstanbul'daki Yağmurlar Sürükleyici Kaza Neden Oldu",
+          "summary": "Yağışlı havanın etkisiyle İstanbul'da bir trafik kazası meydana geldi ve olay yerinde yaralananlar oldu. Durumla ilgili detaylar şu an araştırılıyor.",
+          "detail": "İstanbul'un yağmurlu hava koşulları, yollarda kayganlaşmaya neden olarak sürücülerin kontrolünü kaybettiği bir kaza yaşandı. Kazada araçların birbirine çarpması sonucu yaralanan kişilerin sağlık durumları değerlendiriliyor. Olayın tam olarak nerede ve hangi saatte gerçekleştiğine dair resmi açıklamalar bekleniyor. Meteorolojik koşulların bu tür kazaların sıklığını artırdığı gözlemlenirken, trafik güvenliği önlemlerinin artırılması gerektiği vurgulanıyor.",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeElJTmtkNThyZjdndVp3UmZZQUE1Uzg2cVEwbjZ4WlBodmhpU3dtc2plX1VheDlwMkNFTXRTdUFwUERJeHluckhodXk3ZXVhYktyRFVaY3M3Y0FHTFFuZkVrLXplRkFSemlKSTZQNmJyTTZka1VIUFhMMjJkV0hFTV9wbjRteDJzZGVxQVYtLUdyNzZIaUVIVHBSME0wdw?oc=5",
+          "fetched_at": "14:57",
+          "time": "14:53"
+        },
+        {
+          "title": "Yasak Bölgedeki Ablasını Kurtarma Çabasında Canı Feda Edildi",
+          "summary": "Bir birey, yasaklı alana giren kardeşini kurtarmaya çalışırken hayatını kaybetti. Bu olayın detayları ve arkasındaki nedenler şu şekilde.",
+          "detail": "İlgili kişi, denize girerek su altında kalan ablasının durumunu değerlendirmeye girişti ancak bu süreçte canı pahasına bir fed oldu. Yasak bölgeye girişi nedeniyle oluşan risklere rağmen yapılan müdahale sonucunda kurtarıcı şahıs hayatını yitirdi. Olay, yakınların birbirine olan bağlılığını ve tehlikeli koşullarda bile yardım etme isteğini gözler önüne serdi. Yetkililer tarafından belirlenen sınırların ihlali sonucu meydana gelen bu trajedi, bölgedeki güvenlik kurallarının ne kadar ciddi olduğunu bir kez daha hatırlatıyor.",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORWJyRkdxQUNGX19DbG1jVmJfb0lKY3ZuR1pucW16X1laRklYc0hWNEN4T3VqeDhlUzgtdTQwUkp1ZjZiMzREX25NbGVOdldtNWpQejB1YmxNSThCYXdqS0QyYnEzMUg5VS01UFF3bmgzYWdnRW5lZi1JNTZ4UGp4NTh5TmpQeTFNUU1XNDVab25Tc3dETHlvcF92eVJkX2NXSGpTRVpncjdkUG40TXpsVW80bnk?oc=5",
+          "fetched_at": "14:57",
+          "time": "14:38"
+        },
+        {
+          "title": "Küba ile Türkiye'deki Komünist Gruplar Arasında Görüşme Yapıldı",
+          "summary": "Son Dakika'nın haberine göre, Küba temsilcileri ve Türkiye Komünist Partisi arasında önemli bir buluşma gerçekleştirildi. Bu görüşmede iki ülke arasındaki ideolojik bağların güçlendirilmesi amaçlandı.",
+          "detail": "Küba'dan gelen heyet ile Türkiye Komünist Partisi üyeleri düzenlediği toplantıda karşılıklı deneyimlerini ve siyasi programlarını paylaştı. Görüşme sürecinde her iki taraf da sosyal adalet ve işçi hakları konularında ortak bir dil geliştirmeye çalıştı. Toplantının ardından taraflar, gelecekteki uluslararası dayanışma faaliyetleri için yeni bir çalışma planına imza attılar. Bu buluşmanın en dikkat çekici yanı, uzun süredir kesintiye uğramış diplomatik ve ideolojik kanalların yeniden aktif hale getirilmesi oldu.",
+          "source": "Son Dakika",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNDU2Q1F5NUxtaEZqTnpyajlYOHg3c2tVVjRDa2hybGVHbEtlQjVaQ3hpY3dURWFYYTFaaWt0Wk5GOEJIM0tNUWljNlBjb285ZFpYN29YQlRSVGRXTHVrWk11aFFuVzhoWGVWblRLX25BWlVVYi1XXzViTXFkd0RXdDhjdnY1Z2tINVcyVXpUYV9Kc3Fs0gGSAUFVX3lxTE9HVjRBV0VCdmlOOEtPS3ZLOTlVYmtrbmlySEdOZFUzZzdxVXQyaUI3OTdkOGtGMDdYN19HWXVjTzN1TV9GbXBXMUp2WmkyU1UxR3YyV1lqVTBoRHYzNlZFUkFDVmVtOUt0eUJkdE5aZjFqSnVaaENUUlVId0Q4QW12djdrS1lnWVVfMDBid3ZxZ0NB?oc=5",
+          "fetched_at": "14:57",
+          "time": "14:35"
+        },
+        {
+          "title": "Irak'taki elektrik altyapısına yönelik yeni bir tehdit ortaya çıktı",
+          "summary": "İrak bölgesinde yaşanan şebekedeki kesinti sonrası, bölgeye karşı insansız hava aracı saldırısı planlandığı duyuruldu. Bu gelişme, mevcut güvenlik durumunun ağırlaşması anlamına gelmektedir.",
+          "detail": "Irak'ta elektrik dağıtım sistemine yönelik bir sorun yaşanarak şebeke çökertildi ve bölgede kesinti meydana geldi. Yetkililer tarafından yapılan açıklamada, bu altyapıya karşı İHA saldırısı düzenlenmesi planlandığı belirtildi. Saldırı eyleminin detayları henüz netleşmemiş olsa da, hedeflenen tesislerin kritik öneme sahip olduğu vurgulanıyor. Böyle bir operasyonun gerçekleşmesi durumunda bölgedeki yaşam standartlarında ciddi düşüşler yaşanabileceği endişesi taşıyor. Mevcut güvenlik koşullarının bu tür saldırılara karşı yeterince koruyucu olmadığı gözlemleniyor.",
+          "source": "Sabah",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcU5fZEdhNGRzc3lsVWcxQmtGTF9tUjdVV09kN3FKdjhONDRTZkJWUkVqNVRfNHMtUkN3MjFXQXhIaVVSZkV1R2VWTVZRd0VYOVNFdVJiYWpZVldNZTB1SFJKZVBaU3N5VFVqT1Zmc1JIOVpqZWZjbGNfRVJZMWNidG5CREFLNGRPZjhmM3owM08?oc=5",
+          "fetched_at": "14:57",
+          "time": "14:34"
+        },
+        {
+          "title": "Son dakika... UltraAslan taraftar grubunun lideri Muzaffer Şirin hakkında gözaltı talimatı",
+          "source": "Milliyet",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUGdvZU9MY1FmeUVnM2tGY2VkRjVBVE1DUlpQTkZ3WWthNmR5QkdudjM2ajh1aDFJamFyWVZnb0RJQVB6cmY4SF9CLTlLdGZ2bG8zWVl3dEJ3SVVVZGw5a2VQU1dzZlhCU0xlTlp1eUhjYWZNMTBSd0NMV0M1V1NveEpIbnduM3N1N3MtR3RGd29ldDdKdGQ2TktYSGJKUmN1R25ua1BJZ2t2XzVaQXItT0w1TmpPZFQ5em9uc2RLS0tER3Nva3ZiRlJB?oc=5",
+          "fetched_at": "14:57",
+          "time": "14:28"
+        },
+        {
+          "title": "Son dakika | Galatasaraylı tribün lideri gözaltına alındı!",
+          "source": "Halk TV",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOWVwVWpsdUpPNmFybUNNQXNrTWJ1ZS0yWVdNc0hWRU05V202MDBiSnNCYmJUM2JaNkJBaHMwXy1kSEhNb1JCdjJQa1l6UGJhRFpkdGR0TE1JNGVzRTBFYjVNbDZwdHB0NXFibDlyZjc5MXN0NkpfVVFJenhPZE9oTjJuekMtWGppR1RDQW5BeHBfQnZ6Z2FXdFln?oc=5",
+          "fetched_at": "14:57",
+          "time": "14:27"
+        },
+        {
+          "title": "SON DAKİKA... Sebahattin Şirin gözaltına alındı",
+          "source": "CNN Türk",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdWFmb0llUlZQclhqb2NQcDJVOVptR1NiVWg2akhYeGwtOUxSRFlTYzZacTUtZU5vcVBiUTlpaE9vR0JfRkJqVVZYYnBMU1h2MHZxdGRzRHhPclpHQ3M5UW8ybkJSY1NYSlAzY0l6YTREczBualdMOFRGLXF6MFVOZXctbURxdEJneThZWg?oc=5",
+          "fetched_at": "14:57",
+          "time": "14:24"
+        },
+        {
+          "title": "Ümit Özdağ’dan Özgür Özel’e 'çerçeve yasa' çağrısı",
+          "source": "Cumhuriyet",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYlc0VXZ6dlRQY3NWSjhaNi1NelprY3B1YTlMamlnc25zUHZkRm50VjV3R2dOcEJVdVMyZk9Tc1E0ZHlQTElJanFGaDhscWNvMWR4Q2p4MXlXcUJSeEJaT2thZDJxYXZBdmZoOURxVFZxb1FBMV9VcVhsLU1YLTE5dlVOTEVtWEZqaVlnTEJhbHN3ODBxX18wSzNR?oc=5",
+          "fetched_at": "14:57",
+          "time": "14:22"
+        }
+      ],
+      "path": "2026-08-09__Ollama Günlük Özet__Türkiye Gündemi 9 Ağustos 2026.json",
+      "size": 7335,
+      "mtime": 1786277035336
     }
   ]
 }
