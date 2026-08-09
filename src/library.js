@@ -10,7 +10,8 @@
 
 import { Articles, Files } from './db.js';
 import { loadDoc, readMeta, extractText, makeCover } from './pdf.js';
-import { dayKey, uid } from './util.js';
+import { dayKey, uid, allText } from './util.js';
+import { t, isLangMap } from './i18n.js';
 
 export const INBOX_URL = 'inbox/';
 const INDEX_URL = 'inbox/index.json';
@@ -59,6 +60,20 @@ function splitTags(v) {
   return [];
 }
 
+/**
+ * Metin alanini kirpar. Iki dilli alanlarda ({en, tr}) yapiyi bozmadan
+ * her dili ayri ayri kirpar — String() ile duzlestirmek "[object Object]"
+ * uretirdi.
+ */
+function clamp(v, max) {
+  if (isLangMap(v)) {
+    const out = {};
+    for (const [k, val] of Object.entries(v)) out[k] = String(val == null ? '' : val).slice(0, max);
+    return out;
+  }
+  return String(v == null ? '' : v).slice(0, max);
+}
+
 function firstSentences(text, max = 220) {
   if (!text) return '';
   const t = text.replace(/\s+/g, ' ').trim();
@@ -101,6 +116,7 @@ export async function importPdf(file, opts = {}) {
   const title =
     sidecar.title || meta.title || fromName.title || firstLine || file.name.replace(/\.pdf$/i, '');
 
+
   const date =
     sidecar.date ||
     fromName.date ||
@@ -116,11 +132,11 @@ export async function importPdf(file, opts = {}) {
     path,
     fileName: file.name,
 
-    title: String(title).slice(0, 260),
-    source: (sidecar.source || meta.author || fromName.source || 'Cowork').slice(0, 60),
+    title: clamp(title, 260),
+    source: clamp(sidecar.source || meta.author || fromName.source || 'Daily Now', 60),
     author: sidecar.author || meta.author || '',
     category: sidecar.category || '',
-    summary: (sidecar.summary || meta.subject || firstSentences(text)).slice(0, 600),
+    summary: clamp(sidecar.summary || meta.subject || firstSentences(text), 600),
     url: sidecar.url || '',
     tags: splitTags(sidecar.tags || meta.keywords),
 
@@ -147,25 +163,27 @@ export async function importPdf(file, opts = {}) {
 /** Article -> Blob. */
 export async function fileOf(article) {
   const blob = await Files.get(article.id);
-  if (!blob) throw new Error('Dosya arşivde bulunamadı — inbox’ı yeniden tara');
+  if (!blob) throw new Error(t('reader.failTitle'));
   return blob;
 }
 
 /* ────────────────────────── native (PDF'siz) haber ────────────────────────── */
 
 /** body bloklarindan ve story listesinden arama icin duz metin cikarir. */
+/* Arama icin duz metin. Iki dilli alanlarin her iki karsiligi da giriyor ki
+   Ingilizce arayuzdeyken Turkce ceviride gecen kelimeyle de arama yapilabilsin. */
 function flattenBody(data) {
-  const parts = [data.title, data.lead];
+  const parts = [allText(data.title), allText(data.lead)];
   for (const s of data.stories || []) {
-    parts.push(s.title, s.summary || s.text, s.source);
+    parts.push(allText(s.title), allText(s.summary || s.text), allText(s.detail),
+               allText(s.points), allText(s.source));
   }
   for (const block of data.body || []) {
     if (typeof block === 'string') { parts.push(block); continue; }
-    if (block.heading) parts.push(block.heading);
-    if (block.text) parts.push(block.text);
-    for (const b of block.bullets || []) parts.push(typeof b === 'string' ? b : (b.text || ''));
+    parts.push(allText(block.heading), allText(block.text));
+    for (const b of block.bullets || []) parts.push(typeof b === 'string' ? b : allText(b.text));
   }
-  if (data.quote) parts.push(data.quote);
+  parts.push(allText(data.quote));
   return parts.filter(Boolean).join('\n\n');
 }
 
@@ -187,12 +205,12 @@ export async function importArticle(data, opts = {}) {
     fileName: path.split('/').pop(),
     kind: 'native',
 
-    title: String(data.title || '(başlıksız)').slice(0, 260),
-    source: (data.source || 'Cowork').slice(0, 60),
+    title: clamp(data.title || t('article.untitled'), 260),
+    source: clamp(data.source || 'Daily Now', 60),
     author: data.author || '',
     category: data.category || '',
     kicker: data.kicker || '',
-    summary: (data.summary || firstSentences(text)).slice(0, 600),
+    summary: clamp(data.summary || firstSentences(text), 600),
     url: data.url || '',
     tags: splitTags(data.tags),
 

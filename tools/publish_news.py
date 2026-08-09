@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Bir gundem ozetini Daily Now gelen kutusuna birakir.
 
-    python3 tools/publish_news.py gundem.json
-    cat gundem.json | python3 tools/publish_news.py -
+    python3 tools/publish_news.py agenda.json
+    cat agenda.json | python3 tools/publish_news.py -
 
 inbox/ altina tek bir .json dosyasi yazilir (PDF uretilmez). Daily Now bunu
 okur ve **stories** dizisindeki her maddeyi Akis'ta ayri bir haber satiri
@@ -10,22 +10,49 @@ olarak, yazildigi sirayla gosterir. Kullanici satira tiklayinca haber
 UYGULAMA ICINDE, yerinde acilir (detail + points gorunur); kaynak sayfasina
 gitmek isterse acilan panelde duran baglantiya basar.
 
+DIL — uygulama varsayilan olarak INGILIZCE acilir, sag ustteki secici
+Ispanyolca ve Turkce'ye gecirir. Bu yuzden her metin alani UC DILLI yazilir:
+
+    "title": { "en": "English headline",
+               "es": "Titular en español",
+               "tr": "Türkçe başlık" }
+
+Ceviri yazilmazsa (duz metin verilirse) o alan her uc dilde de ayni gorunur.
+Ceviri gerektirmeyen alanlar (url, time, source) duz metin kalir.
+
+Kategoriler (yalnizca bunlar gecerli):
+
+    world      Dunya gundemi
+    economy    Ekonomi (makro: enflasyon, merkez bankalari, ticaret, buyume)
+    usmarkets  ABD borsasi (Wall Street, Nasdaq, S&P 500, Fed, bilancolar)
+    tech       Teknoloji
+    health     Saglik
+    sports     Spor
+
 Onerilen bicim — kategori basina bir dosya:
 
     {
-      "title":    "Türkiye Gündemi — 7 Ağustos 2026",
-      "category": "turkey",              // world | turkey | markets | tech | sports | health
-      "date":     "2026-08-07",
-      "source":   "Cowork Günlük Özet",
+      "title":    { "en": "World — 9 August 2026",
+                    "es": "Mundo — 9 de agosto de 2026",
+                    "tr": "Dünya — 9 Ağustos 2026" },
+      "category": "world",
+      "date":     "2026-08-09",
+      "source":   "Daily Now",
       "stories": [
         {
-          "title":   "Kısa, net Türkçe başlık",
-          "summary": "Listede görünen 1-2 cümlelik Türkçe özet.",
-          "detail":  "Tıklayınca açılan 4-6 cümlelik Türkçe anlatı. Ne oldu, rakamlar,
-                      arka plan, neden önemli. Paragraf istersen \\n\\n ile ayır ya da
-                      dizi ver.",
-          "points":  ["isteğe bağlı madde", "bir tane daha"],
-          "source":  "AA",
+          "title":   { "en": "Short, clear headline",
+                       "es": "Titular breve y claro",
+                       "tr": "Kısa, net Türkçe başlık" },
+          "summary": { "en": "The 1-2 sentence summary shown in the list.",
+                       "es": "El resumen de 1-2 frases que se ve en la lista.",
+                       "tr": "Listede görünen 1-2 cümlelik özet." },
+          "detail":  { "en": "The 4-6 sentence story shown when the row is opened.",
+                       "es": "El relato de 4-6 frases que se abre al pulsar la fila.",
+                       "tr": "Tıklayınca açılan 4-6 cümlelik anlatı." },
+          "points":  { "en": ["optional bullet", "another one"],
+                       "es": ["punto opcional", "otro más"],
+                       "tr": ["isteğe bağlı madde", "bir tane daha"] },
+          "source":  "Reuters",
           "url":     "https://…",
           "time":    "07:30"
         }
@@ -33,14 +60,16 @@ Onerilen bicim — kategori basina bir dosya:
     }
 
 Story alanlari:
-  title    zorunlu sayilir
-  summary  listede gorunur — kisa tut
+  title    zorunlu sayilir            (uc dilli)
+  summary  listede gorunur — kisa tut (uc dilli)
   detail   yerinde acilan asil ozet. YAZILMAZSA satir acilmaz, tiklama
-           dogrudan url'e gider; o yuzden her zaman yaz.
-  points   istege bagli madde listesi (rakamlar, alt basliklar)
-  url      "Kaynak sayfasina git" baglantisi
+           dogrudan url'e gider; o yuzden her zaman yaz.   (uc dilli)
+  points   istege bagli madde listesi (uc dilli)
+  url      "kaynak sayfasina git" baglantisi — ZORUNLU, benzersiz olmali
+  source   haber kaynagi (Reuters, AP…)  — cevrilmez
+  time     biliniyorsa yayin saati       — cevrilmez
 
-Onem sirasi = dizideki sira. Kategori basina 5-8 haber idealdir.
+Onem sirasi = dizideki sira. Kategori basina 0-4 haber yeterlidir.
 
 Tek bir uzun habere ait sayfa da yayinlanabilir (lead/body/quote alanlariyla);
 o kayit Akis'ta tek satir olur, acilinca giris ve govde paragraflari yerinde
@@ -59,6 +88,33 @@ from inbox_index import write_index  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+LANGS = ('en', 'es', 'tr')
+PRIMARY = 'en'
+
+CATEGORIES = ('world', 'economy', 'usmarkets', 'tech', 'health', 'sports')
+
+# Cevrilmesi beklenen story alanlari (digerleri — url, source, time — duz metin).
+TRANSLATED = ('title', 'summary', 'detail', 'points')
+
+
+def is_lang_map(v):
+    return isinstance(v, dict) and v and all(k in LANGS for k in v)
+
+
+def in_lang(v, lang):
+    """Bir alanin belirli dildeki karsiligi (duz metinse kendisi)."""
+    if is_lang_map(v):
+        return v.get(lang) or v.get(PRIMARY) or ''
+    return v
+
+
+def as_plain(v, lang=PRIMARY):
+    """Dosya adi gibi tek dil gereken yerler icin duz metin."""
+    v = in_lang(v, lang)
+    if isinstance(v, (list, tuple)):
+        return ' '.join(str(x) for x in v)
+    return '' if v is None else str(v)
+
 
 def missing_urls(spec):
     """url'si olmayan story'lerin basliklarini dondurur.
@@ -72,13 +128,94 @@ def missing_urls(spec):
         if not isinstance(s, dict):
             continue
         if not str(s.get('url') or '').startswith(('http://', 'https://')):
-            out.append('%d. %s' % (i + 1, s.get('title') or s.get('summary') or '(basliksiz)'))
+            label = as_plain(s.get('title')) or as_plain(s.get('summary')) or '(basliksiz)'
+            out.append('%d. %s' % (i + 1, label))
     return out
 
 
-def publish(spec, out_dir, require_url=True):
+def duplicate_urls(spec):
+    """Ayni url'yi paylasan story'ler.
+
+    Uygulama okundu/yildiz durumunu url'ye bagliyor: ayni url iki haberde
+    kullanilirsa ikincisi arayuzde sessizce kaybolur. Yayini burada durdurmak
+    o sessiz kaybi onluyor.
+    """
+    seen, dupes = {}, []
+    for i, s in enumerate(spec.get('stories') or []):
+        if not isinstance(s, dict):
+            continue
+        url = str(s.get('url') or '').strip()
+        if not url:
+            continue
+        if url in seen:
+            dupes.append('%d. %s  (ayni url: %d. haber)' % (
+                i + 1, as_plain(s.get('title')) or url, seen[url] + 1))
+        else:
+            seen[url] = i
+    return dupes
+
+
+def bad_category(spec):
+    cat = str(spec.get('category') or '').strip().lower()
+    if not cat:
+        return 'kategori yazilmamis'
+    if cat not in CATEGORIES:
+        return '"%s" gecerli bir kategori degil' % cat
+    return None
+
+
+def untranslated(spec):
+    """Cevirisi eksik olan alanlar — uyari olarak listelenir."""
+    others = [l for l in LANGS if l != PRIMARY]
+    out = []
+    for i, s in enumerate(spec.get('stories') or []):
+        if not isinstance(s, dict):
+            continue
+        gaps = []
+        for name in TRANSLATED:
+            v = s.get(name)
+            if v is None or v == '' or v == []:
+                continue
+            if not is_lang_map(v):
+                gaps.append('%s (hicbir ceviri yok)' % name)
+                continue
+            eksik = [l for l in others if not v.get(l)]
+            if eksik:
+                gaps.append('%s (%s)' % (name, '/'.join(eksik)))
+        if gaps:
+            out.append('%d. %s — %s' % (i + 1, as_plain(s.get('title')) or '(basliksiz)',
+                                        ', '.join(gaps)))
+    return out
+
+
+def missing_primary(spec):
+    """Ingilizce karsiligi olmayan story basliklari — bunlar yayini durdurur."""
+    out = []
+    for i, s in enumerate(spec.get('stories') or []):
+        if not isinstance(s, dict):
+            continue
+        if not as_plain(s.get('title'), PRIMARY) and not as_plain(s.get('summary'), PRIMARY):
+            out.append('%d. haber' % (i + 1))
+    return out
+
+
+def publish(spec, out_dir, require_url=True, require_category=True):
     if not spec.get('title'):
         raise SystemExit('Hata: "title" alani zorunlu')
+
+    if require_category:
+        problem = bad_category(spec)
+        if problem:
+            raise SystemExit(
+                'Hata: %s. Gecerli kategoriler: %s'
+                % (problem, ', '.join(CATEGORIES))
+                + '\n\n(--allow-any-category ile gecebilirsin, onerilmez.)')
+
+    blank = missing_primary(spec)
+    if blank:
+        raise SystemExit(
+            'Hata: su haberlerde Ingilizce metin yok — uygulama Ingilizce aciliyor:\n  '
+            + '\n  '.join(blank))
 
     if require_url:
         bad = missing_urls(spec)
@@ -89,15 +226,34 @@ def publish(spec, out_dir, require_url=True):
                 + '\n\nHer story icin haberin dogrudan adresini yaz.'
                   ' Gercekten adres yoksa --allow-missing-url ile gecebilirsin.')
 
+        dupes = duplicate_urls(spec)
+        if dupes:
+            raise SystemExit(
+                'Hata: ayni url birden fazla haberde kullanilmis — ikincisi'
+                ' arayuzde gorunmez:\n  ' + '\n  '.join(dupes)
+                + '\n\nAyni kaynaktan cikan birden fazla gelismeyi tek haberde'
+                  ' "points" listesiyle birlestir.')
+
+    gaps = untranslated(spec)
+    if gaps:
+        sys.stderr.write(
+            'Uyari: su haberlerde ceviri eksik — o dil secildiginde Ingilizcesi'
+            ' gorunecek:\n  ' + '\n  '.join(gaps) + '\n')
+
     spec = dict(spec)
     spec.setdefault('date', date.today().isoformat())
-    spec.setdefault('author', 'Cowork')
+    spec.setdefault('author', 'Daily Now')
 
-    base = file_base(spec)
+    # Dosya adi tek dilden uretilir (Ingilizce), yoksa iki dilli baslik
+    # "[object Object]" gibi bir ada donusurdu.
+    naming = dict(spec)
+    naming['title'] = as_plain(spec.get('title'))
+    naming['source'] = as_plain(spec.get('source'))
+    base = file_base(naming)
     json_path = os.path.join(out_dir, base + '.json')
 
     # Ayni tabanda eski bir PDF kalmis olabilir (eski format) — kalirsa Daily
-    # News bu JSON'u PDF'in sidecar'i sanip icerigi gormezden gelir. Temizle.
+    # Now bu JSON'u PDF'in sidecar'i sanip icerigi gormezden gelir. Temizle.
     old_pdf = os.path.join(out_dir, base + '.pdf')
     if os.path.exists(old_pdf):
         os.remove(old_pdf)
@@ -113,9 +269,11 @@ if __name__ == '__main__':
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('spec', help='JSON dosyasi, ya da stdin icin -')
     ap.add_argument('--out', default=os.path.join(ROOT, 'inbox'),
-                    help='hedef klasor (varsayilan: DailyNews/inbox)')
+                    help='hedef klasor (varsayilan: inbox/)')
     ap.add_argument('--allow-missing-url', action='store_true',
                     help='url yazilmamis haberlere de izin ver (onerilmez)')
+    ap.add_argument('--allow-any-category', action='store_true',
+                    help='listede olmayan kategori adina izin ver (onerilmez)')
     args = ap.parse_args()
 
     raw = sys.stdin.read() if args.spec == '-' else open(args.spec, encoding='utf-8').read()
@@ -126,7 +284,9 @@ if __name__ == '__main__':
 
     os.makedirs(args.out, exist_ok=True)
     for spec in (data if isinstance(data, list) else [data]):
-        path = publish(spec, args.out, require_url=not args.allow_missing_url)
+        path = publish(spec, args.out,
+                       require_url=not args.allow_missing_url,
+                       require_category=not args.allow_any_category)
         print('  ' + os.path.relpath(path, ROOT))
 
     # Statik barindirma icin: uygulama artik /api/inbox yerine bu dosyayi okur.

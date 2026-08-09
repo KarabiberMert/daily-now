@@ -1,0 +1,87 @@
+{
+  "title": {
+    "en": "Health — 9 August 2026",
+    "es": "Salud — 9 de agosto de 2026",
+    "tr": "Sağlık — 9 Ağustos 2026"
+  },
+  "category": "health",
+  "date": "2026-08-09",
+  "source": "Daily Now",
+  "stories": [
+    {
+      "title": {
+        "en": "FDA clears the first flu vaccine made with mRNA",
+        "es": "La FDA aprueba la primera vacuna antigripal fabricada con ARNm",
+        "tr": "FDA, mRNA ile üretilen ilk grip aşısını onayladı"
+      },
+      "summary": {
+        "en": "Moderna's shot is the first licensed influenza vaccine to use the technology.",
+        "es": "La vacuna de Moderna es la primera antigripal autorizada que emplea esta tecnología.",
+        "tr": "Moderna'nın aşısı, bu teknolojiyi kullanan ilk ruhsatlı grip aşısı."
+      },
+      "detail": {
+        "en": "The Food and Drug Administration has approved Moderna's influenza vaccine, the first licensed flu shot built on messenger RNA rather than the egg-based or cell-based methods used until now. The significance is largely about speed: mRNA production can be retooled for a new strain far faster than the conventional process, which is set months ahead of the season and can miss a drifting virus. It also opens a path to combination shots that cover influenza and other respiratory infections in a single dose. How much difference it makes in practice will depend on uptake and on how the vaccine performs against the strains that actually circulate.",
+        "es": "La Administración de Alimentos y Medicamentos ha aprobado la vacuna antigripal de Moderna, la primera autorizada que se basa en ARN mensajero en lugar de los métodos con huevo o con cultivo celular usados hasta ahora. Su importancia tiene que ver sobre todo con la velocidad: la producción con ARNm puede reconfigurarse para una nueva cepa mucho antes que el proceso convencional, que se fija meses antes de la temporada y puede errar si el virus deriva. También abre la puerta a vacunas combinadas que cubran la gripe y otras infecciones respiratorias en una sola dosis. Cuánto cambie en la práctica dependerá de la cobertura y del comportamiento de la vacuna frente a las cepas que realmente circulen.",
+        "tr": "Gıda ve İlaç Dairesi, Moderna'nın grip aşısını onayladı; bu, şimdiye dek kullanılan yumurta ya da hücre temelli yöntemler yerine mesajcı RNA üzerine kurulu ilk ruhsatlı grip aşısı. Önemi büyük ölçüde hızla ilgili: mRNA üretimi yeni bir varyant için, sezondan aylar önce sabitlenen ve virüs kayarsa ıskalayabilen geleneksel sürece kıyasla çok daha çabuk yeniden ayarlanabiliyor. Ayrıca gribi ve diğer solunum yolu enfeksiyonlarını tek dozda karşılayan kombine aşılara giden bir yol açıyor. Pratikte ne kadar fark yaratacağı, aşılanma oranına ve aşının gerçekte dolaşan varyantlar karşısındaki performansına bağlı olacak."
+      },
+      "source": "STAT",
+      "url": "https://www.statnews.com/2026/08/05/fda-approves-moderna-mflusiva-first-mrna-flu-vaccine/"
+    },
+    {
+      "title": {
+        "en": "Study finds Covid can reactivate dormant viruses",
+        "es": "Un estudio halla que la Covid puede reactivar virus latentes",
+        "tr": "Çalışma: Covid uykudaki virüsleri yeniden etkinleştirebiliyor"
+      },
+      "summary": {
+        "en": "The finding offers a possible mechanism behind some lingering post-infection symptoms.",
+        "es": "El hallazgo apunta a un posible mecanismo tras algunos síntomas persistentes.",
+        "tr": "Bulgu, enfeksiyon sonrası süren bazı belirtiler için olası bir mekanizma sunuyor."
+      },
+      "detail": {
+        "en": "Researchers report that a Covid infection can wake viruses that were lying dormant in the body rather than clearing them. Many people carry latent viruses for life without symptoms, held in check by the immune system; a sufficiently disruptive infection can loosen that control. The work matters because it offers a concrete mechanism for symptoms that persist long after the original infection has resolved, an area where explanations have been scarce. It does not by itself establish that reactivation causes those symptoms, and the authors treat the link as a hypothesis to test rather than a settled result.",
+        "es": "Los investigadores señalan que una infección por Covid puede despertar virus que permanecían latentes en el organismo en lugar de eliminarlos. Muchas personas portan virus latentes de por vida sin síntomas, contenidos por el sistema inmunitario; una infección lo bastante disruptiva puede aflojar ese control. El trabajo importa porque ofrece un mecanismo concreto para síntomas que persisten mucho después de resolverse la infección original, un terreno donde han escaseado las explicaciones. Por sí solo no demuestra que la reactivación cause esos síntomas, y los autores tratan el vínculo como una hipótesis por comprobar y no como un resultado cerrado.",
+        "tr": "Araştırmacılar, bir Covid enfeksiyonunun vücutta uykuda duran virüsleri temizlemek yerine uyandırabildiğini bildiriyor. Pek çok kişi ömür boyu belirti vermeden latent virüs taşır; bunları bağışıklık sistemi baskı altında tutar ve yeterince sarsıcı bir enfeksiyon bu denetimi gevşetebilir. Çalışma önemli, çünkü asıl enfeksiyon geçtikten çok sonra süren belirtiler için somut bir mekanizma öneriyor; bu alanda açıklamalar kıttı. Bulgu tek başına yeniden etkinleşmenin bu belirtilere yol açtığını kanıtlamıyor ve yazarlar bağlantıyı kapanmış bir sonuç değil, sınanacak bir hipotez olarak ele alıyor."
+      },
+      "source": "STAT",
+      "url": "https://www.statnews.com/2026/08/06/health-news-covid-can-reactivate-dormant-viruses-study-finds/"
+    },
+    {
+      "title": {
+        "en": "A drug-resistant fungus spreads through US hospitals",
+        "es": "Un hongo resistente se propaga por los hospitales de EE. UU.",
+        "tr": "İlaca dirençli bir mantar ABD hastanelerinde yayılıyor"
+      },
+      "summary": {
+        "en": "More than 3,000 Candida auris cases are reported across at least 23 states.",
+        "es": "Se notifican más de 3.000 casos de Candida auris en al menos 23 estados.",
+        "tr": "En az 23 eyalette 3.000'den fazla Candida auris vakası bildirildi."
+      },
+      "detail": {
+        "en": "The Centers for Disease Control and Prevention report more than 3,000 cases of Candida auris spreading in healthcare facilities across at least 23 states. The fungus is hard to eradicate because it survives on surfaces and resists several antifungal drugs, and it mainly threatens patients who are already seriously ill. Containing it depends less on new treatments than on unglamorous infection control: screening, isolation and deep cleaning. Separately, the American Red Cross has declared a national blood supply crisis after donations fell to a four-year summer low, and Chipotle has pulled jalapenos from restaurants in Minnesota and elsewhere over a possible salmonella link.",
+        "es": "Los Centros para el Control y la Prevención de Enfermedades notifican más de 3.000 casos de Candida auris propagándose en centros sanitarios de al menos 23 estados. El hongo es difícil de erradicar porque sobrevive en superficies y resiste varios antifúngicos, y amenaza sobre todo a pacientes que ya están graves. Contenerlo depende menos de nuevos tratamientos que del control de infecciones más rutinario: cribado, aislamiento y limpieza a fondo. Por separado, la Cruz Roja Americana ha declarado una crisis nacional de suministro de sangre tras caer las donaciones a su nivel estival más bajo en cuatro años, y Chipotle ha retirado los jalapeños de sus restaurantes en Minnesota y otros lugares por un posible vínculo con salmonela.",
+        "tr": "Hastalık Kontrol ve Önleme Merkezleri, en az 23 eyaletteki sağlık kuruluşlarında yayılan 3.000'den fazla Candida auris vakası bildiriyor. Mantar yüzeylerde hayatta kaldığı ve çeşitli antifungal ilaçlara direndiği için ortadan kaldırılması güç; esas olarak halihazırda ağır hasta olanları tehdit ediyor. Kontrol altına almak yeni tedavilerden çok sıradan enfeksiyon önlemlerine bağlı: tarama, izolasyon ve derin temizlik. Ayrıca Amerikan Kızılhaçı, bağışların dört yılın en düşük yaz seviyesine inmesinin ardından ulusal kan tedariki krizi ilan etti ve Chipotle olası bir salmonella bağlantısı nedeniyle Minnesota ve diğer bazı yerlerdeki restoranlarından jalapeno biberini kaldırdı."
+      },
+      "points": {
+        "en": [
+          "Candida auris: 3,000+ cases, 23+ states",
+          "Red Cross declares a national blood supply crisis",
+          "Chipotle pulls jalapenos over a possible salmonella link"
+        ],
+        "es": [
+          "Candida auris: más de 3.000 casos, 23+ estados",
+          "La Cruz Roja declara una crisis nacional de sangre",
+          "Chipotle retira los jalapeños por un posible vínculo con salmonela"
+        ],
+        "tr": [
+          "Candida auris: 3.000+ vaka, 23+ eyalet",
+          "Kızılhaç ulusal kan tedariki krizi ilan etti",
+          "Chipotle olası salmonella bağlantısı nedeniyle jalapeno kaldırdı"
+        ]
+      },
+      "source": "KFF Health News",
+      "url": "https://kffhealthnews.org/morning-briefing/tuesday-august-4-2026/"
+    }
+  ],
+  "author": "Daily Now"
+}

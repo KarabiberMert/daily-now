@@ -1,33 +1,48 @@
-/* Akışın birimi: "story" — tek bir önemli başlık + Türkçe özeti + kaynağı.
+/* Akışın birimi: "story" — tek bir önemli başlık + özeti + kaynağı.
  *
- * Akış artık PDF/belge listelemiyor; Cowork'ün seçtiği başlıkları sırasıyla
+ * Akış PDF/belge listelemiyor; günlük rutinin seçtiği başlıkları sırasıyla
  * gösteriyor. Bir gelen kutusu kaydı birden çok story üretebilir:
  *
  *   1. `stories: [...]`  → önerilen biçim. Her madde bir haber.
  *   2. body[].bullets    → eski günlük özetler; her madde başlıksız story olur.
  *   3. digeri            → belgenin kendisi tek story olur, uygulama içinde açılır.
+ *
+ * Metin alanları iki dilli olabilir: `"title": { "en": "…", "tr": "…" }`.
+ * Okuma sırasında seçili dile göre çözülür (bkz. i18n.js).
  */
 
 import { fold } from './util.js';
+import { field, locale, DEFAULT_LANG } from './i18n.js';
 
-/** Sıralamada ve okundu/yıldız kaydında kullanılan kararlı kimlik. */
+/**
+ * Sıralamada ve okundu/yıldız kaydında kullanılan kararlı kimlik.
+ * Dilden bağımsız olmalı: kullanıcı Türkçe'ye geçince okundu/yıldız
+ * durumunun sıfırlanmaması için başlık karşılığı hep İngilizce'den alınır.
+ */
 export function storyKey(s) {
   if (s.url) return 'u:' + s.url;
-  return 'p:' + s.articlePath + '#' + fold(s.title || s.summary || '').slice(0, 60);
+  return 'p:' + s.articlePath + '#' + fold(s.keyText || '').slice(0, 60);
 }
 
 function asParagraphs(v) {
   if (Array.isArray(v)) return v.map(x => String(x).trim()).filter(Boolean);
-  const t = String(v || '').trim();
+  const t = String(v == null ? '' : v).trim();
   return t ? t.split(/\n{2,}/).map(x => x.trim()).filter(Boolean) : [];
 }
 
+function asList(v) {
+  return (Array.isArray(v) ? v : []).map(p => String(p).trim()).filter(Boolean);
+}
+
+function text(v) {
+  return String(v == null ? '' : v).trim();
+}
+
 function normalize(raw, article, order) {
-  const title = (raw.title || '').trim();
-  const summary = (raw.summary || raw.text || '').trim();
-  const detail = asParagraphs(raw.detail);
-  const points = (Array.isArray(raw.points) ? raw.points : [])
-    .map(p => String(p).trim()).filter(Boolean);
+  const title = text(field(raw, 'title'));
+  const summary = text(field(raw, 'summary') || field(raw, 'text'));
+  const detail = asParagraphs(field(raw, 'detail'));
+  const points = asList(field(raw, 'points'));
 
   const s = {
     order,
@@ -35,16 +50,19 @@ function normalize(raw, article, order) {
     summary: title && summary === title ? '' : summary,
     detail,
     points,
-    source: (raw.source || article.source || '').trim(),
+    source: text(field(raw, 'source') || field(article, 'source')),
     url: /^https?:\/\//i.test(raw.url || '') ? raw.url : '',
-    time: (raw.time || '').trim(),
-    fetchedAt: (raw.fetched_at || '').trim(),
+    time: text(raw.time),
+    fetchedAt: text(raw.fetched_at),
     publishedAt: raw.publishedAt || article.publishedAt || '',
     date: raw.date || article.date,
     articleId: article.id,
     articlePath: article.path || article.id,
-    articleTitle: article.title,
+    articleTitle: text(field(article, 'title')),
     isDocument: !!raw.isDocument,
+    // Anahtar icin dilden bagimsiz metin (url yoksa kullanilir).
+    keyText: text(field(raw, 'title', DEFAULT_LANG) || field(raw, 'summary', DEFAULT_LANG)
+                  || field(raw, 'text', DEFAULT_LANG)),
   };
   // Yerinde açılacak bir şey var mı? Yoksa tıklama doğrudan kaynağa gider.
   s.expandable = detail.length > 0 || points.length > 0;
@@ -85,10 +103,12 @@ export function storiesOf(article) {
 /** Belgenin giriş ve gövde paragraflarından okunabilir bir detay üretir. */
 function documentDetail(article) {
   const out = [];
-  if (article.lead) out.push(article.lead);
+  const lead = text(field(article, 'lead'));
+  if (lead) out.push(lead);
   for (const block of article.body || []) {
     if (typeof block === 'string') { out.push(block); continue; }
-    if (block.text) out.push(block.text);
+    const bt = text(field(block, 'text'));
+    if (bt) out.push(bt);
   }
   if (!out.length && article.text) {
     // PDF'ler: ilk paragrafları al, başlık satırlarını atla.
@@ -119,5 +139,5 @@ export function storyTime(s) {
   if (s.time) return s.time;
   if (!s.publishedAt) return '';
   const d = new Date(s.publishedAt);
-  return isNaN(d) ? '' : d.toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' });
+  return isNaN(d) ? '' : d.toLocaleTimeString(locale(), { hour: '2-digit', minute: '2-digit' });
 }

@@ -8,18 +8,20 @@ import { bindCards } from './cards.js';
 import { renderFeed, unreadStoryCount } from './views/feed.js';
 import { initCategorySheet, openCategory, isOpen as sheetOpen } from './views/category.js';
 import { renderSearch } from './views/search.js';
-import { renderStats } from './views/stats.js';
-import { $, $$, esc, debounce, toast, TR_DAYS, TR_MONTHS } from './util.js';
+import { $, $$, esc, debounce, toast, dayKey, formatDayShort } from './util.js';
+import { t, lang, setLang, LANGS, onLangChange, days } from './i18n.js';
 
-const VIEWS = ['feed', 'search', 'stats'];
+const VIEWS = ['feed', 'search'];
 const body = {
-  feed: $('#feedBody'), search: $('#searchBody'), stats: $('#statsBody'),
+  feed: $('#feedBody'), search: $('#searchBody'),
 };
 
 /* ────────────────────────── boot ────────────────────────── */
 
 (async function boot() {
   applyTheme(localStorage.getItem('dn-theme') || 'dark');
+  document.documentElement.lang = lang();
+  applyStaticI18n();
 
   try {
     await loadAll();
@@ -34,9 +36,11 @@ const body = {
   initReader();
   // Popup kapanınca akış tazelensin: içeride okunan başlıklar sönükleşsin.
   initCategorySheet({ onChange: render });
-  buildTabbar();
+  buildLangSwitch();
   wireEvents();
   subscribe(onChange);
+  // Dil degisince hem sabit metinler hem de cizilmis gorunumler tazelenir.
+  onLangChange(() => { applyStaticI18n(); buildLangSwitch(); render(); });
 
   render();
   $('#app').hidden = false;
@@ -50,13 +54,13 @@ const body = {
 })();
 
 function bootFailed(err) {
-  console.error('Açılış başarısız:', err);
+  console.error('Boot failed:', err);
   $('#boot').innerHTML = `
     <div class="boot-mark">DN</div>
     <div class="boot-error">
-      <strong>Uygulama açılamadı</strong>
-      <p>${esc(err && err.message || 'Bilinmeyen hata')}</p>
-      <button class="btn" onclick="location.reload()">Yeniden dene</button>
+      <strong>${t('boot.failed')}</strong>
+      <p>${esc(err && err.message || t('boot.unknown'))}</p>
+      <button class="btn" onclick="location.reload()">${t('boot.retry')}</button>
     </div>`;
 }
 
@@ -71,27 +75,24 @@ function render() {
   const v = state.view;
   if (v === 'feed') renderFeed(body.feed);
   else if (v === 'search') renderSearch(body.search, state.query);
-  else if (v === 'stats') renderStats(body.stats);
 }
 
 function renderChrome() {
+  // formatDayShort her dilin kendi sozdizimini biliyor ("9. August", "9 août").
   const now = new Date();
-  $('#brandDate').textContent =
-    `${now.getDate()} ${TR_MONTHS[now.getMonth()]} ${TR_DAYS[now.getDay()]}`;
+  $('#brandDate').textContent = `${formatDayShort(dayKey(now))} · ${days()[now.getDay()]}`;
 
   const n = unreadStoryCount();
   const badge = $('#badgeUnread');
   badge.hidden = !n;
   badge.textContent = n;
 
-  $$('.nav-item').forEach(b => b.classList.toggle('is-active', b.dataset.view === state.view));
-  $$('#tabbar button').forEach(b => b.classList.toggle('is-active', b.dataset.view === state.view));
   $$('#feedRange button').forEach(b => b.classList.toggle('is-active', b.dataset.range === state.filters.range));
   $$('#filterRow .pill[data-filter]').forEach(b => b.classList.toggle('on', !!state.filters[b.dataset.filter]));
 
-  const t = tags();
-  $('#sideTags').hidden = !t.length;
-  $('#tagChips').innerHTML = t.slice(0, 14).map(x =>
+  // Etiketler akisin süzgeç satirinda; hic etiket yoksa satirda yer kaplamaz.
+  const tagList = tags();
+  $('#tagChips').innerHTML = tagList.slice(0, 10).map(x =>
     `<button class="chip ${state.filters.tag === x.name ? 'on' : ''}" data-tag="${esc(x.name)}">${esc(x.name)}<i>${x.count}</i></button>`
   ).join('');
 
@@ -106,22 +107,18 @@ function go(view) {
   state.view = view;
   $$('.view').forEach(s => s.classList.toggle('is-active', s.dataset.view === view));
   $('#views').scrollTop = 0;
-  closeSidebar();
   render();
 }
 
 /* ────────────────────────── events ────────────────────────── */
 
 function wireEvents() {
-  $('#nav').addEventListener('click', e => {
-    const b = e.target.closest('[data-view]');
-    if (b) go(b.dataset.view);
-  });
-
-  $('#tabbar').addEventListener('click', e => {
-    const b = e.target.closest('[data-view]');
-    if (b) go(b.dataset.view);
-  });
+  // Marka = "ana sayfa": aramadan akisa donmenin gorunur yolu.
+  $('#brandHome').onclick = () => {
+    const input = $('#globalSearch');
+    if (input.value) { input.value = ''; state.query = ''; }
+    go('feed');
+  };
 
   $('#feedRange').addEventListener('click', e => {
     const b = e.target.closest('[data-range]');
@@ -137,21 +134,21 @@ function wireEvents() {
   });
 
   $('#filterRow').addEventListener('click', e => {
+    const tg = e.target.closest('[data-tag]');
+    if (tg) { state.filters.tag = state.filters.tag === tg.dataset.tag ? null : tg.dataset.tag; render(); return; }
     const f = e.target.closest('[data-filter]');
     if (f) { state.filters[f.dataset.filter] = !state.filters[f.dataset.filter]; render(); return; }
     const c = e.target.closest('[data-clear]');
     if (c) { state.filters[c.dataset.clear] = null; render(); }
   });
 
-  $('#sidebar').addEventListener('click', e => {
-    const t = e.target.closest('[data-tag]');
-    if (t) { state.filters.tag = state.filters.tag === t.dataset.tag ? null : t.dataset.tag; go('feed'); return; }
-  });
-
-  $('#btnMenu').onclick = () => $('#sidebar').classList.toggle('open');
-  $('#scrim').onclick = closeSidebar;
   $('#btnTheme').onclick = () => saveSettings({ theme: state.settings.theme === 'dark' ? 'light' : 'dark' })
     .then(() => applyTheme(state.settings.theme));
+
+  $('#langSwitch').addEventListener('click', e => {
+    const b = e.target.closest('[data-lang]');
+    if (b) setLang(b.dataset.lang);
+  });
 
   const searchInput = $('#globalSearch');
   const runSearch = debounce(() => {
@@ -201,7 +198,7 @@ function onKey(e) {
   if (typing) return;
 
   if (e.key === '/') { e.preventDefault(); $('#globalSearch').focus(); }
-  else if (e.key >= '1' && e.key <= '3') go(VIEWS[+e.key - 1]);
+  else if (e.key >= '1' && e.key <= '2') go(VIEWS[+e.key - 1]);
   else if (e.key.toLowerCase() === 'r') sync();
 }
 
@@ -214,7 +211,7 @@ async function sync({ quiet = false } = {}) {
   state.serverInbox = await probeServerInbox();
   if (!state.serverInbox) {
     renderChrome();
-    if (!quiet) toast('Gündem okunamıyor — internet bağlantını kontrol et', 'err');
+    if (!quiet) toast(t('toast.offline'), 'err');
     return;
   }
   lastInboxSignature = signatureOf(state.serverInbox);
@@ -237,10 +234,10 @@ async function sync({ quiet = false } = {}) {
     else renderChrome();
   }
 
-  if (error) { if (!quiet) toast('Tarama başarısız: ' + error, 'err'); return; }
-  if (result.failed.length) toast(`${result.failed.length} dosya okunamadı`, 'err');
-  if (result.imported.length) toast(`${result.imported.length} yeni haber eklendi`, 'ok');
-  else if (!quiet) toast(result.missing ? `${result.missing} dosya artık inbox’ta yok` : 'Yeni haber yok', 'ok');
+  if (error) { if (!quiet) toast(t('toast.syncFail', { err: error }), 'err'); return; }
+  if (result.failed.length) toast(t('toast.readFail', { n: result.failed.length }), 'err');
+  if (result.imported.length) toast(t('toast.imported', { n: result.imported.length }), 'ok');
+  else if (!quiet) toast(result.missing ? t('toast.removed', { n: result.missing }) : t('toast.noNew'), 'ok');
 }
 
 /* ── açıkken kendiliğinden tazeleme ──
@@ -287,17 +284,19 @@ function applyTheme(theme) {
   if (meta) meta.content = theme === 'light' ? '#f6f4ef' : '#0a0c11';
 }
 
-function buildTabbar() {
-  $('#tabbar').innerHTML = $$('.nav-item').map(b => `
-    <button data-view="${b.dataset.view}" class="${b.dataset.view === state.view ? 'is-active' : ''}">
-      ${b.querySelector('svg').outerHTML}
-      <span>${b.querySelector('span').textContent}</span>
-    </button>`).join('');
+/** index.html'deki sabit metinleri secili dile cevirir. */
+function applyStaticI18n() {
+  $$('[data-i18n]').forEach(n => { n.textContent = t(n.dataset.i18n); });
+  $$('[data-i18n-placeholder]').forEach(n => { n.placeholder = t(n.dataset.i18nPlaceholder); });
+  $$('[data-i18n-title]').forEach(n => { n.title = t(n.dataset.i18nTitle); });
+  $$('[data-i18n-aria]').forEach(n => { n.setAttribute('aria-label', t(n.dataset.i18nAria)); });
+  document.title = 'Daily Now';
 }
 
-function closeSidebar() {
-  $('#sidebar').classList.remove('open');
-  $('#scrim').hidden = true;
+function buildLangSwitch() {
+  $('#langSwitch').innerHTML = LANGS.map(l => `
+    <button data-lang="${l.id}" class="${l.id === lang() ? 'is-active' : ''}"
+            title="${esc(l.label)}" lang="${l.id}">${l.short}</button>`).join('');
 }
 
 function registerSW() {
@@ -308,8 +307,3 @@ function registerSW() {
 
 // Konsoldan hata ayiklama icin kucuk bir kanca.
 window.DailyNow = { state, sync, go, render };
-
-// mobilde kenar cubugu acikken karartma
-new MutationObserver(() => {
-  $('#scrim').hidden = !$('#sidebar').classList.contains('open');
-}).observe($('#sidebar'), { attributes: true, attributeFilter: ['class'] });

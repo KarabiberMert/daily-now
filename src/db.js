@@ -1,5 +1,7 @@
 /* IndexedDB katmani — makaleler, PDF dosyalari ve ayarlar. */
 
+import { t } from './i18n.js';
+
 const DB_NAME = 'dailynews';
 const DB_VERSION = 2;
 
@@ -34,8 +36,7 @@ function open() {
     req.onerror = () => reject(req.error);
     // Baska bir sekme eski surumu acik tutuyorsa acilis hic tamamlanmaz.
     // Sessizce asili kalmak yerine anlasilir bir hata verelim.
-    req.onblocked = () => reject(new Error(
-      'Veritabanı başka bir sekmede açık. Daily Now’ın diğer sekmelerini kapatıp yenile.'));
+    req.onblocked = () => reject(new Error(t('db.blocked')));
   });
 }
 

@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
 """Ollama ile 6 kategori icin gundem toplar, ozetler ve publish_news.py ile yayinlar.
 
-Mevcut Cowork rutininin (bkz. CLAUDE.md) yerini token/kota harcamadan, tamamen
+Mevcut bulut rutininin (bkz. CLAUDE.md) yerini token/kota harcamadan, tamamen
 yerel bir Ollama modeliyle almak icin yazildi. Ayni sema ve yayin akisini kullanir:
 kategori basina bir JSON -> tools/publish_news.py -> git add/commit/push.
+
+DIKKAT — bu betik su an yalnizca TURKCE metin uretiyor. Uygulama ise varsayilan
+olarak Ingilizce aciliyor ve publish_news.py her story icin Ingilizce metin sart
+kosuyor. Kategori adlari asagida yeni taksonomiye guncellendi, ama ozetleme
+prompt'u iki dilli hale getirilmeden bu betikle yayin yapilamaz: publish_news.py
+"Ingilizce metin yok" diyip yayini reddeder. Kullanmadan once model prompt'unu
+{"en": …, "tr": …} uretecek sekilde guncelle.
 
 Kullanim:
     python tools/ollama_gundem.py                        # tum kategoriler, yayinla + push
@@ -42,30 +49,33 @@ USER_AGENT = "Mozilla/5.0 (compatible; DailyNowOllama/1.0)"
 
 CATEGORY_LABELS = {
     "world": "Dünya",
-    "turkey": "Türkiye",
-    "markets": "Borsa",
+    "economy": "Ekonomi",
+    "usmarkets": "ABD Borsası",
     "tech": "Teknoloji",
-    "sports": "Spor",
     "health": "Sağlık",
+    "sports": "Spor",
 }
 
 CATEGORY_QUERIES = {
     "world": ["dünya gündemi", "uluslararası ilişkiler diplomasi"],
-    "turkey": ["türkiye gündem", "türkiye son dakika"],
-    "markets": ["borsa istanbul BIST TCMB dolar faiz", "wall street fed nasdaq"],
+    "economy": ["küresel ekonomi enflasyon merkez bankası", "ekonomi büyüme ticaret istihdam"],
+    "usmarkets": ["wall street nasdaq s&p 500 fed", "abd borsası hisse bilanço"],
     "tech": ["teknoloji yapay zeka", "teknoloji şirketleri yazılım"],
-    "sports": ["spor gündem futbol", "spor haberleri transfer"],
     "health": ["sağlık gündemi", "sağlık bakanlığı hastane"],
+    "sports": ["spor gündem futbol", "spor haberleri transfer"],
 }
 
-# world/turkey kasıtlı olarak genel gündem (CLAUDE.md) - orada konu filtresi
+# world kasıtlı olarak genel gündem (CLAUDE.md) - orada konu filtresi
 # uygulamıyoruz. Diğerlerinde RSS sorgusu bazen alakasız yerel haber (trafik
 # kazası, meclis kararı vb.) çekiyor; başlıkta bu anahtar kelimelerden hiçbiri
 # yoksa aday Ollama'ya gönderilmeden eleniyor.
 ANCHOR_KEYWORDS = {
-    "markets": ["borsa", "bist", "tcmb", "dolar", "euro", "faiz", "enflasyon",
-                "hisse", "endeks", "wall street", "nasdaq", "fed", "piyasa",
-                "yatırım", "tahvil", "dow jones", "s&p", "kripto", "altın"],
+    "economy": ["ekonomi", "enflasyon", "merkez bankası", "faiz", "büyüme",
+                "resesyon", "işsizlik", "ticaret", "gümrük", "tarife", "bütçe",
+                "borç", "ihracat", "ithalat", "petrol", "enerji fiyat", "imf"],
+    "usmarkets": ["wall street", "nasdaq", "dow jones", "s&p", "borsa", "hisse",
+                  "endeks", "fed", "bilanço", "halka arz", "temettü", "yatırımcı",
+                  "tahvil", "abd borsası", "new york borsası"],
     "tech": ["teknoloji", "yapay zeka", "yazılım", "siber", "uygulama", "telefon",
              "bilgisayar", "robot", "uzay", "girişim", "startup", "çip", "google",
              "apple", "microsoft", "meta", "openai", "yapayzeka", "yazilim"],

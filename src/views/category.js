@@ -10,9 +10,10 @@ import { state, catOf, get, isStoryRead, isStoryStarred,
          markStoryRead, toggleStoryStar } from '../store.js';
 import { collectStories, storyTime } from '../stories.js';
 import { visibleStories } from './feed.js';
-import { CATEGORY_LABEL, toneOf } from '../categories.js';
+import { categoryLabel, toneOf } from '../categories.js';
 import { openArticle } from '../reader.js';
 import { $, esc, formatDay, relativeDay, dayKeyOffset } from '../util.js';
+import { t } from '../i18n.js';
 
 let onNavigate = null;
 let seen = null;      // görünen başlıkları okundu sayan kaydırma dinleyicisi
@@ -98,9 +99,9 @@ function watchRead() {
 
   let last = 0;
   seen = () => {
-    const t = performance.now();
-    if (t - last < 100) return;   // kaydırma sırasında saniyede en çok 10 ölçüm
-    last = t;
+    const now = performance.now();
+    if (now - last < 100) return;   // kaydırma sırasında saniyede en çok 10 ölçüm
+    last = now;
     check();
   };
   el.body.addEventListener('scroll', seen, { passive: true });
@@ -114,7 +115,7 @@ function stopWatch() {
 
 /** Kategorinin bütün gündemini tek sayfada açar. */
 export function openCategory(categoryId) {
-  const label = CATEGORY_LABEL[categoryId] || 'Gündem';
+  const label = categoryLabel(categoryId);
 
   // Ana ekranla aynı süzgeçlerden geçmiş liste — kart üstündeki sayı ile burada
   // görünen başlık sayısı hep aynı olsun diye.
@@ -122,18 +123,19 @@ export function openCategory(categoryId) {
   const older = olderStories(categoryId);
 
   el.panel.style.setProperty('--tone', toneOf(categoryId));
-  el.kicker.textContent = label.toUpperCase();
-  el.title.textContent = `${label} Gündemi`;
-  const days = new Set(current.map(s => s.date));
+  el.kicker.textContent = label.toLocaleUpperCase();
+  el.title.textContent = t('cat.pageTitle', { label });
+  const dayCount = new Set(current.map(s => s.date)).size;
+  const count = current.length === 1 ? t('cat.headlinesOne') : t('cat.headlines', { n: current.length });
   el.sub.textContent = current.length
-    ? `${current.length} başlık · ${days.size === 1 ? formatDay(current[0].date) : `${days.size} gün`}`
-    : 'Bu aralıkta başlık yok';
+    ? `${count} · ${dayCount === 1 ? formatDay(current[0].date) : t('cat.days', { n: dayCount })}`
+    : t('cat.emptyTitle');
 
   el.body.innerHTML = (current.length
     ? current.map((s, i) => storyPage(s, i + 1)).join('')
     : `<div class="empty" style="margin:20px 0"><div class="em-ico">◍</div>
-         <h3>Bu aralıkta başlık yok</h3>
-         <p>Üstteki gün aralığını genişlet ya da yeni bir gündem yayınlat.</p></div>`
+         <h3>${t('cat.emptyTitle')}</h3>
+         <p>${t('cat.emptyText')}</p></div>`
   ) + relatedHtml(older, label);
 
   el.root.hidden = false;
@@ -166,12 +168,13 @@ function rangeStart() {
 function actionHtml(s) {
   if (s.url) {
     return `<a class="ss-link" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer"
-               data-story-link="${esc(s.key)}">${esc(s.source || 'Kaynak')} sayfasına git ↗</a>`;
+               data-story-link="${esc(s.key)}">${
+      esc(t('cat.sourceLink', { source: s.source || t('cat.sourceFallback') }))}</a>`;
   }
   if (s.articleId && get(s.articleId)) {
-    const what = s.isDocument ? 'Haberin tamamını aç' : 'Özetin tamamını aç';
+    const what = s.isDocument ? t('cat.openFull') : t('cat.openSummary');
     return `<button class="ss-link ss-link-btn" data-open-doc="${esc(s.articleId)}"
-                    data-story-key="${esc(s.key)}">${what} ↗</button>`;
+                    data-story-key="${esc(s.key)}">${esc(what)}</button>`;
   }
   return s.source ? `<span class="ss-src">${esc(s.source)}</span>` : '';
 }
@@ -189,10 +192,10 @@ function storyPage(s, rank) {
 
   const stamp = [s.source, rel || formatDay(s.date), time].filter(Boolean).join(' · ');
   const fetchedBadge = s.fetchedAt ? `
-    <span class="ss-fetched" title="Ollama bu haberi ${esc(s.fetchedAt)}'de işleyip yayınladı">
+    <span class="ss-fetched" title="${esc(t('cat.updatedTip', { t: s.fetchedAt }))}">
       <svg class="ss-fetched-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
            stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 2.6-6.4M3 4v5h5"/></svg>
-      ${esc(s.fetchedAt)}’de güncellendi
+      ${esc(t('cat.updatedAt', { t: s.fetchedAt }))}
     </span>` : '';
 
   return `
@@ -204,7 +207,7 @@ function storyPage(s, rank) {
         <div class="ss-stamp">${esc(stamp)}${fetchedBadge}</div>
       </div>
       <button class="ss-star ${isStoryStarred(s.key) ? 'on' : ''}"
-              data-story-star="${esc(s.key)}" aria-label="Yıldızla">
+              data-story-star="${esc(s.key)}" aria-label="${t('a11y.star')}">
         <svg viewBox="0 0 24 24"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
       </button>
     </div>
@@ -218,8 +221,8 @@ function relatedHtml(older, label) {
   if (!older.length) return '';
   return `
   <section class="sheet-related">
-    <h4>İlgili diğer başlıklar</h4>
-    <p class="sr-note">${esc(label)} kategorisinden daha önceki gündemler</p>
+    <h4>${t('cat.related')}</h4>
+    <p class="sr-note">${esc(t('cat.relatedNote', { label }))}</p>
     <ul>
       ${older.map(s => {
         const text = esc(s.title || s.summary || '');
