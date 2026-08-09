@@ -32,7 +32,7 @@ ABD piyasa haberlerinin hepsi tek çatı altında `markets`'e gider (eskiden
   hata da vermez). Bir kaynaktan (ör. bir "günün haberleri" derlemesi) birden
   fazla gerçek gelişme çıkarıyorsan bunları ayrı story yapma — **tek bir
   haberde `points` listesiyle birleştir.**
-- Kategori başına **0-3 haber yeterlidir** — zorlama yok, o kategoride gerçekten
+- Kategori başına **0-4 haber yeterlidir** — zorlama yok, o kategoride gerçekten
   önemli/yeni gelişme yoksa az sayıda ya da hiç haber eklemeden geç. Doldurmak
   için önemsiz/tekrar haber ekleme.
 - Her haber: `title` (kısa, Türkçe, tıklama tuzağı yok), `summary` (1-2 cümle),
