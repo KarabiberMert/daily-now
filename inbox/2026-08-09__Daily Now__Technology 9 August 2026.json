@@ -1,0 +1,71 @@
+{
+  "title": {
+    "en": "Technology — 9 August 2026",
+    "es": "Tecnología — 9 de agosto de 2026",
+    "tr": "Teknoloji — 9 Ağustos 2026"
+  },
+  "category": "tech",
+  "date": "2026-08-09",
+  "source": "Daily Now",
+  "stories": [
+    {
+      "title": {
+        "en": "Washington takes equity stakes in seven chip R&D companies",
+        "es": "Washington toma participaciones en siete empresas de I+D de chips",
+        "tr": "Washington yedi çip Ar-Ge şirketinde hisse alıyor"
+      },
+      "summary": {
+        "en": "The Commerce Department signed letters of intent worth 874 million dollars.",
+        "es": "El Departamento de Comercio firmó cartas de intención por 874 millones de dólares.",
+        "tr": "Ticaret Bakanlığı 874 milyon dolarlık niyet mektupları imzaladı."
+      },
+      "detail": {
+        "en": "The Commerce Department's CHIPS Research and Development Office has signed letters of intent with seven companies for a combined 874 million dollars in federal funding aimed at the compute supply chain. The structure is what makes it notable: the money comes in exchange for minority equity stakes, rather than as straightforward grants. That marks a further step away from the original subsidy model towards the government holding direct positions in the firms it backs. The programme targets research and development for the chips underpinning artificial intelligence workloads.",
+        "es": "La Oficina de Investigación y Desarrollo de CHIPS del Departamento de Comercio ha firmado cartas de intención con siete empresas por un total de 874 millones de dólares en financiación federal destinada a la cadena de suministro de computación. Lo llamativo es la estructura: el dinero llega a cambio de participaciones minoritarias, y no como subvenciones directas. Es un paso más para alejarse del modelo original de subsidios y acercarse a un gobierno que mantiene posiciones directas en las empresas que respalda. El programa se centra en la investigación y el desarrollo de los chips que sostienen las cargas de trabajo de inteligencia artificial.",
+        "tr": "Ticaret Bakanlığı'na bağlı CHIPS Araştırma ve Geliştirme Ofisi, hesaplama tedarik zincirine yönelik toplam 874 milyon dolarlık federal fon için yedi şirketle niyet mektubu imzaladı. Dikkat çekici olan yapının kendisi: para doğrudan hibe olarak değil, azınlık hissesi karşılığında veriliyor. Bu, özgün teşvik modelinden uzaklaşıp devletin desteklediği şirketlerde doğrudan pay sahibi olmasına doğru atılmış bir adım daha. Program, yapay zekâ iş yüklerinin dayandığı çiplerin araştırma ve geliştirmesini hedefliyor."
+      },
+      "source": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2026/07/department-commerce-announces-letters-intent-7-companies-874-million"
+    },
+    {
+      "title": {
+        "en": "Tesla and SpaceX detail a 16.8 billion dollar Texas chip complex",
+        "es": "Tesla y SpaceX detallan un complejo de chips de 16.800 millones en Texas",
+        "tr": "Tesla ve SpaceX, Teksas'taki 16,8 milyar dolarlık çip tesisini anlattı"
+      },
+      "summary": {
+        "en": "The Terafab project would cover 100 million square feet and employ at least 3,000 people.",
+        "es": "El proyecto Terafab ocuparía 9,3 millones de metros cuadrados y emplearía al menos a 3.000 personas.",
+        "tr": "Terafab projesi 100 milyon fit kare alan kaplayacak ve en az 3.000 kişi çalıştıracak."
+      },
+      "detail": {
+        "en": "SpaceX and Tesla have put numbers to Terafab, their planned semiconductor site in Grimes County, Texas, describing a 16.8 billion dollar initial phase within a complex eventually covering 100 million square feet. The companies say the site would employ at least 3,000 people and handle manufacturing, packaging and testing in one place. The chips are intended for Tesla vehicles and robots and for SpaceX compute systems, making this an unusually vertical bet for two firms that have so far bought their silicon. Building capacity at that scale is a multi-year commitment, and the initial phase figure covers only the first stage.",
+        "es": "SpaceX y Tesla han puesto cifras a Terafab, su planta de semiconductores prevista en el condado de Grimes, Texas, con una fase inicial de 16.800 millones de dólares dentro de un complejo que llegaría a 9,3 millones de metros cuadrados. Las empresas afirman que el emplazamiento daría trabajo a al menos 3.000 personas y reuniría fabricación, encapsulado y pruebas en un mismo lugar. Los chips se destinan a los vehículos y robots de Tesla y a los sistemas de computación de SpaceX, lo que convierte esto en una apuesta vertical poco habitual para dos compañías que hasta ahora compraban su silicio. Levantar capacidad a esa escala es un compromiso de varios años y la cifra de la fase inicial cubre solo la primera etapa.",
+        "tr": "SpaceX ve Tesla, Teksas'ın Grimes ilçesinde planladıkları yarı iletken tesisi Terafab için rakam verdi: nihayetinde 100 milyon fit kareye ulaşacak bir kompleks içinde 16,8 milyar dolarlık bir ilk aşama. Şirketlere göre tesis en az 3.000 kişiye iş verecek ve üretim, paketleme ile testi tek bir yerde toplayacak. Üretilecek çipler Tesla araçları ve robotları ile SpaceX'in hesaplama sistemleri için düşünülüyor; bu da şimdiye dek çipini satın alan iki şirket için alışılmadık ölçüde dikey bir bahis anlamına geliyor. Bu ölçekte kapasite kurmak yıllara yayılan bir taahhüt ve açıklanan rakam yalnızca ilk aşamayı kapsıyor."
+      },
+      "points": {
+        "en": [
+          "Initial phase: 16.8 billion dollars",
+          "At least 3,000 jobs planned",
+          "Sandisk and SK hynix released the High Bandwidth Flash spec the same week",
+          "Kioxia and Sandisk showed 10th-generation QLC flash above 37 Gb/mm2"
+        ],
+        "es": [
+          "Fase inicial: 16.800 millones de dólares",
+          "Al menos 3.000 empleos previstos",
+          "Sandisk y SK hynix publicaron la especificación High Bandwidth Flash esa misma semana",
+          "Kioxia y Sandisk mostraron flash QLC de 10ª generación por encima de 37 Gb/mm2"
+        ],
+        "tr": [
+          "İlk aşama: 16,8 milyar dolar",
+          "En az 3.000 istihdam planlanıyor",
+          "Sandisk ve SK hynix aynı hafta High Bandwidth Flash şartnamesini yayımladı",
+          "Kioxia ve Sandisk 37 Gb/mm2 üzerinde 10. nesil QLC flash tanıttı"
+        ]
+      },
+      "source": "Semiconductor Engineering",
+      "url": "https://semiengineering.com/chip-industry-week-in-review-150/"
+    }
+  ],
+  "author": "Daily Now"
+}

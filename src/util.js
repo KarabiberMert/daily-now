@@ -24,8 +24,6 @@ export function formatDay(key) {
   const l = lang();
   if (l === 'tr') return `${d} ${month} ${y}, ${day}`;
   if (l === 'es') return `${d} de ${month} de ${y}, ${day}`;
-  if (l === 'de') return `${d}. ${month} ${y}, ${day}`;
-  if (l === 'fr') return `${d} ${month} ${y}, ${day}`;
   return `${month} ${d}, ${y}, ${day}`;
 }
 
@@ -34,9 +32,8 @@ export function formatDayShort(key) {
   const [, m, d] = key.split('-').map(Number);
   const month = months()[m - 1];
   const l = lang();
-  if (l === 'tr' || l === 'fr') return `${d} ${month}`;
+  if (l === 'tr') return `${d} ${month}`;
   if (l === 'es') return `${d} de ${month}`;
-  if (l === 'de') return `${d}. ${month}`;
   return `${month} ${d}`;
 }
 
@@ -44,8 +41,6 @@ const RELATIVE = {
   en: { today: 'Today', yesterday: 'Yesterday', ago: n => `${n} days ago`, ahead: 'Upcoming' },
   es: { today: 'Hoy',   yesterday: 'Ayer',      ago: n => `hace ${n} días`, ahead: 'Próximamente' },
   tr: { today: 'Bugün', yesterday: 'Dün',       ago: n => `${n} gün önce`,  ahead: 'İleri tarihli' },
-  de: { today: 'Heute', yesterday: 'Gestern',   ago: n => `vor ${n} Tagen`, ahead: 'Zukünftig' },
-  fr: { today: 'Aujourd’hui', yesterday: 'Hier', ago: n => `il y a ${n} jours`, ahead: 'À venir' },
 };
 
 export function relativeDay(key) {
@@ -102,8 +97,9 @@ export function fold(s) {
   return lower(allText(s))
     .replace(/ı/g, 'i').replace(/ğ/g, 'g').replace(/ü/g, 'u')
     .replace(/ş/g, 's').replace(/ö/g, 'o').replace(/ç/g, 'c')
-    // Ispanyolca/Fransizca/Almanca aksanlar: "economía", "économie" ve
-    // "Börse" aramada aksansiz yazimlariyla da bulunsun.
+    // Aksanli yazimlar aksansiz aramayla da bulunsun: "economía" -> "economia".
+    // Liste Ispanyolca disina da taşiyor — Ingilizce metinde gecen ozel adlar
+    // ("Zürich", "Malmö") icin de calissin diye.
     .replace(/á|à|â|ä|ã|å/g, 'a').replace(/é|è|ê|ë/g, 'e')
     .replace(/í|ì|î|ï/g, 'i').replace(/ó|ò|ô|õ/g, 'o')
     .replace(/ú|ù|û/g, 'u').replace(/ñ/g, 'n').replace(/ÿ/g, 'y')

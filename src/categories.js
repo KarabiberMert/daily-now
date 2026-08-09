@@ -14,20 +14,13 @@ export const OTHER = 'other';
 
 /* Sira = Akis ekranindaki kart sirasi. */
 export const CATEGORIES = [
-  { id: 'world',     label: { en: 'World',      es: 'Mundo',            tr: 'Dünya',
-                              de: 'Welt',       fr: 'Monde' } },
-  { id: 'economy',   label: { en: 'Economy',    es: 'Economía',         tr: 'Ekonomi',
-                              de: 'Wirtschaft', fr: 'Économie' } },
-  { id: 'usmarkets', label: { en: 'US Markets', es: 'Bolsa de EE. UU.', tr: 'ABD Borsası',
-                              de: 'US-Börse',   fr: 'Bourse américaine' } },
-  { id: 'tech',      label: { en: 'Technology', es: 'Tecnología',       tr: 'Teknoloji',
-                              de: 'Technologie', fr: 'Technologie' } },
-  { id: 'health',    label: { en: 'Health',     es: 'Salud',            tr: 'Sağlık',
-                              de: 'Gesundheit', fr: 'Santé' } },
-  { id: 'sports',    label: { en: 'Sports',     es: 'Deportes',         tr: 'Spor',
-                              de: 'Sport',      fr: 'Sport' } },
-  { id: OTHER,       label: { en: 'Other',      es: 'Otros',            tr: 'Diğer',
-                              de: 'Sonstiges',  fr: 'Autres' } },
+  { id: 'world',     label: { en: 'World',      es: 'Mundo',            tr: 'Dünya' } },
+  { id: 'economy',   label: { en: 'Economy',    es: 'Economía',         tr: 'Ekonomi' } },
+  { id: 'usmarkets', label: { en: 'US Markets', es: 'Bolsa de EE. UU.', tr: 'ABD Borsası' } },
+  { id: 'tech',      label: { en: 'Technology', es: 'Tecnología',       tr: 'Teknoloji' } },
+  { id: 'health',    label: { en: 'Health',     es: 'Salud',            tr: 'Sağlık' } },
+  { id: 'sports',    label: { en: 'Sports',     es: 'Deportes',         tr: 'Spor' } },
+  { id: OTHER,       label: { en: 'Other',      es: 'Otros',            tr: 'Diğer' } },
 ];
 
 export const CATEGORY_IDS = CATEGORIES.map(c => c.id);
@@ -44,22 +37,19 @@ export function categoryLabel(id) {
 const ALIASES = {
   world:     ['dunya', 'world', 'mundo', 'global', 'international', 'internacional',
               'foreign', 'diplomacy', 'diplomacia', 'uluslararasi', 'dis haberler',
-              'diplomasi', 'gundem', 'turkey', 'turkiye', 'welt', 'monde', 'ausland'],
+              'diplomasi', 'gundem', 'turkey', 'turkiye'],
   economy:   ['ekonomi', 'economy', 'economia', 'economics', 'macro', 'finance',
-              'finanzas', 'business', 'negocios', 'trade', 'is dunyasi',
-              'wirtschaft', 'economie', 'konjunktur'],
+              'finanzas', 'business', 'negocios', 'trade', 'is dunyasi'],
   // Eski surumlerdeki "markets" / "trmarkets" degerleri de ABD borsasina dussun.
   usmarkets: ['us markets', 'usmarkets', 'abd borsa', 'abd borsasi', 'wall street',
               'stocks', 'stock market', 'equities', 'markets', 'borsa', 'piyasalar',
               'piyasa', 'trmarkets', 'bolsa', 'bolsa de ee. uu.', 'mercados',
-              'acciones', 'us-borse', 'borse', 'aktien', 'bourse', 'bourse americaine',
-              'actions'],
+              'acciones'],
   tech:      ['teknoloji', 'tech', 'technology', 'tecnologia', 'software', 'yazilim',
-              'dijital', 'digital', 'technologie', 'technik'],
-  health:    ['saglik', 'health', 'salud', 'medicine', 'medicina', 'medical', 'tip',
-              'gesundheit', 'sante', 'medizin'],
+              'dijital', 'digital'],
+  health:    ['saglik', 'health', 'salud', 'medicine', 'medicina', 'medical', 'tip'],
   sports:    ['spor', 'sport', 'sports', 'deportes', 'deporte', 'football', 'soccer',
-              'futbol', 'fussball'],
+              'futbol'],
 };
 
 /* Agirlikli anahtar kelimeler. Hepsi fold() edilmis bicimde yazili:
