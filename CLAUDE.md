@@ -84,8 +84,15 @@ Kategori başına bir JSON dosyası yaz, sonra:
 python3 tools/publish_news.py <dosya.json>
 ```
 
-Tüm kategoriler bitince: `git add -A`, `git commit`, `git push` — bunlar olmadan
-değişiklik `daily-now.com`'a yansımaz.
+**Site `main` dalından yayınlanıyor** (Cloudflare Pages). Haberler doğrudan `main`'e
+işlenir; başka bir dala push edilirse `daily-now.com` güncellenmez:
+
+```bash
+git checkout main && git pull origin main
+# bir önceki günün haber dosyalarını inbox/ içinden sil (index.json kalsın)
+python3 tools/publish_news.py <dosya.json>   # her kategori için
+git add -A && git commit && git push origin main
+```
 
 Alan biçimi ve örnek JSON için `tools/publish_news.py` başındaki docstring'e veya
 proje kökü dışındaki `haber-yayinla` skill'ine bak.

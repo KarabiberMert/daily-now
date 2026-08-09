@@ -10,13 +10,17 @@ Uygulama bu boru hattının okuyucu ucu.
 Sıfır-build statik site: düz ES modülleri, bundler yok, `package.json` yok.
 
 ```
-Cowork/bulut rutini
+Bulut rutini (her sabah 07:00 İstanbul)
   → tools/publish_news.py <dosya.json>   (haberi yazar)
   → inbox/index.json'ı otomatik yeniden üretir
-  → git commit + push
+  → git commit + push  →  main dalı
   → Cloudflare Pages otomatik yeniden yayınlar
   → daily-now.com güncellenir
 ```
+
+> **Yayın dalı `main`.** Cloudflare Pages üretim dalı olarak `main`'i izliyor
+> (bağlantı Cloudflare panelinde tanımlı, repoda deploy dosyası yok). Başka bir
+> dala push edilen değişiklik siteye yansımaz — birleştirilene kadar görünmez.
 
 - **`inbox/`** — her kayıt bir JSON (bazılarında eşleşen PDF). `index.json` bu klasörün
   statik indeksi, `publish_news.py` her yayından sonra kendisi yazıyor. Uygulama
