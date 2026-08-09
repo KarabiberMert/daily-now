@@ -8,8 +8,8 @@ import { bindCards } from './cards.js';
 import { renderFeed, unreadStoryCount } from './views/feed.js';
 import { initCategorySheet, openCategory, isOpen as sheetOpen } from './views/category.js';
 import { renderSearch } from './views/search.js';
-import { $, $$, esc, debounce, toast } from './util.js';
-import { t, lang, setLang, LANGS, onLangChange, months, days } from './i18n.js';
+import { $, $$, esc, debounce, toast, dayKey, formatDayShort } from './util.js';
+import { t, lang, setLang, LANGS, onLangChange, days } from './i18n.js';
 
 const VIEWS = ['feed', 'search'];
 const body = {
@@ -78,10 +78,9 @@ function render() {
 }
 
 function renderChrome() {
+  // formatDayShort her dilin kendi sozdizimini biliyor ("9. August", "9 août").
   const now = new Date();
-  $('#brandDate').textContent = lang() === 'tr'
-    ? `${now.getDate()} ${months()[now.getMonth()]} ${days()[now.getDay()]}`
-    : `${months()[now.getMonth()]} ${now.getDate()} · ${days()[now.getDay()]}`;
+  $('#brandDate').textContent = `${formatDayShort(dayKey(now))} · ${days()[now.getDay()]}`;
 
   const n = unreadStoryCount();
   const badge = $('#badgeUnread');

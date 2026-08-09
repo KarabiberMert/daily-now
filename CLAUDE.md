@@ -5,19 +5,20 @@ rutini dahil) tarafından otomatik yüklenir. Amaç: kota/token tüketimini dü�
 
 ## Haber yayınlama görevi
 
-Uygulama **varsayılan olarak İngilizce** açılır; sağ üstteki **EN / ES / TR** seçicisi
-İspanyolca ve Türkçe'ye geçirir. Bu yüzden her haber **üç dilli** yazılır (aşağıya bak).
+Uygulama **varsayılan olarak İngilizce** açılır; sağ üstteki **EN / ES / TR / DE / FR**
+seçicisi İspanyolca, Türkçe, Almanca ve Fransızca'ya geçirir. Bu yüzden her haber
+**beş dilli** yazılır (aşağıya bak).
 
 Kategoriler — yalnızca bu altısı geçerlidir, `publish_news.py` başkasını reddeder:
 
-| id | Ekranda (EN / ES / TR) | Kapsam |
+| id | Ekranda (EN / ES / TR / DE / FR) | Kapsam |
 |---|---|---|
-| `world` | World / Mundo / Dünya | Dünya gündemi, diplomasi, çatışmalar, seçimler, iklim |
-| `economy` | Economy / Economía / Ekonomi | Makro ekonomi: enflasyon, merkez bankaları, büyüme, ticaret, istihdam, enerji fiyatları |
-| `usmarkets` | US Markets / Bolsa de EE. UU. / ABD Borsası | ABD borsası: Wall Street, Nasdaq, S&P 500, Dow, Fed, bilançolar, halka arzlar |
-| `tech` | Technology / Tecnología / Teknoloji | Teknoloji, yapay zeka, yarı iletken, uzay, siber güvenlik |
-| `health` | Health / Salud / Sağlık | Sağlık, tıp, ilaç, salgın, halk sağlığı |
-| `sports` | Sports / Deportes / Spor | Spor |
+| `world` | World / Mundo / Dünya / Welt / Monde | Dünya gündemi, diplomasi, çatışmalar, seçimler, iklim |
+| `economy` | Economy / Economía / Ekonomi / Wirtschaft / Économie | Makro ekonomi: enflasyon, merkez bankaları, büyüme, ticaret, istihdam, enerji fiyatları |
+| `usmarkets` | US Markets / Bolsa de EE. UU. / ABD Borsası / US-Börse / Bourse américaine | ABD borsası: Wall Street, Nasdaq, S&P 500, Dow, Fed, bilançolar, halka arzlar |
+| `tech` | Technology / Tecnología / Teknoloji / Technologie / Technologie | Teknoloji, yapay zeka, yarı iletken, uzay, siber güvenlik |
+| `health` | Health / Salud / Sağlık / Gesundheit / Santé | Sağlık, tıp, ilaç, salgın, halk sağlığı |
+| `sports` | Sports / Deportes / Spor / Sport / Sport | Spor |
 
 `economy` makro ekonomi içindir, `usmarkets` özel olarak ABD hisse piyasasıdır — Fed
 faiz kararının piyasa yansıması `usmarkets`'e, enflasyon/büyüme verisi `economy`'ye gider.
@@ -31,32 +32,34 @@ Türkiye'ye özel bir kategori yok; Türkiye haberi gerçekten küresel öneme s
 - **WebFetch: sadece gerekirse.** Arama sonucundaki snippet zaten `summary`/`detail`
   yazmaya yetiyorsa sayfayı çekme. Rakam/detay eksikse ya da snippet yetersizse kullan.
 - Aynı konuyu doğrulamak için tekrar arama yapma — ilk yeterli sonuçla devam et.
-- **Çeviri için ayrı arama/fetch yapma.** İspanyolca ve Türkçe karşılıkları kendin
-  yaz; ek tur atma. Üçüncü dil ek arama değil, yalnızca biraz daha metin demektir.
+- **Çeviri için ayrı arama/fetch yapma.** Dört çeviriyi de kendin yaz; ek tur atma.
+  Diller ek arama değil, yalnızca daha uzun çıktı demektir.
 - **Kategoriler arasında uzun anlatım yazma.** Bir kategoriyi yayınladıktan sonra
   tek satır "X: N haber yayınlandı" de ve doğrudan sıradaki kategoriye geç.
 - **Önceki kategoriye geri dönüp özetleme/tekrar okuma yapma.** Context'i büyütme.
 
-### Üç dillilik — zorunlu
+### Beş dillilik — zorunlu
 
-Metin alanları `{ "en": "…", "es": "…", "tr": "…" }` biçiminde yazılır:
+Metin alanları `{ "en": …, "es": …, "tr": …, "de": …, "fr": … }` biçiminde yazılır:
 
 ```json
 "title":   { "en": "Fed holds rates steady",
              "es": "La Fed mantiene los tipos sin cambios",
-             "tr": "Fed faizi sabit tuttu" },
-"summary": { "en": "…", "es": "…", "tr": "…" },
-"detail":  { "en": "…", "es": "…", "tr": "…" },
-"points":  { "en": ["…", "…"], "es": ["…", "…"], "tr": ["…", "…"] }
+             "tr": "Fed faizi sabit tuttu",
+             "de": "Fed lässt die Zinsen unverändert",
+             "fr": "La Fed maintient ses taux inchangés" },
+"summary": { "en": "…", "es": "…", "tr": "…", "de": "…", "fr": "…" },
+"detail":  { "en": "…", "es": "…", "tr": "…", "de": "…", "fr": "…" },
+"points":  { "en": ["…"], "es": ["…"], "tr": ["…"], "de": ["…"], "fr": ["…"] }
 ```
 
-- **İngilizce asıl metindir** — yazılmazsa yayın reddedilir. İspanyolca/Türkçe
+- **İngilizce asıl metindir** — yazılmazsa yayın reddedilir. Diğer diller
   eksikse uyarı verilir ve o dil seçildiğinde İngilizcesi görünür; bunu
-  istemiyoruz, hep üçünü birden yaz.
+  istemiyoruz, hep beşini birden yaz.
 - Çeviriler **birebir kelime çevirisi değil**, akıcı olsun; İngilizce metinle aynı
   bilgiyi versin, kısaltma.
 - `url`, `source`, `time` çevrilmez — düz metin kalır.
-- Çeviri gerektirmeyen bir alanı düz metin olarak da yazabilirsin; o zaman üç dilde
+- Çeviri gerektirmeyen bir alanı düz metin olarak da yazabilirsin; o zaman beş dilde
   de aynı görünür.
 
 ### Haber seçimi ve yazım
@@ -94,15 +97,17 @@ proje kökü dışındaki `haber-yayinla` skill'ine bak.
 
 - `src/i18n.js` — arayüz metinleri (`t()`), dil seçimi (`lang()`/`setLang()`) ve
   çok dilli içerik alanlarını çözen `pick()`/`field()`. Yeni bir arayüz metni
-  eklerken sözlüğe **`en`, `es` ve `tr` üçünü birden** yaz. Dil eklemek için
-  `LANGS`, `MONTHS`, `DAYS`, `LOCALES` girdilerini tamamlamak yeterli.
+  eklerken sözlüğe **beş dili birden** yaz. Yeni dil eklemek için `LANGS`, `MONTHS`,
+  `DAYS`, `LOCALES` girdilerini ve sözlüğü tamamlamak, `util.js`'te tarih
+  sözdizimini eklemek yeterli.
 - `index.html`'deki sabit metinler `data-i18n` / `data-i18n-placeholder` /
   `data-i18n-title` / `data-i18n-aria` öznitelikleriyle işaretlenir; `app.js`
   içindeki `applyStaticI18n()` bunları dolduruyor.
 - Dil seçimi `localStorage`'da (`dn-lang`) tutulur, varsayılan `en`.
-- Arama üç dili birden tarar (`util.js` içindeki `allText()`), yani İngilizce
-  arayüzdeyken İspanyolca ya da Türkçe çeviride geçen bir kelimeyle de sonuç bulunur.
-  `fold()` hem Türkçe hem İspanyolca aksanları sadeleştirir.
+- Arama beş dili birden tarar (`util.js` içindeki `allText()`), yani İngilizce
+  arayüzdeyken Almanca ya da Fransızca çeviride geçen bir kelimeyle de sonuç bulunur.
+  `fold()` Türkçe, İspanyolca, Fransızca ve Almanca aksanları sadeleştirir
+  (`ß`→`ss`, `œ`→`oe` dahil).
 - **İstatistik görünümü kaldırıldı** — uygulamada Akış ve Arama var, başka sekme yok.
 - **Tek kolonlu düzen**: kenar çubuğu, mobil alt gezinme ve karartma katmanı yok.
   Marka/arama/dil/tema üst barda; `#brandHome` akışa dönüş düğmesi.

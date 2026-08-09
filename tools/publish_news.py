@@ -11,13 +11,16 @@ UYGULAMA ICINDE, yerinde acilir (detail + points gorunur); kaynak sayfasina
 gitmek isterse acilan panelde duran baglantiya basar.
 
 DIL — uygulama varsayilan olarak INGILIZCE acilir, sag ustteki secici
-Ispanyolca ve Turkce'ye gecirir. Bu yuzden her metin alani UC DILLI yazilir:
+Ispanyolca, Turkce, Almanca ve Fransizca'ya gecirir. Bu yuzden her metin
+alani BES DILLI yazilir:
 
     "title": { "en": "English headline",
                "es": "Titular en español",
-               "tr": "Türkçe başlık" }
+               "tr": "Türkçe başlık",
+               "de": "Deutsche Schlagzeile",
+               "fr": "Titre en français" }
 
-Ceviri yazilmazsa (duz metin verilirse) o alan her uc dilde de ayni gorunur.
+Ceviri yazilmazsa (duz metin verilirse) o alan bes dilde de ayni gorunur.
 Ceviri gerektirmeyen alanlar (url, time, source) duz metin kalir.
 
 Kategoriler (yalnizca bunlar gecerli):
@@ -34,7 +37,9 @@ Onerilen bicim — kategori basina bir dosya:
     {
       "title":    { "en": "World — 9 August 2026",
                     "es": "Mundo — 9 de agosto de 2026",
-                    "tr": "Dünya — 9 Ağustos 2026" },
+                    "tr": "Dünya — 9 Ağustos 2026",
+                    "de": "Welt — 9. August 2026",
+                    "fr": "Monde — 9 août 2026" },
       "category": "world",
       "date":     "2026-08-09",
       "source":   "Daily Now",
@@ -42,16 +47,24 @@ Onerilen bicim — kategori basina bir dosya:
         {
           "title":   { "en": "Short, clear headline",
                        "es": "Titular breve y claro",
-                       "tr": "Kısa, net Türkçe başlık" },
+                       "tr": "Kısa, net Türkçe başlık",
+                       "de": "Kurze, klare Schlagzeile",
+                       "fr": "Titre court et clair" },
           "summary": { "en": "The 1-2 sentence summary shown in the list.",
                        "es": "El resumen de 1-2 frases que se ve en la lista.",
-                       "tr": "Listede görünen 1-2 cümlelik özet." },
+                       "tr": "Listede görünen 1-2 cümlelik özet.",
+                       "de": "Die 1-2 Sätze lange Zusammenfassung in der Liste.",
+                       "fr": "Le résumé d'1-2 phrases affiché dans la liste." },
           "detail":  { "en": "The 4-6 sentence story shown when the row is opened.",
                        "es": "El relato de 4-6 frases que se abre al pulsar la fila.",
-                       "tr": "Tıklayınca açılan 4-6 cümlelik anlatı." },
+                       "tr": "Tıklayınca açılan 4-6 cümlelik anlatı.",
+                       "de": "Der 4-6 Sätze lange Text, der beim Öffnen erscheint.",
+                       "fr": "Le récit de 4-6 phrases affiché à l'ouverture." },
           "points":  { "en": ["optional bullet", "another one"],
                        "es": ["punto opcional", "otro más"],
-                       "tr": ["isteğe bağlı madde", "bir tane daha"] },
+                       "tr": ["isteğe bağlı madde", "bir tane daha"],
+                       "de": ["optionaler Punkt", "noch einer"],
+                       "fr": ["point facultatif", "un autre"] },
           "source":  "Reuters",
           "url":     "https://…",
           "time":    "07:30"
@@ -60,11 +73,11 @@ Onerilen bicim — kategori basina bir dosya:
     }
 
 Story alanlari:
-  title    zorunlu sayilir            (uc dilli)
-  summary  listede gorunur — kisa tut (uc dilli)
+  title    zorunlu sayilir            (bes dilli)
+  summary  listede gorunur — kisa tut (bes dilli)
   detail   yerinde acilan asil ozet. YAZILMAZSA satir acilmaz, tiklama
-           dogrudan url'e gider; o yuzden her zaman yaz.   (uc dilli)
-  points   istege bagli madde listesi (uc dilli)
+           dogrudan url'e gider; o yuzden her zaman yaz.   (bes dilli)
+  points   istege bagli madde listesi (bes dilli)
   url      "kaynak sayfasina git" baglantisi — ZORUNLU, benzersiz olmali
   source   haber kaynagi (Reuters, AP…)  — cevrilmez
   time     biliniyorsa yayin saati       — cevrilmez
@@ -88,7 +101,7 @@ from inbox_index import write_index  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-LANGS = ('en', 'es', 'tr')
+LANGS = ('en', 'es', 'tr', 'de', 'fr')
 PRIMARY = 'en'
 
 CATEGORIES = ('world', 'economy', 'usmarkets', 'tech', 'health', 'sports')

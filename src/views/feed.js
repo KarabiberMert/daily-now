@@ -42,6 +42,11 @@ export function unreadStoryCount() {
     .filter(s => !isStoryRead(s.key)).length;
 }
 
+/** "1 okunmadi" ile "{n} okunmadi" arasindaki tekil/cogul farki. */
+export function unreadLabel(n) {
+  return n === 1 ? t('unread.one') : t('feed.unreadN', { n });
+}
+
 export function renderFeed(root) {
   const f = state.filters;
   const list = visibleStories();
@@ -60,7 +65,7 @@ export function renderFeed(root) {
   const stamp = f.range === 'today' ? `${formatDay(dayKey())} · ` : '';
   const count = list.length === 1 ? t('feed.countOne') : t('feed.count', { n: list.length });
   const status = list.length
-    ? `${stamp}${count} · ${unread ? t('feed.unreadN', { n: unread }) : t('feed.allRead')}`
+    ? `${stamp}${count} · ${unread ? unreadLabel(unread) : t('feed.allRead')}`
     : `${stamp}${t('feed.none')}`;
   const lastUpdate = list.reduce((latest, s) => {
     const v = s.fetchedAt || s.time || '';

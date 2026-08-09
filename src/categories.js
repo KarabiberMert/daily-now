@@ -14,13 +14,20 @@ export const OTHER = 'other';
 
 /* Sira = Akis ekranindaki kart sirasi. */
 export const CATEGORIES = [
-  { id: 'world',     label: { en: 'World',      es: 'Mundo',            tr: 'Dünya' } },
-  { id: 'economy',   label: { en: 'Economy',    es: 'Economía',         tr: 'Ekonomi' } },
-  { id: 'usmarkets', label: { en: 'US Markets', es: 'Bolsa de EE. UU.', tr: 'ABD Borsası' } },
-  { id: 'tech',      label: { en: 'Technology', es: 'Tecnología',       tr: 'Teknoloji' } },
-  { id: 'health',    label: { en: 'Health',     es: 'Salud',            tr: 'Sağlık' } },
-  { id: 'sports',    label: { en: 'Sports',     es: 'Deportes',         tr: 'Spor' } },
-  { id: OTHER,       label: { en: 'Other',      es: 'Otros',            tr: 'Diğer' } },
+  { id: 'world',     label: { en: 'World',      es: 'Mundo',            tr: 'Dünya',
+                              de: 'Welt',       fr: 'Monde' } },
+  { id: 'economy',   label: { en: 'Economy',    es: 'Economía',         tr: 'Ekonomi',
+                              de: 'Wirtschaft', fr: 'Économie' } },
+  { id: 'usmarkets', label: { en: 'US Markets', es: 'Bolsa de EE. UU.', tr: 'ABD Borsası',
+                              de: 'US-Börse',   fr: 'Bourse américaine' } },
+  { id: 'tech',      label: { en: 'Technology', es: 'Tecnología',       tr: 'Teknoloji',
+                              de: 'Technologie', fr: 'Technologie' } },
+  { id: 'health',    label: { en: 'Health',     es: 'Salud',            tr: 'Sağlık',
+                              de: 'Gesundheit', fr: 'Santé' } },
+  { id: 'sports',    label: { en: 'Sports',     es: 'Deportes',         tr: 'Spor',
+                              de: 'Sport',      fr: 'Sport' } },
+  { id: OTHER,       label: { en: 'Other',      es: 'Otros',            tr: 'Diğer',
+                              de: 'Sonstiges',  fr: 'Autres' } },
 ];
 
 export const CATEGORY_IDS = CATEGORIES.map(c => c.id);
@@ -37,19 +44,22 @@ export function categoryLabel(id) {
 const ALIASES = {
   world:     ['dunya', 'world', 'mundo', 'global', 'international', 'internacional',
               'foreign', 'diplomacy', 'diplomacia', 'uluslararasi', 'dis haberler',
-              'diplomasi', 'gundem', 'turkey', 'turkiye'],
+              'diplomasi', 'gundem', 'turkey', 'turkiye', 'welt', 'monde', 'ausland'],
   economy:   ['ekonomi', 'economy', 'economia', 'economics', 'macro', 'finance',
-              'finanzas', 'business', 'negocios', 'trade', 'is dunyasi'],
+              'finanzas', 'business', 'negocios', 'trade', 'is dunyasi',
+              'wirtschaft', 'economie', 'konjunktur'],
   // Eski surumlerdeki "markets" / "trmarkets" degerleri de ABD borsasina dussun.
   usmarkets: ['us markets', 'usmarkets', 'abd borsa', 'abd borsasi', 'wall street',
               'stocks', 'stock market', 'equities', 'markets', 'borsa', 'piyasalar',
               'piyasa', 'trmarkets', 'bolsa', 'bolsa de ee. uu.', 'mercados',
-              'acciones'],
+              'acciones', 'us-borse', 'borse', 'aktien', 'bourse', 'bourse americaine',
+              'actions'],
   tech:      ['teknoloji', 'tech', 'technology', 'tecnologia', 'software', 'yazilim',
-              'dijital', 'digital'],
-  health:    ['saglik', 'health', 'salud', 'medicine', 'medicina', 'medical', 'tip'],
+              'dijital', 'digital', 'technologie', 'technik'],
+  health:    ['saglik', 'health', 'salud', 'medicine', 'medicina', 'medical', 'tip',
+              'gesundheit', 'sante', 'medizin'],
   sports:    ['spor', 'sport', 'sports', 'deportes', 'deporte', 'football', 'soccer',
-              'futbol'],
+              'futbol', 'fussball'],
 };
 
 /* Agirlikli anahtar kelimeler. Hepsi fold() edilmis bicimde yazili:
@@ -214,10 +224,11 @@ export function categoryCardsHtml(counts, unread = {}) {
       const n = counts[c.id];
       const u = unread[c.id] || 0;
       const label = n === 1 ? t('cat.headlinesOne') : t('cat.headlines', { n });
+      const unreadLabel = u === 1 ? t('unread.one') : t('cat.unreadTag', { n: u });
       return `
       <button class="cat-card" data-cat-open="${c.id}" style="--tone:${toneOf(c.id)}">
         <span class="cc-name">${categoryLabel(c.id)}</span>
-        <span class="cc-meta">${label}${u ? `<i>${t('cat.unreadTag', { n: u })}</i>` : ''}</span>
+        <span class="cc-meta">${label}${u ? `<i>${unreadLabel}</i>` : ''}</span>
         <span class="cc-go">${t('cat.open')}
           <svg viewBox="0 0 24 24"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
         </span>
