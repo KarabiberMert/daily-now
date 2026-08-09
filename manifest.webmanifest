@@ -1,14 +1,14 @@
 {
   "name": "Daily Now",
   "short_name": "Daily Now",
-  "description": "Günün önemli haberlerini her sabah tek yerden takip et.",
+  "description": "The day's important news, every morning in one place.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#0a0c11",
   "theme_color": "#0a0c11",
-  "lang": "tr",
+  "lang": "en",
   "dir": "ltr",
   "categories": ["news", "productivity"],
   "icons": [
@@ -18,7 +18,7 @@
     { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ],
   "shortcuts": [
-    { "name": "Bugünün haberleri", "url": "./?view=feed" },
-    { "name": "Arama", "url": "./?view=search" }
+    { "name": "Today's agenda", "url": "./?view=feed" },
+    { "name": "Search", "url": "./?view=search" }
   ]
 }

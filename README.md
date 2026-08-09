@@ -1,6 +1,6 @@
 # Daily Now
 
-Türkçe haber gündemi uygulaması. Canlı: **[daily-now.com](https://daily-now.com)**
+İki dilli (İngilizce/Türkçe) haber gündemi uygulaması. Canlı: **[daily-now.com](https://daily-now.com)**
 
 Haberleri Claude (Cowork) topluyor, özetliyor ve yayınlıyor — kullanıcı arşivlemiyor.
 Uygulama bu boru hattının okuyucu ucu.
@@ -23,9 +23,14 @@ Cowork/bulut rutini
   sunucu tarafı kod olmadan bunu doğrudan okuyor.
 - **`serve.py`** — yalnızca **yerel geliştirme** için düz statik dosya sunucusu
   (`python3 serve.py` → `localhost:8123`). Canlı sitenin çalışması için gerekmiyor.
-- **Kategoriler** (`src/categories.js`): `world` (Dünya), `turkey` (Türkiye — genel iç
-  gündem), `markets` (Borsa — hem Türkiye/TCMB/BİST hem ABD/Wall Street/Fed), `tech`
-  (Teknoloji), `sports` (Spor), `health` (Sağlık).
+- **Kategoriler** (`src/categories.js`): `world` (World/Dünya), `economy`
+  (Economy/Ekonomi — makro), `usmarkets` (US Markets/ABD Borsası), `tech`
+  (Technology/Teknoloji), `health` (Health/Sağlık), `sports` (Sports/Spor).
+- **Dil** (`src/i18n.js`): uygulama varsayılan olarak **İngilizce** açılır, sağ
+  üstteki EN/TR seçicisi Türkçe'ye geçirir (seçim `localStorage`'da). Arayüz metinleri
+  `t()` sözlüğünden, haber içeriği ise JSON'daki `{ "en": …, "tr": … }` alanlarından
+  geliyor — çeviri çalışma anında değil, yayın anında yazılıyor. Türkçesi eksik bir
+  alan İngilizcesine düşer. Arama iki dili birden tarar.
 - **Story birimi**: bir inbox kaydı birden çok "story" (haber satırı) üretebilir —
   `stories: [...]` alanı önerilen biçim. Okundu/yıldız durumu belge değil, story
   anahtarına (URL) bağlı — **aynı URL iki story'de kullanılırsa ikincisi
@@ -34,7 +39,7 @@ Cowork/bulut rutini
 ## Otomasyon
 
 Bulut rutini her gün **07:00 (İstanbul) / 04:00 UTC**'de çalışıyor:
-6 kategori için haber araştırıp Türkçe özetliyor, `publish_news.py` ile yayınlıyor,
+6 kategori için haber araştırıp İngilizce + Türkçe özetliyor, `publish_news.py` ile yayınlıyor,
 depoya push ediyor. Kurulum/düzenleme: [claude.ai/code/routines](https://claude.ai/code/routines).
 Model: `claude-sonnet-5`.
 

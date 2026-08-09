@@ -1,6 +1,7 @@
 /* Arama sonucu satiri. */
 
 import { esc } from './util.js';
+import { t, pick } from './i18n.js';
 
 export function rowHtml(a, snippet = '') {
   const thumb = a.cover
@@ -10,14 +11,14 @@ export function rowHtml(a, snippet = '') {
   <article class="row" data-id="${a.id}" tabindex="0" role="button">
     ${thumb}
     <div class="row-main">
-      <h3>${snippet.titleHtml || esc(a.title)}</h3>
-      <div class="snip">${snippet.bodyHtml || esc(a.summary || '')}</div>
+      <h3>${snippet.titleHtml || esc(pick(a.title))}</h3>
+      <div class="snip">${snippet.bodyHtml || esc(pick(a.summary) || '')}</div>
       <div class="row-meta">
-        <b>${esc(a.source)}</b>
+        <b>${esc(pick(a.source))}</b>
         <span>${esc(a.date)}</span>
-        ${a.pages ? `<span>${a.pages} sayfa</span>` : ''}
-        ${(a.tags || []).slice(0, 3).map(t => `<span>#${esc(t)}</span>`).join('')}
-        ${a.read ? '' : '<span style="color:var(--accent)">okunmadı</span>'}
+        ${a.pages ? `<span>${esc(t('row.pages', { n: a.pages }))}</span>` : ''}
+        ${(a.tags || []).slice(0, 3).map(tag => `<span>#${esc(tag)}</span>`).join('')}
+        ${a.read ? '' : `<span style="color:var(--accent)">${t('row.unread')}</span>`}
       </div>
     </div>
   </article>`;

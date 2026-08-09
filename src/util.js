@@ -1,7 +1,6 @@
-/* Kucuk yardimcilar: tarih, metin, DOM. */
+/* Kucuk yardimcilar: tarih, metin, DOM. Tarih bicimleri secili dile uyar. */
 
-export const TR_MONTHS = ['Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos','Eylül','Ekim','Kasım','Aralık'];
-export const TR_DAYS = ['Pazar','Pazartesi','Salı','Çarşamba','Perşembe','Cuma','Cumartesi'];
+import { months, days, locale, lang, isLangMap } from './i18n.js';
 
 /** Yerel saate gore YYYY-MM-DD (Date.toISOString UTC'ye kaydigi icin kullanilmiyor). */
 export function dayKey(d = new Date()) {
@@ -16,20 +15,32 @@ export function dayKeyOffset(days, from = new Date()) {
   return dayKey(d);
 }
 
-/** "2026-08-07" -> "7 Ağustos 2026, Cuma" */
+/** "2026-08-07" -> "August 7, 2026, Friday" / "7 Ağustos 2026, Cuma" */
 export function formatDay(key) {
   const [y, m, d] = key.split('-').map(Number);
   const dt = new Date(y, m - 1, d);
-  return `${d} ${TR_MONTHS[m - 1]} ${y}, ${TR_DAYS[dt.getDay()]}`;
+  const month = months()[m - 1];
+  const day = days()[dt.getDay()];
+  return lang() === 'tr'
+    ? `${d} ${month} ${y}, ${day}`
+    : `${month} ${d}, ${y}, ${day}`;
+}
+
+/** Kisa tarih: "9 Ağustos" / "August 9" */
+export function formatDayShort(key) {
+  const [, m, d] = key.split('-').map(Number);
+  const month = months()[m - 1];
+  return lang() === 'tr' ? `${d} ${month}` : `${month} ${d}`;
 }
 
 export function relativeDay(key) {
   const today = dayKey();
-  if (key === today) return 'Bugün';
-  if (key === dayKeyOffset(1)) return 'Dün';
+  const tr = lang() === 'tr';
+  if (key === today) return tr ? 'Bugün' : 'Today';
+  if (key === dayKeyOffset(1)) return tr ? 'Dün' : 'Yesterday';
   const diff = Math.round((new Date(today) - new Date(key)) / 86400000);
-  if (diff > 1 && diff < 7) return `${diff} gün önce`;
-  if (diff < 0) return 'İleri tarihli';
+  if (diff > 1 && diff < 7) return tr ? `${diff} gün önce` : `${diff} days ago`;
+  if (diff < 0) return tr ? 'İleri tarihli' : 'Upcoming';
   return '';
 }
 
@@ -37,7 +48,7 @@ export function formatTime(iso) {
   if (!iso) return '';
   const d = new Date(iso);
   if (isNaN(d)) return '';
-  return d.toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' });
+  return d.toLocaleTimeString(locale(), { hour: '2-digit', minute: '2-digit' });
 }
 
 export function formatSize(bytes) {
@@ -53,14 +64,27 @@ export function esc(s) {
     .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 }
 
+/**
+ * Bir degerin butun metnini duz yaziya cevirir. Iki dilli alanlarda
+ * ({en, tr}) her iki dili de birlestirir — boylece Ingilizce arayuzdeyken
+ * Turkce ceviride gecen bir kelimeyle de arama yapilabiliyor.
+ */
+export function allText(v) {
+  if (v == null) return '';
+  if (Array.isArray(v)) return v.map(allText).filter(Boolean).join(' ');
+  if (isLangMap(v)) return Object.values(v).map(allText).filter(Boolean).join(' ');
+  if (typeof v === 'object') return '';
+  return String(v);
+}
+
 /** Turkce duyarli kucultme — I/İ sorunlarini onler. */
 export function lower(s) {
   return String(s || '').replace(/İ/g, 'i').replace(/I/g, 'ı').toLocaleLowerCase('tr-TR');
 }
 
-/** Arama icin aksan/harf normalizasyonu. */
+/** Arama icin aksan/harf normalizasyonu. Iki dilli alanlari da kabul eder. */
 export function fold(s) {
-  return lower(s)
+  return lower(allText(s))
     .replace(/ı/g, 'i').replace(/ğ/g, 'g').replace(/ü/g, 'u')
     .replace(/ş/g, 's').replace(/ö/g, 'o').replace(/ç/g, 'c');
 }

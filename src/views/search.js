@@ -3,6 +3,7 @@
 import { state } from '../store.js';
 import { rowHtml } from '../cards.js';
 import { esc, fold } from '../util.js';
+import { t, pick } from '../i18n.js';
 
 const FIELD_WEIGHT = { title: 12, source: 6, tags: 6, summary: 3, text: 1 };
 
@@ -15,11 +16,13 @@ export function search(query) {
   for (const a of state.articles) {
     if (a.missing) continue; // inbox'tan kaldirilmis (eski format vb.) — sonuclarda gizle
 
+    // fold() iki dilli alanlari da duzlestiriyor: Ingilizce arayuzdeyken
+    // Turkce ceviride gecen bir kelime de sonuc getirsin diye.
     const fields = {
       title: fold(a.title),
       source: fold(a.source),
       tags: fold((a.tags || []).join(' ')),
-      summary: fold(a.summary || ''),
+      summary: fold(a.summary),
       text: fold(a.text || ''),
     };
 
@@ -53,34 +56,32 @@ export function renderSearch(root, query) {
   const q = query.trim();
 
   if (q.length < 2) {
-    sub.textContent = 'Başlık, kaynak, etiket, özet ve PDF tam metninde arar.';
+    sub.textContent = t('search.sub');
     root.innerHTML = `<div class="empty">
       <div class="em-ico">⌕</div>
-      <h3>Ne arıyorsun?</h3>
-      <p>En az 2 harf yaz. Arama PDF'lerin içindeki metni de kapsar — birden fazla
-         kelime yazarsan hepsini birden içeren haberler listelenir.</p>
+      <h3>${t('search.promptTitle')}</h3>
+      <p>${t('search.promptText')}</p>
     </div>`;
     return;
   }
 
   const results = search(q);
   sub.textContent = results.length
-    ? `“${q}” için ${results.length} sonuç`
-    : `“${q}” için sonuç yok`;
+    ? t('search.results', { n: results.length, q })
+    : t('search.noneSub', { q });
 
   if (!results.length) {
     root.innerHTML = `<div class="empty">
       <div class="em-ico">∅</div>
-      <h3>Sonuç bulunamadı</h3>
-      <p>Farklı bir kelime dene. Taranan PDF'lerde metin katmanı yoksa (yalnızca
-         görüntü içeren taramalar) içerik araması çalışmaz.</p>
+      <h3>${t('search.noneTitle')}</h3>
+      <p>${t('search.noneText')}</p>
     </div>`;
     return;
   }
 
   root.innerHTML = `<div class="rows">${
     results.map(r => rowHtml(r.article, {
-      titleHtml: highlight(r.article.title, r.terms),
+      titleHtml: highlight(articleTitle(r.article), r.terms),
       bodyHtml: snippet(r, 190),
     })).join('')
   }</div>`;
@@ -93,7 +94,7 @@ function snippet(r, len) {
     const raw = a.text.slice(start, start + len).replace(/\s+/g, ' ').trim();
     return (start > 0 ? '…' : '') + highlight(raw, r.terms) + '…';
   }
-  return highlight((a.summary || '').slice(0, len), r.terms);
+  return highlight(articleSummary(a).slice(0, len), r.terms);
 }
 
 /** Aksan-duyarsiz eslesmeyi orijinal metin uzerinde isaretler. */
@@ -101,9 +102,9 @@ function highlight(text, terms) {
   if (!text) return '';
   const folded = fold(text);
   const marks = [];
-  for (const t of terms) {
-    let i = folded.indexOf(t);
-    while (i !== -1) { marks.push([i, i + t.length]); i = folded.indexOf(t, i + t.length); }
+  for (const term of terms) {
+    let i = folded.indexOf(term);
+    while (i !== -1) { marks.push([i, i + term.length]); i = folded.indexOf(term, i + term.length); }
   }
   if (!marks.length) return esc(text);
 
@@ -122,3 +123,7 @@ function highlight(text, terms) {
   }
   return out + esc(text.slice(cursor));
 }
+
+/* Baslik/ozet iki dilli olabilir — sonuc satirinda secili dildeki hali gosterilir. */
+function articleTitle(a) { return String(pick(a.title) || ''); }
+function articleSummary(a) { return String(pick(a.summary) || ''); }

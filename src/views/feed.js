@@ -11,6 +11,7 @@ import { state, catOf, isStoryRead, isStoryStarred } from '../store.js';
 import { collectStories } from '../stories.js';
 import { countByCategory, categoryCardsHtml } from '../categories.js';
 import { dayKey, dayKeyOffset, formatDay } from '../util.js';
+import { t } from '../i18n.js';
 
 /** Seçili aralık ve süzgeçlerden geçen bütün başlıklar (kategori ayrımı yapmadan). */
 export function visibleStories() {
@@ -60,21 +61,22 @@ export function renderFeed(root) {
   );
 
   document.getElementById('feedTitle').textContent =
-    f.range === 'today' ? 'Bugünün gündemi'
-    : f.range === 'all' ? 'Tüm gündem'
-    : `Son ${f.range} gün`;
+    f.range === 'today' ? t('feed.today')
+    : f.range === 'all' ? t('feed.all')
+    : t('feed.lastDays', { n: f.range });
 
   const unread = list.filter(s => !isStoryRead(s.key)).length;
   const stamp = f.range === 'today' ? `${formatDay(dayKey())} · ` : '';
+  const count = list.length === 1 ? t('feed.countOne') : t('feed.count', { n: list.length });
   const status = list.length
-    ? `${stamp}${list.length} başlık${unread ? ` · ${unread} okunmadı` : ' · hepsi okundu'}`
-    : `${stamp}Henüz başlık yok`;
+    ? `${stamp}${count} · ${unread ? t('feed.unreadN', { n: unread }) : t('feed.allRead')}`
+    : `${stamp}${t('feed.none')}`;
   const lastUpdate = list.reduce((latest, s) => {
-    const t = s.fetchedAt || s.time || '';
-    return t > latest ? t : latest;
+    const v = s.fetchedAt || s.time || '';
+    return v > latest ? v : latest;
   }, '');
   document.getElementById('feedSub').textContent = lastUpdate
-    ? `${status} · son güncelleme ${lastUpdate}`
+    ? `${status} · ${t('feed.lastUpdate', { t: lastUpdate })}`
     : status;
 
   root.innerHTML = list.length ? '' : emptyState();
@@ -87,25 +89,25 @@ function emptyState() {
   if (state.articles.length && filtered) {
     return `<div class="empty">
       <div class="em-ico">◍</div>
-      <h3>Bu filtreyle başlık yok</h3>
-      <p>Filtreleri temizleyip tüm gündeme bakabilirsin.</p>
-      <button class="btn" data-act="clear-filters">Filtreleri temizle</button>
+      <h3>${t('empty.filtered.title')}</h3>
+      <p>${t('empty.filtered.text')}</p>
+      <button class="btn" data-act="clear-filters">${t('empty.filtered.btn')}</button>
     </div>`;
   }
 
   if (state.serverInbox) {
     return `<div class="empty">
       <div class="em-ico">📥</div>
-      <h3>Bugünün gündemi henüz gelmedi</h3>
-      <p>Gündem düzenli aralıklarla otomatik güncelleniyor.</p>
-      <button class="btn btn-primary" data-act="sync">Yenile</button>
+      <h3>${t('empty.waiting.title')}</h3>
+      <p>${t('empty.waiting.text')}</p>
+      <button class="btn btn-primary" data-act="sync">${t('empty.waiting.btn')}</button>
     </div>`;
   }
 
   return `<div class="empty">
     <div class="em-ico">🔌</div>
-    <h3>Gündem şu an okunamıyor</h3>
-    <p>Bağlantını kontrol edip tekrar dene.</p>
-    <button class="btn btn-primary" data-act="sync">Tekrar dene</button>
+    <h3>${t('empty.offline.title')}</h3>
+    <p>${t('empty.offline.text')}</p>
+    <button class="btn btn-primary" data-act="sync">${t('empty.offline.btn')}</button>
   </div>`;
 }

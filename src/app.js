@@ -9,7 +9,8 @@ import { renderFeed, unreadStoryCount } from './views/feed.js';
 import { initCategorySheet, openCategory, isOpen as sheetOpen } from './views/category.js';
 import { renderSearch } from './views/search.js';
 import { renderStats } from './views/stats.js';
-import { $, $$, esc, debounce, toast, TR_DAYS, TR_MONTHS } from './util.js';
+import { $, $$, esc, debounce, toast } from './util.js';
+import { t, lang, setLang, LANGS, onLangChange, months, days } from './i18n.js';
 
 const VIEWS = ['feed', 'search', 'stats'];
 const body = {
@@ -20,6 +21,8 @@ const body = {
 
 (async function boot() {
   applyTheme(localStorage.getItem('dn-theme') || 'dark');
+  document.documentElement.lang = lang();
+  applyStaticI18n();
 
   try {
     await loadAll();
@@ -34,9 +37,12 @@ const body = {
   initReader();
   // Popup kapanınca akış tazelensin: içeride okunan başlıklar sönükleşsin.
   initCategorySheet({ onChange: render });
+  buildLangSwitch();
   buildTabbar();
   wireEvents();
   subscribe(onChange);
+  // Dil degisince hem sabit metinler hem de cizilmis gorunumler tazelenir.
+  onLangChange(() => { applyStaticI18n(); buildLangSwitch(); buildTabbar(); render(); });
 
   render();
   $('#app').hidden = false;
@@ -50,13 +56,13 @@ const body = {
 })();
 
 function bootFailed(err) {
-  console.error('Açılış başarısız:', err);
+  console.error('Boot failed:', err);
   $('#boot').innerHTML = `
     <div class="boot-mark">DN</div>
     <div class="boot-error">
-      <strong>Uygulama açılamadı</strong>
-      <p>${esc(err && err.message || 'Bilinmeyen hata')}</p>
-      <button class="btn" onclick="location.reload()">Yeniden dene</button>
+      <strong>${t('boot.failed')}</strong>
+      <p>${esc(err && err.message || t('boot.unknown'))}</p>
+      <button class="btn" onclick="location.reload()">${t('boot.retry')}</button>
     </div>`;
 }
 
@@ -76,8 +82,9 @@ function render() {
 
 function renderChrome() {
   const now = new Date();
-  $('#brandDate').textContent =
-    `${now.getDate()} ${TR_MONTHS[now.getMonth()]} ${TR_DAYS[now.getDay()]}`;
+  $('#brandDate').textContent = lang() === 'tr'
+    ? `${now.getDate()} ${months()[now.getMonth()]} ${days()[now.getDay()]}`
+    : `${months()[now.getMonth()]} ${now.getDate()} · ${days()[now.getDay()]}`;
 
   const n = unreadStoryCount();
   const badge = $('#badgeUnread');
@@ -89,9 +96,9 @@ function renderChrome() {
   $$('#feedRange button').forEach(b => b.classList.toggle('is-active', b.dataset.range === state.filters.range));
   $$('#filterRow .pill[data-filter]').forEach(b => b.classList.toggle('on', !!state.filters[b.dataset.filter]));
 
-  const t = tags();
-  $('#sideTags').hidden = !t.length;
-  $('#tagChips').innerHTML = t.slice(0, 14).map(x =>
+  const tagList = tags();
+  $('#sideTags').hidden = !tagList.length;
+  $('#tagChips').innerHTML = tagList.slice(0, 14).map(x =>
     `<button class="chip ${state.filters.tag === x.name ? 'on' : ''}" data-tag="${esc(x.name)}">${esc(x.name)}<i>${x.count}</i></button>`
   ).join('');
 
@@ -144,14 +151,19 @@ function wireEvents() {
   });
 
   $('#sidebar').addEventListener('click', e => {
-    const t = e.target.closest('[data-tag]');
-    if (t) { state.filters.tag = state.filters.tag === t.dataset.tag ? null : t.dataset.tag; go('feed'); return; }
+    const tg = e.target.closest('[data-tag]');
+    if (tg) { state.filters.tag = state.filters.tag === tg.dataset.tag ? null : tg.dataset.tag; go('feed'); return; }
   });
 
   $('#btnMenu').onclick = () => $('#sidebar').classList.toggle('open');
   $('#scrim').onclick = closeSidebar;
   $('#btnTheme').onclick = () => saveSettings({ theme: state.settings.theme === 'dark' ? 'light' : 'dark' })
     .then(() => applyTheme(state.settings.theme));
+
+  $('#langSwitch').addEventListener('click', e => {
+    const b = e.target.closest('[data-lang]');
+    if (b) setLang(b.dataset.lang);
+  });
 
   const searchInput = $('#globalSearch');
   const runSearch = debounce(() => {
@@ -214,7 +226,7 @@ async function sync({ quiet = false } = {}) {
   state.serverInbox = await probeServerInbox();
   if (!state.serverInbox) {
     renderChrome();
-    if (!quiet) toast('Gündem okunamıyor — internet bağlantını kontrol et', 'err');
+    if (!quiet) toast(t('toast.offline'), 'err');
     return;
   }
   lastInboxSignature = signatureOf(state.serverInbox);
@@ -237,10 +249,10 @@ async function sync({ quiet = false } = {}) {
     else renderChrome();
   }
 
-  if (error) { if (!quiet) toast('Tarama başarısız: ' + error, 'err'); return; }
-  if (result.failed.length) toast(`${result.failed.length} dosya okunamadı`, 'err');
-  if (result.imported.length) toast(`${result.imported.length} yeni haber eklendi`, 'ok');
-  else if (!quiet) toast(result.missing ? `${result.missing} dosya artık inbox’ta yok` : 'Yeni haber yok', 'ok');
+  if (error) { if (!quiet) toast(t('toast.syncFail', { err: error }), 'err'); return; }
+  if (result.failed.length) toast(t('toast.readFail', { n: result.failed.length }), 'err');
+  if (result.imported.length) toast(t('toast.imported', { n: result.imported.length }), 'ok');
+  else if (!quiet) toast(result.missing ? t('toast.removed', { n: result.missing }) : t('toast.noNew'), 'ok');
 }
 
 /* ── açıkken kendiliğinden tazeleme ──
@@ -285,6 +297,21 @@ function applyTheme(theme) {
   localStorage.setItem('dn-theme', theme);
   const meta = document.querySelector('meta[name="theme-color"]');
   if (meta) meta.content = theme === 'light' ? '#f6f4ef' : '#0a0c11';
+}
+
+/** index.html'deki sabit metinleri secili dile cevirir. */
+function applyStaticI18n() {
+  $$('[data-i18n]').forEach(n => { n.textContent = t(n.dataset.i18n); });
+  $$('[data-i18n-placeholder]').forEach(n => { n.placeholder = t(n.dataset.i18nPlaceholder); });
+  $$('[data-i18n-title]').forEach(n => { n.title = t(n.dataset.i18nTitle); });
+  $$('[data-i18n-aria]').forEach(n => { n.setAttribute('aria-label', t(n.dataset.i18nAria)); });
+  document.title = 'Daily Now';
+}
+
+function buildLangSwitch() {
+  $('#langSwitch').innerHTML = LANGS.map(l => `
+    <button data-lang="${l.id}" class="${l.id === lang() ? 'is-active' : ''}"
+            title="${esc(l.label)}" lang="${l.id}">${l.short}</button>`).join('');
 }
 
 function buildTabbar() {

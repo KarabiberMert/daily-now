@@ -21,7 +21,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 DIGESTS = [
     dict(
-        category='turkey', label='Türkiye Gündemi', days_ago=0,
+        category='economy', label='Economy', days_ago=0,
         stories=[
             dict(title='Merkez Bankası politika faizini 250 baz puan indirdi',
                  summary='Politika faizi yüzde 39 seviyesine çekildi; karar piyasa '
@@ -88,7 +88,7 @@ DIGESTS = [
         ],
     ),
     dict(
-        category='markets', label='Borsa Gündemi', days_ago=0,
+        category='usmarkets', label='US Markets', days_ago=0,
         stories=[
             dict(title='Petrol üst üste dördüncü haftayı düşüşle kapattı',
                  summary='Brent, arz artışı ve stok verilerindeki beklenmedik yükselişle varil '

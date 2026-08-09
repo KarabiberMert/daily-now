@@ -5,6 +5,7 @@ import { loadDoc, renderPage } from './pdf.js';
 import { fileOf } from './library.js';
 import { patchArticle, state } from './store.js';
 import { $, esc, formatDay, formatSize, toast } from './util.js';
+import { t, pick } from './i18n.js';
 
 let doc = null;
 let article = null;
@@ -47,7 +48,7 @@ export async function openArticle(a) {
   article = a;
   el.root.hidden = false;
   document.body.style.overflow = 'hidden';
-  el.title.textContent = a.title;
+  el.title.textContent = pick(a.title);
   el.star.classList.toggle('on', !!a.starred);
 
   if (state.settings.markReadOnOpen && !a.read) patchArticle(a.id, { read: true });
@@ -75,30 +76,36 @@ function renderBullets(bullets) {
     const uri = safeHref(b.url);
     const src = b.source || '';
     let link = '';
-    if (uri) link = `<a class="na-src" href="${esc(uri)}" target="_blank" rel="noopener noreferrer">Kaynak: ${esc(src || 'bağlantı')} ↗</a>`;
-    else if (src) link = `<span class="na-src">Kaynak: ${esc(src)}</span>`;
-    return `<li>${esc(b.text || '')}${link ? `<div class="na-src-row">${link}</div>` : ''}</li>`;
+    if (uri) link = `<a class="na-src" href="${esc(uri)}" target="_blank" rel="noopener noreferrer">${
+      esc(t('reader.source', { source: src || t('reader.link') }))}</a>`;
+    else if (src) link = `<span class="na-src">${esc(t('reader.source', { source: src }).replace(/ ↗$/, ''))}</span>`;
+    return `<li>${esc(pick(b.text) || '')}${link ? `<div class="na-src-row">${link}</div>` : ''}</li>`;
   }).join('') + '</ul>';
 }
 
 function renderNative(a) {
   const parts = [];
-  if (a.kicker) parts.push(`<div class="na-kicker">${esc(a.kicker.toUpperCase())}</div>`);
-  parts.push(`<h1 class="na-headline">${esc(a.title)}</h1>`);
-  const bylineParts = [a.source, formatDay(a.date), a.author].filter(Boolean);
+  const kicker = pick(a.kicker);
+  if (kicker) parts.push(`<div class="na-kicker">${esc(String(kicker).toLocaleUpperCase())}</div>`);
+  parts.push(`<h1 class="na-headline">${esc(pick(a.title))}</h1>`);
+  const bylineParts = [pick(a.source), formatDay(a.date), a.author].filter(Boolean);
   parts.push(`<div class="na-byline">${bylineParts.map(esc).join('  ·  ')}</div>`);
-  if (a.lead) parts.push(`<p class="na-lead">${esc(a.lead)}</p>`);
+  const lead = pick(a.lead);
+  if (lead) parts.push(`<p class="na-lead">${esc(lead)}</p>`);
 
   for (const block of a.body || []) {
     if (typeof block === 'string') { parts.push(`<p class="na-p">${esc(block)}</p>`); continue; }
-    if (block.heading) parts.push(`<h2 class="na-h2">${esc(block.heading)}</h2>`);
-    if (block.text) parts.push(`<p class="na-p">${esc(block.text)}</p>`);
+    const heading = pick(block.heading), body = pick(block.text);
+    if (heading) parts.push(`<h2 class="na-h2">${esc(heading)}</h2>`);
+    if (body) parts.push(`<p class="na-p">${esc(body)}</p>`);
     if (block.bullets && block.bullets.length) parts.push(renderBullets(block.bullets));
   }
 
-  if (a.quote) parts.push(`<blockquote class="na-quote">“${esc(String(a.quote).replace(/^[“"]|[”"]$/g, ''))}”</blockquote>`);
+  const quote = pick(a.quote);
+  if (quote) parts.push(`<blockquote class="na-quote">“${esc(String(quote).replace(/^[“"]|[”"]$/g, ''))}”</blockquote>`);
   const topUri = safeHref(a.url);
-  if (topUri) parts.push(`<div class="na-footnote"><a href="${esc(topUri)}" target="_blank" rel="noopener noreferrer">Kaynak: ${esc(a.source || 'bağlantı')} ↗</a></div>`);
+  if (topUri) parts.push(`<div class="na-footnote"><a href="${esc(topUri)}" target="_blank" rel="noopener noreferrer">${
+    esc(t('reader.source', { source: pick(a.source) || t('reader.link') }))}</a></div>`);
 
   return `<article class="native-page">${parts.join('\n')}</article>`;
 }
@@ -114,9 +121,10 @@ function openNative(a) {
 
 async function openPdf(a) {
   setPdfControlsVisible(true);
-  el.sub.textContent = [a.source, formatDay(a.date), a.pages ? `${a.pages} sayfa` : '', formatSize(a.size)]
+  el.sub.textContent = [pick(a.source), formatDay(a.date),
+                        a.pages ? t('row.pages', { n: a.pages }) : '', formatSize(a.size)]
     .filter(Boolean).join('  ·  ');
-  el.wrap.innerHTML = '<div class="empty" style="border:0"><div class="em-ico">◌</div><p>PDF açılıyor…</p></div>';
+  el.wrap.innerHTML = `<div class="empty" style="border:0"><div class="em-ico">◌</div><p>${t('reader.opening')}</p></div>`;
   el.pages.textContent = a.pages || 1;
   el.pageInput.value = 1;
 
@@ -124,7 +132,7 @@ async function openPdf(a) {
   try {
     file = await fileOf(a);
   } catch (e) {
-    el.wrap.innerHTML = `<div class="empty"><div class="em-ico">⚠</div><h3>Dosya açılamadı</h3><p>${esc(e.message)}</p></div>`;
+    el.wrap.innerHTML = `<div class="empty"><div class="em-ico">⚠</div><h3>${t('reader.failTitle')}</h3><p>${esc(e.message)}</p></div>`;
     return;
   }
 
@@ -138,7 +146,7 @@ async function openPdf(a) {
     if (doc) { try { await doc.destroy(); } catch {} }
     doc = await loadDoc(buf);
   } catch (e) {
-    el.wrap.innerHTML = `<div class="empty"><div class="em-ico">⚠</div><h3>PDF okunamadı</h3><p>${esc(e.message)}</p></div>`;
+    el.wrap.innerHTML = `<div class="empty"><div class="em-ico">⚠</div><h3>${t('reader.pdfFail')}</h3><p>${esc(e.message)}</p></div>`;
     return;
   }
 
@@ -221,7 +229,7 @@ async function toggleStar() {
   if (!article) return;
   const a = await patchArticle(article.id, { starred: !article.starred });
   el.star.classList.toggle('on', !!a.starred);
-  toast(a.starred ? 'Yıldızlandı' : 'Yıldız kaldırıldı', 'ok');
+  toast(a.starred ? t('toast.starred') : t('toast.unstarred'), 'ok');
 }
 
 export function close() {

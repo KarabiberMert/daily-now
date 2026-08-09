@@ -183,6 +183,22 @@ svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width:
 }
 .topbar-actions { display: flex; align-items: center; gap: 8px; margin-left: auto; }
 
+/* Dil secici — sag ustte EN / TR. */
+.lang-switch {
+  display: flex; align-items: center; flex: none;
+  background: var(--elev); border: 1px solid var(--line-soft);
+  border-radius: 9px; padding: 2px; gap: 2px;
+}
+.lang-switch button {
+  padding: 4px 9px; border-radius: 7px; font-size: 12px; font-weight: 600;
+  letter-spacing: .04em; color: var(--dim); transition: .15s;
+}
+.lang-switch button:hover { color: var(--text); }
+.lang-switch button.is-active {
+  background: var(--elev-2); color: var(--text); box-shadow: var(--shadow);
+}
+:root[data-theme="light"] .lang-switch button.is-active { background: var(--bg-soft); }
+
 .icon-btn {
   width: 34px; height: 34px; border-radius: 9px; flex: none;
   display: grid; place-items: center; color: var(--dim);
