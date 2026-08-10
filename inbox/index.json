@@ -6,12 +6,12 @@
   "articles": [
     {
       "title": {
-        "en": "Economy — 9 August 2026",
-        "es": "Economía — 9 de agosto de 2026",
-        "tr": "Ekonomi — 9 Ağustos 2026"
+        "en": "Economy — 10 August 2026",
+        "es": "Economía — 10 de agosto de 2026",
+        "tr": "Ekonomi — 10 Ağustos 2026"
       },
       "category": "economy",
-      "date": "2026-08-09",
+      "date": "2026-08-10",
       "source": "Daily Now",
       "stories": [
         {
@@ -71,18 +71,18 @@
         }
       ],
       "author": "Daily Now",
-      "path": "2026-08-09__Daily Now__Economy 9 August 2026.json",
-      "size": 6210,
-      "mtime": 1786305560007
+      "path": "2026-08-10__Daily Now__Economy 10 August 2026.json",
+      "size": 6213,
+      "mtime": 1786346823860
     },
     {
       "title": {
-        "en": "Health — 9 August 2026",
-        "es": "Salud — 9 de agosto de 2026",
-        "tr": "Sağlık — 9 Ağustos 2026"
+        "en": "Health — 10 August 2026",
+        "es": "Salud — 10 de agosto de 2026",
+        "tr": "Sağlık — 10 Ağustos 2026"
       },
       "category": "health",
-      "date": "2026-08-09",
+      "date": "2026-08-10",
       "source": "Daily Now",
       "stories": [
         {
@@ -161,18 +161,18 @@
         }
       ],
       "author": "Daily Now",
-      "path": "2026-08-09__Daily Now__Health 9 August 2026.json",
-      "size": 9445,
-      "mtime": 1786305560008
+      "path": "2026-08-10__Daily Now__Health 10 August 2026.json",
+      "size": 9448,
+      "mtime": 1786346823861
     },
     {
       "title": {
-        "en": "Sports — 9 August 2026",
-        "es": "Deportes — 9 de agosto de 2026",
-        "tr": "Spor — 9 Ağustos 2026"
+        "en": "Sports — 10 August 2026",
+        "es": "Deportes — 10 de agosto de 2026",
+        "tr": "Spor — 10 Ağustos 2026"
       },
       "category": "sports",
-      "date": "2026-08-09",
+      "date": "2026-08-10",
       "source": "Daily Now",
       "stories": [
         {
@@ -213,18 +213,18 @@
         }
       ],
       "author": "Daily Now",
-      "path": "2026-08-09__Daily Now__Sports 9 August 2026.json",
-      "size": 3664,
-      "mtime": 1786305560009
+      "path": "2026-08-10__Daily Now__Sports 10 August 2026.json",
+      "size": 3667,
+      "mtime": 1786346823862
     },
     {
       "title": {
-        "en": "Technology — 9 August 2026",
-        "es": "Tecnología — 9 de agosto de 2026",
-        "tr": "Teknoloji — 9 Ağustos 2026"
+        "en": "Technology — 10 August 2026",
+        "es": "Tecnología — 10 de agosto de 2026",
+        "tr": "Teknoloji — 10 Ağustos 2026"
       },
       "category": "tech",
-      "date": "2026-08-09",
+      "date": "2026-08-10",
       "source": "Daily Now",
       "stories": [
         {
@@ -287,18 +287,18 @@
         }
       ],
       "author": "Daily Now",
-      "path": "2026-08-09__Daily Now__Technology 9 August 2026.json",
-      "size": 6698,
-      "mtime": 1786305560008
+      "path": "2026-08-10__Daily Now__Technology 10 August 2026.json",
+      "size": 6701,
+      "mtime": 1786346823861
     },
     {
       "title": {
-        "en": "US Markets — 9 August 2026",
-        "es": "Bolsa de EE. UU. — 9 de agosto de 2026",
-        "tr": "ABD Borsası — 9 Ağustos 2026"
+        "en": "US Markets — 10 August 2026",
+        "es": "Bolsa de EE. UU. — 10 de agosto de 2026",
+        "tr": "ABD Borsası — 10 Ağustos 2026"
       },
       "category": "usmarkets",
-      "date": "2026-08-09",
+      "date": "2026-08-10",
       "source": "Daily Now",
       "stories": [
         {
@@ -342,9 +342,83 @@
         }
       ],
       "author": "Daily Now",
-      "path": "2026-08-09__Daily Now__US Markets 9 August 2026.json",
-      "size": 3693,
-      "mtime": 1786305560008
+      "path": "2026-08-10__Daily Now__US Markets 10 August 2026.json",
+      "size": 3696,
+      "mtime": 1786346823861
+    },
+    {
+      "title": {
+        "en": "World — 10 August 2026",
+        "es": "Mundo — 10 de agosto de 2026",
+        "tr": "Dünya — 10 Ağustos 2026"
+      },
+      "category": "world",
+      "date": "2026-08-10",
+      "source": "Daily Now",
+      "stories": [
+        {
+          "title": {
+            "en": "Gaza disarmament deal stalls over who moves first",
+            "es": "El acuerdo de desarme en Gaza se atasca por quién da el primer paso",
+            "tr": "Gazze silahsızlanma anlaşması, ilk adımı kimin atacağında tıkandı"
+          },
+          "summary": {
+            "en": "Israel says it will not withdraw before Hamas disarms; Hamas says it will not disarm before Israel withdraws.",
+            "es": "Israel dice que no se retirará antes de que Hamás se desarme; Hamás dice que no se desarmará antes de que Israel se retire.",
+            "tr": "İsrail, Hamas silah bırakmadan çekilmeyeceğini; Hamas ise İsrail çekilmeden silah bırakmayacağını söylüyor."
+          },
+          "detail": {
+            "en": "The US-led Board of Peace announced a roadmap for the complete disarmament of Hamas and other armed groups in Gaza, brokered with mediators from Egypt, Qatar and Turkiye as the next phase of the ceasefire. Under the terms, factions would hand weapons to a National Committee administering Gaza, starting with police-held arms and moving on to heavy weapons, with a detailed schedule due within fourteen days and an international body verifying compliance. Israeli withdrawal was meant to proceed in step with that process. The deal has since run into the sequencing problem it was designed to solve: Prime Minister Benjamin Netanyahu says Israel never agreed to the terms and will not move from its current lines until Hamas is completely disarmed, while Hamas says it will implement nothing until Israeli forces withdraw as promised. Neither side has formally walked away, which leaves the roadmap technically alive but stationary.",
+            "es": "La Junta de Paz liderada por Estados Unidos anunció una hoja de ruta para el desarme completo de Hamás y de los demás grupos armados en Gaza, negociada con mediadores de Egipto, Qatar y Turquía como la siguiente fase del alto el fuego. Según los términos, las facciones entregarían sus armas a un Comité Nacional encargado de administrar Gaza, empezando por el armamento en manos de la policía y siguiendo por el armamento pesado, con un calendario detallado en un plazo de catorce días y un organismo internacional verificando el cumplimiento. La retirada israelí debía avanzar al mismo ritmo que ese proceso. El acuerdo ha chocado desde entonces con el problema de secuencia que pretendía resolver: el primer ministro Benjamin Netanyahu afirma que Israel nunca aceptó esos términos y no se moverá de sus líneas actuales hasta que Hamás esté completamente desarmado, mientras Hamás sostiene que no aplicará nada hasta que las fuerzas israelíes se retiren como se prometió. Ninguna de las partes se ha levantado formalmente de la mesa, lo que deja la hoja de ruta técnicamente viva pero detenida.",
+            "tr": "ABD öncülüğündeki Barış Kurulu, Gazze'de Hamas ve diğer silahlı grupların tümüyle silahsızlandırılması için Mısır, Katar ve Türkiye'den arabulucularla hazırlanan bir yol haritasını ateşkesin bir sonraki aşaması olarak duyurdu. Anlaşmaya göre gruplar silahlarını Gazze'yi yönetecek bir Ulusal Komite'ye teslim edecek; önce polisin elindeki silahlar, ardından ağır silahlar devredilecek, ayrıntılı takvim on dört gün içinde hazırlanacak ve uygulamayı uluslararası bir kurul denetleyecekti. İsrail'in geri çekilmesi de bu süreçle eşzamanlı ilerleyecekti. Anlaşma o günden bu yana tam da çözmek için tasarlandığı sıralama sorununa takıldı: Başbakan Binyamin Netanyahu İsrail'in bu şartları hiç kabul etmediğini ve Hamas tümüyle silahsızlanmadan mevcut hatlarından geri çekilmeyeceğini söylüyor; Hamas ise İsrail güçleri söz verildiği gibi çekilmeden hiçbir maddeyi uygulamayacağını belirtiyor. Taraflardan hiçbiri masayı resmen terk etmiş değil; bu da yol haritasını teknik olarak yaşıyor ama yerinde sayar durumda bırakıyor."
+          },
+          "points": {
+            "en": [
+              "Weapons would go to a National Committee, police arms first",
+              "Detailed roadmap due within 14 days, verified internationally",
+              "Netanyahu: no move from current lines until Hamas fully disarms",
+              "Hamas: no implementation until Israeli forces withdraw"
+            ],
+            "es": [
+              "Las armas irían a un Comité Nacional, primero las de la policía",
+              "Hoja de ruta detallada en 14 días, con verificación internacional",
+              "Netanyahu: sin moverse de las líneas actuales hasta el desarme total",
+              "Hamás: sin aplicación hasta la retirada israelí"
+            ],
+            "tr": [
+              "Silahlar Ulusal Komite'ye geçecek, önce polisin elindekiler",
+              "Ayrıntılı yol haritası 14 gün içinde, uluslararası denetimle",
+              "Netanyahu: tam silahsızlanma olmadan mevcut hatlardan çekilme yok",
+              "Hamas: İsrail çekilmeden hiçbir madde uygulanmayacak"
+            ]
+          },
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/4/board-of-peace-says-no-israeli-withdrawal-from-gaza-before-hamas-disarms"
+        },
+        {
+          "title": {
+            "en": "Millions walk to Karbala for Arbaeen as regional tension builds",
+            "es": "Millones caminan a Kerbala por el Arbaín mientras crece la tensión regional",
+            "tr": "Bölgesel gerginlik artarken milyonlar Erbain için Kerbela'ya yürüdü"
+          },
+          "summary": {
+            "en": "One of the world's largest annual gatherings went ahead amid fears of US-Iran escalation.",
+            "es": "Una de las mayores concentraciones anuales del mundo siguió adelante pese al temor a una escalada entre EE. UU. e Irán.",
+            "tr": "Dünyanın en büyük yıllık toplanmalarından biri, ABD-İran tırmanışı korkusuna rağmen gerçekleşti."
+          },
+          "detail": {
+            "en": "Millions of Shia Muslims converged on the Iraqi city of Karbala for Arbaeen, the commemoration held forty days after the mourning period for Imam Hussein, who was killed at the Battle of Karbala in 680. Most pilgrims walk, some for several days, along routes lined with volunteer stations offering food, water and a place to sleep. Iraqi authorities coordinated continuous electricity, drinking water and medical supplies along the way, with officials describing Monday night as among the busiest of the season and the flow continuing into Tuesday. This year the gathering took place against the backdrop of regional tension and fears of an escalation between the United States and Iran, which sharpened the security planning around an event that is already among the largest annual assemblies of people anywhere in the world.",
+            "es": "Millones de musulmanes chiíes confluyeron en la ciudad iraquí de Kerbala para el Arbaín, la conmemoración que se celebra cuarenta días después del periodo de duelo por el imán Huseín, muerto en la batalla de Kerbala en el año 680. La mayoría de los peregrinos llega a pie, algunos tras varios días de camino, por rutas jalonadas de puestos de voluntarios que ofrecen comida, agua y un lugar donde dormir. Las autoridades iraquíes coordinaron el suministro continuo de electricidad, agua potable y material sanitario a lo largo del trayecto, y describieron la noche del lunes como una de las de mayor afluencia de la temporada, con el flujo prolongándose hasta el martes. Este año la concentración se produjo en un contexto de tensión regional y temor a una escalada entre Estados Unidos e Irán, lo que endureció la planificación de seguridad en torno a un acto que ya figura entre las mayores reuniones anuales de personas del mundo.",
+            "tr": "Milyonlarca Şii Müslüman, 680 yılındaki Kerbela Savaşı'nda öldürülen İmam Hüseyin için tutulan yasın kırkıncı gününde anılan Erbain için Irak'ın Kerbela kentinde toplandı. Hacıların çoğu yolu yürüyerek, kimi birkaç gün süren yürüyüşlerle kat ediyor; güzergâh boyunca gönüllülerin kurduğu duraklarda yemek, su ve konaklama sağlanıyor. Irak yetkilileri güzergâh boyunca kesintisiz elektrik, içme suyu ve tıbbi malzeme akışını koordine etti; yetkililer pazartesi gecesini sezonun en yoğun gecelerinden biri olarak tanımladı ve akışın salı gününe kadar süreceğini bildirdi. Bu yılki toplanma, bölgesel gerginlik ile ABD ve İran arasında tırmanma korkusunun gölgesinde gerçekleşti; bu da zaten dünyadaki en kalabalık yıllık insan toplanmalarından biri olan etkinliğin güvenlik planlamasını daha da sıkılaştırdı."
+          },
+          "source": "AP",
+          "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/08/04/millions-join-arbaeen-pilgrimage-in-iraq-amid-regional-tensions-and-fears-of-us-iran-escalation"
+        }
+      ],
+      "author": "Daily Now",
+      "path": "2026-08-10__Daily Now__World 10 August 2026.json",
+      "size": 9038,
+      "mtime": 1786346823860
     }
   ]
 }
