@@ -30,6 +30,10 @@ Türkiye'ye özel bir kategori yok; Türkiye haberi gerçekten küresel öneme s
   yapma; geniş sorgularla (ör. "world news [tarih]") tara, sonuçlardan seç.
 - **WebFetch: sadece gerekirse.** Arama sonucundaki snippet zaten `summary`/`detail`
   yazmaya yetiyorsa sayfayı çekme. Rakam/detay eksikse ya da snippet yetersizse kullan.
+  **Bulut ortamında haber sitelerine WebFetch çoğunlukla engellidir** (`EGRESS_BLOCKED`);
+  engellenirse ısrar etme, WebSearch sonuçlarıyla devam et. Arama hem spesifik ve
+  tarihli bir makale adresi hem de yeterli olgu veriyorsa haber yazmak için yeterlidir;
+  yalnızca bölüm/ana sayfa adresi veren sonuçlardan haber yazma.
 - Aynı konuyu doğrulamak için tekrar arama yapma — ilk yeterli sonuçla devam et.
 - **Çeviri için ayrı arama/fetch yapma.** İspanyolca ve Türkçe karşılıkları kendin
   yaz; ek tur atma. Diller ek arama değil, yalnızca biraz daha metin demektir.
@@ -75,6 +79,10 @@ Metin alanları `{ "en": …, "es": …, "tr": … }` biçiminde yazılır:
   haber adresi — uydurma, yoksa yayın reddedilir), `time` (biliniyorsa).
 - Kaynak metni birebir kopyalama, kendi cümlelerinle yaz. Emoji ve Latin dışı
   alfabelerden kaçın. Önem sırası = dizideki sıra, en önemli haber başa.
+- **`date` alanına bugünün tarihini yaz** (`date -u +%F`). Uygulama varsayılan olarak
+  "Bugün" aralığını gösteriyor; dünün tarihiyle yayınlanan haberler akışta hiç görünmez.
+- Arama sonuçları bazen eski yıllara ait içerik karıştırır — URL'deki tarihe bak,
+  güncel değilse kullanma.
 
 ### Yayınlama
 
