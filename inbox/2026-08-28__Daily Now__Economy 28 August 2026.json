@@ -1,0 +1,53 @@
+{
+  "title": {
+    "en": "Economy — 28 August 2026",
+    "es": "Economía — 28 de agosto de 2026",
+    "tr": "Ekonomi — 28 Ağustos 2026"
+  },
+  "category": "economy",
+  "date": "2026-08-28",
+  "source": "Daily Now",
+  "stories": [
+    {
+      "title": {
+        "en": "Fed Chair Warsh warns inflation is still too high, opening the door to rate hikes",
+        "es": "El presidente de la Fed, Warsh, advierte que la inflación sigue siendo demasiado alta y abre la puerta a subidas de tipos",
+        "tr": "Fed Başkanı Warsh enflasyonun hâlâ çok yüksek olduğu uyarısını yaptı, faiz artışına kapı araladı"
+      },
+      "summary": {
+        "en": "Kevin Warsh said inflation remains elevated and the Fed may need to raise rates, a sharp reversal from earlier expectations of cuts.",
+        "es": "Kevin Warsh dijo que la inflación sigue elevada y que la Fed podría necesitar subir los tipos, un giro brusco frente a las expectativas previas de recortes.",
+        "tr": "Kevin Warsh, enflasyonun yüksek seyrettiğini ve Fed'in faiz artırması gerekebileceğini söyledi; bu, daha önceki faiz indirimi beklentilerinden keskin bir dönüş."
+      },
+      "detail": {
+        "en": "Federal Reserve Chair Kevin Warsh said on Friday that inflation remains too high and that the central bank may need to raise interest rates in the coming months to bring it back to target. Warsh argued the labor market is stable, business investment is strong and consumer spending remains resilient, leaving the Fed room to act on prices rather than worry about growth. The latest data show consumer prices up 3.4 percent over the twelve months through July, while the Fed's preferred inflation gauge, the PCE index, is running at 3.7 percent. The Fed has held its benchmark rate at 3.50-3.75 percent since December, and roughly half the policy committee now expects a rate increase before the end of 2026. The shift marks a notable change from earlier in the year, when markets had been pricing in rate cuts.",
+        "es": "El presidente de la Reserva Federal, Kevin Warsh, dijo el viernes que la inflación sigue siendo demasiado alta y que el banco central podría necesitar subir los tipos de interés en los próximos meses para devolverla al objetivo. Warsh argumentó que el mercado laboral es estable, la inversión empresarial es fuerte y el gasto de los consumidores se mantiene resiliente, lo que deja a la Fed margen para actuar sobre los precios en lugar de preocuparse por el crecimiento. Los últimos datos muestran que los precios al consumo subieron un 3,4 % en los doce meses hasta julio, mientras que el indicador de inflación preferido de la Fed, el índice PCE, se sitúa en el 3,7 %. La Fed ha mantenido su tipo de referencia en el 3,50-3,75 % desde diciembre, y aproximadamente la mitad del comité de política monetaria espera ahora una subida antes de que termine 2026. El giro marca un cambio notable respecto a principios de año, cuando los mercados descontaban recortes de tipos.",
+        "tr": "Federal Rezerv Başkanı Kevin Warsh cuma günü enflasyonun hâlâ çok yüksek olduğunu ve merkez bankasının önümüzdeki aylarda enflasyonu hedefe döndürmek için faiz artırması gerekebileceğini söyledi. Warsh, iş gücü piyasasının istikrarlı olduğunu, iş yatırımlarının güçlü seyrettiğini ve tüketici harcamalarının dirençli kaldığını, bunun da Fed'e büyüme konusunda endişelenmek yerine fiyatlar üzerinde hareket etme alanı bıraktığını savundu. Son veriler, tüketici fiyatlarının temmuz sonu itibarıyla son on iki ayda yüzde 3,4 arttığını, Fed'in tercih ettiği enflasyon göstergesi olan PCE endeksinin ise yüzde 3,7 seviyesinde seyrettiğini gösteriyor. Fed, aralıktan bu yana gösterge faizini yüzde 3,50-3,75 aralığında tuttu ve politika kurulunun yaklaşık yarısı artık 2026 sonundan önce bir faiz artışı bekliyor. Bu değişim, piyasaların faiz indirimlerini fiyatladığı yıl başındaki duruma göre belirgin bir dönüşe işaret ediyor."
+      },
+      "points": {
+        "en": [
+          "CPI: +3.4% over 12 months through July",
+          "Fed's preferred PCE gauge: +3.7%",
+          "Benchmark rate held at 3.50-3.75% since December",
+          "Half the Fed committee now expects a hike by year-end"
+        ],
+        "es": [
+          "IPC: +3,4% en los 12 meses hasta julio",
+          "Indicador PCE preferido de la Fed: +3,7%",
+          "Tipo de referencia en 3,50-3,75% desde diciembre",
+          "La mitad del comité de la Fed espera ya una subida antes de fin de año"
+        ],
+        "tr": [
+          "TÜFE: temmuz sonu itibarıyla 12 ayda +%3,4",
+          "Fed'in tercih ettiği PCE göstergesi: +%3,7",
+          "Gösterge faiz aralıktan beri %3,50-3,75'te",
+          "Fed kurulunun yarısı artık yıl sonuna kadar bir artış bekliyor"
+        ]
+      },
+      "source": "KPBS / Washington Times",
+      "url": "https://www.kpbs.org/news/economy/2026/08/28/feds-kevin-warsh-warns-inflation-is-too-high-sparking-bets-rate-hikes-are-coming",
+      "time": ""
+    }
+  ],
+  "author": "Daily Now"
+}

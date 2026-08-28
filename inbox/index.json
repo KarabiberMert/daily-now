@@ -6,419 +6,509 @@
   "articles": [
     {
       "title": {
-        "en": "Economy — 10 August 2026",
-        "es": "Economía — 10 de agosto de 2026",
-        "tr": "Ekonomi — 10 Ağustos 2026"
+        "en": "Economy — 28 August 2026",
+        "es": "Economía — 28 de agosto de 2026",
+        "tr": "Ekonomi — 28 Ağustos 2026"
       },
       "category": "economy",
-      "date": "2026-08-10",
+      "date": "2026-08-28",
       "source": "Daily Now",
       "stories": [
         {
           "title": {
-            "en": "July inflation reading lands Wednesday after a soft jobs report",
-            "es": "El dato de inflación de julio llega el miércoles tras un informe de empleo flojo",
-            "tr": "Zayıf istihdam verisinin ardından temmuz enflasyonu çarşamba açıklanıyor"
+            "en": "Fed Chair Warsh warns inflation is still too high, opening the door to rate hikes",
+            "es": "El presidente de la Fed, Warsh, advierte que la inflación sigue siendo demasiado alta y abre la puerta a subidas de tipos",
+            "tr": "Fed Başkanı Warsh enflasyonun hâlâ çok yüksek olduğu uyarısını yaptı, faiz artışına kapı araladı"
           },
           "summary": {
-            "en": "The CPI release on 12 August is the week's decisive number for the Fed's path.",
-            "es": "El IPC del 12 de agosto es el dato decisivo de la semana para el rumbo de la Fed.",
-            "tr": "12 Ağustos'ta açıklanacak TÜFE, Fed'in izleyeceği yol için haftanın belirleyici verisi."
+            "en": "Kevin Warsh said inflation remains elevated and the Fed may need to raise rates, a sharp reversal from earlier expectations of cuts.",
+            "es": "Kevin Warsh dijo que la inflación sigue elevada y que la Fed podría necesitar subir los tipos, un giro brusco frente a las expectativas previas de recortes.",
+            "tr": "Kevin Warsh, enflasyonun yüksek seyrettiğini ve Fed'in faiz artırması gerekebileceğini söyledi; bu, daha önceki faiz indirimi beklentilerinden keskin bir dönüş."
           },
           "detail": {
-            "en": "The Bureau of Labor Statistics publishes the July Consumer Price Index on Wednesday 12 August at 8:30 a.m. Eastern, with producer prices following on Thursday. The release comes after a weaker than expected July jobs report that shifted attention from the labour market back to prices. In the most recent published reading, the index for all urban consumers fell 0.4 percent on a seasonally adjusted basis and stood 3.5 percent higher than a year earlier. Economists are watching how far tariffs are feeding through to consumer prices, which is the main uncertainty in the Fed's own projections.",
-            "es": "La Oficina de Estadísticas Laborales publica el Índice de Precios al Consumo de julio el miércoles 12 de agosto a las 8:30 de la mañana, hora del Este, y los precios de producción llegan el jueves. El dato aparece tras un informe de empleo de julio más débil de lo esperado, que devolvió la atención del mercado laboral a los precios. En la última lectura publicada, el índice para todos los consumidores urbanos cayó un 0,4 por ciento en términos desestacionalizados y se situó un 3,5 por ciento por encima del año anterior. Los economistas vigilan hasta qué punto los aranceles se trasladan a los precios de consumo, la principal incógnita en las propias proyecciones de la Fed.",
-            "tr": "Çalışma İstatistikleri Bürosu, temmuz ayı Tüketici Fiyat Endeksi'ni 12 Ağustos Çarşamba günü ABD Doğu Saati ile 08.30'da yayımlıyor; üretici fiyatları ise perşembe geliyor. Veri, beklenenden zayıf gelen temmuz istihdam raporunun ardından açıklanacak ve gündemi iş gücü piyasasından yeniden fiyatlara çeviriyor. En son yayımlanan okumada kentli tüketicilere ait endeks mevsimsellikten arındırılmış olarak yüzde 0,4 geriledi ve bir yıl öncesine göre yüzde 3,5 yukarıda kaldı. Ekonomistler gümrük tarifelerinin tüketici fiyatlarına ne ölçüde yansıdığını izliyor; bu, Fed'in kendi projeksiyonlarındaki başlıca belirsizlik."
+            "en": "Federal Reserve Chair Kevin Warsh said on Friday that inflation remains too high and that the central bank may need to raise interest rates in the coming months to bring it back to target. Warsh argued the labor market is stable, business investment is strong and consumer spending remains resilient, leaving the Fed room to act on prices rather than worry about growth. The latest data show consumer prices up 3.4 percent over the twelve months through July, while the Fed's preferred inflation gauge, the PCE index, is running at 3.7 percent. The Fed has held its benchmark rate at 3.50-3.75 percent since December, and roughly half the policy committee now expects a rate increase before the end of 2026. The shift marks a notable change from earlier in the year, when markets had been pricing in rate cuts.",
+            "es": "El presidente de la Reserva Federal, Kevin Warsh, dijo el viernes que la inflación sigue siendo demasiado alta y que el banco central podría necesitar subir los tipos de interés en los próximos meses para devolverla al objetivo. Warsh argumentó que el mercado laboral es estable, la inversión empresarial es fuerte y el gasto de los consumidores se mantiene resiliente, lo que deja a la Fed margen para actuar sobre los precios en lugar de preocuparse por el crecimiento. Los últimos datos muestran que los precios al consumo subieron un 3,4 % en los doce meses hasta julio, mientras que el indicador de inflación preferido de la Fed, el índice PCE, se sitúa en el 3,7 %. La Fed ha mantenido su tipo de referencia en el 3,50-3,75 % desde diciembre, y aproximadamente la mitad del comité de política monetaria espera ahora una subida antes de que termine 2026. El giro marca un cambio notable respecto a principios de año, cuando los mercados descontaban recortes de tipos.",
+            "tr": "Federal Rezerv Başkanı Kevin Warsh cuma günü enflasyonun hâlâ çok yüksek olduğunu ve merkez bankasının önümüzdeki aylarda enflasyonu hedefe döndürmek için faiz artırması gerekebileceğini söyledi. Warsh, iş gücü piyasasının istikrarlı olduğunu, iş yatırımlarının güçlü seyrettiğini ve tüketici harcamalarının dirençli kaldığını, bunun da Fed'e büyüme konusunda endişelenmek yerine fiyatlar üzerinde hareket etme alanı bıraktığını savundu. Son veriler, tüketici fiyatlarının temmuz sonu itibarıyla son on iki ayda yüzde 3,4 arttığını, Fed'in tercih ettiği enflasyon göstergesi olan PCE endeksinin ise yüzde 3,7 seviyesinde seyrettiğini gösteriyor. Fed, aralıktan bu yana gösterge faizini yüzde 3,50-3,75 aralığında tuttu ve politika kurulunun yaklaşık yarısı artık 2026 sonundan önce bir faiz artışı bekliyor. Bu değişim, piyasaların faiz indirimlerini fiyatladığı yıl başındaki duruma göre belirgin bir dönüşe işaret ediyor."
           },
           "points": {
             "en": [
-              "CPI: Wednesday 12 August, 8:30 a.m. ET",
-              "PPI follows on Thursday",
-              "Last reading: -0.4% monthly, +3.5% yearly"
+              "CPI: +3.4% over 12 months through July",
+              "Fed's preferred PCE gauge: +3.7%",
+              "Benchmark rate held at 3.50-3.75% since December",
+              "Half the Fed committee now expects a hike by year-end"
             ],
             "es": [
-              "IPC: miércoles 12 de agosto, 8:30 ET",
-              "El IPP llega el jueves",
-              "Última lectura: -0,4% mensual, +3,5% anual"
+              "IPC: +3,4% en los 12 meses hasta julio",
+              "Indicador PCE preferido de la Fed: +3,7%",
+              "Tipo de referencia en 3,50-3,75% desde diciembre",
+              "La mitad del comité de la Fed espera ya una subida antes de fin de año"
             ],
             "tr": [
-              "TÜFE: 12 Ağustos Çarşamba, 08.30 ET",
-              "ÜFE perşembe geliyor",
-              "Son okuma: aylık -%0,4, yıllık +%3,5"
+              "TÜFE: temmuz sonu itibarıyla 12 ayda +%3,4",
+              "Fed'in tercih ettiği PCE göstergesi: +%3,7",
+              "Gösterge faiz aralıktan beri %3,50-3,75'te",
+              "Fed kurulunun yarısı artık yıl sonuna kadar bir artış bekliyor"
             ]
           },
-          "source": "U.S. Bureau of Labor Statistics",
-          "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
-        },
-        {
-          "title": {
-            "en": "A heavy data week for the Fed's next move",
-            "es": "Una semana cargada de datos para el próximo paso de la Fed",
-            "tr": "Fed'in bir sonraki adımı için yoğun veri haftası"
-          },
-          "summary": {
-            "en": "Consumer and producer prices arrive back to back, framing the September decision.",
-            "es": "Los precios al consumo y a la producción llegan uno tras otro y enmarcan la decisión de septiembre.",
-            "tr": "Tüketici ve üretici fiyatları art arda geliyor, eylül kararının çerçevesini çiziyor."
-          },
-          "detail": {
-            "en": "The economic calendar for 10-14 August is dominated by the two inflation prints, with consumer prices on Wednesday and producer prices on Thursday. Investors treat this pair as the last clean read before policymakers settle on their next move. The backdrop is a labour market that cooled more than forecast in July, which had briefly pushed expectations towards easing. If prices come in firm, that shift is likely to unwind quickly. The combination of a softening jobs picture and sticky inflation is the uncomfortable middle ground the Fed has been trying to avoid.",
-            "es": "El calendario económico del 10 al 14 de agosto está dominado por los dos datos de inflación: precios al consumo el miércoles y precios de producción el jueves. Los inversores tratan este par como la última lectura limpia antes de que los responsables fijen su próximo paso. El telón de fondo es un mercado laboral que se enfrió más de lo previsto en julio, lo que empujó brevemente las expectativas hacia una relajación. Si los precios llegan firmes, ese giro probablemente se deshará rápido. La combinación de un empleo que se debilita y una inflación pegajosa es el terreno incómodo que la Fed ha intentado evitar.",
-            "tr": "10-14 Ağustos haftasının ekonomik takvimine iki enflasyon verisi hâkim: çarşamba tüketici fiyatları, perşembe üretici fiyatları. Yatırımcılar bu ikiliyi, karar alıcılar bir sonraki adımlarını netleştirmeden önceki son temiz okuma olarak görüyor. Arka planda temmuzda beklenenden fazla soğuyan bir iş gücü piyasası var ve bu, beklentileri kısa süreliğine gevşeme yönüne itmişti. Fiyatlar güçlü gelirse bu eğilim hızla tersine dönebilir. Zayıflayan istihdam ile yapışkan enflasyonun bir arada olması, Fed'in kaçınmaya çalıştığı rahatsız edici orta zemin."
-          },
-          "source": "Kiplinger",
-          "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+          "source": "KPBS / Washington Times",
+          "url": "https://www.kpbs.org/news/economy/2026/08/28/feds-kevin-warsh-warns-inflation-is-too-high-sparking-bets-rate-hikes-are-coming",
+          "time": ""
         }
       ],
       "author": "Daily Now",
-      "path": "2026-08-10__Daily Now__Economy 10 August 2026.json",
-      "size": 6213,
-      "mtime": 1786346823860
+      "path": "2026-08-28__Daily Now__Economy 28 August 2026.json",
+      "size": 5154,
+      "mtime": 1787941515581
     },
     {
       "title": {
-        "en": "Health — 10 August 2026",
-        "es": "Salud — 10 de agosto de 2026",
-        "tr": "Sağlık — 10 Ağustos 2026"
+        "en": "Health — 28 August 2026",
+        "es": "Salud — 28 de agosto de 2026",
+        "tr": "Sağlık — 28 Ağustos 2026"
       },
       "category": "health",
-      "date": "2026-08-10",
+      "date": "2026-08-28",
       "source": "Daily Now",
       "stories": [
         {
           "title": {
-            "en": "FDA clears the first flu vaccine made with mRNA",
-            "es": "La FDA aprueba la primera vacuna antigripal fabricada con ARNm",
-            "tr": "FDA, mRNA ile üretilen ilk grip aşısını onayladı"
+            "en": "Two unvaccinated Pennsylvanians die of measles, including an infant, in first US deaths of the year",
+            "es": "Dos personas no vacunadas de Pensilvania mueren de sarampión, entre ellas un bebé, en las primeras muertes del año en EE. UU.",
+            "tr": "Pennsylvania'da aşısız iki kişi kızamıktan öldü, biri bebek — ABD'de yılın ilk vakaları"
           },
           "summary": {
-            "en": "Moderna's shot is the first licensed influenza vaccine to use the technology.",
-            "es": "La vacuna de Moderna es la primera antigripal autorizada que emplea esta tecnología.",
-            "tr": "Moderna'nın aşısı, bu teknolojiyi kullanan ilk ruhsatlı grip aşısı."
+            "en": "Health officials confirmed measles killed two unvaccinated people, including an infant, in Pennsylvania's Lancaster County — the first US measles deaths in 35 years.",
+            "es": "Las autoridades sanitarias confirmaron que el sarampión mató a dos personas no vacunadas, entre ellas un bebé, en el condado de Lancaster, Pensilvania, las primeras muertes por sarampión en EE. UU. en 35 años.",
+            "tr": "Sağlık yetkilileri, Pennsylvania'nın Lancaster County bölgesinde aşısız iki kişinin, biri bebek, kızamıktan öldüğünü doğruladı — bu, ABD'de 35 yıldır ilk kızamık ölümü."
           },
           "detail": {
-            "en": "The Food and Drug Administration has approved Moderna's influenza vaccine, the first licensed flu shot built on messenger RNA rather than the egg-based or cell-based methods used until now. The significance is largely about speed: mRNA production can be retooled for a new strain far faster than the conventional process, which is set months ahead of the season and can miss a drifting virus. It also opens a path to combination shots that cover influenza and other respiratory infections in a single dose. How much difference it makes in practice will depend on uptake and on how the vaccine performs against the strains that actually circulate.",
-            "es": "La Administración de Alimentos y Medicamentos ha aprobado la vacuna antigripal de Moderna, la primera autorizada que se basa en ARN mensajero en lugar de los métodos con huevo o con cultivo celular usados hasta ahora. Su importancia tiene que ver sobre todo con la velocidad: la producción con ARNm puede reconfigurarse para una nueva cepa mucho antes que el proceso convencional, que se fija meses antes de la temporada y puede errar si el virus deriva. También abre la puerta a vacunas combinadas que cubran la gripe y otras infecciones respiratorias en una sola dosis. Cuánto cambie en la práctica dependerá de la cobertura y del comportamiento de la vacuna frente a las cepas que realmente circulen.",
-            "tr": "Gıda ve İlaç Dairesi, Moderna'nın grip aşısını onayladı; bu, şimdiye dek kullanılan yumurta ya da hücre temelli yöntemler yerine mesajcı RNA üzerine kurulu ilk ruhsatlı grip aşısı. Önemi büyük ölçüde hızla ilgili: mRNA üretimi yeni bir varyant için, sezondan aylar önce sabitlenen ve virüs kayarsa ıskalayabilen geleneksel sürece kıyasla çok daha çabuk yeniden ayarlanabiliyor. Ayrıca gribi ve diğer solunum yolu enfeksiyonlarını tek dozda karşılayan kombine aşılara giden bir yol açıyor. Pratikte ne kadar fark yaratacağı, aşılanma oranına ve aşının gerçekte dolaşan varyantlar karşısındaki performansına bağlı olacak."
-          },
-          "source": "STAT",
-          "url": "https://www.statnews.com/2026/08/05/fda-approves-moderna-mflusiva-first-mrna-flu-vaccine/"
-        },
-        {
-          "title": {
-            "en": "Study finds Covid can reactivate dormant viruses",
-            "es": "Un estudio halla que la Covid puede reactivar virus latentes",
-            "tr": "Çalışma: Covid uykudaki virüsleri yeniden etkinleştirebiliyor"
-          },
-          "summary": {
-            "en": "The finding offers a possible mechanism behind some lingering post-infection symptoms.",
-            "es": "El hallazgo apunta a un posible mecanismo tras algunos síntomas persistentes.",
-            "tr": "Bulgu, enfeksiyon sonrası süren bazı belirtiler için olası bir mekanizma sunuyor."
-          },
-          "detail": {
-            "en": "Researchers report that a Covid infection can wake viruses that were lying dormant in the body rather than clearing them. Many people carry latent viruses for life without symptoms, held in check by the immune system; a sufficiently disruptive infection can loosen that control. The work matters because it offers a concrete mechanism for symptoms that persist long after the original infection has resolved, an area where explanations have been scarce. It does not by itself establish that reactivation causes those symptoms, and the authors treat the link as a hypothesis to test rather than a settled result.",
-            "es": "Los investigadores señalan que una infección por Covid puede despertar virus que permanecían latentes en el organismo en lugar de eliminarlos. Muchas personas portan virus latentes de por vida sin síntomas, contenidos por el sistema inmunitario; una infección lo bastante disruptiva puede aflojar ese control. El trabajo importa porque ofrece un mecanismo concreto para síntomas que persisten mucho después de resolverse la infección original, un terreno donde han escaseado las explicaciones. Por sí solo no demuestra que la reactivación cause esos síntomas, y los autores tratan el vínculo como una hipótesis por comprobar y no como un resultado cerrado.",
-            "tr": "Araştırmacılar, bir Covid enfeksiyonunun vücutta uykuda duran virüsleri temizlemek yerine uyandırabildiğini bildiriyor. Pek çok kişi ömür boyu belirti vermeden latent virüs taşır; bunları bağışıklık sistemi baskı altında tutar ve yeterince sarsıcı bir enfeksiyon bu denetimi gevşetebilir. Çalışma önemli, çünkü asıl enfeksiyon geçtikten çok sonra süren belirtiler için somut bir mekanizma öneriyor; bu alanda açıklamalar kıttı. Bulgu tek başına yeniden etkinleşmenin bu belirtilere yol açtığını kanıtlamıyor ve yazarlar bağlantıyı kapanmış bir sonuç değil, sınanacak bir hipotez olarak ele alıyor."
-          },
-          "source": "STAT",
-          "url": "https://www.statnews.com/2026/08/06/health-news-covid-can-reactivate-dormant-viruses-study-finds/"
-        },
-        {
-          "title": {
-            "en": "A drug-resistant fungus spreads through US hospitals",
-            "es": "Un hongo resistente se propaga por los hospitales de EE. UU.",
-            "tr": "İlaca dirençli bir mantar ABD hastanelerinde yayılıyor"
-          },
-          "summary": {
-            "en": "More than 3,000 Candida auris cases are reported across at least 23 states.",
-            "es": "Se notifican más de 3.000 casos de Candida auris en al menos 23 estados.",
-            "tr": "En az 23 eyalette 3.000'den fazla Candida auris vakası bildirildi."
-          },
-          "detail": {
-            "en": "The Centers for Disease Control and Prevention report more than 3,000 cases of Candida auris spreading in healthcare facilities across at least 23 states. The fungus is hard to eradicate because it survives on surfaces and resists several antifungal drugs, and it mainly threatens patients who are already seriously ill. Containing it depends less on new treatments than on unglamorous infection control: screening, isolation and deep cleaning. Separately, the American Red Cross has declared a national blood supply crisis after donations fell to a four-year summer low, and Chipotle has pulled jalapenos from restaurants in Minnesota and elsewhere over a possible salmonella link.",
-            "es": "Los Centros para el Control y la Prevención de Enfermedades notifican más de 3.000 casos de Candida auris propagándose en centros sanitarios de al menos 23 estados. El hongo es difícil de erradicar porque sobrevive en superficies y resiste varios antifúngicos, y amenaza sobre todo a pacientes que ya están graves. Contenerlo depende menos de nuevos tratamientos que del control de infecciones más rutinario: cribado, aislamiento y limpieza a fondo. Por separado, la Cruz Roja Americana ha declarado una crisis nacional de suministro de sangre tras caer las donaciones a su nivel estival más bajo en cuatro años, y Chipotle ha retirado los jalapeños de sus restaurantes en Minnesota y otros lugares por un posible vínculo con salmonela.",
-            "tr": "Hastalık Kontrol ve Önleme Merkezleri, en az 23 eyaletteki sağlık kuruluşlarında yayılan 3.000'den fazla Candida auris vakası bildiriyor. Mantar yüzeylerde hayatta kaldığı ve çeşitli antifungal ilaçlara direndiği için ortadan kaldırılması güç; esas olarak halihazırda ağır hasta olanları tehdit ediyor. Kontrol altına almak yeni tedavilerden çok sıradan enfeksiyon önlemlerine bağlı: tarama, izolasyon ve derin temizlik. Ayrıca Amerikan Kızılhaçı, bağışların dört yılın en düşük yaz seviyesine inmesinin ardından ulusal kan tedariki krizi ilan etti ve Chipotle olası bir salmonella bağlantısı nedeniyle Minnesota ve diğer bazı yerlerdeki restoranlarından jalapeno biberini kaldırdı."
+            "en": "Health officials in Pennsylvania confirmed on 25 August that two unvaccinated residents of Lancaster County died from measles-related complications, one of them an infant. The deaths are the first attributed to measles in the United States this year and the first recorded in Pennsylvania in 35 years. The state has now confirmed 393 measles cases in the outbreak, with 86 diagnosed in just the past week, and 70 people have been hospitalized for complications. Officials say the outbreak has spread largely among unvaccinated communities and are urging residents to check their immunization status as case counts continue climbing. The deaths have reignited debate in Washington over vaccine policy, including a separate proposal to split the combined measles-mumps-rubella shot into three separate doses, which critics warn could raise costs and make it harder for families to keep children fully immunized.",
+            "es": "Las autoridades sanitarias de Pensilvania confirmaron el 25 de agosto que dos residentes no vacunados del condado de Lancaster murieron por complicaciones relacionadas con el sarampión, uno de ellos un bebé. Son las primeras muertes atribuidas al sarampión en Estados Unidos este año y las primeras registradas en Pensilvania en 35 años. El estado ha confirmado ya 393 casos de sarampión en el brote, 86 de ellos diagnosticados solo en la última semana, y 70 personas han sido hospitalizadas por complicaciones. Las autoridades afirman que el brote se ha propagado sobre todo en comunidades no vacunadas y piden a los residentes que revisen su estado de vacunación mientras el número de casos sigue en aumento. Las muertes han reavivado en Washington el debate sobre la política de vacunación, incluida una propuesta para dividir la vacuna combinada contra el sarampión, las paperas y la rubéola en tres dosis separadas, algo que según sus críticos podría encarecer el proceso y dificultar que las familias mantengan a los niños completamente inmunizados.",
+            "tr": "Pennsylvania'daki sağlık yetkilileri 25 Ağustos'ta, Lancaster County'de aşısız iki sakinin kızamıkla ilişkili komplikasyonlardan öldüğünü doğruladı; ölenlerden biri bir bebekti. Bu ölümler, Amerika Birleşik Devletleri'nde bu yıl kızamığa bağlanan ilk ölümler ve Pennsylvania'da 35 yıldır kaydedilen ilk vaka. Eyalet, salgında şimdiye kadar 393 kızamık vakasını doğruladı; bunların 86'sı yalnızca geçtiğimiz hafta teşhis edildi ve 70 kişi komplikasyonlar nedeniyle hastaneye kaldırıldı. Yetkililer, salgının büyük ölçüde aşısız topluluklar arasında yayıldığını söylüyor ve vaka sayıları artmaya devam ederken sakinleri aşı durumlarını kontrol etmeye çağırıyor. Ölümler, Washington'da aşı politikası tartışmasını yeniden alevlendirdi; bunlar arasında kombine kızamık-kabakulak-kızamıkçık aşısını üç ayrı doza bölme önerisi de var — eleştirmenler bunun maliyetleri artırabileceğini ve ailelerin çocuklarını tam aşılı tutmasını zorlaştırabileceğini söylüyor."
           },
           "points": {
             "en": [
-              "Candida auris: 3,000+ cases, 23+ states",
-              "Red Cross declares a national blood supply crisis",
-              "Chipotle pulls jalapenos over a possible salmonella link"
+              "393 confirmed cases in Pennsylvania, 86 in the past week",
+              "70 hospitalized for complications",
+              "First US measles deaths this year, first in PA in 35 years"
             ],
             "es": [
-              "Candida auris: más de 3.000 casos, 23+ estados",
-              "La Cruz Roja declara una crisis nacional de sangre",
-              "Chipotle retira los jalapeños por un posible vínculo con salmonela"
+              "393 casos confirmados en Pensilvania, 86 en la última semana",
+              "70 hospitalizados por complicaciones",
+              "Primeras muertes por sarampión en EE. UU. este año, primeras en PA en 35 años"
             ],
             "tr": [
-              "Candida auris: 3.000+ vaka, 23+ eyalet",
-              "Kızılhaç ulusal kan tedariki krizi ilan etti",
-              "Chipotle olası salmonella bağlantısı nedeniyle jalapeno kaldırdı"
+              "Pennsylvania'da 393 doğrulanmış vaka, 86'sı geçen hafta",
+              "Komplikasyonlar nedeniyle 70 kişi hastaneye kaldırıldı",
+              "ABD'de bu yılki ilk kızamık ölümleri, PA'da 35 yıldaki ilki"
             ]
           },
-          "source": "KFF Health News",
-          "url": "https://kffhealthnews.org/morning-briefing/tuesday-august-4-2026/"
+          "source": "CNN",
+          "url": "https://www.cnn.com/2026/08/25/health/measles-deaths-pennsylvania",
+          "time": ""
         }
       ],
       "author": "Daily Now",
-      "path": "2026-08-10__Daily Now__Health 10 August 2026.json",
-      "size": 9448,
-      "mtime": 1786346823861
+      "path": "2026-08-28__Daily Now__Health 28 August 2026.json",
+      "size": 5329,
+      "mtime": 1787941633339
     },
     {
       "title": {
-        "en": "Sports — 10 August 2026",
-        "es": "Deportes — 10 de agosto de 2026",
-        "tr": "Spor — 10 Ağustos 2026"
+        "en": "Sports — 28 August 2026",
+        "es": "Deportes — 28 de agosto de 2026",
+        "tr": "Spor — 28 Ağustos 2026"
       },
       "category": "sports",
-      "date": "2026-08-10",
+      "date": "2026-08-28",
       "source": "Daily Now",
       "stories": [
         {
           "title": {
-            "en": "Rodri to Barcelona takes shape as the window enters its final stretch",
-            "es": "El paso de Rodri al Barcelona toma forma en la recta final del mercado",
-            "tr": "Transfer döneminin son düzlüğünde Rodri'nin Barcelona'ya gidişi şekilleniyor"
+            "en": "NFL preseason wraps up with late heroics from the Bills and a Rams sweep",
+            "es": "La pretemporada de la NFL concluye con una heroicidad tardía de los Bills y un barrido de los Rams",
+            "tr": "NFL hazırlık sezonu Bills'in geç saatteki kahramanlığı ve Rams'in üç maçlık serisiyle kapandı"
           },
           "summary": {
-            "en": "Barcelona are closing on the Manchester City midfielder ahead of Real Madrid.",
-            "es": "El Barcelona se acerca al centrocampista del Manchester City por delante del Real Madrid.",
-            "tr": "Barcelona, Real Madrid'in önüne geçerek Manchester City'nin orta saha oyuncusuna yaklaştı."
+            "en": "The Buffalo Bills closed the preseason with a late two-point conversion to beat the Steelers, while the Rams completed a preseason sweep and the Raiders fell to the 49ers.",
+            "es": "Los Buffalo Bills cerraron la pretemporada con una conversión de dos puntos en el último momento para vencer a los Steelers, mientras que los Rams completaron un barrido en pretemporada y los Raiders cayeron ante los 49ers.",
+            "tr": "Buffalo Bills, hazırlık sezonunu Steelers'ı geç saatteki 2 sayılık dönüşümle yenerek kapatırken, Rams hazırlık sezonunda üç maçı da kazandı, Raiders ise 49ers'a yenildi."
           },
           "detail": {
-            "en": "Barcelona are closing in on a deal for Rodri from Manchester City, winning a race in which Real Madrid had been the other serious bidder. Madrid have meanwhile confirmed that Vinicius Junior has signed a new long-term contract, settling the season's other running question at the Bernabeu. Chelsea remain the biggest spenders in world football this summer, with Morgan Rogers, Maxence Lacroix and Marco Palestra among the arrivals at Stamford Bridge. The window opened on 15 June and closes at 11pm UK time on 1 September, leaving three weeks for the remaining business.",
-            "es": "El Barcelona se acerca a cerrar el fichaje de Rodri procedente del Manchester City y gana una carrera en la que el Real Madrid era el otro postor serio. El Madrid, por su parte, ha confirmado que Vinicius Junior ha firmado un nuevo contrato de larga duración, zanjando la otra gran incógnita de la temporada en el Bernabéu. El Chelsea sigue siendo el club que más gasta del fútbol mundial este verano, con Morgan Rogers, Maxence Lacroix y Marco Palestra entre las llegadas a Stamford Bridge. El mercado abrió el 15 de junio y cierra el 1 de septiembre a las 23:00 hora británica, lo que deja tres semanas para el resto de operaciones.",
-            "tr": "Barcelona, Manchester City'den Rodri için anlaşmaya yaklaştı ve diğer ciddi talibi Real Madrid'in önüne geçti. Madrid ise Vinicius Junior'ın uzun süreli yeni sözleşme imzaladığını doğrulayarak Bernabeu'daki sezonun bir diğer açık sorusunu kapattı. Chelsea bu yaz dünya futbolunun en çok harcayan kulübü olmayı sürdürüyor; Morgan Rogers, Maxence Lacroix ve Marco Palestra Stamford Bridge'e gelenler arasında. Transfer dönemi 15 Haziran'da açıldı ve 1 Eylül'de İngiltere saatiyle 23.00'te kapanıyor; geri kalan işler için üç hafta kaldı."
+            "en": "NFL teams closed out the preseason slate with a full night of exhibition games. The Buffalo Bills beat the Pittsburgh Steelers 28-27 on a late two-point conversion from quarterback Jalen Buechele, capping a tight finish to their preseason schedule. The Los Angeles Rams completed a perfect preseason sweep, with a second-quarter touchdown from Ty Simpson helping seal the win. The Las Vegas Raiders, by contrast, fell 18-12 to the San Francisco 49ers to close out their own preseason slate. With exhibition play now finished, teams turn to trimming rosters ahead of the regular season, and coaches will use these final preseason results to help settle position battles before final cuts. The games offered a last look at fringe roster hopefuls before the games start counting.",
+            "es": "Los equipos de la NFL cerraron el calendario de pretemporada con una noche completa de partidos de exhibición. Los Buffalo Bills vencieron a los Pittsburgh Steelers 28-27 con una conversión de dos puntos en el último momento del quarterback Jalen Buechele, cerrando así un final muy ajustado de su calendario de pretemporada. Los Los Angeles Rams completaron un barrido perfecto en pretemporada, con un touchdown en el segundo cuarto de Ty Simpson que ayudó a sellar la victoria. Los Las Vegas Raiders, en cambio, cayeron 18-12 ante los San Francisco 49ers para cerrar su propio calendario de pretemporada. Con la pretemporada ya terminada, los equipos pasan ahora a recortar sus plantillas antes de la temporada regular, y los entrenadores usarán estos últimos resultados de pretemporada para resolver las pugnas por puestos antes de los recortes finales. Los partidos ofrecieron una última mirada a los aspirantes marginales de la plantilla antes de que los partidos empiecen a contar.",
+            "tr": "NFL takımları, hazırlık sezonu takvimini dolu bir sergi maçları geceyle kapattı. Buffalo Bills, çeyrek oyun kurucu Jalen Buechele'in geç saatteki 2 sayılık dönüşümüyle Pittsburgh Steelers'ı 28-27 yenerek hazırlık sezonu takvimini gergin bir bitirişle tamamladı. Los Angeles Rams, Ty Simpson'ın ikinci çeyrekteki dokunuşunun galibiyeti kilitlemesine yardımcı olmasıyla hazırlık sezonunda mükemmel bir seri tamamladı. Las Vegas Raiders ise kendi hazırlık sezonu takvimini San Francisco 49ers'a 18-12 kaybederek kapattı. Sergi maçları artık bittiğine göre takımlar, düzenli sezon öncesinde kadrolarını daraltmaya yöneliyor; teknik direktörler bu son hazırlık sezonu sonuçlarını, son kadro kesintileri öncesinde mevki mücadelelerini çözmek için kullanacak. Maçlar, asıl sezon başlamadan önce kadronun sınırdaki isimlerine son bir bakış sundu."
           },
           "points": {
             "en": [
-              "Window closes 1 September, 11pm UK time",
-              "Vinicius Junior signs a new long-term deal at Real Madrid",
-              "Chelsea the biggest spenders this summer"
+              "Bills 28-27 Steelers on a late 2-point conversion",
+              "Rams complete a perfect preseason sweep",
+              "Raiders close preseason with an 18-12 loss to the 49ers"
             ],
             "es": [
-              "El mercado cierra el 1 de septiembre a las 23:00 hora británica",
-              "Vinicius Junior firma un nuevo contrato largo en el Real Madrid",
-              "El Chelsea, el que más gasta este verano"
+              "Bills 28-27 Steelers con una conversión de dos puntos tardía",
+              "Los Rams completan un barrido perfecto en pretemporada",
+              "Los Raiders cierran la pretemporada con una derrota 18-12 ante los 49ers"
             ],
             "tr": [
-              "Transfer dönemi 1 Eylül 23.00'te (İngiltere saati) kapanıyor",
-              "Vinicius Junior Real Madrid ile uzun süreli yeni sözleşme imzaladı",
-              "Bu yaz en çok harcayan kulüp Chelsea"
+              "Bills, geç 2 sayılık dönüşümle Steelers'ı 28-27 yendi",
+              "Rams hazırlık sezonunda mükemmel bir seri tamamladı",
+              "Raiders hazırlık sezonunu 49ers'a 18-12 kaybederek kapattı"
             ]
           },
-          "source": "Sky Sports",
-          "url": "https://www.skysports.com/football/news/11095/13546618/transfer-news-summer-transfer-window-2026-premier-league-deals-ins-and-outs"
+          "source": "Honolulu Star-Advertiser",
+          "url": "https://www.staradvertiser.com/2026/08/28/sports/scoreboard-august-28-2026/",
+          "time": ""
+        },
+        {
+          "title": {
+            "en": "Reds pull off historic 10-9 comeback from six runs down in San Francisco",
+            "es": "Los Reds logran una histórica remontada 10-9 tras ir seis carreras abajo en San Francisco",
+            "tr": "Reds, San Francisco'da altı sayı gerideyken tarihi bir 10-9 geri dönüş yaşadı"
+          },
+          "summary": {
+            "en": "The Cincinnati Reds rallied from a six-run deficit entering the ninth inning to beat the Giants 10-9, only the third such comeback in franchise history.",
+            "es": "Los Cincinnati Reds remontaron un déficit de seis carreras al entrar a la novena entrada para vencer a los Giants 10-9, solo la tercera remontada así en la historia de la franquicia.",
+            "tr": "Cincinnati Reds, dokuzuncu vuruş turuna altı sayı geride girmesine rağmen Giants'ı 10-9 yenerek, franchise tarihindeki bu tür yalnızca üçüncü geri dönüşü gerçekleştirdi."
+          },
+          "detail": {
+            "en": "The Cincinnati Reds staged one of the most dramatic comebacks of the MLB season, overturning a six-run deficit heading into the ninth inning to beat the San Francisco Giants 10-9. The rally is only the third time in franchise history the Reds have won a game after trailing by six or more runs entering the final inning, underscoring how rare the feat is even across a long season. The Giants had appeared to have the game in hand for most of the night before their bullpen faltered late, allowing Cincinnati's lineup to string together the hits and walks needed to complete the turnaround. The win offers a morale boost for a Reds team looking to strengthen its position as the stretch run toward the postseason picture continues. Late-season comebacks of this scale tend to be remembered well beyond the standings they affect.",
+            "es": "Los Cincinnati Reds protagonizaron una de las remontadas más dramáticas de la temporada de la MLB al revertir un déficit de seis carreras al entrar a la novena entrada para vencer a los San Francisco Giants 10-9. La remontada es solo la tercera vez en la historia de la franquicia que los Reds ganan un partido tras ir seis o más carreras abajo al entrar a la última entrada, lo que subraya lo poco frecuente que es esta hazaña incluso a lo largo de una temporada larga. Los Giants parecían tener el partido controlado durante casi toda la noche antes de que su bullpen flaqueara en los últimos innings, permitiendo que el orden de bateo de Cincinnati encadenara los hits y bases por bolas necesarios para completar el giro. La victoria supone un impulso anímico para un equipo de los Reds que busca reforzar su posición mientras continúa el tramo final hacia el cuadro de postemporada. Las remontadas de esta magnitud a final de temporada suelen recordarse mucho más allá de la clasificación a la que afectan.",
+            "tr": "Cincinnati Reds, dokuzuncu vuruş turuna altı sayı gerideyken girip San Francisco Giants'ı 10-9 yenerek MLB sezonunun en dramatik geri dönüşlerinden birine imza attı. Bu geri dönüş, Reds'in franchise tarihinde son vuruş turuna altı veya daha fazla sayı geride girip maçı kazandığı yalnızca üçüncü sefer olarak öne çıkıyor; bu da uzun bir sezon boyunca bile bu başarının ne kadar nadir olduğunu gösteriyor. Giants, gecenin büyük bölümünde maçı kontrol altında tutmuş gibi görünüyordu, ta ki bullpen'leri geç saatlerde çökene ve Cincinnati'nin vuruş sırasının geri dönüşü tamamlamak için gereken vuruşları ve yürüyüşleri art arda getirmesine izin verilene kadar. Galibiyet, play-off tablosuna doğru son düzlük sürerken konumunu güçlendirmeye çalışan Reds için bir moral desteği sağlıyor. Sezon sonuna doğru bu ölçekteki geri dönüşler, etkiledikleri sıralamanın çok ötesinde hatırlanma eğiliminde."
+          },
+          "points": {
+            "en": [
+              "Reds win 10-9 after trailing by six entering the 9th",
+              "Only the third such comeback in franchise history",
+              "Giants' bullpen faltered late to allow the rally"
+            ],
+            "es": [
+              "Los Reds ganan 10-9 tras ir seis carreras abajo al entrar a la 9ª",
+              "Solo la tercera remontada así en la historia de la franquicia",
+              "El bullpen de los Giants flaqueó al final y permitió la remontada"
+            ],
+            "tr": [
+              "Reds, 9. tura altı sayı gerideyken girip 10-9 kazandı",
+              "Franchise tarihindeki bu tür yalnızca üçüncü geri dönüş",
+              "Giants'ın bullpen'i geç saatlerde çökerek geri dönüşe izin verdi"
+            ]
+          },
+          "source": "ESPN",
+          "url": "https://www.espn.com/mlb/scoreboard/_/date/20260828",
+          "time": ""
         }
       ],
       "author": "Daily Now",
-      "path": "2026-08-10__Daily Now__Sports 10 August 2026.json",
-      "size": 3667,
-      "mtime": 1786346823862
+      "path": "2026-08-28__Daily Now__Sports 28 August 2026.json",
+      "size": 9664,
+      "mtime": 1787941679468
     },
     {
       "title": {
-        "en": "Technology — 10 August 2026",
-        "es": "Tecnología — 10 de agosto de 2026",
-        "tr": "Teknoloji — 10 Ağustos 2026"
+        "en": "Technology — 28 August 2026",
+        "es": "Tecnología — 28 de agosto de 2026",
+        "tr": "Teknoloji — 28 Ağustos 2026"
       },
       "category": "tech",
-      "date": "2026-08-10",
+      "date": "2026-08-28",
       "source": "Daily Now",
       "stories": [
         {
           "title": {
-            "en": "Washington takes equity stakes in seven chip R&D companies",
-            "es": "Washington toma participaciones en siete empresas de I+D de chips",
-            "tr": "Washington yedi çip Ar-Ge şirketinde hisse alıyor"
+            "en": "Federal judge rules Pentagon cannot blacklist Anthropic over its safety limits",
+            "es": "Un juez federal dictamina que el Pentágono no puede vetar a Anthropic por sus límites de seguridad",
+            "tr": "Federal yargıç, Pentagon'un Anthropic'i güvenlik sınırları nedeniyle kara listeye alamayacağına hükmetti"
           },
           "summary": {
-            "en": "The Commerce Department signed letters of intent worth 874 million dollars.",
-            "es": "El Departamento de Comercio firmó cartas de intención por 874 millones de dólares.",
-            "tr": "Ticaret Bakanlığı 874 milyon dolarlık niyet mektupları imzaladı."
+            "en": "A federal judge blocked the Defense Department from excluding Anthropic over the safety restrictions it places on how its AI models can be used.",
+            "es": "Un juez federal impidió que el Departamento de Defensa excluyera a Anthropic por las restricciones de seguridad que impone sobre el uso de sus modelos de IA.",
+            "tr": "Federal bir yargıç, Savunma Bakanlığı'nın Anthropic'i yapay zekâ modellerinin kullanımına koyduğu güvenlik kısıtlamaları nedeniyle dışlamasını engelledi."
           },
           "detail": {
-            "en": "The Commerce Department's CHIPS Research and Development Office has signed letters of intent with seven companies for a combined 874 million dollars in federal funding aimed at the compute supply chain. The structure is what makes it notable: the money comes in exchange for minority equity stakes, rather than as straightforward grants. That marks a further step away from the original subsidy model towards the government holding direct positions in the firms it backs. The programme targets research and development for the chips underpinning artificial intelligence workloads.",
-            "es": "La Oficina de Investigación y Desarrollo de CHIPS del Departamento de Comercio ha firmado cartas de intención con siete empresas por un total de 874 millones de dólares en financiación federal destinada a la cadena de suministro de computación. Lo llamativo es la estructura: el dinero llega a cambio de participaciones minoritarias, y no como subvenciones directas. Es un paso más para alejarse del modelo original de subsidios y acercarse a un gobierno que mantiene posiciones directas en las empresas que respalda. El programa se centra en la investigación y el desarrollo de los chips que sostienen las cargas de trabajo de inteligencia artificial.",
-            "tr": "Ticaret Bakanlığı'na bağlı CHIPS Araştırma ve Geliştirme Ofisi, hesaplama tedarik zincirine yönelik toplam 874 milyon dolarlık federal fon için yedi şirketle niyet mektubu imzaladı. Dikkat çekici olan yapının kendisi: para doğrudan hibe olarak değil, azınlık hissesi karşılığında veriliyor. Bu, özgün teşvik modelinden uzaklaşıp devletin desteklediği şirketlerde doğrudan pay sahibi olmasına doğru atılmış bir adım daha. Program, yapay zekâ iş yüklerinin dayandığı çiplerin araştırma ve geliştirmesini hedefliyor."
-          },
-          "source": "NIST",
-          "url": "https://www.nist.gov/news-events/news/2026/07/department-commerce-announces-letters-intent-7-companies-874-million"
-        },
-        {
-          "title": {
-            "en": "Tesla and SpaceX detail a 16.8 billion dollar Texas chip complex",
-            "es": "Tesla y SpaceX detallan un complejo de chips de 16.800 millones en Texas",
-            "tr": "Tesla ve SpaceX, Teksas'taki 16,8 milyar dolarlık çip tesisini anlattı"
-          },
-          "summary": {
-            "en": "The Terafab project would cover 100 million square feet and employ at least 3,000 people.",
-            "es": "El proyecto Terafab ocuparía 9,3 millones de metros cuadrados y emplearía al menos a 3.000 personas.",
-            "tr": "Terafab projesi 100 milyon fit kare alan kaplayacak ve en az 3.000 kişi çalıştıracak."
-          },
-          "detail": {
-            "en": "SpaceX and Tesla have put numbers to Terafab, their planned semiconductor site in Grimes County, Texas, describing a 16.8 billion dollar initial phase within a complex eventually covering 100 million square feet. The companies say the site would employ at least 3,000 people and handle manufacturing, packaging and testing in one place. The chips are intended for Tesla vehicles and robots and for SpaceX compute systems, making this an unusually vertical bet for two firms that have so far bought their silicon. Building capacity at that scale is a multi-year commitment, and the initial phase figure covers only the first stage.",
-            "es": "SpaceX y Tesla han puesto cifras a Terafab, su planta de semiconductores prevista en el condado de Grimes, Texas, con una fase inicial de 16.800 millones de dólares dentro de un complejo que llegaría a 9,3 millones de metros cuadrados. Las empresas afirman que el emplazamiento daría trabajo a al menos 3.000 personas y reuniría fabricación, encapsulado y pruebas en un mismo lugar. Los chips se destinan a los vehículos y robots de Tesla y a los sistemas de computación de SpaceX, lo que convierte esto en una apuesta vertical poco habitual para dos compañías que hasta ahora compraban su silicio. Levantar capacidad a esa escala es un compromiso de varios años y la cifra de la fase inicial cubre solo la primera etapa.",
-            "tr": "SpaceX ve Tesla, Teksas'ın Grimes ilçesinde planladıkları yarı iletken tesisi Terafab için rakam verdi: nihayetinde 100 milyon fit kareye ulaşacak bir kompleks içinde 16,8 milyar dolarlık bir ilk aşama. Şirketlere göre tesis en az 3.000 kişiye iş verecek ve üretim, paketleme ile testi tek bir yerde toplayacak. Üretilecek çipler Tesla araçları ve robotları ile SpaceX'in hesaplama sistemleri için düşünülüyor; bu da şimdiye dek çipini satın alan iki şirket için alışılmadık ölçüde dikey bir bahis anlamına geliyor. Bu ölçekte kapasite kurmak yıllara yayılan bir taahhüt ve açıklanan rakam yalnızca ilk aşamayı kapsıyor."
+            "en": "A federal judge ruled that the Pentagon cannot exclude Anthropic from defense contracting over the safety restrictions the company places on how its models can be deployed, a decision that pushes back on efforts to penalize AI developers for imposing use-case limits. The case turned on whether the government could effectively require companies to drop safety guardrails as a condition of doing business with the military. The ruling is being read as a signal that AI companies retain latitude to enforce their own usage policies even when dealing with defense customers. It lands alongside separate moves in the AI security space, including Google Cloud publishing guidance that frames securing autonomous agents as one of the industry's top gating issues and recommending adoption of Secure AI Frameworks. Together, the developments underscore how much of the current AI policy fight is now playing out over safety rules rather than raw capability.",
+            "es": "Un juez federal dictaminó que el Pentágono no puede excluir a Anthropic de la contratación de defensa por las restricciones de seguridad que la empresa impone sobre cómo pueden desplegarse sus modelos, una decisión que frena los intentos de penalizar a los desarrolladores de IA por imponer límites de uso. El caso giraba en torno a si el Gobierno podía, en la práctica, exigir a las empresas que eliminaran sus salvaguardas de seguridad como condición para hacer negocios con el ejército. El fallo se interpreta como una señal de que las empresas de IA conservan margen para aplicar sus propias políticas de uso incluso al tratar con clientes de defensa. Llega junto a otros movimientos en el ámbito de la seguridad de la IA, entre ellos la publicación por parte de Google Cloud de una guía que enmarca la seguridad de los agentes autónomos como uno de los principales problemas del sector y recomienda adoptar marcos de IA segura. En conjunto, estos avances subrayan hasta qué punto la disputa actual sobre la política de IA se libra ahora en torno a las normas de seguridad más que a la capacidad bruta.",
+            "tr": "Federal bir yargıç, Pentagon'un Anthropic'i modellerinin nasıl kullanılabileceğine koyduğu güvenlik kısıtlamaları nedeniyle savunma ihalelerinden dışlayamayacağına hükmetti; bu karar, kullanım sınırları koydukları için yapay zekâ geliştiricilerini cezalandırma çabalarına karşı bir geri adım anlamına geliyor. Dava, hükümetin şirketlerin orduyla iş yapmanın bir koşulu olarak güvenlik önlemlerini fiilen kaldırmasını isteyip isteyemeyeceği üzerine kuruluydu. Karar, yapay zekâ şirketlerinin savunma müşterileriyle çalışırken bile kendi kullanım politikalarını uygulama alanını koruduğunun bir işareti olarak okunuyor. Bu gelişme, yapay zekâ güvenliği alanındaki ayrı adımlarla birlikte geliyor; bunlardan biri Google Cloud'un otonom ajanların güvenliğini sektörün en önemli engelleyici sorunlarından biri olarak tanımlayan ve Güvenli Yapay Zekâ Çerçeveleri'nin benimsenmesini öneren bir rehber yayımlaması. Bir arada değerlendirildiğinde bu gelişmeler, mevcut yapay zekâ politikası mücadelesinin ne kadarının artık ham yetenek yerine güvenlik kuralları üzerinden yürütüldüğünü ortaya koyuyor."
           },
           "points": {
             "en": [
-              "Initial phase: 16.8 billion dollars",
-              "At least 3,000 jobs planned",
-              "Sandisk and SK hynix released the High Bandwidth Flash spec the same week",
-              "Kioxia and Sandisk showed 10th-generation QLC flash above 37 Gb/mm2"
+              "Ruling blocks Pentagon from excluding Anthropic over safety limits",
+              "Case centered on use-case restrictions, not capability",
+              "Google Cloud separately urges Secure AI Frameworks for agents"
             ],
             "es": [
-              "Fase inicial: 16.800 millones de dólares",
-              "Al menos 3.000 empleos previstos",
-              "Sandisk y SK hynix publicaron la especificación High Bandwidth Flash esa misma semana",
-              "Kioxia y Sandisk mostraron flash QLC de 10ª generación por encima de 37 Gb/mm2"
+              "El fallo impide al Pentágono excluir a Anthropic por sus límites de seguridad",
+              "El caso se centró en las restricciones de uso, no en la capacidad",
+              "Google Cloud pide por separado marcos de IA segura para los agentes"
             ],
             "tr": [
-              "İlk aşama: 16,8 milyar dolar",
-              "En az 3.000 istihdam planlanıyor",
-              "Sandisk ve SK hynix aynı hafta High Bandwidth Flash şartnamesini yayımladı",
-              "Kioxia ve Sandisk 37 Gb/mm2 üzerinde 10. nesil QLC flash tanıttı"
+              "Karar, Pentagon'un Anthropic'i güvenlik sınırları nedeniyle dışlamasını engelliyor",
+              "Dava, yeteneğe değil kullanım kısıtlamalarına odaklandı",
+              "Google Cloud ayrıca ajanlar için Güvenli Yapay Zekâ Çerçeveleri çağrısı yapıyor"
             ]
           },
-          "source": "Semiconductor Engineering",
-          "url": "https://semiengineering.com/chip-industry-week-in-review-150/"
+          "source": "Tech Startups",
+          "url": "https://techstartups.com/2026/08/28/top-tech-news-today-august-28-2026-alibaba-anthropic-openai-google-marvell-microsoft-waymo-more/",
+          "time": ""
+        },
+        {
+          "title": {
+            "en": "Meta updates smart-glasses software after users bypass the recording indicator",
+            "es": "Meta actualiza el software de sus gafas inteligentes tras descubrirse que se podía burlar el indicador de grabación",
+            "tr": "Kullanıcılar kayıt göstergesini atlatınca Meta akıllı gözlük yazılımını güncelledi"
+          },
+          "summary": {
+            "en": "Meta is changing the software on its AI smart glasses after users found they could keep recording even with the capture light covered.",
+            "es": "Meta está cambiando el software de sus gafas inteligentes con IA después de que los usuarios descubrieran que podían seguir grabando incluso con la luz de captura tapada.",
+            "tr": "Kullanıcılar, kayıt ışığı kapatılsa bile kayda devam edebildiklerini keşfedince Meta, yapay zekâ destekli akıllı gözlüklerinin yazılımını değiştiriyor."
+          },
+          "detail": {
+            "en": "Meta said it is updating the software on its AI-powered smart glasses after users discovered a way to keep recording video even when the physical capture indicator light was covered with a finger or tape. The indicator is meant to signal to bystanders that the wearer is recording, and the workaround raised fresh privacy concerns about a device already scrutinized for its ability to film people without their knowledge. Under the fix, Meta says the camera will stop functioning entirely if the light is covered during a recording, rather than continuing to capture footage silently. The company did not say how long the flaw had existed before it was discovered or how many devices were affected. The episode adds to a running debate over how wearable cameras should be designed to protect bystander privacy as the category grows.",
+            "es": "Meta afirmó que está actualizando el software de sus gafas inteligentes con IA después de que los usuarios descubrieran una forma de seguir grabando vídeo incluso con la luz indicadora de captura tapada con un dedo o cinta adhesiva. El indicador está pensado para señalar a las personas cercanas que quien lleva las gafas está grabando, y el método para burlarlo reavivó las preocupaciones de privacidad sobre un dispositivo ya cuestionado por su capacidad de filmar a personas sin que lo sepan. Con la corrección, Meta afirma que la cámara dejará de funcionar por completo si se tapa la luz durante una grabación, en lugar de seguir capturando imágenes en silencio. La empresa no precisó cuánto tiempo llevaba existiendo el fallo antes de ser descubierto ni a cuántos dispositivos afectaba. El episodio se suma a un debate en curso sobre cómo deberían diseñarse las cámaras portátiles para proteger la privacidad de terceros a medida que crece esta categoría de productos.",
+            "tr": "Meta, kullanıcıların fiziksel kayıt göstergesi ışığını parmak veya bantla kapatsalar bile video kaydına devam edebildiklerini keşfetmesinin ardından yapay zekâ destekli akıllı gözlüklerinin yazılımını güncellediğini açıkladı. Gösterge, çevredekilere gözlüğü takan kişinin kayıt yaptığını bildirmek için tasarlanmıştı ve bu açığın kullanılması, insanları bilgileri olmadan filme alma kapasitesi nedeniyle zaten sorgulanan bir cihaz hakkındaki gizlilik endişelerini yeniden gündeme getirdi. Meta, düzeltmeyle birlikte, kayıt sırasında ışık kapatılırsa kameranın sessizce görüntü almaya devam etmek yerine tamamen çalışmayı durduracağını söylüyor. Şirket, açığın keşfedilmeden önce ne kadar süredir var olduğunu veya kaç cihazı etkilediğini açıklamadı. Bu olay, giyilebilir kamera kategorisi büyürken bu cihazların çevredekilerin gizliliğini korumak için nasıl tasarlanması gerektiğine dair süregelen tartışmaya bir yenisini ekliyor."
+          },
+          "points": {
+            "en": [
+              "Workaround let recording continue with the indicator light covered",
+              "Fix: camera stops entirely if the light is covered while recording",
+              "Renews privacy debate over AI wearable cameras"
+            ],
+            "es": [
+              "El método permitía seguir grabando con la luz indicadora tapada",
+              "Solución: la cámara se detiene por completo si se tapa la luz al grabar",
+              "Reaviva el debate sobre la privacidad de las cámaras portátiles con IA"
+            ],
+            "tr": [
+              "Açık, gösterge ışığı kapalıyken kayda devam edilmesine izin veriyordu",
+              "Çözüm: kayıt sırasında ışık kapatılırsa kamera tamamen duruyor",
+              "Yapay zekâ destekli giyilebilir kameralarda gizlilik tartışmasını yeniden alevlendiriyor"
+            ]
+          },
+          "source": "AI Weekly",
+          "url": "https://aiweekly.co/ai-news-today",
+          "time": ""
         }
       ],
       "author": "Daily Now",
-      "path": "2026-08-10__Daily Now__Technology 10 August 2026.json",
-      "size": 6701,
-      "mtime": 1786346823861
+      "path": "2026-08-28__Daily Now__Technology 28 August 2026.json",
+      "size": 10461,
+      "mtime": 1787941609670
     },
     {
       "title": {
-        "en": "US Markets — 10 August 2026",
-        "es": "Bolsa de EE. UU. — 10 de agosto de 2026",
-        "tr": "ABD Borsası — 10 Ağustos 2026"
+        "en": "US Markets — 28 August 2026",
+        "es": "Bolsa de EE. UU. — 28 de agosto de 2026",
+        "tr": "ABD Borsası — 28 Ağustos 2026"
       },
       "category": "usmarkets",
-      "date": "2026-08-10",
+      "date": "2026-08-28",
       "source": "Daily Now",
       "stories": [
         {
           "title": {
-            "en": "Wall Street sold off after the Fed's hawkish hold",
-            "es": "Wall Street se desplomó tras la pausa restrictiva de la Fed",
-            "tr": "Fed'in şahin duraklamasının ardından Wall Street sert satıldı"
+            "en": "Nasdaq climbs on Nvidia's earnings forecast while Wall Street awaits Warsh's Jackson Hole speech",
+            "es": "El Nasdaq sube por las previsiones de resultados de Nvidia mientras Wall Street espera el discurso de Warsh en Jackson Hole",
+            "tr": "Nvidia'nın kâr beklentisiyle Nasdaq yükseldi, Wall Street Warsh'ın Jackson Hole konuşmasını bekliyor"
           },
           "summary": {
-            "en": "Rates stayed in the 3.50%-3.75% range, but three dissenters wanted a hike.",
-            "es": "Los tipos se mantuvieron en el rango 3,50%-3,75%, pero tres disidentes querían una subida.",
-            "tr": "Faiz yüzde 3,50-3,75 aralığında kaldı, ancak üç üye artırım istedi."
+            "en": "Stocks closed higher as tech shares rallied on a strong Nvidia earnings forecast, with traders positioning ahead of Fed Chair Warsh's address.",
+            "es": "Las acciones cerraron al alza mientras el sector tecnológico repuntaba por una sólida previsión de resultados de Nvidia, con los operadores posicionándose antes del discurso del presidente de la Fed, Warsh.",
+            "tr": "Teknoloji hisseleri Nvidia'nın güçlü kâr beklentisiyle yükselirken, yatırımcılar Fed Başkanı Warsh'ın konuşması öncesi pozisyon alırken hisse senetleri günü yükselişle kapattı."
           },
           "detail": {
-            "en": "At its most recent meeting the Federal Open Market Committee left the benchmark rate unchanged in the 3.50 to 3.75 percent range, as markets had expected. What moved prices was the split: three of the twelve voting members preferred a quarter-point increase, a hawkish signal that traders had not fully priced. The S&P 500 fell 1.52 percent to 7,316.15 and the Nasdaq lost 1.74 percent to 24,442.94, while the Dow dropped 2.19 percent to 51,594.14. The ten-year Treasury yield jumped seven basis points to above 4.67 percent, and the Nasdaq ended roughly nine percent below its June record.",
-            "es": "En su reunión más reciente, el Comité Federal de Mercado Abierto dejó el tipo de referencia sin cambios en el rango del 3,50 al 3,75 por ciento, como esperaba el mercado. Lo que movió los precios fue la división: tres de los doce miembros con voto preferían una subida de un cuarto de punto, una señal restrictiva que los operadores no habían descontado del todo. El S&P 500 cayó un 1,52 por ciento hasta 7.316,15 y el Nasdaq perdió un 1,74 por ciento hasta 24.442,94, mientras que el Dow retrocedió un 2,19 por ciento hasta 51.594,14. El rendimiento del bono a diez años subió siete puntos básicos por encima del 4,67 por ciento y el Nasdaq cerró alrededor de un nueve por ciento por debajo de su récord de junio.",
-            "tr": "Federal Açık Piyasa Komitesi en son toplantısında politika faizini piyasa beklentisine uygun biçimde yüzde 3,50-3,75 aralığında sabit bıraktı. Fiyatları hareketlendiren şey bölünme oldu: oy kullanan on iki üyeden üçü çeyrek puanlık artırımdan yanaydı ve yatırımcıların tam olarak fiyatlamadığı bu şahin sinyal satışı tetikledi. S&P 500 yüzde 1,52 düşüşle 7.316,15'e, Nasdaq yüzde 1,74 kayıpla 24.442,94'e geriledi; Dow Jones yüzde 2,19 düşüşle 51.594,14'e indi. On yıllık tahvil faizi yedi baz puan artarak yüzde 4,67'nin üzerine çıktı ve Nasdaq, haziran rekorunun yaklaşık yüzde dokuz altında kapandı."
+            "en": "US stocks drifted through the session ahead of Federal Reserve Chair Kevin Warsh's closely watched address at Jackson Hole, with investors looking for clarity on how far the Fed is willing to go on rates. The Nasdaq led the gains after Nvidia issued a stronger than expected earnings forecast, pulling the broader technology sector higher. The S&P 500 finished up 0.09 percent and the Dow Jones Industrial Average added 0.30 percent, while the Nasdaq itself slipped slightly during the session before recovering into positive territory by the close; the small-cap Russell 2000 gained 0.28 percent. Trading was choppy for much of the day as investors weighed the prospect of rate hikes against strong corporate earnings from the chip sector. Analysts said the market's next major move will likely hinge on the details of Warsh's remarks on the path for interest rates.",
+            "es": "Las acciones estadounidenses se movieron sin rumbo claro durante la sesión, a la espera del muy seguido discurso del presidente de la Reserva Federal, Kevin Warsh, en Jackson Hole, mientras los inversores buscaban claridad sobre hasta dónde está dispuesta a llegar la Fed con los tipos. El Nasdaq lideró las subidas después de que Nvidia presentara una previsión de resultados mejor de lo esperado, lo que impulsó al alza a todo el sector tecnológico. El S&P 500 cerró con una subida del 0,09 %, y el Dow Jones sumó un 0,30 %, mientras que el propio Nasdaq cedió ligeramente durante la sesión antes de recuperarse hacia terreno positivo al cierre; el índice de pequeña capitalización Russell 2000 ganó un 0,28 %. La negociación fue errática durante buena parte del día, ya que los inversores sopesaban la posibilidad de subidas de tipos frente a los sólidos resultados del sector de semiconductores. Los analistas señalaron que el próximo gran movimiento del mercado dependerá probablemente de los detalles del discurso de Warsh sobre la trayectoria de los tipos de interés.",
+            "tr": "ABD hisse senetleri, Federal Rezerv Başkanı Kevin Warsh'ın Jackson Hole'daki yakından izlenen konuşması öncesinde seans boyunca yön arayışında kaldı; yatırımcılar Fed'in faizde ne kadar ileri gitmeye istekli olduğuna dair netlik bekliyordu. Nvidia'nın beklenenden güçlü bir kâr beklentisi açıklamasının ardından Nasdaq yükselişe öncülük etti ve bu, teknoloji sektörünün genelini yukarı çekti. S&P 500 yüzde 0,09 artışla kapanırken Dow Jones Sanayi Ortalaması yüzde 0,30 yükseldi; Nasdaq ise seans içinde hafifçe gerilemesinin ardından kapanışa doğru pozitif bölgeye toparlandı; küçük ölçekli Russell 2000 endeksi ise yüzde 0,28 kazandı. Yatırımcılar faiz artışı ihtimalini yarı iletken sektöründen gelen güçlü şirket kârlarına karşı tartarken günün büyük bölümünde işlemler dalgalı seyretti. Analistler, piyasanın bir sonraki büyük hareketinin muhtemelen Warsh'ın faiz yolu hakkındaki açıklamalarının ayrıntılarına bağlı olacağını söyledi."
           },
           "points": {
             "en": [
-              "S&P 500: -1.52% to 7,316.15",
-              "Nasdaq: -1.74% to 24,442.94",
-              "Dow: -2.19% to 51,594.14",
-              "10-year yield above 4.67%"
+              "S&P 500 +0.09%, Dow +0.30%, Russell 2000 +0.28%",
+              "Nasdaq rallied late on Nvidia's earnings forecast",
+              "Markets await Warsh's Jackson Hole speech"
             ],
             "es": [
-              "S&P 500: -1,52% hasta 7.316,15",
-              "Nasdaq: -1,74% hasta 24.442,94",
-              "Dow: -2,19% hasta 51.594,14",
-              "Bono a 10 años por encima del 4,67%"
+              "S&P 500 +0,09%, Dow +0,30%, Russell 2000 +0,28%",
+              "El Nasdaq repuntó al final por la previsión de resultados de Nvidia",
+              "Los mercados esperan el discurso de Warsh en Jackson Hole"
             ],
             "tr": [
-              "S&P 500: -%1,52 ile 7.316,15",
-              "Nasdaq: -%1,74 ile 24.442,94",
-              "Dow: -%2,19 ile 51.594,14",
-              "10 yıllık tahvil faizi %4,67 üzerinde"
+              "S&P 500 +%0,09, Dow +%0,30, Russell 2000 +%0,28",
+              "Nasdaq, Nvidia'nın kâr beklentisiyle geç saatlerde toparlandı",
+              "Piyasalar Warsh'ın Jackson Hole konuşmasını bekliyor"
             ]
           },
-          "source": "NBC News",
-          "url": "https://www.nbcnews.com/business/markets/stock-markets-fall-fed-keeps-rates-unchanged-rcna589934"
-        }
-      ],
-      "author": "Daily Now",
-      "path": "2026-08-10__Daily Now__US Markets 10 August 2026.json",
-      "size": 3696,
-      "mtime": 1786346823861
-    },
-    {
-      "title": {
-        "en": "World — 10 August 2026",
-        "es": "Mundo — 10 de agosto de 2026",
-        "tr": "Dünya — 10 Ağustos 2026"
-      },
-      "category": "world",
-      "date": "2026-08-10",
-      "source": "Daily Now",
-      "stories": [
-        {
-          "title": {
-            "en": "Gaza disarmament deal stalls over who moves first",
-            "es": "El acuerdo de desarme en Gaza se atasca por quién da el primer paso",
-            "tr": "Gazze silahsızlanma anlaşması, ilk adımı kimin atacağında tıkandı"
-          },
-          "summary": {
-            "en": "Israel says it will not withdraw before Hamas disarms; Hamas says it will not disarm before Israel withdraws.",
-            "es": "Israel dice que no se retirará antes de que Hamás se desarme; Hamás dice que no se desarmará antes de que Israel se retire.",
-            "tr": "İsrail, Hamas silah bırakmadan çekilmeyeceğini; Hamas ise İsrail çekilmeden silah bırakmayacağını söylüyor."
-          },
-          "detail": {
-            "en": "The US-led Board of Peace announced a roadmap for the complete disarmament of Hamas and other armed groups in Gaza, brokered with mediators from Egypt, Qatar and Turkiye as the next phase of the ceasefire. Under the terms, factions would hand weapons to a National Committee administering Gaza, starting with police-held arms and moving on to heavy weapons, with a detailed schedule due within fourteen days and an international body verifying compliance. Israeli withdrawal was meant to proceed in step with that process. The deal has since run into the sequencing problem it was designed to solve: Prime Minister Benjamin Netanyahu says Israel never agreed to the terms and will not move from its current lines until Hamas is completely disarmed, while Hamas says it will implement nothing until Israeli forces withdraw as promised. Neither side has formally walked away, which leaves the roadmap technically alive but stationary.",
-            "es": "La Junta de Paz liderada por Estados Unidos anunció una hoja de ruta para el desarme completo de Hamás y de los demás grupos armados en Gaza, negociada con mediadores de Egipto, Qatar y Turquía como la siguiente fase del alto el fuego. Según los términos, las facciones entregarían sus armas a un Comité Nacional encargado de administrar Gaza, empezando por el armamento en manos de la policía y siguiendo por el armamento pesado, con un calendario detallado en un plazo de catorce días y un organismo internacional verificando el cumplimiento. La retirada israelí debía avanzar al mismo ritmo que ese proceso. El acuerdo ha chocado desde entonces con el problema de secuencia que pretendía resolver: el primer ministro Benjamin Netanyahu afirma que Israel nunca aceptó esos términos y no se moverá de sus líneas actuales hasta que Hamás esté completamente desarmado, mientras Hamás sostiene que no aplicará nada hasta que las fuerzas israelíes se retiren como se prometió. Ninguna de las partes se ha levantado formalmente de la mesa, lo que deja la hoja de ruta técnicamente viva pero detenida.",
-            "tr": "ABD öncülüğündeki Barış Kurulu, Gazze'de Hamas ve diğer silahlı grupların tümüyle silahsızlandırılması için Mısır, Katar ve Türkiye'den arabulucularla hazırlanan bir yol haritasını ateşkesin bir sonraki aşaması olarak duyurdu. Anlaşmaya göre gruplar silahlarını Gazze'yi yönetecek bir Ulusal Komite'ye teslim edecek; önce polisin elindeki silahlar, ardından ağır silahlar devredilecek, ayrıntılı takvim on dört gün içinde hazırlanacak ve uygulamayı uluslararası bir kurul denetleyecekti. İsrail'in geri çekilmesi de bu süreçle eşzamanlı ilerleyecekti. Anlaşma o günden bu yana tam da çözmek için tasarlandığı sıralama sorununa takıldı: Başbakan Binyamin Netanyahu İsrail'in bu şartları hiç kabul etmediğini ve Hamas tümüyle silahsızlanmadan mevcut hatlarından geri çekilmeyeceğini söylüyor; Hamas ise İsrail güçleri söz verildiği gibi çekilmeden hiçbir maddeyi uygulamayacağını belirtiyor. Taraflardan hiçbiri masayı resmen terk etmiş değil; bu da yol haritasını teknik olarak yaşıyor ama yerinde sayar durumda bırakıyor."
-          },
-          "points": {
-            "en": [
-              "Weapons would go to a National Committee, police arms first",
-              "Detailed roadmap due within 14 days, verified internationally",
-              "Netanyahu: no move from current lines until Hamas fully disarms",
-              "Hamas: no implementation until Israeli forces withdraw"
-            ],
-            "es": [
-              "Las armas irían a un Comité Nacional, primero las de la policía",
-              "Hoja de ruta detallada en 14 días, con verificación internacional",
-              "Netanyahu: sin moverse de las líneas actuales hasta el desarme total",
-              "Hamás: sin aplicación hasta la retirada israelí"
-            ],
-            "tr": [
-              "Silahlar Ulusal Komite'ye geçecek, önce polisin elindekiler",
-              "Ayrıntılı yol haritası 14 gün içinde, uluslararası denetimle",
-              "Netanyahu: tam silahsızlanma olmadan mevcut hatlardan çekilme yok",
-              "Hamas: İsrail çekilmeden hiçbir madde uygulanmayacak"
-            ]
-          },
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/4/board-of-peace-says-no-israeli-withdrawal-from-gaza-before-hamas-disarms"
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-27/stock-market-today-dow-s-p-live-updates",
+          "time": ""
         },
         {
           "title": {
-            "en": "Millions walk to Karbala for Arbaeen as regional tension builds",
-            "es": "Millones caminan a Kerbala por el Arbaín mientras crece la tensión regional",
-            "tr": "Bölgesel gerginlik artarken milyonlar Erbain için Kerbela'ya yürüdü"
+            "en": "PayPal shares slump 16% after Advent and Stripe drop takeover pursuit",
+            "es": "Las acciones de PayPal se desploman un 16% tras el abandono de la oferta de compra por parte de Advent y Stripe",
+            "tr": "Advent ve Stripe satın alma girişiminden vazgeçince PayPal hisseleri yüzde 16 çöktü"
           },
           "summary": {
-            "en": "One of the world's largest annual gatherings went ahead amid fears of US-Iran escalation.",
-            "es": "Una de las mayores concentraciones anuales del mundo siguió adelante pese al temor a una escalada entre EE. UU. e Irán.",
-            "tr": "Dünyanın en büyük yıllık toplanmalarından biri, ABD-İran tırmanışı korkusuna rağmen gerçekleşti."
+            "en": "PayPal fell sharply in premarket trading after private equity firm Advent and payments rival Stripe abandoned their pursuit of the company.",
+            "es": "PayPal cayó con fuerza en la negociación previa a la apertura tras el abandono de la oferta por parte de la firma de capital privado Advent y su rival de pagos Stripe.",
+            "tr": "Özel sermaye şirketi Advent ve ödeme rakibi Stripe'ın şirketi satın alma girişiminden vazgeçmesinin ardından PayPal hisseleri seans öncesinde sert düştü."
           },
           "detail": {
-            "en": "Millions of Shia Muslims converged on the Iraqi city of Karbala for Arbaeen, the commemoration held forty days after the mourning period for Imam Hussein, who was killed at the Battle of Karbala in 680. Most pilgrims walk, some for several days, along routes lined with volunteer stations offering food, water and a place to sleep. Iraqi authorities coordinated continuous electricity, drinking water and medical supplies along the way, with officials describing Monday night as among the busiest of the season and the flow continuing into Tuesday. This year the gathering took place against the backdrop of regional tension and fears of an escalation between the United States and Iran, which sharpened the security planning around an event that is already among the largest annual assemblies of people anywhere in the world.",
-            "es": "Millones de musulmanes chiíes confluyeron en la ciudad iraquí de Kerbala para el Arbaín, la conmemoración que se celebra cuarenta días después del periodo de duelo por el imán Huseín, muerto en la batalla de Kerbala en el año 680. La mayoría de los peregrinos llega a pie, algunos tras varios días de camino, por rutas jalonadas de puestos de voluntarios que ofrecen comida, agua y un lugar donde dormir. Las autoridades iraquíes coordinaron el suministro continuo de electricidad, agua potable y material sanitario a lo largo del trayecto, y describieron la noche del lunes como una de las de mayor afluencia de la temporada, con el flujo prolongándose hasta el martes. Este año la concentración se produjo en un contexto de tensión regional y temor a una escalada entre Estados Unidos e Irán, lo que endureció la planificación de seguridad en torno a un acto que ya figura entre las mayores reuniones anuales de personas del mundo.",
-            "tr": "Milyonlarca Şii Müslüman, 680 yılındaki Kerbela Savaşı'nda öldürülen İmam Hüseyin için tutulan yasın kırkıncı gününde anılan Erbain için Irak'ın Kerbela kentinde toplandı. Hacıların çoğu yolu yürüyerek, kimi birkaç gün süren yürüyüşlerle kat ediyor; güzergâh boyunca gönüllülerin kurduğu duraklarda yemek, su ve konaklama sağlanıyor. Irak yetkilileri güzergâh boyunca kesintisiz elektrik, içme suyu ve tıbbi malzeme akışını koordine etti; yetkililer pazartesi gecesini sezonun en yoğun gecelerinden biri olarak tanımladı ve akışın salı gününe kadar süreceğini bildirdi. Bu yılki toplanma, bölgesel gerginlik ile ABD ve İran arasında tırmanma korkusunun gölgesinde gerçekleşti; bu da zaten dünyadaki en kalabalık yıllık insan toplanmalarından biri olan etkinliğin güvenlik planlamasını daha da sıkılaştırdı."
+            "en": "PayPal Holdings shares tumbled 16 percent in premarket trading after reports that private equity firm Advent International and payments company Stripe had abandoned their pursuit of a potential acquisition of the firm. The sharp drop reflects how much of PayPal's recent share price had been propped up by takeover speculation, which had circulated for weeks as investors debated whether a deal could materialize. With that prospect off the table, the stock's slide dragged on payments-sector sentiment more broadly as traders reassessed valuations across the group. PayPal has not issued a detailed statement on the reported talks, and it remains unclear what prompted the two potential acquirers to step back. The move stood out against an otherwise positive session for the broader market.",
+            "es": "Las acciones de PayPal Holdings se desplomaron un 16 % en la negociación previa a la apertura tras conocerse que la firma de capital privado Advent International y la empresa de pagos Stripe habían abandonado su intento de una posible adquisición de la compañía. La fuerte caída refleja hasta qué punto el reciente precio de la acción de PayPal se sostenía por la especulación sobre una posible compra, que circulaba desde hacía semanas mientras los inversores debatían si el acuerdo llegaría a concretarse. Con esa posibilidad descartada, el desplome de la acción también afectó al sentimiento del sector de pagos en general, ya que los operadores reevaluaron las valoraciones del grupo. PayPal no ha emitido un comunicado detallado sobre las conversaciones reportadas, y no está claro qué llevó a los dos posibles compradores a retirarse. El movimiento destacó en una sesión por lo demás positiva para el mercado en general.",
+            "tr": "Özel sermaye şirketi Advent International ile ödeme şirketi Stripe'ın şirketi olası bir satın alma girişiminden vazgeçtiği haberlerinin ardından PayPal Holdings hisseleri seans öncesi işlemlerde yüzde 16 çöktü. Sert düşüş, PayPal'ın son dönemdeki hisse fiyatının büyük ölçüde, yatırımcıların bir anlaşmanın gerçekleşip gerçekleşmeyeceğini tartıştığı haftalardır dolaşan satın alma spekülasyonuyla desteklendiğini gösteriyor. Bu ihtimal masadan kalkınca hissedeki düşüş, yatırımcıların gruptaki değerlemeleri yeniden gözden geçirmesiyle ödeme sektörü genelindeki duyarlılığı da olumsuz etkiledi. PayPal, bildirilen görüşmeler hakkında ayrıntılı bir açıklama yapmadı ve iki potansiyel alıcının neden geri çekildiği belirsizliğini koruyor. Bu hareket, piyasanın genelinde aksi yönde pozitif geçen bir seansta dikkat çekti."
           },
-          "source": "AP",
-          "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/08/04/millions-join-arbaeen-pilgrimage-in-iraq-amid-regional-tensions-and-fears-of-us-iran-escalation"
+          "points": {
+            "en": [
+              "PayPal down 16% in premarket trading",
+              "Advent and Stripe both dropped their pursuit",
+              "Weighed on broader payments-sector sentiment"
+            ],
+            "es": [
+              "PayPal cae un 16% en la preapertura",
+              "Advent y Stripe abandonaron ambos la oferta",
+              "Afectó al sentimiento del sector de pagos en general"
+            ],
+            "tr": [
+              "PayPal seans öncesinde %16 düştü",
+              "Advent ve Stripe'ın ikisi de girişimden vazgeçti",
+              "Genel ödeme sektörü duyarlılığını olumsuz etkiledi"
+            ]
+          },
+          "source": "TheStreet",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-28-2026",
+          "time": ""
         }
       ],
       "author": "Daily Now",
-      "path": "2026-08-10__Daily Now__World 10 August 2026.json",
-      "size": 9038,
-      "mtime": 1786346823860
+      "path": "2026-08-28__Daily Now__US Markets 28 August 2026.json",
+      "size": 9727,
+      "mtime": 1787941561369
+    },
+    {
+      "title": {
+        "en": "World — 28 August 2026",
+        "es": "Mundo — 28 de agosto de 2026",
+        "tr": "Dünya — 28 Ağustos 2026"
+      },
+      "category": "world",
+      "date": "2026-08-28",
+      "source": "Daily Now",
+      "stories": [
+        {
+          "title": {
+            "en": "Himalayan flash flood leaves hundreds dead in Nepal and Tibet",
+            "es": "Una riada repentina en el Himalaya deja cientos de muertos en Nepal y el Tíbet",
+            "tr": "Himalaya'da ani sel Nepal ve Tibet'te yüzlerce can aldı"
+          },
+          "summary": {
+            "en": "More than 500 people are confirmed dead after a wall of water, mud and debris tore through a river valley, with roughly 1,000 still missing.",
+            "es": "Se confirma la muerte de más de 500 personas tras el paso de una muralla de agua, barro y escombros por un valle fluvial, con cerca de 1.000 desaparecidos.",
+            "tr": "Bir nehir vadisini biçen su, çamur ve enkaz duvarının ardından 500'den fazla kişinin öldüğü doğrulandı; yaklaşık 1.000 kişi hâlâ kayıp."
+          },
+          "detail": {
+            "en": "A glacial-lake outburst triggered a massive flash flood earlier this week that swept through a Himalayan river valley spanning the Nepal-Tibet border. Officials have confirmed over 500 deaths, and roughly 1,000 people remain unaccounted for as rescue teams dig through debris in remote mountain communities. Nepali police issued a fresh alert on Friday warning that additional flooding could strike areas already devastated, complicating the recovery effort. Aid groups are struggling to reach some of the hardest-hit villages because roads and bridges were washed out. The disaster has renewed scrutiny of glacial lakes across the region, which scientists say are growing more unstable as temperatures rise.",
+            "es": "A principios de esta semana, el desbordamiento de un lago glaciar provocó una riada masiva que arrasó un valle fluvial del Himalaya a caballo entre Nepal y el Tíbet. Las autoridades han confirmado más de 500 muertos y unas 1.000 personas siguen sin localizarse mientras los equipos de rescate excavan entre los escombros en comunidades montañosas remotas. La policía nepalí emitió el viernes una nueva alerta advirtiendo de que nuevas inundaciones podrían golpear zonas ya devastadas, lo que complica la labor de recuperación. Las organizaciones de ayuda tienen dificultades para llegar a algunas de las aldeas más afectadas porque carreteras y puentes quedaron destruidos. La catástrofe ha renovado la atención sobre los lagos glaciares de la región, que según los científicos son cada vez más inestables por el aumento de las temperaturas.",
+            "tr": "Bu hafta başında bir buzul gölünün taşması, Nepal-Tibet sınırındaki bir Himalaya nehir vadisini süpüren dev bir ani sele yol açtı. Yetkililer 500'ün üzerinde ölümü doğruladı; kurtarma ekipleri uzak dağ topluluklarındaki enkazı tararken yaklaşık 1.000 kişiye hâlâ ulaşılamıyor. Nepal polisi cuma günü, zaten yıkıma uğramış bölgelere yeni sellerin gelebileceği konusunda yeni bir uyarı yayımladı; bu da toparlanma çabalarını zorlaştırıyor. Yardım kuruluşları, yollar ve köprülerin yıkılması nedeniyle en çok etkilenen bazı köylere ulaşmakta güçlük çekiyor. Felaket, bilim insanlarının sıcaklıkların artmasıyla giderek daha istikrarsız hale geldiğini söylediği bölgedeki buzul göllerine yönelik denetimi yeniden gündeme getirdi."
+          },
+          "points": {
+            "en": [
+              "500+ confirmed dead, ~1,000 missing",
+              "New flood warnings issued Friday",
+              "Triggered by a glacial-lake outburst"
+            ],
+            "es": [
+              "Más de 500 muertos confirmados, ~1.000 desaparecidos",
+              "Nuevas alertas de inundación el viernes",
+              "Causada por el desbordamiento de un lago glaciar"
+            ],
+            "tr": [
+              "500'den fazla ölü doğrulandı, ~1.000 kayıp",
+              "Cuma günü yeni sel uyarıları yayımlandı",
+              "Bir buzul gölü taşmasıyla tetiklendi"
+            ]
+          },
+          "source": "Havana Times",
+          "url": "https://havanatimes.org/news/international-news-briefs-for-friday-august-28-2026/",
+          "time": ""
+        },
+        {
+          "title": {
+            "en": "Iran sets conditions for reopening the Strait of Hormuz as Trump rules out talks",
+            "es": "Irán fija condiciones para reabrir el estrecho de Ormuz mientras Trump descarta negociar",
+            "tr": "Trump görüşmeyi reddederken İran, Hürmüz Boğazı'nı yeniden açma koşullarını belirliyor"
+          },
+          "summary": {
+            "en": "Tehran is drawing up conditions for reopening shipping through Hormuz, demanding the US lift its port blockade, pay compensation and remove sanctions.",
+            "es": "Teherán prepara las condiciones para reabrir el tráfico marítimo por Ormuz, exigiendo que EE. UU. levante el bloqueo portuario, pague una compensación y retire las sanciones.",
+            "tr": "Tahran, ABD'nin liman ablukasını kaldırmasını, tazminat ödemesini ve yaptırımları kaldırmasını isteyerek Hürmüz'den geçişi yeniden açmanın koşullarını hazırlıyor."
+          },
+          "detail": {
+            "en": "Iranian officials say Tehran is preparing a formal list of conditions it wants met before it will allow shipping to resume normally through the Strait of Hormuz, a chokepoint for global oil exports. Chief among the demands are an end to the US naval blockade of Iranian ports, financial compensation for losses tied to the standoff, and the removal of existing sanctions. President Trump said Washington is not currently in talks with Iran and that the US strategy instead is to keep squeezing the country economically. The standoff has kept tension high in the Gulf for weeks, with shippers and insurers watching closely for any sign of an escalation or a breakthrough. Oil markets have so far absorbed the disruption without a major price shock, though analysts warn that could change quickly if the blockade drags on.",
+            "es": "Funcionarios iraníes afirman que Teherán está preparando una lista formal de condiciones que exige antes de permitir que el tráfico marítimo se reanude con normalidad por el estrecho de Ormuz, un punto clave para las exportaciones mundiales de petróleo. Entre las principales exigencias están el fin del bloqueo naval estadounidense a los puertos iraníes, una compensación económica por las pérdidas derivadas del enfrentamiento y la retirada de las sanciones vigentes. El presidente Trump dijo que Washington no mantiene actualmente negociaciones con Irán y que la estrategia estadounidense es, en cambio, seguir presionando económicamente al país. El pulso mantiene la tensión elevada en el Golfo desde hace semanas, con navieras y aseguradoras vigilando de cerca cualquier señal de escalada o de avance. Los mercados de petróleo han absorbido hasta ahora la interrupción sin un gran shock de precios, aunque los analistas advierten de que eso podría cambiar rápido si el bloqueo se prolonga.",
+            "tr": "İranlı yetkililer, küresel petrol ihracatı için kritik bir geçiş noktası olan Hürmüz Boğazı'ndan deniz taşımacılığının normale dönmesine izin vermeden önce karşılanmasını istediği koşulların resmi bir listesini hazırladığını söylüyor. Taleplerin başında ABD'nin İran limanlarına yönelik deniz ablukasının kaldırılması, gerginlikten kaynaklanan kayıplar için mali tazminat ve mevcut yaptırımların kaldırılması geliyor. Başkan Trump, Washington'ın şu anda İran'la görüşme içinde olmadığını ve ABD stratejisinin bunun yerine ülkeyi ekonomik olarak sıkıştırmaya devam etmek olduğunu söyledi. Gerginlik haftalardır Körfez'de yüksek seyrediyor; nakliyeciler ve sigortacılar bir tırmanma ya da atılım belirtisini yakından izliyor. Petrol piyasaları şimdiye kadar aksamayı büyük bir fiyat şoku olmadan absorbe etti, ancak analistler abluka uzarsa bunun hızla değişebileceği konusunda uyarıyor."
+          },
+          "points": {
+            "en": [
+              "Iran demands: end blockade, compensation, sanctions relief",
+              "Trump: US not in talks with Iran",
+              "Hormuz is a key chokepoint for global oil"
+            ],
+            "es": [
+              "Exigencias de Irán: fin del bloqueo, compensación, alivio de sanciones",
+              "Trump: EE. UU. no negocia con Irán",
+              "Ormuz es un punto clave para el petróleo mundial"
+            ],
+            "tr": [
+              "İran'ın talepleri: abluka sonu, tazminat, yaptırım hafifletme",
+              "Trump: ABD İran'la görüşmüyor",
+              "Hürmüz küresel petrol için kilit bir geçiş noktası"
+            ]
+          },
+          "source": "Democracy Now!",
+          "url": "https://www.democracynow.org/2026/8/28/headlines",
+          "time": ""
+        },
+        {
+          "title": {
+            "en": "US Justice Department arrests 70 in cross-border cybercrime and drug-trafficking sweep",
+            "es": "El Departamento de Justicia de EE. UU. detiene a 70 personas en una redada transfronteriza de ciberdelincuencia y narcotráfico",
+            "tr": "ABD Adalet Bakanlığı sınır ötesi siber suç ve uyuşturucu operasyonunda 70 kişiyi tutukladı"
+          },
+          "summary": {
+            "en": "US authorities arrested 70 suspects accused of running a cybercrime network tied to fentanyl and cocaine trafficking, with 11 others still at large.",
+            "es": "Las autoridades estadounidenses detuvieron a 70 sospechosos acusados de dirigir una red de ciberdelincuencia vinculada al tráfico de fentanilo y cocaína, con otros 11 aún prófugos.",
+            "tr": "ABD makamları, fentanil ve kokain kaçakçılığıyla bağlantılı bir siber suç ağını yürütmekle suçlanan 70 şüpheliyi tutukladı; 11 kişi hâlâ firarda."
+          },
+          "detail": {
+            "en": "The Justice Department announced the arrest of 70 people in a coordinated operation targeting a cybercrime organization accused of using online platforms to coordinate the trafficking of fentanyl, cocaine and other drugs. Eleven additional suspects tied to the network remain at large, and officials say the investigation is ongoing. The operation spanned multiple jurisdictions and involved cooperation between federal agencies working to trace how the group used digital tools to move product and launder proceeds. Officials framed the sweep as part of a broader push against organized crime networks that blend traditional trafficking with cyber-enabled coordination. Charges against those arrested are still being finalized, and further arrests are possible as the case develops.",
+            "es": "El Departamento de Justicia anunció la detención de 70 personas en una operación coordinada contra una organización de ciberdelincuencia acusada de usar plataformas en línea para coordinar el tráfico de fentanilo, cocaína y otras drogas. Otros once sospechosos vinculados a la red siguen prófugos, y las autoridades afirman que la investigación continúa. La operación abarcó varias jurisdicciones e involucró la cooperación entre agencias federales que trabajan para rastrear cómo el grupo usaba herramientas digitales para mover el producto y lavar las ganancias. Los funcionarios enmarcaron la redada como parte de un esfuerzo más amplio contra las redes de crimen organizado que combinan el tráfico tradicional con la coordinación habilitada por medios cibernéticos. Los cargos contra los detenidos aún se están definiendo, y son posibles nuevas detenciones a medida que avance el caso.",
+            "tr": "Adalet Bakanlığı, fentanil, kokain ve diğer uyuşturucuların kaçakçılığını koordine etmek için çevrimiçi platformları kullanmakla suçlanan bir siber suç örgütünü hedef alan koordineli bir operasyonda 70 kişinin tutuklandığını duyurdu. Ağa bağlı on bir şüpheli daha hâlâ firarda ve yetkililer soruşturmanın sürdüğünü belirtiyor. Operasyon birden fazla yargı bölgesini kapsadı ve grubun ürünü taşımak ve gelirleri aklamak için dijital araçları nasıl kullandığını izlemeye çalışan federal kurumlar arasında iş birliği içerdi. Yetkililer baskını, geleneksel kaçakçılığı siber destekli koordinasyonla birleştiren örgütlü suç ağlarına karşı daha geniş bir çabanın parçası olarak nitelendirdi. Tutuklananlara yönelik suçlamalar hâlâ netleştiriliyor ve dava ilerledikçe yeni tutuklamalar mümkün."
+          },
+          "points": {
+            "en": [
+              "70 arrested, 11 suspects still at large",
+              "Network linked to fentanyl and cocaine trafficking",
+              "Multi-jurisdiction federal operation"
+            ],
+            "es": [
+              "70 detenidos, 11 sospechosos siguen prófugos",
+              "Red vinculada al tráfico de fentanilo y cocaína",
+              "Operación federal en varias jurisdicciones"
+            ],
+            "tr": [
+              "70 tutuklama, 11 şüpheli hâlâ firarda",
+              "Ağ fentanil ve kokain kaçakçılığıyla bağlantılı",
+              "Çok yargı bölgeli federal operasyon"
+            ]
+          },
+          "source": "Just Security",
+          "url": "https://www.justsecurity.org/155508/early-edition-august-28-2026/",
+          "time": ""
+        }
+      ],
+      "author": "Daily Now",
+      "path": "2026-08-28__Daily Now__World 28 August 2026.json",
+      "size": 13314,
+      "mtime": 1787941491880
     }
   ]
 }
