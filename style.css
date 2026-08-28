@@ -138,7 +138,7 @@ svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width:
 .chip i { font-style: normal; opacity: .55; margin-left: 5px; }
 
 /* ───────────────────────── topbar ───────────────────────── */
-.main { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+.main { flex: 1; display: flex; flex-direction: column; min-width: 0; min-height: 0; }
 
 
 .topbar {
@@ -668,7 +668,6 @@ span.na-src { color: var(--mute); border-bottom: 0; }
   .topbar { flex-wrap: wrap; gap: 10px; padding: 10px var(--pad); }
   .search-wrap { order: 3; flex-basis: 100%; max-width: none; }
   .brand-text span { display: none; }
-}
 
   .panel-grid { grid-template-columns: 1fr; }
   .view { padding-bottom: 64px; }
