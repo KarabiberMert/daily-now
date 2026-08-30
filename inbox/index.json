@@ -6,509 +6,765 @@
   "articles": [
     {
       "title": {
-        "en": "Economy — 28 August 2026",
-        "es": "Economía — 28 de agosto de 2026",
-        "tr": "Ekonomi — 28 Ağustos 2026"
+        "en": "Economy — 31 August 2026",
+        "es": "Economía — 31 de agosto de 2026",
+        "tr": "Ekonomi — 31 Ağustos 2026"
       },
       "category": "economy",
-      "date": "2026-08-28",
+      "date": "2026-08-31",
       "source": "Daily Now",
       "stories": [
         {
           "title": {
-            "en": "Fed Chair Warsh warns inflation is still too high, opening the door to rate hikes",
-            "es": "El presidente de la Fed, Warsh, advierte que la inflación sigue siendo demasiado alta y abre la puerta a subidas de tipos",
-            "tr": "Fed Başkanı Warsh enflasyonun hâlâ çok yüksek olduğu uyarısını yaptı, faiz artışına kapı araladı"
+            "en": "Fed chair Warsh says inflation is too high, and a September hike is back on the table",
+            "es": "Warsh dice que la inflacion es demasiado alta y vuelve a abrirse la puerta a una subida en septiembre",
+            "tr": "Fed Başkanı Warsh enflasyonun çok yüksek olduğunu söyledi, eylülde faiz artışı yeniden masada"
           },
           "summary": {
-            "en": "Kevin Warsh said inflation remains elevated and the Fed may need to raise rates, a sharp reversal from earlier expectations of cuts.",
-            "es": "Kevin Warsh dijo que la inflación sigue elevada y que la Fed podría necesitar subir los tipos, un giro brusco frente a las expectativas previas de recortes.",
-            "tr": "Kevin Warsh, enflasyonun yüksek seyrettiğini ve Fed'in faiz artırması gerekebileceğini söyledi; bu, daha önceki faiz indirimi beklentilerinden keskin bir dönüş."
+            "en": "At Jackson Hole, Federal Reserve chair Kevin Warsh said price stability is the Fed's predominant focus, and markets flipped from expecting cuts to pricing a rate hike.",
+            "es": "En Jackson Hole, el presidente de la Reserva Federal, Kevin Warsh, dijo que la estabilidad de precios es la prioridad de la Fed y el mercado paso de esperar recortes a descontar una subida.",
+            "tr": "Jackson Hole'da Fed Başkanı Kevin Warsh fiyat istikrarının bankanın öncelikli odağı olduğunu söyledi; piyasa faiz indirimi beklemekten faiz artışı fiyatlamaya geçti."
           },
           "detail": {
-            "en": "Federal Reserve Chair Kevin Warsh said on Friday that inflation remains too high and that the central bank may need to raise interest rates in the coming months to bring it back to target. Warsh argued the labor market is stable, business investment is strong and consumer spending remains resilient, leaving the Fed room to act on prices rather than worry about growth. The latest data show consumer prices up 3.4 percent over the twelve months through July, while the Fed's preferred inflation gauge, the PCE index, is running at 3.7 percent. The Fed has held its benchmark rate at 3.50-3.75 percent since December, and roughly half the policy committee now expects a rate increase before the end of 2026. The shift marks a notable change from earlier in the year, when markets had been pricing in rate cuts.",
-            "es": "El presidente de la Reserva Federal, Kevin Warsh, dijo el viernes que la inflación sigue siendo demasiado alta y que el banco central podría necesitar subir los tipos de interés en los próximos meses para devolverla al objetivo. Warsh argumentó que el mercado laboral es estable, la inversión empresarial es fuerte y el gasto de los consumidores se mantiene resiliente, lo que deja a la Fed margen para actuar sobre los precios en lugar de preocuparse por el crecimiento. Los últimos datos muestran que los precios al consumo subieron un 3,4 % en los doce meses hasta julio, mientras que el indicador de inflación preferido de la Fed, el índice PCE, se sitúa en el 3,7 %. La Fed ha mantenido su tipo de referencia en el 3,50-3,75 % desde diciembre, y aproximadamente la mitad del comité de política monetaria espera ahora una subida antes de que termine 2026. El giro marca un cambio notable respecto a principios de año, cuando los mercados descontaban recortes de tipos.",
-            "tr": "Federal Rezerv Başkanı Kevin Warsh cuma günü enflasyonun hâlâ çok yüksek olduğunu ve merkez bankasının önümüzdeki aylarda enflasyonu hedefe döndürmek için faiz artırması gerekebileceğini söyledi. Warsh, iş gücü piyasasının istikrarlı olduğunu, iş yatırımlarının güçlü seyrettiğini ve tüketici harcamalarının dirençli kaldığını, bunun da Fed'e büyüme konusunda endişelenmek yerine fiyatlar üzerinde hareket etme alanı bıraktığını savundu. Son veriler, tüketici fiyatlarının temmuz sonu itibarıyla son on iki ayda yüzde 3,4 arttığını, Fed'in tercih ettiği enflasyon göstergesi olan PCE endeksinin ise yüzde 3,7 seviyesinde seyrettiğini gösteriyor. Fed, aralıktan bu yana gösterge faizini yüzde 3,50-3,75 aralığında tuttu ve politika kurulunun yaklaşık yarısı artık 2026 sonundan önce bir faiz artışı bekliyor. Bu değişim, piyasaların faiz indirimlerini fiyatladığı yıl başındaki duruma göre belirgin bir dönüşe işaret ediyor."
+            "en": "Federal Reserve chair Kevin Warsh used his Jackson Hole appearance to say that inflation is running too high and that price stability will be the central bank's predominant focus. That is a sharper line than the market had assumed, and it lands after a summer in which investors spent most of their time debating how fast the Fed would cut.\n\nThe repricing was immediate. Odds of a rate increase at the September FOMC meeting jumped to roughly 58 percent from about 35 percent before the speech, and the implied probability for October rose to 88 percent from 64 percent. The complication is the labour market: a run of payroll prints below 100,000 and heavy downward revisions has left the Fed facing a slowing jobs picture at the same time as sticky prices.\n\nThe week ahead fills in the picture, with ISM manufacturing and services, JOLTS, ADP and the Beige Book all due. A firm payrolls number would strengthen the hawks; further softening would sharpen the stagflationary bind.",
+            "es": "El presidente de la Reserva Federal, Kevin Warsh, aprovecho su intervencion en Jackson Hole para decir que la inflacion es demasiado alta y que la estabilidad de precios sera la prioridad del banco central. Es un tono mas duro del que asumia el mercado y llega tras un verano en el que los inversores dedicaron casi todo el tiempo a discutir con que rapidez recortaria la Fed.\n\nLa revaloracion fue inmediata. La probabilidad de una subida en la reunion del FOMC de septiembre salto a alrededor del 58 por ciento desde cerca del 35 por ciento previo al discurso, y la de octubre subio del 64 al 88 por ciento. La complicacion es el empleo: una serie de nominas por debajo de 100.000 y fuertes revisiones a la baja dejan a la Fed ante un mercado laboral que se enfria al mismo tiempo que los precios se resisten.\n\nLa semana que viene completa el cuadro, con los ISM de manufacturas y servicios, JOLTS, ADP y el Libro Beige. Un dato firme de empleo reforzaria a los halcones; mas debilidad agudizaria el dilema estanflacionario.",
+            "tr": "Fed Başkanı Kevin Warsh, Jackson Hole konuşmasında enflasyonun çok yüksek seyrettiğini ve fiyat istikrarının merkez bankasının öncelikli odağı olacağını söyledi. Bu, piyasanın varsaydığından daha sert bir çizgi ve yatırımcıların neredeyse tüm yazı Fed'in ne kadar hızlı indirim yapacağını tartışarak geçirmesinin ardından geldi.\n\nFiyatlama anında değişti. Eylül FOMC toplantısında faiz artışı ihtimali konuşma öncesindeki yüzde 35 civarından yaklaşık yüzde 58'e, ekim için ima edilen olasılık ise yüzde 64'ten yüzde 88'e yükseldi. Zorluk işgücü piyasasında: 100 binin altında kalan tarım dışı istihdam serisi ve sert aşağı yönlü revizyonlar, Fed'i yapışkan fiyatlarla aynı anda yavaşlayan bir istihdam tablosuyla karşı karşıya bırakıyor.\n\nÖnümüzdeki hafta tabloyu tamamlıyor: ISM imalat ve hizmetler, JOLTS, ADP ve Bej Kitap açıklanacak. Güçlü bir istihdam verisi şahinleri güçlendirir; daha fazla zayıflama ise stagflasyon çıkmazını keskinleştirir."
           },
           "points": {
             "en": [
-              "CPI: +3.4% over 12 months through July",
-              "Fed's preferred PCE gauge: +3.7%",
-              "Benchmark rate held at 3.50-3.75% since December",
-              "Half the Fed committee now expects a hike by year-end"
+              "September hike odds: about 58%, up from roughly 35% before the speech",
+              "October: 88%, up from 64%",
+              "Recent payrolls have printed below 100,000 with large downward revisions"
             ],
             "es": [
-              "IPC: +3,4% en los 12 meses hasta julio",
-              "Indicador PCE preferido de la Fed: +3,7%",
-              "Tipo de referencia en 3,50-3,75% desde diciembre",
-              "La mitad del comité de la Fed espera ya una subida antes de fin de año"
+              "Probabilidad de subida en septiembre: cerca del 58%, frente a un 35% previo",
+              "Octubre: 88%, frente al 64%",
+              "Las ultimas nominas han quedado por debajo de 100.000 con grandes revisiones a la baja"
             ],
             "tr": [
-              "TÜFE: temmuz sonu itibarıyla 12 ayda +%3,4",
-              "Fed'in tercih ettiği PCE göstergesi: +%3,7",
-              "Gösterge faiz aralıktan beri %3,50-3,75'te",
-              "Fed kurulunun yarısı artık yıl sonuna kadar bir artış bekliyor"
+              "Eylül faiz artışı ihtimali: konuşma öncesi yüzde 35'ten yaklaşık yüzde 58'e",
+              "Ekim: yüzde 64'ten yüzde 88'e",
+              "Son istihdam verileri 100 binin altında, revizyonlar sert aşağı yönlü"
             ]
           },
-          "source": "KPBS / Washington Times",
-          "url": "https://www.kpbs.org/news/economy/2026/08/28/feds-kevin-warsh-warns-inflation-is-too-high-sparking-bets-rate-hikes-are-coming",
-          "time": ""
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-28-dow-sp-500-nasdaq-dip-fed-warsh-jackson-hole-speech-081514091.html",
+          "time": "15:15"
+        },
+        {
+          "title": {
+            "en": "Euro area inflation drifts up before the ECB's 10 September decision",
+            "es": "La inflacion de la zona euro repunta antes de la decision del BCE del 10 de septiembre",
+            "tr": "Euro Bölgesi enflasyonu, ECB'nin 10 Eylül kararı öncesinde yukarı kıpırdadı"
+          },
+          "summary": {
+            "en": "Euro area inflation rose to 2.9 percent in July from 2.8 percent in June, and markets now put roughly a 79 percent chance on a quarter-point ECB hike next month.",
+            "es": "La inflacion de la zona euro subio al 2,9 por ciento en julio desde el 2,8 de junio, y el mercado asigna ya cerca de un 79 por ciento de probabilidad a una subida de un cuarto de punto del BCE el mes que viene.",
+            "tr": "Euro Bölgesi enflasyonu temmuzda haziranın yüzde 2,8'inden yüzde 2,9'a çıktı; piyasa artık ECB'nin gelecek ay çeyrek puanlık faiz artırımına yaklaşık yüzde 79 ihtimal veriyor."
+          },
+          "detail": {
+            "en": "Euro area inflation edged up to 2.9 percent in July from 2.8 percent in June, keeping it above the European Central Bank's 2 percent target and turning the 10 September meeting into the year's most consequential decision in Europe. Money markets now assign roughly a 79 percent probability to a 25 basis point increase.\n\nEnergy is the pressure point. The war between the United States and Iran and the disruption around the Strait of Hormuz have kept a risk premium in oil and gas prices, and that feeds through European headline inflation faster than it does in the United States. Policymakers have deliberately kept September open rather than signalling in advance, leaving room for the medium-term outlook to improve.\n\nThe August flash estimate, published at the start of September, is the last major reading before the meeting and will largely settle the argument.",
+            "es": "La inflacion de la zona euro subio al 2,9 por ciento en julio desde el 2,8 de junio, se mantiene por encima del objetivo del 2 por ciento del Banco Central Europeo y convierte la reunion del 10 de septiembre en la decision mas relevante del año en Europa. Los mercados monetarios asignan ya cerca de un 79 por ciento de probabilidad a una subida de 25 puntos basicos.\n\nLa energia es el punto de presion. La guerra entre Estados Unidos e Iran y las interrupciones en torno al estrecho de Ormuz han mantenido una prima de riesgo en el petroleo y el gas, y eso se traslada a la inflacion europea mas rapido que a la estadounidense. Los responsables han mantenido septiembre deliberadamente abierto en lugar de anticipar señales, dejando margen para que mejore la perspectiva a medio plazo.\n\nLa estimacion adelantada de agosto, que se publica a comienzos de septiembre, es la ultima lectura importante antes de la reunion y decidira en gran parte el debate.",
+            "tr": "Euro Bölgesi enflasyonu temmuzda haziranın yüzde 2,8'inden yüzde 2,9'a çıkarak Avrupa Merkez Bankası'nın yüzde 2'lik hedefinin üzerinde kaldı; bu da 10 Eylül toplantısını Avrupa'nın yılın en kritik kararı hâline getirdi. Para piyasaları 25 baz puanlık artışa yaklaşık yüzde 79 olasılık veriyor.\n\nBaskı noktası enerji. ABD ile İran arasındaki savaş ve Hürmüz Boğazı çevresindeki aksamalar petrol ve gaz fiyatlarında bir risk primi bırakıyor; bu da Avrupa'da manşet enflasyona ABD'dekinden daha hızlı yansıyor. Karar alıcılar önceden sinyal vermek yerine eylülü bilinçli olarak açık tuttu ve orta vadeli görünümün iyileşmesine alan bıraktı.\n\nEylül başında yayımlanacak ağustos öncü enflasyonu, toplantı öncesindeki son önemli veri ve tartışmayı büyük ölçüde belirleyecek."
+          },
+          "points": {
+            "en": [
+              "July inflation: 2.9%, up from 2.8% in June",
+              "Market-implied odds of a 25bp hike on 10 September: about 79%",
+              "Energy prices remain the main upward pressure"
+            ],
+            "es": [
+              "Inflacion de julio: 2,9%, frente al 2,8% de junio",
+              "Probabilidad implicita de una subida de 25 pb el 10 de septiembre: cerca del 79%",
+              "Los precios de la energia siguen siendo la principal presion al alza"
+            ],
+            "tr": [
+              "Temmuz enflasyonu: yüzde 2,9 (haziran yüzde 2,8)",
+              "10 Eylül'de 25 baz puan artış ihtimali: yaklaşık yüzde 79",
+              "Ana yukarı yönlü baskı enerji fiyatları"
+            ]
+          },
+          "source": "Trading Economics",
+          "url": "https://tradingeconomics.com/euro-area/inflation-cpi",
+          "time": "10:00"
+        },
+        {
+          "title": {
+            "en": "German growth revised up and Ifo hits a one-year high",
+            "es": "El crecimiento aleman se revisa al alza y el Ifo toca un maximo de un año",
+            "tr": "Almanya'nın büyümesi yukarı revize edildi, Ifo bir yılın zirvesinde"
+          },
+          "summary": {
+            "en": "German second-quarter growth was revised higher and the Ifo business climate index reached its best level in a year, strengthening the case for an ECB move.",
+            "es": "El crecimiento aleman del segundo trimestre se reviso al alza y el indice Ifo de clima empresarial alcanzo su mejor nivel en un año, lo que refuerza los argumentos para un movimiento del BCE.",
+            "tr": "Almanya'nın ikinci çeyrek büyümesi yukarı revize edildi ve Ifo iş iklimi endeksi bir yılın en iyi seviyesine çıktı; bu da ECB'nin adım atma gerekçesini güçlendiriyor."
+          },
+          "detail": {
+            "en": "Germany's second-quarter growth was revised higher and the Ifo business climate index climbed to a one-year high, two data points that make the euro area's largest economy look sturdier than it did in the spring. For the European Central Bank, a firmer Germany removes one of the standard objections to tightening.\n\nThat matters because the September decision is finely balanced. Inflation is above target and energy costs carry a war premium, but the bank has been reluctant to move while growth looked fragile. Improving sentiment surveys shift the balance of risk toward acting rather than waiting.\n\nThe caveat is that Ifo measures expectations as much as current conditions, and expectations can reverse quickly if the Hormuz disruption worsens or if export orders from Asia soften. Hard data on industrial orders and production over the coming weeks will show whether the improvement is real.",
+            "es": "El crecimiento aleman del segundo trimestre se reviso al alza y el indice Ifo de clima empresarial subio a un maximo de un año, dos datos que hacen parecer a la mayor economia de la zona euro mas solida que en primavera. Para el Banco Central Europeo, una Alemania mas firme elimina una de las objeciones habituales al endurecimiento.\n\nImporta porque la decision de septiembre esta muy ajustada. La inflacion supera el objetivo y los costes energeticos cargan con una prima de guerra, pero el banco se ha resistido a moverse mientras el crecimiento parecia fragil. La mejora de las encuestas de confianza inclina el balance de riesgos hacia actuar en vez de esperar.\n\nLa advertencia es que el Ifo mide tanto expectativas como condiciones actuales, y las expectativas pueden darse la vuelta rapido si empeora la situacion en Ormuz o si se debilitan los pedidos de exportacion desde Asia. Los datos duros de pedidos y produccion industrial de las proximas semanas diran si la mejora es real.",
+            "tr": "Almanya'nın ikinci çeyrek büyümesi yukarı revize edildi ve Ifo iş iklimi endeksi bir yılın zirvesine çıktı; bu iki veri Euro Bölgesi'nin en büyük ekonomisini ilkbahardakinden daha sağlam gösteriyor. Avrupa Merkez Bankası açısından daha güçlü bir Almanya, sıkılaştırmaya karşı öne sürülen standart itirazlardan birini ortadan kaldırıyor.\n\nBu önemli, çünkü eylül kararı çok dengeli. Enflasyon hedefin üzerinde ve enerji maliyetleri savaş primi taşıyor; ancak banka büyüme kırılgan göründüğü sürece adım atmaktan kaçındı. Güven anketlerindeki iyileşme, risk dengesini beklemekten harekete geçmeye doğru kaydırıyor.\n\nÇekince şu: Ifo, mevcut koşullar kadar beklentileri de ölçüyor ve Hürmüz'deki aksama derinleşirse ya da Asya'dan gelen ihracat siparişleri zayıflarsa beklentiler hızla tersine dönebilir. Önümüzdeki haftalarda gelecek sanayi siparişi ve üretim verileri iyileşmenin gerçek olup olmadığını gösterecek."
+          },
+          "points": {
+            "en": [
+              "Q2 German GDP revised higher",
+              "Ifo business climate at a one-year high",
+              "ECB decision due 10 September"
+            ],
+            "es": [
+              "El PIB aleman del segundo trimestre se revisa al alza",
+              "El clima empresarial Ifo, en maximos de un año",
+              "La decision del BCE llega el 10 de septiembre"
+            ],
+            "tr": [
+              "Almanya'nın 2. çeyrek GSYH'si yukarı revize edildi",
+              "Ifo iş iklimi bir yılın zirvesinde",
+              "ECB kararı 10 Eylül'de"
+            ]
+          },
+          "source": "Gramercy",
+          "url": "https://www.gramercy.com/2026/08/em-weekly-august-29-2026/",
+          "time": "09:00"
         }
       ],
       "author": "Daily Now",
-      "path": "2026-08-28__Daily Now__Economy 28 August 2026.json",
-      "size": 5154,
-      "mtime": 1787941515581
+      "path": "2026-08-31__Daily Now__Economy 31 August 2026.json",
+      "size": 14587,
+      "mtime": 1788128975173
     },
     {
       "title": {
-        "en": "Health — 28 August 2026",
-        "es": "Salud — 28 de agosto de 2026",
-        "tr": "Sağlık — 28 Ağustos 2026"
+        "en": "Health — 31 August 2026",
+        "es": "Salud — 31 de agosto de 2026",
+        "tr": "Sağlık — 31 Ağustos 2026"
       },
       "category": "health",
-      "date": "2026-08-28",
+      "date": "2026-08-31",
       "source": "Daily Now",
       "stories": [
         {
           "title": {
-            "en": "Two unvaccinated Pennsylvanians die of measles, including an infant, in first US deaths of the year",
-            "es": "Dos personas no vacunadas de Pensilvania mueren de sarampión, entre ellas un bebé, en las primeras muertes del año en EE. UU.",
-            "tr": "Pennsylvania'da aşısız iki kişi kızamıktan öldü, biri bebek — ABD'de yılın ilk vakaları"
+            "en": "FDA approves the first targeted therapy for metastatic pancreatic cancer",
+            "es": "La FDA aprueba la primera terapia dirigida para el cancer de pancreas metastasico",
+            "tr": "FDA metastatik pankreas kanseri için ilk hedefe yönelik tedaviyi onayladı"
           },
           "summary": {
-            "en": "Health officials confirmed measles killed two unvaccinated people, including an infant, in Pennsylvania's Lancaster County — the first US measles deaths in 35 years.",
-            "es": "Las autoridades sanitarias confirmaron que el sarampión mató a dos personas no vacunadas, entre ellas un bebé, en el condado de Lancaster, Pensilvania, las primeras muertes por sarampión en EE. UU. en 35 años.",
-            "tr": "Sağlık yetkilileri, Pennsylvania'nın Lancaster County bölgesinde aşısız iki kişinin, biri bebek, kızamıktan öldüğünü doğruladı — bu, ABD'de 35 yıldır ilk kızamık ölümü."
+            "en": "Daraxonrasib, sold as Rasonque, roughly doubled median survival to 13.2 months against chemotherapy in a 500-patient trial and is the first RAS-targeted drug for the disease.",
+            "es": "El daraxonrasib, comercializado como Rasonque, casi duplico la supervivencia mediana hasta 13,2 meses frente a la quimioterapia en un ensayo con 500 pacientes y es el primer farmaco dirigido a RAS para esta enfermedad.",
+            "tr": "Rasonque adıyla satılacak daraxonrasib, 500 hastalık çalışmada kemoterapiye kıyasla ortanca sağkalımı yaklaşık iki katına, 13,2 aya çıkardı ve hastalıkta RAS'ı hedefleyen ilk ilaç oldu."
           },
           "detail": {
-            "en": "Health officials in Pennsylvania confirmed on 25 August that two unvaccinated residents of Lancaster County died from measles-related complications, one of them an infant. The deaths are the first attributed to measles in the United States this year and the first recorded in Pennsylvania in 35 years. The state has now confirmed 393 measles cases in the outbreak, with 86 diagnosed in just the past week, and 70 people have been hospitalized for complications. Officials say the outbreak has spread largely among unvaccinated communities and are urging residents to check their immunization status as case counts continue climbing. The deaths have reignited debate in Washington over vaccine policy, including a separate proposal to split the combined measles-mumps-rubella shot into three separate doses, which critics warn could raise costs and make it harder for families to keep children fully immunized.",
-            "es": "Las autoridades sanitarias de Pensilvania confirmaron el 25 de agosto que dos residentes no vacunados del condado de Lancaster murieron por complicaciones relacionadas con el sarampión, uno de ellos un bebé. Son las primeras muertes atribuidas al sarampión en Estados Unidos este año y las primeras registradas en Pensilvania en 35 años. El estado ha confirmado ya 393 casos de sarampión en el brote, 86 de ellos diagnosticados solo en la última semana, y 70 personas han sido hospitalizadas por complicaciones. Las autoridades afirman que el brote se ha propagado sobre todo en comunidades no vacunadas y piden a los residentes que revisen su estado de vacunación mientras el número de casos sigue en aumento. Las muertes han reavivado en Washington el debate sobre la política de vacunación, incluida una propuesta para dividir la vacuna combinada contra el sarampión, las paperas y la rubéola en tres dosis separadas, algo que según sus críticos podría encarecer el proceso y dificultar que las familias mantengan a los niños completamente inmunizados.",
-            "tr": "Pennsylvania'daki sağlık yetkilileri 25 Ağustos'ta, Lancaster County'de aşısız iki sakinin kızamıkla ilişkili komplikasyonlardan öldüğünü doğruladı; ölenlerden biri bir bebekti. Bu ölümler, Amerika Birleşik Devletleri'nde bu yıl kızamığa bağlanan ilk ölümler ve Pennsylvania'da 35 yıldır kaydedilen ilk vaka. Eyalet, salgında şimdiye kadar 393 kızamık vakasını doğruladı; bunların 86'sı yalnızca geçtiğimiz hafta teşhis edildi ve 70 kişi komplikasyonlar nedeniyle hastaneye kaldırıldı. Yetkililer, salgının büyük ölçüde aşısız topluluklar arasında yayıldığını söylüyor ve vaka sayıları artmaya devam ederken sakinleri aşı durumlarını kontrol etmeye çağırıyor. Ölümler, Washington'da aşı politikası tartışmasını yeniden alevlendirdi; bunlar arasında kombine kızamık-kabakulak-kızamıkçık aşısını üç ayrı doza bölme önerisi de var — eleştirmenler bunun maliyetleri artırabileceğini ve ailelerin çocuklarını tam aşılı tutmasını zorlaştırabileceğini söylüyor."
+            "en": "The US Food and Drug Administration approved daraxonrasib, marketed by Revolution Medicines as Rasonque, for adults with metastatic pancreatic adenocarcinoma who have had at least one prior systemic therapy or who cannot tolerate multi-drug regimens. It is the first approved targeted medicine for a cancer that has resisted them for decades.\n\nThe drug is a once-daily tablet that inhibits multiple forms of RAS, a protein that drives tumour growth in most pancreatic adenocarcinomas. RAS was long considered undruggable, and this approval is the first from a new class of RAS(ON) multi-selective and mutant-selective inhibitors.\n\nEfficacy came from RASolute 302, a randomised open-label trial in which 500 patients whose disease had progressed after one prior line received either daraxonrasib or the physician's choice of standard chemotherapy. Patients on the drug lived about 13.2 months on average, roughly twice as long as those on chemotherapy. Pancreatic cancer is usually found late and has one of the lowest survival rates of any common tumour, so an extra six months from a single daily tablet is a meaningful shift in a field with very little to offer.",
+            "es": "La Administracion de Alimentos y Medicamentos de Estados Unidos aprobo el daraxonrasib, comercializado por Revolution Medicines como Rasonque, para adultos con adenocarcinoma pancreatico metastasico que ya recibieron al menos una terapia sistemica previa o que no toleran regimenes con varios farmacos. Es el primer medicamento dirigido aprobado para un cancer que se les ha resistido durante decadas.\n\nEl farmaco es un comprimido de toma diaria que inhibe varias formas de RAS, una proteina que impulsa el crecimiento tumoral en la mayoria de los adenocarcinomas de pancreas. Durante mucho tiempo se considero que RAS no era abordable con farmacos, y esta aprobacion es la primera de una nueva clase de inhibidores RAS(ON) multiselectivos y selectivos de mutantes.\n\nLa eficacia procede de RASolute 302, un ensayo aleatorizado y abierto en el que 500 pacientes cuya enfermedad habia progresado tras una linea previa recibieron daraxonrasib o la quimioterapia estandar elegida por el medico. Los pacientes con el farmaco vivieron unos 13,2 meses de media, aproximadamente el doble que los tratados con quimioterapia. El cancer de pancreas suele detectarse tarde y tiene una de las tasas de supervivencia mas bajas entre los tumores frecuentes, asi que seis meses adicionales con un solo comprimido diario suponen un cambio real en un terreno con muy poco que ofrecer.",
+            "tr": "ABD Gıda ve İlaç Dairesi, Revolution Medicines'in Rasonque adıyla pazarlayacağı daraxonrasib'i, en az bir sistemik tedavi görmüş ya da çoklu ilaç rejimlerini kaldıramayan metastatik pankreas adenokarsinomu hastaları için onayladı. Bu, onlarca yıldır hedefe yönelik tedavilere direnen bir kanser için onaylanan ilk hedefli ilaç.\n\nİlaç, çoğu pankreas adenokarsinomunda tümör büyümesini yöneten RAS proteininin birden fazla biçimini baskılayan, günde bir kez alınan bir tablet. RAS uzun süre ilaçla hedeflenemez sayılıyordu; bu onay, RAS(ON) çoklu seçici ve mutasyon seçici inhibitörlerden oluşan yeni bir sınıfın ilki.\n\nEtkinlik verisi RASolute 302 çalışmasından geldi: bir önceki tedavi sonrası hastalığı ilerleyen 500 hasta rastgele biçimde ya daraxonrasib ya da hekimin seçtiği standart kemoterapiyi aldı. İlacı alan hastalar ortalama 13,2 ay yaşadı; bu, kemoterapi alanların yaklaşık iki katı. Pankreas kanseri genellikle geç fark ediliyor ve yaygın tümörler arasında en düşük sağkalım oranlarından birine sahip; bu yüzden günde tek tabletle kazanılan altı ay, elinde çok az seçenek olan bir alanda gerçek bir değişim anlamına geliyor."
           },
           "points": {
             "en": [
-              "393 confirmed cases in Pennsylvania, 86 in the past week",
-              "70 hospitalized for complications",
-              "First US measles deaths this year, first in PA in 35 years"
+              "Median survival: about 13.2 months versus roughly half that on chemotherapy",
+              "Trial: RASolute 302, 500 patients randomised 1:1",
+              "First approved drug in the RAS(ON) inhibitor class"
             ],
             "es": [
-              "393 casos confirmados en Pensilvania, 86 en la última semana",
-              "70 hospitalizados por complicaciones",
-              "Primeras muertes por sarampión en EE. UU. este año, primeras en PA en 35 años"
+              "Supervivencia mediana: unos 13,2 meses frente a aproximadamente la mitad con quimioterapia",
+              "Ensayo: RASolute 302, 500 pacientes aleatorizados 1:1",
+              "Primer farmaco aprobado de la clase de inhibidores RAS(ON)"
             ],
             "tr": [
-              "Pennsylvania'da 393 doğrulanmış vaka, 86'sı geçen hafta",
-              "Komplikasyonlar nedeniyle 70 kişi hastaneye kaldırıldı",
-              "ABD'de bu yılki ilk kızamık ölümleri, PA'da 35 yıldaki ilki"
+              "Ortanca sağkalım: yaklaşık 13,2 ay, kemoterapide bunun yaklaşık yarısı",
+              "Çalışma: RASolute 302, 500 hasta 1:1 randomize",
+              "RAS(ON) inhibitörü sınıfında onaylanan ilk ilaç"
             ]
           },
-          "source": "CNN",
-          "url": "https://www.cnn.com/2026/08/25/health/measles-deaths-pennsylvania",
-          "time": ""
+          "source": "FDA",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-class-targeted-therapy-metastatic-pancreatic-cancer",
+          "time": "17:00"
+        },
+        {
+          "title": {
+            "en": "First hepcidin-mimicking drug approved for polycythemia vera",
+            "es": "Aprobado el primer farmaco que imita la hepcidina para la policitemia vera",
+            "tr": "Polisitemia vera için hepsidini taklit eden ilk ilaç onaylandı"
+          },
+          "summary": {
+            "en": "The FDA approved Mimrylo (rusfertide) for adults with polycythemia vera; in the phase 3 VERIFY trial 76.9 percent of patients responded during weeks 20 to 32.",
+            "es": "La FDA aprobo Mimrylo (rusfertida) para adultos con policitemia vera; en el ensayo de fase 3 VERIFY, el 76,9 por ciento de los pacientes respondio entre las semanas 20 y 32.",
+            "tr": "FDA, yetişkinlerde polisitemia vera için Mimrylo (rusfertid) ilacını onayladı; faz 3 VERIFY çalışmasında hastaların yüzde 76,9'u 20-32. haftalarda yanıt verdi."
+          },
+          "detail": {
+            "en": "The FDA approved Mimrylo, known generically as rusfertide, for adults with polycythemia vera, a rare blood disorder in which the body produces too many red blood cells. It is the first approved treatment for the condition that works by mimicking hepcidin, the hormone that regulates iron in the body.\n\nThe excess red cells thicken the blood and raise the risk of clots, stroke and heart attack, which is why standard management has relied on repeated therapeutic phlebotomy, essentially draining blood on a schedule. By limiting the iron available for making new red cells, rusfertide reduces their overproduction and holds levels down without that routine.\n\nApproval rests on the phase 3 VERIFY trial, in which 293 patients were enrolled and 76.9 percent achieved a clinical response during weeks 20 to 32. The drug comes from Protagonist Therapeutics and Takeda.",
+            "es": "La FDA aprobo Mimrylo, cuyo principio activo es la rusfertida, para adultos con policitemia vera, un trastorno sanguineo raro en el que el organismo produce demasiados globulos rojos. Es el primer tratamiento aprobado para esta enfermedad que actua imitando la hepcidina, la hormona que regula el hierro en el cuerpo.\n\nEl exceso de globulos rojos espesa la sangre y eleva el riesgo de coagulos, ictus e infarto, y por eso el manejo estandar se ha basado en flebotomias terapeuticas repetidas, es decir, extracciones periodicas de sangre. Al limitar el hierro disponible para fabricar nuevos globulos rojos, la rusfertida reduce su sobreproduccion y mantiene los niveles controlados sin esa rutina.\n\nLa aprobacion se apoya en el ensayo de fase 3 VERIFY, con 293 pacientes, en el que el 76,9 por ciento logro respuesta clinica entre las semanas 20 y 32. El farmaco procede de Protagonist Therapeutics y Takeda.",
+            "tr": "FDA, vücudun aşırı miktarda kırmızı kan hücresi ürettiği nadir bir kan hastalığı olan polisitemia vera için etken maddesi rusfertid olan Mimrylo'yu yetişkinlerde onayladı. Bu, hastalıkta vücuttaki demiri düzenleyen hormon olan hepsidini taklit ederek çalışan ilk onaylı tedavi.\n\nFazla kırmızı hücreler kanı koyulaştırıyor ve pıhtı, felç ile kalp krizi riskini artırıyor; bu yüzden standart tedavi bugüne kadar düzenli aralıklarla kan alınması anlamına gelen terapötik flebotomiye dayanıyordu. Rusfertid, yeni kırmızı hücre üretimi için kullanılabilir demiri sınırlayarak aşırı üretimi azaltıyor ve bu rutine gerek kalmadan seviyeleri baskılıyor.\n\nOnay, 293 hastanın alındığı ve yüzde 76,9'unun 20-32. haftalarda klinik yanıt elde ettiği faz 3 VERIFY çalışmasına dayanıyor. İlaç Protagonist Therapeutics ve Takeda tarafından geliştirildi."
+          },
+          "points": {
+            "en": [
+              "VERIFY phase 3: 293 patients, 76.9% clinical response in weeks 20-32",
+              "First hepcidin-mimetic approved for the condition",
+              "Aims to replace routine therapeutic phlebotomy"
+            ],
+            "es": [
+              "VERIFY fase 3: 293 pacientes, 76,9% de respuesta clinica entre las semanas 20 y 32",
+              "Primer mimetico de la hepcidina aprobado para la enfermedad",
+              "Busca sustituir la flebotomia terapeutica de rutina"
+            ],
+            "tr": [
+              "VERIFY faz 3: 293 hasta, 20-32. haftalarda yüzde 76,9 klinik yanıt",
+              "Hastalık için onaylanan ilk hepsidin taklitçisi",
+              "Rutin terapötik flebotominin yerini almayı hedefliyor"
+            ]
+          },
+          "source": "FDA",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-its-kind-polycythemia-vera-rare-blood-disorder",
+          "time": "15:30"
         }
       ],
       "author": "Daily Now",
-      "path": "2026-08-28__Daily Now__Health 28 August 2026.json",
-      "size": 5329,
-      "mtime": 1787941633339
+      "path": "2026-08-31__Daily Now__Health 31 August 2026.json",
+      "size": 10669,
+      "mtime": 1788128975246
     },
     {
       "title": {
-        "en": "Sports — 28 August 2026",
-        "es": "Deportes — 28 de agosto de 2026",
-        "tr": "Spor — 28 Ağustos 2026"
+        "en": "Sports — 31 August 2026",
+        "es": "Deportes — 31 de agosto de 2026",
+        "tr": "Spor — 31 Ağustos 2026"
       },
       "category": "sports",
-      "date": "2026-08-28",
+      "date": "2026-08-31",
       "source": "Daily Now",
       "stories": [
         {
           "title": {
-            "en": "NFL preseason wraps up with late heroics from the Bills and a Rams sweep",
-            "es": "La pretemporada de la NFL concluye con una heroicidad tardía de los Bills y un barrido de los Rams",
-            "tr": "NFL hazırlık sezonu Bills'in geç saatteki kahramanlığı ve Rams'in üç maçlık serisiyle kapandı"
+            "en": "US Open main draw opens with Sabalenka and Alcaraz defending",
+            "es": "Arranca el cuadro principal del US Open con Sabalenka y Alcaraz como defensores",
+            "tr": "US Open ana tabloda başladı, Sabalenka ve Alcaraz unvanlarını savunuyor"
           },
           "summary": {
-            "en": "The Buffalo Bills closed the preseason with a late two-point conversion to beat the Steelers, while the Rams completed a preseason sweep and the Raiders fell to the 49ers.",
-            "es": "Los Buffalo Bills cerraron la pretemporada con una conversión de dos puntos en el último momento para vencer a los Steelers, mientras que los Rams completaron un barrido en pretemporada y los Raiders cayeron ante los 49ers.",
-            "tr": "Buffalo Bills, hazırlık sezonunu Steelers'ı geç saatteki 2 sayılık dönüşümle yenerek kapatırken, Rams hazırlık sezonunda üç maçı da kazandı, Raiders ise 49ers'a yenildi."
+            "en": "First-round play began at Flushing Meadows, with Aryna Sabalenka chasing a third straight women's title and Carlos Alcaraz defending the men's crown as the No. 2 seed.",
+            "es": "La primera ronda arranco en Flushing Meadows, con Aryna Sabalenka en busca de su tercer titulo femenino consecutivo y Carlos Alcaraz defendiendo la corona masculina como segundo cabeza de serie.",
+            "tr": "Flushing Meadows'da ilk tur maçları başladı; Aryna Sabalenka üst üste üçüncü kadınlar şampiyonluğunun peşinde, Carlos Alcaraz ise 2 numaralı seri başı olarak erkeklerdeki unvanını savunuyor."
           },
           "detail": {
-            "en": "NFL teams closed out the preseason slate with a full night of exhibition games. The Buffalo Bills beat the Pittsburgh Steelers 28-27 on a late two-point conversion from quarterback Jalen Buechele, capping a tight finish to their preseason schedule. The Los Angeles Rams completed a perfect preseason sweep, with a second-quarter touchdown from Ty Simpson helping seal the win. The Las Vegas Raiders, by contrast, fell 18-12 to the San Francisco 49ers to close out their own preseason slate. With exhibition play now finished, teams turn to trimming rosters ahead of the regular season, and coaches will use these final preseason results to help settle position battles before final cuts. The games offered a last look at fringe roster hopefuls before the games start counting.",
-            "es": "Los equipos de la NFL cerraron el calendario de pretemporada con una noche completa de partidos de exhibición. Los Buffalo Bills vencieron a los Pittsburgh Steelers 28-27 con una conversión de dos puntos en el último momento del quarterback Jalen Buechele, cerrando así un final muy ajustado de su calendario de pretemporada. Los Los Angeles Rams completaron un barrido perfecto en pretemporada, con un touchdown en el segundo cuarto de Ty Simpson que ayudó a sellar la victoria. Los Las Vegas Raiders, en cambio, cayeron 18-12 ante los San Francisco 49ers para cerrar su propio calendario de pretemporada. Con la pretemporada ya terminada, los equipos pasan ahora a recortar sus plantillas antes de la temporada regular, y los entrenadores usarán estos últimos resultados de pretemporada para resolver las pugnas por puestos antes de los recortes finales. Los partidos ofrecieron una última mirada a los aspirantes marginales de la plantilla antes de que los partidos empiecen a contar.",
-            "tr": "NFL takımları, hazırlık sezonu takvimini dolu bir sergi maçları geceyle kapattı. Buffalo Bills, çeyrek oyun kurucu Jalen Buechele'in geç saatteki 2 sayılık dönüşümüyle Pittsburgh Steelers'ı 28-27 yenerek hazırlık sezonu takvimini gergin bir bitirişle tamamladı. Los Angeles Rams, Ty Simpson'ın ikinci çeyrekteki dokunuşunun galibiyeti kilitlemesine yardımcı olmasıyla hazırlık sezonunda mükemmel bir seri tamamladı. Las Vegas Raiders ise kendi hazırlık sezonu takvimini San Francisco 49ers'a 18-12 kaybederek kapattı. Sergi maçları artık bittiğine göre takımlar, düzenli sezon öncesinde kadrolarını daraltmaya yöneliyor; teknik direktörler bu son hazırlık sezonu sonuçlarını, son kadro kesintileri öncesinde mevki mücadelelerini çözmek için kullanacak. Maçlar, asıl sezon başlamadan önce kadronun sınırdaki isimlerine son bir bakış sundu."
+            "en": "The 2026 US Open moved from qualifying into the main draw at Flushing Meadows, with both singles draws opening on the same day and the tournament running to the men's final on 13 September.\n\nAryna Sabalenka arrives as the two-time defending champion and No. 1 seed, going for a third consecutive title in New York, a run only a handful of players have managed in the Open era. On the men's side Carlos Alcaraz defends his crown seeded second, which means the draw can put him in a semi-final rather than a final against the top seed.\n\nThe first week of a hard-court major is mostly about attrition. New York's late-night scheduling, the heat and the two-week format tend to punish players carrying summer injuries, and the seeds most likely to fall usually do so before the second Monday.",
+            "es": "El US Open 2026 paso de la fase previa al cuadro principal en Flushing Meadows, con los dos cuadros individuales abriendose el mismo dia y el torneo extendiendose hasta la final masculina del 13 de septiembre.\n\nAryna Sabalenka llega como bicampeona defensora y primera cabeza de serie, en busca de su tercer titulo consecutivo en Nueva York, algo que solo unas pocas jugadoras han logrado en la era Open. En el cuadro masculino Carlos Alcaraz defiende su corona como segundo cabeza de serie, lo que significa que el sorteo puede cruzarlo con el numero uno en semifinales y no en la final.\n\nLa primera semana de un grande en pista dura es sobre todo desgaste. Los horarios nocturnos de Nueva York, el calor y el formato de dos semanas suelen castigar a quienes arrastran lesiones del verano, y los cabezas de serie que caen suelen hacerlo antes del segundo lunes.",
+            "tr": "2026 US Open, Flushing Meadows'da eleme turlarından ana tabloya geçti; iki tekler tablosu da aynı gün başladı ve turnuva 13 Eylül'deki erkekler finaline kadar sürecek.\n\nAryna Sabalenka, iki kez üst üste şampiyon ve 1 numaralı seri başı olarak New York'ta üçüncü art arda unvanının peşinde; bunu Açık Çağ'da yalnızca birkaç oyuncu başarabildi. Erkeklerde Carlos Alcaraz unvanını 2 numaralı seri başı olarak savunuyor; bu da kura gereği 1 numarayla finalde değil yarı finalde eşleşebileceği anlamına geliyor.\n\nSert kortta oynanan bir grand slamin ilk haftası büyük ölçüde yıpranma meselesi. New York'un gece geç saatlere uzanan programı, sıcak ve iki haftalık format yazdan sakatlık taşıyan oyuncuları cezalandırıyor; elenen seri başları da genellikle ikinci pazartesiden önce eleniyor."
           },
           "points": {
             "en": [
-              "Bills 28-27 Steelers on a late 2-point conversion",
-              "Rams complete a perfect preseason sweep",
-              "Raiders close preseason with an 18-12 loss to the 49ers"
+              "Main draw runs to the men's final on 13 September",
+              "Sabalenka: No. 1 seed, two-time defending champion",
+              "Alcaraz: defending champion, seeded second"
             ],
             "es": [
-              "Bills 28-27 Steelers con una conversión de dos puntos tardía",
-              "Los Rams completan un barrido perfecto en pretemporada",
-              "Los Raiders cierran la pretemporada con una derrota 18-12 ante los 49ers"
+              "El cuadro principal llega hasta la final masculina del 13 de septiembre",
+              "Sabalenka: primera cabeza de serie, bicampeona defensora",
+              "Alcaraz: campeon defensor, segundo cabeza de serie"
             ],
             "tr": [
-              "Bills, geç 2 sayılık dönüşümle Steelers'ı 28-27 yendi",
-              "Rams hazırlık sezonunda mükemmel bir seri tamamladı",
-              "Raiders hazırlık sezonunu 49ers'a 18-12 kaybederek kapattı"
+              "Ana tablo 13 Eylül'deki erkekler finaline kadar sürüyor",
+              "Sabalenka: 1 numaralı seri başı, iki kez şampiyon",
+              "Alcaraz: unvan sahibi, 2 numaralı seri başı"
             ]
           },
-          "source": "Honolulu Star-Advertiser",
-          "url": "https://www.staradvertiser.com/2026/08/28/sports/scoreboard-august-28-2026/",
-          "time": ""
+          "source": "Olympics.com",
+          "url": "https://www.olympics.com/en/news/us-open-2026-competition-schedule-live-results-tennis-grand-slam",
+          "time": "18:00"
         },
         {
           "title": {
-            "en": "Reds pull off historic 10-9 comeback from six runs down in San Francisco",
-            "es": "Los Reds logran una histórica remontada 10-9 tras ir seis carreras abajo en San Francisco",
-            "tr": "Reds, San Francisco'da altı sayı gerideyken tarihi bir 10-9 geri dönüş yaşadı"
+            "en": "Argentina beat the Netherlands on penalties to win the Women's Hockey World Cup",
+            "es": "Argentina vence a Paises Bajos en los penales y gana el Mundial femenino de hockey",
+            "tr": "Arjantin, penaltılarda Hollanda'yı yenerek Kadınlar Hokey Dünya Kupası'nı kazandı"
           },
           "summary": {
-            "en": "The Cincinnati Reds rallied from a six-run deficit entering the ninth inning to beat the Giants 10-9, only the third such comeback in franchise history.",
-            "es": "Los Cincinnati Reds remontaron un déficit de seis carreras al entrar a la novena entrada para vencer a los Giants 10-9, solo la tercera remontada así en la historia de la franquicia.",
-            "tr": "Cincinnati Reds, dokuzuncu vuruş turuna altı sayı geride girmesine rağmen Giants'ı 10-9 yenerek, franchise tarihindeki bu tür yalnızca üçüncü geri dönüşü gerçekleştirdi."
+            "en": "Argentina took their third Women's Field Hockey World Cup after a 1-1 draw went to a shootout, ending a long stretch of Dutch dominance.",
+            "es": "Argentina conquisto su tercer Mundial femenino de hockey hierba tras un 1-1 resuelto en la tanda, y puso fin a un largo dominio neerlandes.",
+            "tr": "Arjantin, 1-1 biten finalin ardından seri atışlarda kazanarak üçüncü Kadınlar Çim Hokeyi Dünya Kupası'nı aldı ve Hollanda'nın uzun süreli hakimiyetini bitirdi."
           },
           "detail": {
-            "en": "The Cincinnati Reds staged one of the most dramatic comebacks of the MLB season, overturning a six-run deficit heading into the ninth inning to beat the San Francisco Giants 10-9. The rally is only the third time in franchise history the Reds have won a game after trailing by six or more runs entering the final inning, underscoring how rare the feat is even across a long season. The Giants had appeared to have the game in hand for most of the night before their bullpen faltered late, allowing Cincinnati's lineup to string together the hits and walks needed to complete the turnaround. The win offers a morale boost for a Reds team looking to strengthen its position as the stretch run toward the postseason picture continues. Late-season comebacks of this scale tend to be remembered well beyond the standings they affect.",
-            "es": "Los Cincinnati Reds protagonizaron una de las remontadas más dramáticas de la temporada de la MLB al revertir un déficit de seis carreras al entrar a la novena entrada para vencer a los San Francisco Giants 10-9. La remontada es solo la tercera vez en la historia de la franquicia que los Reds ganan un partido tras ir seis o más carreras abajo al entrar a la última entrada, lo que subraya lo poco frecuente que es esta hazaña incluso a lo largo de una temporada larga. Los Giants parecían tener el partido controlado durante casi toda la noche antes de que su bullpen flaqueara en los últimos innings, permitiendo que el orden de bateo de Cincinnati encadenara los hits y bases por bolas necesarios para completar el giro. La victoria supone un impulso anímico para un equipo de los Reds que busca reforzar su posición mientras continúa el tramo final hacia el cuadro de postemporada. Las remontadas de esta magnitud a final de temporada suelen recordarse mucho más allá de la clasificación a la que afectan.",
-            "tr": "Cincinnati Reds, dokuzuncu vuruş turuna altı sayı gerideyken girip San Francisco Giants'ı 10-9 yenerek MLB sezonunun en dramatik geri dönüşlerinden birine imza attı. Bu geri dönüş, Reds'in franchise tarihinde son vuruş turuna altı veya daha fazla sayı geride girip maçı kazandığı yalnızca üçüncü sefer olarak öne çıkıyor; bu da uzun bir sezon boyunca bile bu başarının ne kadar nadir olduğunu gösteriyor. Giants, gecenin büyük bölümünde maçı kontrol altında tutmuş gibi görünüyordu, ta ki bullpen'leri geç saatlerde çökene ve Cincinnati'nin vuruş sırasının geri dönüşü tamamlamak için gereken vuruşları ve yürüyüşleri art arda getirmesine izin verilene kadar. Galibiyet, play-off tablosuna doğru son düzlük sürerken konumunu güçlendirmeye çalışan Reds için bir moral desteği sağlıyor. Sezon sonuna doğru bu ölçekteki geri dönüşler, etkiledikleri sıralamanın çok ötesinde hatırlanma eğiliminde."
+            "en": "Argentina won the Women's Field Hockey World Cup, beating the Netherlands in a penalty shootout after the final finished 1-1. It is Argentina's third world title.\n\nThe result matters because of who lost. The Netherlands have set the standard in women's hockey for the better part of two decades, and reaching finals has usually meant meeting them at their best. Argentina, known as Las Leonas, have been the most persistent challenger to that order without often converting in finals.\n\nA shootout is a thin margin on which to hang a shift in the sport's hierarchy, and the Dutch programme is deep enough to reload quickly. But a world title breaks the assumption that these finals have one likely outcome, and that changes how the next cycle is approached.",
+            "es": "Argentina gano el Mundial femenino de hockey hierba al vencer a Paises Bajos en la tanda de penales tras un 1-1 en la final. Es el tercer titulo mundial argentino.\n\nEl resultado importa por quien perdio. Paises Bajos ha marcado el nivel del hockey femenino durante casi dos decadas, y llegar a una final solia significar encontrarselas en su mejor version. Argentina, conocida como Las Leonas, ha sido la aspirante mas constante a ese orden sin convertir a menudo en las finales.\n\nUna tanda de penales es un margen estrecho para sostener un cambio en la jerarquia del deporte, y el programa neerlandes tiene fondo suficiente para rearmarse rapido. Pero un titulo mundial rompe la idea de que estas finales tienen un desenlace probable, y eso cambia la forma de afrontar el proximo ciclo.",
+            "tr": "Arjantin, finali 1-1 bitirdikten sonra penaltı atışlarında Hollanda'yı yenerek Kadınlar Çim Hokeyi Dünya Kupası'nı kazandı. Bu, Arjantin'in üçüncü dünya şampiyonluğu.\n\nSonucu önemli kılan, kaybeden taraf. Hollanda yaklaşık yirmi yıldır kadın hokeyinde standardı belirliyor ve finale çıkmak genellikle onları en iyi hâlleriyle karşılamak anlamına geliyordu. Las Leonas olarak bilinen Arjantin, bu düzenin en ısrarlı rakibi olmuş ama finallerde bunu çoğu zaman sonuca çeviremiyordu.\n\nPenaltı atışları, sporun hiyerarşisindeki bir değişimi dayandırmak için ince bir marj ve Hollanda ekolü hızla toparlanacak kadar derin. Yine de bir dünya şampiyonluğu, bu finallerin tek bir olası sonucu olduğu varsayımını kırıyor; bu da önümüzdeki döneme nasıl hazırlanılacağını değiştiriyor."
           },
           "points": {
             "en": [
-              "Reds win 10-9 after trailing by six entering the 9th",
-              "Only the third such comeback in franchise history",
-              "Giants' bullpen faltered late to allow the rally"
+              "Final: 1-1, Argentina won the shootout",
+              "Argentina's third Women's World Cup title",
+              "Ends a long run of Dutch dominance in the event"
             ],
             "es": [
-              "Los Reds ganan 10-9 tras ir seis carreras abajo al entrar a la 9ª",
-              "Solo la tercera remontada así en la historia de la franquicia",
-              "El bullpen de los Giants flaqueó al final y permitió la remontada"
+              "Final: 1-1, Argentina gano la tanda",
+              "Tercer titulo mundial femenino de Argentina",
+              "Pone fin a un largo dominio neerlandes en el torneo"
             ],
             "tr": [
-              "Reds, 9. tura altı sayı gerideyken girip 10-9 kazandı",
-              "Franchise tarihindeki bu tür yalnızca üçüncü geri dönüş",
-              "Giants'ın bullpen'i geç saatlerde çökerek geri dönüşe izin verdi"
+              "Final: 1-1, seri atışları Arjantin kazandı",
+              "Arjantin'in üçüncü kadınlar dünya kupası",
+              "Turnuvadaki uzun Hollanda hakimiyetini bitiriyor"
             ]
           },
-          "source": "ESPN",
-          "url": "https://www.espn.com/mlb/scoreboard/_/date/20260828",
-          "time": ""
+          "source": "Reuters",
+          "url": "https://www.reuters.com/sports/argentina-lift-womens-hockey-world-cup-title-break-dutch-dominance-2026-08-29/",
+          "time": "20:00"
+        },
+        {
+          "title": {
+            "en": "Hrgovic stops Itauma to take the vacant IBF heavyweight title",
+            "es": "Hrgovic detiene a Itauma y se lleva el titulo vacante del peso pesado del IBF",
+            "tr": "Hrgovic, Itauma'yı durdurup boş IBF ağır sıklet kemerini aldı"
+          },
+          "summary": {
+            "en": "Filip Hrgovic beat Moses Itauma by ninth-round stoppage to become Croatia's first heavyweight world champion; Itauma was taken to hospital.",
+            "es": "Filip Hrgovic vencio a Moses Itauma por detencion en el noveno asalto y se convirtio en el primer campeon mundial de los pesados de Croacia; Itauma fue hospitalizado.",
+            "tr": "Filip Hrgovic, Moses Itauma'yı dokuzuncu rauntta durdurarak Hırvatistan'ın ilk ağır sıklet dünya şampiyonu oldu; Itauma hastaneye kaldırıldı."
+          },
+          "detail": {
+            "en": "Filip Hrgovic won the vacant IBF heavyweight title by stopping Moses Itauma in the ninth round, becoming the first Croatian heavyweight world champion. Itauma was taken to hospital after the fight.\n\nThe result cuts against the direction the division seemed to be heading. Itauma had been the sport's most heavily promoted young heavyweight, moved quickly on the strength of early stoppages, and this was the first time he was asked to work deep into a fight against an opponent who could take his shots and keep coming.\n\nHrgovic, a veteran of the amateur system and a former Olympic medallist, has spent his career being described as the hard fight nobody wanted. A world title at this stage reshuffles the mandatory positions at the top of the heavyweight division and forces the other champions to deal with him.",
+            "es": "Filip Hrgovic gano el titulo vacante de los pesados del IBF al detener a Moses Itauma en el noveno asalto y se convirtio en el primer croata campeon mundial del peso pesado. Itauma fue trasladado al hospital tras el combate.\n\nEl resultado va en contra de la direccion que parecia tomar la division. Itauma era el joven peso pesado mas promocionado del deporte, llevado deprisa a base de nocauts tempranos, y esta fue la primera vez que tuvo que trabajar hasta bien entrado un combate ante un rival capaz de aguantar sus golpes y seguir avanzando.\n\nHrgovic, veterano del circuito amateur y antiguo medallista olimpico, ha pasado su carrera siendo descrito como el combate dificil que nadie queria. Un titulo mundial a estas alturas reordena las posiciones obligatorias en la cima del peso pesado y obliga a los demas campeones a contar con el.",
+            "tr": "Filip Hrgovic, Moses Itauma'yı dokuzuncu rauntta durdurarak boştaki IBF ağır sıklet kemerini kazandı ve Hırvatistan'ın ilk ağır sıklet dünya şampiyonu oldu. Itauma maçın ardından hastaneye kaldırıldı.\n\nSonuç, sıkletin gittiği yönün tersine işaret ediyor. Itauma, erken raunt nakavtlarıyla hızla yukarı taşınan, sporun en çok öne çıkarılan genç ağır sıkletiydi; bu, yumruklarını kaldırıp üzerine gelmeye devam edebilen bir rakip karşısında maçın derinliklerine kadar çalışmak zorunda kaldığı ilk gece oldu.\n\nAmatör sistemden gelen ve olimpiyat madalyası bulunan Hrgovic, kariyeri boyunca kimsenin istemediği zor maç olarak anıldı. Bu aşamada gelen bir dünya kemeri, ağır sıkletin tepesindeki zorunlu rakip sıralamasını yeniden karıyor ve diğer şampiyonları onunla hesaplaşmaya zorluyor."
+          },
+          "points": {
+            "en": [
+              "Ninth-round stoppage for the vacant IBF title",
+              "Croatia's first heavyweight world champion",
+              "Itauma was hospitalised after the bout"
+            ],
+            "es": [
+              "Detencion en el noveno asalto por el titulo vacante del IBF",
+              "Primer campeon mundial croata de los pesados",
+              "Itauma fue hospitalizado tras el combate"
+            ],
+            "tr": [
+              "Boş IBF kemeri için dokuzuncu raunt durdurma",
+              "Hırvatistan'ın ilk ağır sıklet dünya şampiyonu",
+              "Itauma maç sonrası hastaneye kaldırıldı"
+            ]
+          },
+          "source": "Philstar",
+          "url": "https://www.philstar.com/sports/2026/08/30/2552848/hrgovic-wins-ibf-world-heavyweight-title-itauma-hospitalized",
+          "time": "23:30"
+        },
+        {
+          "title": {
+            "en": "Canada's women's volleyball team qualifies for the 2028 Olympics",
+            "es": "La seleccion femenina de voleibol de Canada se clasifica para los Juegos de 2028",
+            "tr": "Kanada kadın voleybol takımı 2028 Olimpiyatları'na katılmayı garantiledi"
+          },
+          "summary": {
+            "en": "A win over the Dominican Republic sent Canada to the Los Angeles Games, their first Olympic women's volleyball berth since 1996.",
+            "es": "Una victoria sobre Republica Dominicana llevo a Canada a los Juegos de Los Angeles, su primera plaza olimpica en voleibol femenino desde 1996.",
+            "tr": "Dominik Cumhuriyeti karşısında alınan galibiyet Kanada'yı Los Angeles Oyunları'na taşıdı; bu, 1996'dan bu yana kadın voleybolunda ilk olimpiyat bileti."
+          },
+          "detail": {
+            "en": "Canada's women's volleyball team beat the Dominican Republic to qualify for the 2028 Olympic Games in Los Angeles, ending a drought that stretches back to Atlanta in 1996.\n\nThirty-two years is long enough that no player in the current squad was born the last time the country sent a women's volleyball team to a Games. Canada's men have qualified repeatedly over the past decade while the women's programme rebuilt from a much lower base, largely through players developed in North American college systems and then in European club leagues.\n\nQualifying early also changes the preparation. Instead of chasing points through a qualification calendar, the programme can plan a two-year run-up to a home-continent Olympics, with the crowd and the time zone on its side.",
+            "es": "La seleccion femenina de voleibol de Canada vencio a Republica Dominicana y se clasifico para los Juegos Olimpicos de 2028 en Los Angeles, y pone fin a una sequia que se remonta a Atlanta 1996.\n\nTreinta y dos años son suficientes para que ninguna jugadora del plantel actual hubiera nacido la ultima vez que el pais llevo un equipo femenino de voleibol a unos Juegos. Los hombres canadienses se han clasificado varias veces en la ultima decada mientras el programa femenino se reconstruia desde mucho mas abajo, sobre todo con jugadoras formadas en el sistema universitario norteamericano y despues en las ligas europeas.\n\nClasificarse pronto tambien cambia la preparacion. En lugar de perseguir puntos en un calendario clasificatorio, el programa puede planificar dos años de camino hacia unos Juegos en su propio continente, con el publico y el huso horario a favor.",
+            "tr": "Kanada kadın voleybol takımı, Dominik Cumhuriyeti'ni yenerek Los Angeles'ta düzenlenecek 2028 Olimpiyat Oyunları'na katılmayı garantiledi ve 1996 Atlanta'ya kadar uzanan kuraklığı bitirdi.\n\nOtuz iki yıl, ülkenin bir Oyunlar'a kadın voleybol takımı gönderdiği son seferde mevcut kadrodaki hiçbir oyuncunun doğmamış olmasına yetecek kadar uzun bir süre. Kanada'nın erkek takımı son on yılda birkaç kez baraj geçerken kadın programı çok daha aşağıdan, ağırlıklı olarak Kuzey Amerika üniversite sisteminde ve ardından Avrupa kulüp liglerinde yetişen oyuncularla yeniden inşa edildi.\n\nErken katılım hakkı kazanmak hazırlığı da değiştiriyor. Eleme takviminde puan kovalamak yerine program, seyirci ve saat dilimi kendi lehineyken kendi kıtasındaki bir olimpiyata iki yıllık bir hazırlık planlayabilir."
+          },
+          "points": {
+            "en": [
+              "Beat the Dominican Republic in the Olympic qualifier",
+              "First women's volleyball Olympic berth since Atlanta 1996",
+              "Los Angeles 2028 is a home-continent Games"
+            ],
+            "es": [
+              "Victoria sobre Republica Dominicana en el preolimpico",
+              "Primera plaza olimpica femenina de voleibol desde Atlanta 1996",
+              "Los Angeles 2028 son unos Juegos en su propio continente"
+            ],
+            "tr": [
+              "Olimpiyat elemesinde Dominik Cumhuriyeti yenildi",
+              "Atlanta 1996'dan bu yana kadın voleybolunda ilk olimpiyat bileti",
+              "Los Angeles 2028 kendi kıtalarında bir Oyunlar"
+            ]
+          },
+          "source": "CBC",
+          "url": "https://www.cbc.ca/sports/olympics/summer/volleyball/canada-women-volleyball-dominican-republic-recap-olympic-qualifier-9.7325709",
+          "time": "19:00"
         }
       ],
       "author": "Daily Now",
-      "path": "2026-08-28__Daily Now__Sports 28 August 2026.json",
-      "size": 9664,
-      "mtime": 1787941679468
+      "path": "2026-08-31__Daily Now__Sports 31 August 2026.json",
+      "size": 17404,
+      "mtime": 1788128975270
     },
     {
       "title": {
-        "en": "Technology — 28 August 2026",
-        "es": "Tecnología — 28 de agosto de 2026",
-        "tr": "Teknoloji — 28 Ağustos 2026"
+        "en": "Technology — 31 August 2026",
+        "es": "Tecnología — 31 de agosto de 2026",
+        "tr": "Teknoloji — 31 Ağustos 2026"
       },
       "category": "tech",
-      "date": "2026-08-28",
+      "date": "2026-08-31",
       "source": "Daily Now",
       "stories": [
         {
           "title": {
-            "en": "Federal judge rules Pentagon cannot blacklist Anthropic over its safety limits",
-            "es": "Un juez federal dictamina que el Pentágono no puede vetar a Anthropic por sus límites de seguridad",
-            "tr": "Federal yargıç, Pentagon'un Anthropic'i güvenlik sınırları nedeniyle kara listeye alamayacağına hükmetti"
+            "en": "NASA's Roman Space Telescope launches on a Falcon Heavy",
+            "es": "El telescopio espacial Roman de la NASA despega en un Falcon Heavy",
+            "tr": "NASA'nın Roman Uzay Teleskobu Falcon Heavy ile fırlatıldı"
           },
           "summary": {
-            "en": "A federal judge blocked the Defense Department from excluding Anthropic over the safety restrictions it places on how its AI models can be used.",
-            "es": "Un juez federal impidió que el Departamento de Defensa excluyera a Anthropic por las restricciones de seguridad que impone sobre el uso de sus modelos de IA.",
-            "tr": "Federal bir yargıç, Savunma Bakanlığı'nın Anthropic'i yapay zekâ modellerinin kullanımına koyduğu güvenlik kısıtlamaları nedeniyle dışlamasını engelledi."
+            "en": "The Nancy Grace Roman Space Telescope lifted off from Florida aboard a SpaceX Falcon Heavy to survey dark matter, dark energy, exoplanets and supernovae.",
+            "es": "El telescopio espacial Nancy Grace Roman desperto desde Florida a bordo de un Falcon Heavy de SpaceX para estudiar la materia oscura, la energia oscura, los exoplanetas y las supernovas.",
+            "tr": "Nancy Grace Roman Uzay Teleskobu, karanlık madde, karanlık enerji, ötegezegenler ve süpernovaları taramak üzere Florida'dan SpaceX Falcon Heavy ile yörüngeye gönderildi."
           },
           "detail": {
-            "en": "A federal judge ruled that the Pentagon cannot exclude Anthropic from defense contracting over the safety restrictions the company places on how its models can be deployed, a decision that pushes back on efforts to penalize AI developers for imposing use-case limits. The case turned on whether the government could effectively require companies to drop safety guardrails as a condition of doing business with the military. The ruling is being read as a signal that AI companies retain latitude to enforce their own usage policies even when dealing with defense customers. It lands alongside separate moves in the AI security space, including Google Cloud publishing guidance that frames securing autonomous agents as one of the industry's top gating issues and recommending adoption of Secure AI Frameworks. Together, the developments underscore how much of the current AI policy fight is now playing out over safety rules rather than raw capability.",
-            "es": "Un juez federal dictaminó que el Pentágono no puede excluir a Anthropic de la contratación de defensa por las restricciones de seguridad que la empresa impone sobre cómo pueden desplegarse sus modelos, una decisión que frena los intentos de penalizar a los desarrolladores de IA por imponer límites de uso. El caso giraba en torno a si el Gobierno podía, en la práctica, exigir a las empresas que eliminaran sus salvaguardas de seguridad como condición para hacer negocios con el ejército. El fallo se interpreta como una señal de que las empresas de IA conservan margen para aplicar sus propias políticas de uso incluso al tratar con clientes de defensa. Llega junto a otros movimientos en el ámbito de la seguridad de la IA, entre ellos la publicación por parte de Google Cloud de una guía que enmarca la seguridad de los agentes autónomos como uno de los principales problemas del sector y recomienda adoptar marcos de IA segura. En conjunto, estos avances subrayan hasta qué punto la disputa actual sobre la política de IA se libra ahora en torno a las normas de seguridad más que a la capacidad bruta.",
-            "tr": "Federal bir yargıç, Pentagon'un Anthropic'i modellerinin nasıl kullanılabileceğine koyduğu güvenlik kısıtlamaları nedeniyle savunma ihalelerinden dışlayamayacağına hükmetti; bu karar, kullanım sınırları koydukları için yapay zekâ geliştiricilerini cezalandırma çabalarına karşı bir geri adım anlamına geliyor. Dava, hükümetin şirketlerin orduyla iş yapmanın bir koşulu olarak güvenlik önlemlerini fiilen kaldırmasını isteyip isteyemeyeceği üzerine kuruluydu. Karar, yapay zekâ şirketlerinin savunma müşterileriyle çalışırken bile kendi kullanım politikalarını uygulama alanını koruduğunun bir işareti olarak okunuyor. Bu gelişme, yapay zekâ güvenliği alanındaki ayrı adımlarla birlikte geliyor; bunlardan biri Google Cloud'un otonom ajanların güvenliğini sektörün en önemli engelleyici sorunlarından biri olarak tanımlayan ve Güvenli Yapay Zekâ Çerçeveleri'nin benimsenmesini öneren bir rehber yayımlaması. Bir arada değerlendirildiğinde bu gelişmeler, mevcut yapay zekâ politikası mücadelesinin ne kadarının artık ham yetenek yerine güvenlik kuralları üzerinden yürütüldüğünü ortaya koyuyor."
+            "en": "NASA launched the Nancy Grace Roman Space Telescope from Florida on a SpaceX Falcon Heavy rocket, sending up the agency's next flagship observatory after the James Webb Space Telescope. Roman's mission is dark matter, dark energy, exoplanets and supernovae.\n\nWhat makes it different from Webb is the field of view. Roman carries an infrared camera with roughly the sharpness of Hubble but a viewing area about a hundred times wider, which turns it into a survey instrument rather than a targeted one. Instead of studying a handful of objects in depth, it maps large areas of sky repeatedly and catches things that change, such as supernovae and the brief brightening events used to find distant planets.\n\nThe scientific payoff is statistical: measuring how cosmic expansion has accelerated over time requires large, uniform samples rather than individual spectacular images. Commissioning takes months before the survey work begins in earnest.",
+            "es": "La NASA lanzo el telescopio espacial Nancy Grace Roman desde Florida a bordo de un cohete Falcon Heavy de SpaceX, y pone en orbita el siguiente gran observatorio de la agencia despues del telescopio James Webb. La mision de Roman es la materia oscura, la energia oscura, los exoplanetas y las supernovas.\n\nLo que lo diferencia de Webb es el campo de vision. Roman lleva una camara infrarroja con una nitidez parecida a la del Hubble pero con un area de observacion unas cien veces mas amplia, lo que lo convierte en un instrumento de rastreo y no de observacion dirigida. En lugar de estudiar a fondo un puñado de objetos, cartografia grandes zonas del cielo de forma repetida y capta lo que cambia, como las supernovas o los breves destellos que sirven para detectar planetas lejanos.\n\nEl beneficio cientifico es estadistico: medir como se ha acelerado la expansion del cosmos exige muestras amplias y uniformes, no imagenes espectaculares aisladas. La puesta a punto llevara meses antes de que empiece el rastreo de verdad.",
+            "tr": "NASA, Nancy Grace Roman Uzay Teleskobu'nu Florida'dan SpaceX Falcon Heavy roketiyle fırlattı; böylece James Webb Uzay Teleskobu'ndan sonraki amiral gemisi gözlemevi yörüngeye çıktı. Roman'ın görevi karanlık madde, karanlık enerji, ötegezegenler ve süpernovalar.\n\nWebb'den farkı görüş alanı. Roman, Hubble'a yakın keskinlikte ama yaklaşık yüz kat daha geniş bir alanı gören bir kızılötesi kamera taşıyor; bu da onu hedefe yönelik değil tarama yapan bir araç hâline getiriyor. Birkaç gök cismini derinlemesine incelemek yerine gökyüzünün geniş bölgelerini tekrar tekrar haritalıyor ve süpernovalar ile uzak gezegenleri bulmakta kullanılan kısa parlama olayları gibi değişen şeyleri yakalıyor.\n\nBilimsel getirisi istatistiksel: evrenin genişlemesinin zamanla nasıl hızlandığını ölçmek, tek tek görkemli görüntüler değil geniş ve tekdüze örneklemler gerektiriyor. Asıl tarama çalışması başlamadan önce aylar sürecek bir devreye alma dönemi var."
           },
           "points": {
             "en": [
-              "Ruling blocks Pentagon from excluding Anthropic over safety limits",
-              "Case centered on use-case restrictions, not capability",
-              "Google Cloud separately urges Secure AI Frameworks for agents"
+              "Launched from Florida on a SpaceX Falcon Heavy",
+              "Hubble-class sharpness over a field of view roughly 100 times wider",
+              "Targets: dark matter, dark energy, exoplanets, supernovae"
             ],
             "es": [
-              "El fallo impide al Pentágono excluir a Anthropic por sus límites de seguridad",
-              "El caso se centró en las restricciones de uso, no en la capacidad",
-              "Google Cloud pide por separado marcos de IA segura para los agentes"
+              "Lanzado desde Florida en un Falcon Heavy de SpaceX",
+              "Nitidez de clase Hubble sobre un campo unas 100 veces mas amplio",
+              "Objetivos: materia oscura, energia oscura, exoplanetas, supernovas"
             ],
             "tr": [
-              "Karar, Pentagon'un Anthropic'i güvenlik sınırları nedeniyle dışlamasını engelliyor",
-              "Dava, yeteneğe değil kullanım kısıtlamalarına odaklandı",
-              "Google Cloud ayrıca ajanlar için Güvenli Yapay Zekâ Çerçeveleri çağrısı yapıyor"
+              "Florida'dan SpaceX Falcon Heavy ile fırlatıldı",
+              "Hubble sınıfı keskinlik, yaklaşık 100 kat geniş görüş alanı",
+              "Hedefler: karanlık madde, karanlık enerji, ötegezegenler, süpernovalar"
             ]
           },
-          "source": "Tech Startups",
-          "url": "https://techstartups.com/2026/08/28/top-tech-news-today-august-28-2026-alibaba-anthropic-openai-google-marvell-microsoft-waymo-more/",
-          "time": ""
+          "source": "Space.com",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/nasa-roman-space-telescope-launch-success-on-a-spacex-falcon-heavy-rocket-spectacular-launch-video",
+          "time": "16:00"
         },
         {
           "title": {
-            "en": "Meta updates smart-glasses software after users bypass the recording indicator",
-            "es": "Meta actualiza el software de sus gafas inteligentes tras descubrirse que se podía burlar el indicador de grabación",
-            "tr": "Kullanıcılar kayıt göstergesini atlatınca Meta akıllı gözlük yazılımını güncelledi"
+            "en": "OpenAI unveils Jalapeño, its first in-house AI chip",
+            "es": "OpenAI presenta Jalapeño, su primer chip de IA propio",
+            "tr": "OpenAI ilk kendi yapay zekâ çipi Jalapeño'yu tanıttı"
           },
           "summary": {
-            "en": "Meta is changing the software on its AI smart glasses after users found they could keep recording even with the capture light covered.",
-            "es": "Meta está cambiando el software de sus gafas inteligentes con IA después de que los usuarios descubrieran que podían seguir grabando incluso con la luz de captura tapada.",
-            "tr": "Kullanıcılar, kayıt ışığı kapatılsa bile kayda devam edebildiklerini keşfedince Meta, yapay zekâ destekli akıllı gözlüklerinin yazılımını değiştiriyor."
+            "en": "OpenAI published the first benchmarks for Jalapeño, a chip built with Broadcom that it says beat Nvidia's Blackwell on performance per watt in nearly every test.",
+            "es": "OpenAI publico los primeros resultados de Jalapeño, un chip desarrollado con Broadcom que, segun la compañia, supero a Blackwell de Nvidia en rendimiento por vatio en casi todas las pruebas.",
+            "tr": "OpenAI, Broadcom ile geliştirdiği Jalapeño çipinin ilk kıyaslama sonuçlarını yayımladı; şirkete göre çip neredeyse tüm testlerde watt başına performansta Nvidia'nın Blackwell'ini geçti."
           },
           "detail": {
-            "en": "Meta said it is updating the software on its AI-powered smart glasses after users discovered a way to keep recording video even when the physical capture indicator light was covered with a finger or tape. The indicator is meant to signal to bystanders that the wearer is recording, and the workaround raised fresh privacy concerns about a device already scrutinized for its ability to film people without their knowledge. Under the fix, Meta says the camera will stop functioning entirely if the light is covered during a recording, rather than continuing to capture footage silently. The company did not say how long the flaw had existed before it was discovered or how many devices were affected. The episode adds to a running debate over how wearable cameras should be designed to protect bystander privacy as the category grows.",
-            "es": "Meta afirmó que está actualizando el software de sus gafas inteligentes con IA después de que los usuarios descubrieran una forma de seguir grabando vídeo incluso con la luz indicadora de captura tapada con un dedo o cinta adhesiva. El indicador está pensado para señalar a las personas cercanas que quien lleva las gafas está grabando, y el método para burlarlo reavivó las preocupaciones de privacidad sobre un dispositivo ya cuestionado por su capacidad de filmar a personas sin que lo sepan. Con la corrección, Meta afirma que la cámara dejará de funcionar por completo si se tapa la luz durante una grabación, en lugar de seguir capturando imágenes en silencio. La empresa no precisó cuánto tiempo llevaba existiendo el fallo antes de ser descubierto ni a cuántos dispositivos afectaba. El episodio se suma a un debate en curso sobre cómo deberían diseñarse las cámaras portátiles para proteger la privacidad de terceros a medida que crece esta categoría de productos.",
-            "tr": "Meta, kullanıcıların fiziksel kayıt göstergesi ışığını parmak veya bantla kapatsalar bile video kaydına devam edebildiklerini keşfetmesinin ardından yapay zekâ destekli akıllı gözlüklerinin yazılımını güncellediğini açıkladı. Gösterge, çevredekilere gözlüğü takan kişinin kayıt yaptığını bildirmek için tasarlanmıştı ve bu açığın kullanılması, insanları bilgileri olmadan filme alma kapasitesi nedeniyle zaten sorgulanan bir cihaz hakkındaki gizlilik endişelerini yeniden gündeme getirdi. Meta, düzeltmeyle birlikte, kayıt sırasında ışık kapatılırsa kameranın sessizce görüntü almaya devam etmek yerine tamamen çalışmayı durduracağını söylüyor. Şirket, açığın keşfedilmeden önce ne kadar süredir var olduğunu veya kaç cihazı etkilediğini açıklamadı. Bu olay, giyilebilir kamera kategorisi büyürken bu cihazların çevredekilerin gizliliğini korumak için nasıl tasarlanması gerektiğine dair süregelen tartışmaya bir yenisini ekliyor."
+            "en": "OpenAI announced Jalapeño, its first AI chip, and published benchmark results claiming industry-leading speed and efficiency. The chip was developed with Broadcom and is due to be running inside OpenAI's own compute infrastructure by the end of the year.\n\nAccording to independent analysis of the published figures, Jalapeño beat Nvidia's Blackwell on performance per watt in nearly all tested scenarios. Power efficiency is the number that matters most at this stage, because data centre buildouts are now constrained by electricity supply and cooling rather than by how many chips can be bought.\n\nOpenAI frames the benefit in product terms: faster responses, more responsive agents and more reliable access as demand keeps climbing. The chip is designed for inference, meaning the serving of models to users, rather than for training the models in the first place, and OpenAI has given no indication that it intends to sell it to anyone else.",
+            "es": "OpenAI presento Jalapeño, su primer chip de IA, y publico resultados que reivindican una velocidad y una eficiencia lideres del sector. El chip se desarrollo con Broadcom y deberia estar funcionando dentro de la infraestructura de computo de OpenAI antes de que acabe el año.\n\nSegun un analisis independiente de las cifras publicadas, Jalapeño supero a Blackwell de Nvidia en rendimiento por vatio en casi todos los escenarios probados. La eficiencia energetica es el dato que mas importa en esta fase, porque la construccion de centros de datos esta limitada por el suministro electrico y la refrigeracion, no por cuantos chips se pueden comprar.\n\nOpenAI plantea la ventaja en terminos de producto: respuestas mas rapidas, agentes mas agiles y un acceso mas fiable a medida que sube la demanda. El chip esta diseñado para inferencia, es decir, para servir los modelos a los usuarios, y no para entrenarlos, y OpenAI no ha dado ninguna señal de que piense venderlo a terceros.",
+            "tr": "OpenAI ilk yapay zekâ çipi Jalapeño'yu duyurdu ve sektör lideri hız ile verimlilik iddiasında bulunan kıyaslama sonuçlarını yayımladı. Çip Broadcom ile geliştirildi ve yıl sonuna kadar OpenAI'nin kendi hesaplama altyapısında çalışır durumda olması planlanıyor.\n\nYayımlanan verilerin bağımsız analizine göre Jalapeño, test edilen neredeyse tüm senaryolarda watt başına performansta Nvidia'nın Blackwell'ini geçti. Bu aşamada en çok önemsenen rakam enerji verimliliği; çünkü veri merkezi yatırımlarını artık kaç çip satın alınabildiği değil elektrik arzı ve soğutma sınırlıyor.\n\nOpenAI faydayı ürün diliyle anlatıyor: talep artarken daha hızlı yanıtlar, daha çevik ajanlar ve daha güvenilir erişim. Çip modelleri eğitmek için değil, kullanıcılara sunmak anlamına gelen çıkarım için tasarlandı; OpenAI çipi başkalarına satma niyetine dair bir işaret vermedi."
           },
           "points": {
             "en": [
-              "Workaround let recording continue with the indicator light covered",
-              "Fix: camera stops entirely if the light is covered while recording",
-              "Renews privacy debate over AI wearable cameras"
+              "Developed with Broadcom; in OpenAI's own infrastructure by year end",
+              "Beat Blackwell on performance per watt in nearly all tested scenarios",
+              "Built for inference, not for training"
             ],
             "es": [
-              "El método permitía seguir grabando con la luz indicadora tapada",
-              "Solución: la cámara se detiene por completo si se tapa la luz al grabar",
-              "Reaviva el debate sobre la privacidad de las cámaras portátiles con IA"
+              "Desarrollado con Broadcom; en la infraestructura de OpenAI a final de año",
+              "Supero a Blackwell en rendimiento por vatio en casi todas las pruebas",
+              "Diseñado para inferencia, no para entrenamiento"
             ],
             "tr": [
-              "Açık, gösterge ışığı kapalıyken kayda devam edilmesine izin veriyordu",
-              "Çözüm: kayıt sırasında ışık kapatılırsa kamera tamamen duruyor",
-              "Yapay zekâ destekli giyilebilir kameralarda gizlilik tartışmasını yeniden alevlendiriyor"
+              "Broadcom ile geliştirildi, yıl sonunda OpenAI altyapısında olacak",
+              "Test edilen neredeyse tüm senaryolarda watt başına performansta Blackwell'i geçti",
+              "Eğitim için değil çıkarım için tasarlandı"
             ]
           },
-          "source": "AI Weekly",
-          "url": "https://aiweekly.co/ai-news-today",
-          "time": ""
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/26/openai-jalapeno-ai-chip-nvidia.html",
+          "time": "12:00"
         }
       ],
       "author": "Daily Now",
-      "path": "2026-08-28__Daily Now__Technology 28 August 2026.json",
-      "size": 10461,
-      "mtime": 1787941609670
+      "path": "2026-08-31__Daily Now__Technology 31 August 2026.json",
+      "size": 9998,
+      "mtime": 1788128975221
     },
     {
       "title": {
-        "en": "US Markets — 28 August 2026",
-        "es": "Bolsa de EE. UU. — 28 de agosto de 2026",
-        "tr": "ABD Borsası — 28 Ağustos 2026"
+        "en": "US Markets — 31 August 2026",
+        "es": "Bolsa de EE. UU. — 31 de agosto de 2026",
+        "tr": "ABD Borsası — 31 Ağustos 2026"
       },
       "category": "usmarkets",
-      "date": "2026-08-28",
+      "date": "2026-08-31",
       "source": "Daily Now",
       "stories": [
         {
           "title": {
-            "en": "Nasdaq climbs on Nvidia's earnings forecast while Wall Street awaits Warsh's Jackson Hole speech",
-            "es": "El Nasdaq sube por las previsiones de resultados de Nvidia mientras Wall Street espera el discurso de Warsh en Jackson Hole",
-            "tr": "Nvidia'nın kâr beklentisiyle Nasdaq yükseldi, Wall Street Warsh'ın Jackson Hole konuşmasını bekliyor"
+            "en": "Wall Street slips on Friday but still books a winning week",
+            "es": "Wall Street cede el viernes pero cierra igualmente una semana en positivo",
+            "tr": "Wall Street cumayı düşüşle kapattı ama haftayı yine de artıda bitirdi"
           },
           "summary": {
-            "en": "Stocks closed higher as tech shares rallied on a strong Nvidia earnings forecast, with traders positioning ahead of Fed Chair Warsh's address.",
-            "es": "Las acciones cerraron al alza mientras el sector tecnológico repuntaba por una sólida previsión de resultados de Nvidia, con los operadores posicionándose antes del discurso del presidente de la Fed, Warsh.",
-            "tr": "Teknoloji hisseleri Nvidia'nın güçlü kâr beklentisiyle yükselirken, yatırımcılar Fed Başkanı Warsh'ın konuşması öncesi pozisyon alırken hisse senetleri günü yükselişle kapattı."
+            "en": "The S&P 500 closed at 7,711.76 on Friday, down 0.25 percent, yet finished the week up 0.5 percent as the Dow logged its first winning week in three.",
+            "es": "El S&P 500 cerro el viernes en 7.711,76, un 0,25 por ciento menos, pero termino la semana con un alza del 0,5 por ciento, y el Dow encadeno su primera semana positiva en tres.",
+            "tr": "S&P 500 cumayı yüzde 0,25 düşüşle 7.711,76'dan kapattı; buna rağmen haftayı yüzde 0,5 artıda tamamladı, Dow üç haftanın ilk artı haftasını yazdı."
           },
           "detail": {
-            "en": "US stocks drifted through the session ahead of Federal Reserve Chair Kevin Warsh's closely watched address at Jackson Hole, with investors looking for clarity on how far the Fed is willing to go on rates. The Nasdaq led the gains after Nvidia issued a stronger than expected earnings forecast, pulling the broader technology sector higher. The S&P 500 finished up 0.09 percent and the Dow Jones Industrial Average added 0.30 percent, while the Nasdaq itself slipped slightly during the session before recovering into positive territory by the close; the small-cap Russell 2000 gained 0.28 percent. Trading was choppy for much of the day as investors weighed the prospect of rate hikes against strong corporate earnings from the chip sector. Analysts said the market's next major move will likely hinge on the details of Warsh's remarks on the path for interest rates.",
-            "es": "Las acciones estadounidenses se movieron sin rumbo claro durante la sesión, a la espera del muy seguido discurso del presidente de la Reserva Federal, Kevin Warsh, en Jackson Hole, mientras los inversores buscaban claridad sobre hasta dónde está dispuesta a llegar la Fed con los tipos. El Nasdaq lideró las subidas después de que Nvidia presentara una previsión de resultados mejor de lo esperado, lo que impulsó al alza a todo el sector tecnológico. El S&P 500 cerró con una subida del 0,09 %, y el Dow Jones sumó un 0,30 %, mientras que el propio Nasdaq cedió ligeramente durante la sesión antes de recuperarse hacia terreno positivo al cierre; el índice de pequeña capitalización Russell 2000 ganó un 0,28 %. La negociación fue errática durante buena parte del día, ya que los inversores sopesaban la posibilidad de subidas de tipos frente a los sólidos resultados del sector de semiconductores. Los analistas señalaron que el próximo gran movimiento del mercado dependerá probablemente de los detalles del discurso de Warsh sobre la trayectoria de los tipos de interés.",
-            "tr": "ABD hisse senetleri, Federal Rezerv Başkanı Kevin Warsh'ın Jackson Hole'daki yakından izlenen konuşması öncesinde seans boyunca yön arayışında kaldı; yatırımcılar Fed'in faizde ne kadar ileri gitmeye istekli olduğuna dair netlik bekliyordu. Nvidia'nın beklenenden güçlü bir kâr beklentisi açıklamasının ardından Nasdaq yükselişe öncülük etti ve bu, teknoloji sektörünün genelini yukarı çekti. S&P 500 yüzde 0,09 artışla kapanırken Dow Jones Sanayi Ortalaması yüzde 0,30 yükseldi; Nasdaq ise seans içinde hafifçe gerilemesinin ardından kapanışa doğru pozitif bölgeye toparlandı; küçük ölçekli Russell 2000 endeksi ise yüzde 0,28 kazandı. Yatırımcılar faiz artışı ihtimalini yarı iletken sektöründen gelen güçlü şirket kârlarına karşı tartarken günün büyük bölümünde işlemler dalgalı seyretti. Analistler, piyasanın bir sonraki büyük hareketinin muhtemelen Warsh'ın faiz yolu hakkındaki açıklamalarının ayrıntılarına bağlı olacağını söyledi."
+            "en": "US stocks ended the last session of the week lower but held on to weekly gains. The S&P 500 fell 0.25 percent to 7,711.76, the Nasdaq Composite dropped 0.52 percent to 26,402.42, and the Dow Jones Industrial Average was essentially flat, shedding 9.45 points or 0.02 percent to 53,559.99.\n\nOn the week the picture was better: the S&P 500 added 0.5 percent, the Nasdaq 0.9 percent and the Dow 0.5 percent, its first positive week in three. Growth names took the harder hit into the weekend, which is the tell — when the market starts pricing tighter policy, long-duration technology valuations are the first thing to be marked down.\n\nThe divergence between a rising weekly tape and a soft Friday reflects a market that spent four days on earnings and one day digesting the Federal Reserve. September's calendar, thick with labour and activity data, decides which of the two moods carries.",
+            "es": "La bolsa estadounidense cerro a la baja la ultima sesion de la semana, pero conservo las ganancias semanales. El S&P 500 cayo un 0,25 por ciento hasta 7.711,76, el Nasdaq Composite retrocedio un 0,52 por ciento hasta 26.402,42 y el Dow Jones quedo practicamente plano, con una perdida de 9,45 puntos o un 0,02 por ciento, hasta 53.559,99.\n\nEn el computo semanal el cuadro fue mejor: el S&P 500 sumo un 0,5 por ciento, el Nasdaq un 0,9 y el Dow un 0,5, su primera semana positiva en tres. Los valores de crecimiento sufrieron mas de cara al fin de semana, y ahi esta la señal: cuando el mercado empieza a descontar una politica mas dura, las valoraciones tecnologicas de larga duracion son lo primero que se recorta.\n\nLa divergencia entre una semana al alza y un viernes flojo refleja un mercado que dedico cuatro dias a los resultados y uno a digerir a la Reserva Federal. El calendario de septiembre, cargado de datos de empleo y actividad, decidira cual de los dos animos se impone.",
+            "tr": "ABD borsaları haftanın son seansını düşüşle kapattı ama haftalık kazancını korudu. S&P 500 yüzde 0,25 gerileyerek 7.711,76'ya, Nasdaq Bileşik yüzde 0,52 düşüşle 26.402,42'ye indi; Dow Jones ise 9,45 puan ya da yüzde 0,02 kayıpla 53.559,99'da neredeyse yatay kaldı.\n\nHaftalık tabloda görüntü daha iyiydi: S&P 500 yüzde 0,5, Nasdaq yüzde 0,9, Dow ise yüzde 0,5 kazandı; Dow için bu üç haftanın ilk artı haftasıydı. Hafta sonuna girerken büyüme hisseleri daha sert vuruldu ve asıl ipucu bu: piyasa daha sıkı bir politikayı fiyatlamaya başladığında ilk indirilen şey uzun vadeli teknoloji değerlemeleri oluyor.\n\nYükselen bir hafta ile zayıf bir cuma arasındaki ayrışma, dört gününü bilançolara, bir gününü Fed'i sindirmeye ayıran bir piyasayı yansıtıyor. İstihdam ve aktivite verileriyle dolu eylül takvimi, bu iki ruh hâlinden hangisinin ağır basacağını belirleyecek."
           },
           "points": {
             "en": [
-              "S&P 500 +0.09%, Dow +0.30%, Russell 2000 +0.28%",
-              "Nasdaq rallied late on Nvidia's earnings forecast",
-              "Markets await Warsh's Jackson Hole speech"
+              "S&P 500: 7,711.76, -0.25% on the day, +0.5% on the week",
+              "Nasdaq Composite: 26,402.42, -0.52% on the day, +0.9% on the week",
+              "Dow: 53,559.99, -0.02% on the day, +0.5% on the week"
             ],
             "es": [
-              "S&P 500 +0,09%, Dow +0,30%, Russell 2000 +0,28%",
-              "El Nasdaq repuntó al final por la previsión de resultados de Nvidia",
-              "Los mercados esperan el discurso de Warsh en Jackson Hole"
+              "S&P 500: 7.711,76, -0,25% en el dia, +0,5% en la semana",
+              "Nasdaq Composite: 26.402,42, -0,52% en el dia, +0,9% en la semana",
+              "Dow: 53.559,99, -0,02% en el dia, +0,5% en la semana"
             ],
             "tr": [
-              "S&P 500 +%0,09, Dow +%0,30, Russell 2000 +%0,28",
-              "Nasdaq, Nvidia'nın kâr beklentisiyle geç saatlerde toparlandı",
-              "Piyasalar Warsh'ın Jackson Hole konuşmasını bekliyor"
+              "S&P 500: 7.711,76, günlük yüzde -0,25, haftalık yüzde +0,5",
+              "Nasdaq Bileşik: 26.402,42, günlük yüzde -0,52, haftalık yüzde +0,9",
+              "Dow: 53.559,99, günlük yüzde -0,02, haftalık yüzde +0,5"
             ]
           },
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-27/stock-market-today-dow-s-p-live-updates",
-          "time": ""
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201958418.html",
+          "time": "21:00"
         },
         {
           "title": {
-            "en": "PayPal shares slump 16% after Advent and Stripe drop takeover pursuit",
-            "es": "Las acciones de PayPal se desploman un 16% tras el abandono de la oferta de compra por parte de Advent y Stripe",
-            "tr": "Advent ve Stripe satın alma girişiminden vazgeçince PayPal hisseleri yüzde 16 çöktü"
+            "en": "Traders now lean toward a Fed hike rather than a cut in September",
+            "es": "Los operadores se inclinan ahora por una subida de la Fed en septiembre, no por un recorte",
+            "tr": "Yatırımcılar eylülde Fed'den indirim değil artırım bekliyor"
           },
           "summary": {
-            "en": "PayPal fell sharply in premarket trading after private equity firm Advent and payments rival Stripe abandoned their pursuit of the company.",
-            "es": "PayPal cayó con fuerza en la negociación previa a la apertura tras el abandono de la oferta por parte de la firma de capital privado Advent y su rival de pagos Stripe.",
-            "tr": "Özel sermaye şirketi Advent ve ödeme rakibi Stripe'ın şirketi satın alma girişiminden vazgeçmesinin ardından PayPal hisseleri seans öncesinde sert düştü."
+            "en": "After the Jackson Hole speech, the implied probability of a September rate increase jumped to 58 percent from 35 percent, and October moved to 88 percent.",
+            "es": "Tras el discurso de Jackson Hole, la probabilidad implicita de una subida en septiembre salto del 35 al 58 por ciento y la de octubre llego al 88 por ciento.",
+            "tr": "Jackson Hole konuşmasının ardından eylülde faiz artışı ihtimali yüzde 35'ten yüzde 58'e, ekim ihtimali de yüzde 88'e sıçradı."
           },
           "detail": {
-            "en": "PayPal Holdings shares tumbled 16 percent in premarket trading after reports that private equity firm Advent International and payments company Stripe had abandoned their pursuit of a potential acquisition of the firm. The sharp drop reflects how much of PayPal's recent share price had been propped up by takeover speculation, which had circulated for weeks as investors debated whether a deal could materialize. With that prospect off the table, the stock's slide dragged on payments-sector sentiment more broadly as traders reassessed valuations across the group. PayPal has not issued a detailed statement on the reported talks, and it remains unclear what prompted the two potential acquirers to step back. The move stood out against an otherwise positive session for the broader market.",
-            "es": "Las acciones de PayPal Holdings se desplomaron un 16 % en la negociación previa a la apertura tras conocerse que la firma de capital privado Advent International y la empresa de pagos Stripe habían abandonado su intento de una posible adquisición de la compañía. La fuerte caída refleja hasta qué punto el reciente precio de la acción de PayPal se sostenía por la especulación sobre una posible compra, que circulaba desde hacía semanas mientras los inversores debatían si el acuerdo llegaría a concretarse. Con esa posibilidad descartada, el desplome de la acción también afectó al sentimiento del sector de pagos en general, ya que los operadores reevaluaron las valoraciones del grupo. PayPal no ha emitido un comunicado detallado sobre las conversaciones reportadas, y no está claro qué llevó a los dos posibles compradores a retirarse. El movimiento destacó en una sesión por lo demás positiva para el mercado en general.",
-            "tr": "Özel sermaye şirketi Advent International ile ödeme şirketi Stripe'ın şirketi olası bir satın alma girişiminden vazgeçtiği haberlerinin ardından PayPal Holdings hisseleri seans öncesi işlemlerde yüzde 16 çöktü. Sert düşüş, PayPal'ın son dönemdeki hisse fiyatının büyük ölçüde, yatırımcıların bir anlaşmanın gerçekleşip gerçekleşmeyeceğini tartıştığı haftalardır dolaşan satın alma spekülasyonuyla desteklendiğini gösteriyor. Bu ihtimal masadan kalkınca hissedeki düşüş, yatırımcıların gruptaki değerlemeleri yeniden gözden geçirmesiyle ödeme sektörü genelindeki duyarlılığı da olumsuz etkiledi. PayPal, bildirilen görüşmeler hakkında ayrıntılı bir açıklama yapmadı ve iki potansiyel alıcının neden geri çekildiği belirsizliğini koruyor. Bu hareket, piyasanın genelinde aksi yönde pozitif geçen bir seansta dikkat çekti."
+            "en": "The most consequential move of the week was not in prices but in expectations. Before Federal Reserve chair Kevin Warsh spoke at Jackson Hole, futures put the odds of a September rate increase at about 35 percent; by the close they were near 58 percent. The implied probability for October climbed from 64 percent to 88 percent.\n\nWarsh's message was that inflation is running too high and that price stability will be the Fed's predominant focus. A month ago a September hike was close to unthinkable for most desks, which had spent the summer arguing over the size and timing of cuts.\n\nThe repricing shows up unevenly. Rate-sensitive and long-duration growth stocks bore the brunt on Friday, while the Dow barely moved. If the coming payrolls report is firm, the hawkish case hardens; if hiring keeps deteriorating, the Fed is left choosing between two bad outcomes and the volatility gets worse before it gets better.",
+            "es": "El movimiento mas relevante de la semana no estuvo en los precios sino en las expectativas. Antes de que el presidente de la Reserva Federal, Kevin Warsh, hablara en Jackson Hole, los futuros situaban la probabilidad de una subida en septiembre en torno al 35 por ciento; al cierre rondaba el 58 por ciento. La probabilidad implicita para octubre subio del 64 al 88 por ciento.\n\nEl mensaje de Warsh fue que la inflacion es demasiado alta y que la estabilidad de precios sera la prioridad de la Fed. Hace un mes una subida en septiembre era casi impensable para la mayoria de las mesas, que habian pasado el verano discutiendo el tamaño y el calendario de los recortes.\n\nLa revaloracion se reparte de forma desigual. Los valores sensibles a los tipos y los de crecimiento de larga duracion se llevaron el golpe del viernes, mientras el Dow apenas se movio. Si el proximo dato de empleo es firme, el argumento halcon se refuerza; si la contratacion sigue deteriorandose, la Fed tendra que elegir entre dos malos desenlaces y la volatilidad empeorara antes de mejorar.",
+            "tr": "Haftanın en önemli hareketi fiyatlarda değil beklentilerdeydi. Fed Başkanı Kevin Warsh Jackson Hole'da konuşmadan önce vadeli işlemler eylülde faiz artışına yaklaşık yüzde 35 ihtimal veriyordu; kapanışta bu oran yüzde 58'e yaklaştı. Ekim için ima edilen olasılık yüzde 64'ten yüzde 88'e çıktı.\n\nWarsh'ın mesajı, enflasyonun çok yüksek seyrettiği ve fiyat istikrarının Fed'in öncelikli odağı olacağıydı. Bir ay önce eylülde bir faiz artışı çoğu masa için neredeyse düşünülemezdi; yaz boyunca indirimlerin büyüklüğü ve zamanlaması tartışılıyordu.\n\nYeniden fiyatlama her yere eşit yansımıyor. Cuma günü darbeyi faize duyarlı ve uzun vadeli büyüme hisseleri aldı, Dow ise neredeyse yerinde saydı. Yaklaşan istihdam verisi güçlü gelirse şahin senaryo sertleşir; işe alımlar bozulmayı sürdürürse Fed iki kötü sonuç arasında seçim yapmak zorunda kalır ve oynaklık iyileşmeden önce artar."
           },
           "points": {
             "en": [
-              "PayPal down 16% in premarket trading",
-              "Advent and Stripe both dropped their pursuit",
-              "Weighed on broader payments-sector sentiment"
+              "September hike odds: 58%, up from 35% pre-speech",
+              "October hike odds: 88%, up from 64%",
+              "Growth stocks led Friday's decline; the Dow was flat"
             ],
             "es": [
-              "PayPal cae un 16% en la preapertura",
-              "Advent y Stripe abandonaron ambos la oferta",
-              "Afectó al sentimiento del sector de pagos en general"
+              "Probabilidad de subida en septiembre: 58%, frente al 35% previo",
+              "Probabilidad para octubre: 88%, frente al 64%",
+              "Los valores de crecimiento lideraron la caida del viernes; el Dow quedo plano"
             ],
             "tr": [
-              "PayPal seans öncesinde %16 düştü",
-              "Advent ve Stripe'ın ikisi de girişimden vazgeçti",
-              "Genel ödeme sektörü duyarlılığını olumsuz etkiledi"
+              "Eylül artırım ihtimali: konuşma öncesi yüzde 35'ten yüzde 58'e",
+              "Ekim artırım ihtimali: yüzde 64'ten yüzde 88'e",
+              "Cuma günkü düşüşe büyüme hisseleri öncülük etti, Dow yataydı"
             ]
           },
-          "source": "TheStreet",
-          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-28-2026",
-          "time": ""
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/27/stock-market-today-live-updates.html",
+          "time": "20:30"
+        },
+        {
+          "title": {
+            "en": "OpenAI's custom silicon puts a question mark over Nvidia's inference margins",
+            "es": "El chip propio de OpenAI pone en duda los margenes de inferencia de Nvidia",
+            "tr": "OpenAI'nin kendi çipi Nvidia'nın çıkarım marjlarına soru işareti koyuyor"
+          },
+          "summary": {
+            "en": "OpenAI says its Broadcom-built chip is a significant advance, and analysts see the main risk to Nvidia in inference, the fastest-growing part of the market.",
+            "es": "OpenAI afirma que su chip fabricado con Broadcom es un avance importante, y los analistas situan el principal riesgo para Nvidia en la inferencia, el segmento que mas crece.",
+            "tr": "OpenAI, Broadcom ile geliştirdiği çipin önemli bir ilerleme olduğunu söylüyor; analistler Nvidia için asıl riski pazarın en hızlı büyüyen kısmı olan çıkarımda görüyor."
+          },
+          "detail": {
+            "en": "OpenAI's move into custom silicon is being read on Wall Street as a margin story rather than a market-share story. Nvidia still owns the vast majority of AI compute and has years of lock-in through its CUDA software platform, so the immediate threat is not to its training business.\n\nInference is different. It is the part of the market growing fastest, it is far more price-sensitive than training, and a large customer that can run its own workloads on its own chips does not need to pay Nvidia's premium for it. That is precisely where analysts see pressure on margins rather than on volumes.\n\nFor investors the practical question is how much of Nvidia's forward multiple depends on inference pricing holding up. The answer will not arrive in one quarter, but every hyperscaler and lab that ships credible custom silicon narrows the pricing power that the multiple assumes.",
+            "es": "El salto de OpenAI al silicio propio se lee en Wall Street como una historia de margenes mas que de cuota de mercado. Nvidia sigue controlando la gran mayoria de la computacion de IA y cuenta con años de dependencia a traves de su plataforma de software CUDA, asi que la amenaza inmediata no afecta a su negocio de entrenamiento.\n\nLa inferencia es otra cosa. Es el segmento que mas crece, es mucho mas sensible al precio que el entrenamiento y un cliente grande capaz de ejecutar sus propias cargas en sus propios chips no necesita pagar la prima de Nvidia. Ahi es justo donde los analistas ven presion sobre los margenes y no sobre los volumenes.\n\nPara el inversor la pregunta practica es cuanto del multiplo futuro de Nvidia depende de que se sostengan los precios de la inferencia. La respuesta no llegara en un trimestre, pero cada hiperescalador y cada laboratorio que saque silicio propio creible recorta el poder de fijacion de precios que ese multiplo da por hecho.",
+            "tr": "OpenAI'nin kendi çipine geçişi Wall Street'te pazar payı hikâyesinden çok bir marj hikâyesi olarak okunuyor. Nvidia yapay zekâ hesaplama gücünün büyük çoğunluğunu hâlâ elinde tutuyor ve CUDA yazılım platformu üzerinden yıllara yayılan bir bağımlılık yaratmış durumda; dolayısıyla acil tehdit eğitim işine yönelik değil.\n\nÇıkarım tarafı farklı. Pazarın en hızlı büyüyen kısmı, eğitime kıyasla fiyata çok daha duyarlı ve kendi iş yüklerini kendi çiplerinde çalıştırabilen büyük bir müşterinin bunun için Nvidia'ya prim ödemesi gerekmiyor. Analistlerin hacimlerde değil marjlarda baskı gördüğü yer tam olarak burası.\n\nYatırımcı için asıl soru, Nvidia'nın ileriye dönük çarpanının ne kadarının çıkarım fiyatlarının korunmasına bağlı olduğu. Yanıt tek çeyrekte gelmeyecek; ama inandırıcı bir özel çip çıkaran her hiperölçekli firma ve her laboratuvar, o çarpanın varsaydığı fiyatlama gücünü biraz daha daraltıyor."
+          },
+          "points": {
+            "en": [
+              "Nvidia retains the vast majority of AI compute and CUDA lock-in",
+              "Inference is the fastest-growing and most price-sensitive segment",
+              "The risk is framed as margin compression, not lost volume"
+            ],
+            "es": [
+              "Nvidia conserva la gran mayoria de la computacion de IA y la dependencia de CUDA",
+              "La inferencia es el segmento que mas crece y el mas sensible al precio",
+              "El riesgo se plantea como compresion de margenes, no como perdida de volumen"
+            ],
+            "tr": [
+              "Nvidia yapay zekâ hesaplamasının büyük çoğunluğunu ve CUDA bağımlılığını koruyor",
+              "Çıkarım, en hızlı büyüyen ve fiyata en duyarlı segment",
+              "Risk hacim kaybı değil marj daralması olarak tanımlanıyor"
+            ]
+          },
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/25/openai-says-its-broadcom-chip-is-a-big-advance-what-about-nvidia.html",
+          "time": "13:00"
         }
       ],
       "author": "Daily Now",
-      "path": "2026-08-28__Daily Now__US Markets 28 August 2026.json",
-      "size": 9727,
-      "mtime": 1787941561369
+      "path": "2026-08-31__Daily Now__US Markets 31 August 2026.json",
+      "size": 14670,
+      "mtime": 1788128975197
     },
     {
       "title": {
-        "en": "World — 28 August 2026",
-        "es": "Mundo — 28 de agosto de 2026",
-        "tr": "Dünya — 28 Ağustos 2026"
+        "en": "World — 31 August 2026",
+        "es": "Mundo — 31 de agosto de 2026",
+        "tr": "Dünya — 31 Ağustos 2026"
       },
       "category": "world",
-      "date": "2026-08-28",
+      "date": "2026-08-31",
       "source": "Daily Now",
       "stories": [
         {
           "title": {
-            "en": "Himalayan flash flood leaves hundreds dead in Nepal and Tibet",
-            "es": "Una riada repentina en el Himalaya deja cientos de muertos en Nepal y el Tíbet",
-            "tr": "Himalaya'da ani sel Nepal ve Tibet'te yüzlerce can aldı"
+            "en": "Tanker hit by projectile near the Strait of Hormuz",
+            "es": "Un petrolero alcanzado por un proyectil cerca del estrecho de Ormuz",
+            "tr": "Hürmüz Boğazı yakınında bir tankere füze isabet etti"
           },
           "summary": {
-            "en": "More than 500 people are confirmed dead after a wall of water, mud and debris tore through a river valley, with roughly 1,000 still missing.",
-            "es": "Se confirma la muerte de más de 500 personas tras el paso de una muralla de agua, barro y escombros por un valle fluvial, con cerca de 1.000 desaparecidos.",
-            "tr": "Bir nehir vadisini biçen su, çamur ve enkaz duvarının ardından 500'den fazla kişinin öldüğü doğrulandı; yaklaşık 1.000 kişi hâlâ kayıp."
+            "en": "A tanker was struck by an unidentified projectile off Khasab, Oman, pushing the shipping lane that carries a fifth of the world's oil back into the spotlight.",
+            "es": "Un petrolero fue alcanzado por un proyectil no identificado frente a Jasab, Omán, y devolvió al primer plano la ruta por la que pasa una quinta parte del petroleo mundial.",
+            "tr": "Umman'ın Hasab açıklarında bir tankere kimliği belirsiz bir mermi isabet etti; dünya petrolünün beşte birinin geçtiği rota yeniden gündemin merkezine oturdu."
           },
           "detail": {
-            "en": "A glacial-lake outburst triggered a massive flash flood earlier this week that swept through a Himalayan river valley spanning the Nepal-Tibet border. Officials have confirmed over 500 deaths, and roughly 1,000 people remain unaccounted for as rescue teams dig through debris in remote mountain communities. Nepali police issued a fresh alert on Friday warning that additional flooding could strike areas already devastated, complicating the recovery effort. Aid groups are struggling to reach some of the hardest-hit villages because roads and bridges were washed out. The disaster has renewed scrutiny of glacial lakes across the region, which scientists say are growing more unstable as temperatures rise.",
-            "es": "A principios de esta semana, el desbordamiento de un lago glaciar provocó una riada masiva que arrasó un valle fluvial del Himalaya a caballo entre Nepal y el Tíbet. Las autoridades han confirmado más de 500 muertos y unas 1.000 personas siguen sin localizarse mientras los equipos de rescate excavan entre los escombros en comunidades montañosas remotas. La policía nepalí emitió el viernes una nueva alerta advirtiendo de que nuevas inundaciones podrían golpear zonas ya devastadas, lo que complica la labor de recuperación. Las organizaciones de ayuda tienen dificultades para llegar a algunas de las aldeas más afectadas porque carreteras y puentes quedaron destruidos. La catástrofe ha renovado la atención sobre los lagos glaciares de la región, que según los científicos son cada vez más inestables por el aumento de las temperaturas.",
-            "tr": "Bu hafta başında bir buzul gölünün taşması, Nepal-Tibet sınırındaki bir Himalaya nehir vadisini süpüren dev bir ani sele yol açtı. Yetkililer 500'ün üzerinde ölümü doğruladı; kurtarma ekipleri uzak dağ topluluklarındaki enkazı tararken yaklaşık 1.000 kişiye hâlâ ulaşılamıyor. Nepal polisi cuma günü, zaten yıkıma uğramış bölgelere yeni sellerin gelebileceği konusunda yeni bir uyarı yayımladı; bu da toparlanma çabalarını zorlaştırıyor. Yardım kuruluşları, yollar ve köprülerin yıkılması nedeniyle en çok etkilenen bazı köylere ulaşmakta güçlük çekiyor. Felaket, bilim insanlarının sıcaklıkların artmasıyla giderek daha istikrarsız hale geldiğini söylediği bölgedeki buzul göllerine yönelik denetimi yeniden gündeme getirdi."
+            "en": "The UK Maritime Trade Operations agency reported that a tanker was hit by a projectile in waters off Khasab, on Oman's Musandam peninsula, at the northern entrance to the Strait of Hormuz. No party claimed responsibility, and the agency did not attribute the attack. The strait is the exit route for crude and liquefied gas from Saudi Arabia, Iraq, Kuwait, the United Arab Emirates and Qatar, so even a single incident there moves freight and insurance rates.\n\nThe attack lands in the middle of the war between the United States and Iran, where Qatari mediators say talks toward ending the fighting have made progress. Shipowners have already been rerouting or slowing traffic through the strait, and war-risk premiums for the Gulf have climbed through the summer. If incidents continue, the cost shows up first in tanker rates and then in the crude price.",
+            "es": "La agencia britanica UKMTO informo de que un petrolero fue alcanzado por un proyectil en aguas frente a Jasab, en la peninsula omani de Musandam, a la entrada norte del estrecho de Ormuz. Nadie reivindico el ataque y la agencia no señalo a ningun responsable. Por ese estrecho salen el crudo y el gas licuado de Arabia Saudi, Irak, Kuwait, Emiratos Arabes Unidos y Catar, de modo que un solo incidente basta para mover los fletes y los seguros.\n\nEl ataque llega en plena guerra entre Estados Unidos e Iran, en la que los mediadores cataries afirman haber avanzado hacia un final de los combates. Los armadores ya estan desviando o ralentizando el trafico por el estrecho y las primas de riesgo de guerra en el Golfo han subido durante el verano. Si los incidentes se repiten, el coste aparecera primero en los fletes y despues en el precio del crudo.",
+            "tr": "İngiltere Deniz Ticareti Operasyonları (UKMTO), Umman'ın Musandam yarımadasındaki Hasab açıklarında, Hürmüz Boğazı'nın kuzey girişinde bir tankere mermi isabet ettiğini bildirdi. Saldırıyı üstlenen olmadı, ajans da bir taraf işaret etmedi. Suudi Arabistan, Irak, Kuveyt, Birleşik Arap Emirlikleri ve Katar'ın ham petrolü ile sıvılaştırılmış gazı bu boğazdan çıkıyor; dolayısıyla tek bir olay bile navlun ve sigorta fiyatlarını hareketlendiriyor.\n\nSaldırı, ABD ile İran arasındaki savaşın ortasında geldi; Katarlı arabulucular çatışmayı bitirme görüşmelerinde ilerleme kaydedildiğini söylüyor. Gemi sahipleri boğazdaki trafiği şimdiden yavaşlatıyor ya da rota değiştiriyor, Körfez için savaş riski primleri de yaz boyunca yükseldi. Olaylar sürerse maliyet önce tanker navlunlarına, ardından ham petrol fiyatına yansır."
           },
           "points": {
             "en": [
-              "500+ confirmed dead, ~1,000 missing",
-              "New flood warnings issued Friday",
-              "Triggered by a glacial-lake outburst"
+              "Location: off Khasab, Oman, at the northern mouth of the strait",
+              "No claim of responsibility so far",
+              "Roughly a fifth of global oil trade passes through Hormuz"
             ],
             "es": [
-              "Más de 500 muertos confirmados, ~1.000 desaparecidos",
-              "Nuevas alertas de inundación el viernes",
-              "Causada por el desbordamiento de un lago glaciar"
+              "Lugar: frente a Jasab, Oman, en la boca norte del estrecho",
+              "Por ahora nadie ha reivindicado el ataque",
+              "Cerca de una quinta parte del petroleo mundial pasa por Ormuz"
             ],
             "tr": [
-              "500'den fazla ölü doğrulandı, ~1.000 kayıp",
-              "Cuma günü yeni sel uyarıları yayımlandı",
-              "Bir buzul gölü taşmasıyla tetiklendi"
+              "Yer: Umman'ın Hasab açıkları, boğazın kuzey ağzı",
+              "Şimdiye dek saldırıyı üstlenen olmadı",
+              "Küresel petrol ticaretinin yaklaşık beşte biri Hürmüz'den geçiyor"
             ]
           },
-          "source": "Havana Times",
-          "url": "https://havanatimes.org/news/international-news-briefs-for-friday-august-28-2026/",
-          "time": ""
+          "source": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/tanker-struck-projectile-hormuz-ukmto-says",
+          "time": "18:00"
         },
         {
           "title": {
-            "en": "Iran sets conditions for reopening the Strait of Hormuz as Trump rules out talks",
-            "es": "Irán fija condiciones para reabrir el estrecho de Ormuz mientras Trump descarta negociar",
-            "tr": "Trump görüşmeyi reddederken İran, Hürmüz Boğazı'nı yeniden açma koşullarını belirliyor"
+            "en": "Niger's army says it has retaken an airbase after a mutiny",
+            "es": "El ejercito de Niger dice haber recuperado una base aerea tras un motin",
+            "tr": "Nijer ordusu isyandan sonra hava üssünü geri aldığını açıkladı"
           },
           "summary": {
-            "en": "Tehran is drawing up conditions for reopening shipping through Hormuz, demanding the US lift its port blockade, pay compensation and remove sanctions.",
-            "es": "Teherán prepara las condiciones para reabrir el tráfico marítimo por Ormuz, exigiendo que EE. UU. levante el bloqueo portuario, pague una compensación y retire las sanciones.",
-            "tr": "Tahran, ABD'nin liman ablukasını kaldırmasını, tazminat ödemesini ve yaptırımları kaldırmasını isteyerek Hürmüz'den geçişi yeniden açmanın koşullarını hazırlıyor."
+            "en": "Niger's armed forces regained control of an airbase seized during a coup attempt that began with gunfire at Niamey's airport and the presidential palace.",
+            "es": "Las fuerzas armadas de Niger recuperaron el control de una base aerea tomada durante un intento de golpe que empezo con disparos en el aeropuerto de Niamey y el palacio presidencial.",
+            "tr": "Nijer ordusu, Niamey havalimanı ve cumhurbaşkanlığı sarayındaki silah sesleriyle başlayan darbe girişiminde ele geçirilen hava üssünün kontrolünü geri aldı."
           },
           "detail": {
-            "en": "Iranian officials say Tehran is preparing a formal list of conditions it wants met before it will allow shipping to resume normally through the Strait of Hormuz, a chokepoint for global oil exports. Chief among the demands are an end to the US naval blockade of Iranian ports, financial compensation for losses tied to the standoff, and the removal of existing sanctions. President Trump said Washington is not currently in talks with Iran and that the US strategy instead is to keep squeezing the country economically. The standoff has kept tension high in the Gulf for weeks, with shippers and insurers watching closely for any sign of an escalation or a breakthrough. Oil markets have so far absorbed the disruption without a major price shock, though analysts warn that could change quickly if the blockade drags on.",
-            "es": "Funcionarios iraníes afirman que Teherán está preparando una lista formal de condiciones que exige antes de permitir que el tráfico marítimo se reanude con normalidad por el estrecho de Ormuz, un punto clave para las exportaciones mundiales de petróleo. Entre las principales exigencias están el fin del bloqueo naval estadounidense a los puertos iraníes, una compensación económica por las pérdidas derivadas del enfrentamiento y la retirada de las sanciones vigentes. El presidente Trump dijo que Washington no mantiene actualmente negociaciones con Irán y que la estrategia estadounidense es, en cambio, seguir presionando económicamente al país. El pulso mantiene la tensión elevada en el Golfo desde hace semanas, con navieras y aseguradoras vigilando de cerca cualquier señal de escalada o de avance. Los mercados de petróleo han absorbido hasta ahora la interrupción sin un gran shock de precios, aunque los analistas advierten de que eso podría cambiar rápido si el bloqueo se prolonga.",
-            "tr": "İranlı yetkililer, küresel petrol ihracatı için kritik bir geçiş noktası olan Hürmüz Boğazı'ndan deniz taşımacılığının normale dönmesine izin vermeden önce karşılanmasını istediği koşulların resmi bir listesini hazırladığını söylüyor. Taleplerin başında ABD'nin İran limanlarına yönelik deniz ablukasının kaldırılması, gerginlikten kaynaklanan kayıplar için mali tazminat ve mevcut yaptırımların kaldırılması geliyor. Başkan Trump, Washington'ın şu anda İran'la görüşme içinde olmadığını ve ABD stratejisinin bunun yerine ülkeyi ekonomik olarak sıkıştırmaya devam etmek olduğunu söyledi. Gerginlik haftalardır Körfez'de yüksek seyrediyor; nakliyeciler ve sigortacılar bir tırmanma ya da atılım belirtisini yakından izliyor. Petrol piyasaları şimdiye kadar aksamayı büyük bir fiyat şoku olmadan absorbe etti, ancak analistler abluka uzarsa bunun hızla değişebileceği konusunda uyarıyor."
+            "en": "Niger's military said it had regained control of an airbase that mutinying soldiers attacked, a day after gunfire and explosions were heard around Diori Hamani International Airport and the presidential district in Niamey. Dissident elements within the armed forces had moved on several sites in the capital in what officials described as an attempted coup.\n\nNiger has been run by a military government since the 2023 coup that removed President Mohamed Bazoum, and it sits in a Sahel belt where Mali and Burkina Faso are also under military rule. The country is a significant uranium producer and a pivot point in the region's fight against armed groups. Authorities have not given a full account of casualties or of how many soldiers took part, and the government has not said whether the leadership faces further threats.",
+            "es": "El ejercito de Niger afirmo haber recuperado el control de una base aerea atacada por soldados amotinados, un dia despues de que se oyeran disparos y explosiones alrededor del aeropuerto internacional Diori Hamani y del distrito presidencial de Niamey. Elementos disidentes de las fuerzas armadas se movieron sobre varios puntos de la capital en lo que las autoridades describieron como un intento de golpe.\n\nNiger esta gobernado por una junta militar desde el golpe de 2023 que aparto al presidente Mohamed Bazoum, y forma parte de un Sahel donde Mali y Burkina Faso tambien estan bajo mando militar. El pais es un productor relevante de uranio y una pieza clave en la lucha regional contra los grupos armados. Las autoridades no han detallado las bajas ni cuantos soldados participaron, y el gobierno no ha aclarado si la cupula sigue amenazada.",
+            "tr": "Nijer ordusu, isyancı askerlerin saldırdığı bir hava üssünün kontrolünü geri aldığını açıkladı; bir gün önce başkent Niamey'de Diori Hamani Uluslararası Havalimanı ve cumhurbaşkanlığı bölgesi çevresinde silah sesleri ve patlamalar duyulmuştu. Silahlı kuvvetler içindeki muhalif unsurlar, yetkililerin darbe girişimi olarak tanımladığı hareketle başkentte birkaç noktaya yönelmişti.\n\nNijer, Cumhurbaşkanı Mohamed Bazoum'u deviren 2023 darbesinden bu yana askeri yönetim altında; Mali ve Burkina Faso'nun da askeri idareyle yönetildiği Sahel kuşağında yer alıyor. Ülke önemli bir uranyum üreticisi ve bölgedeki silahlı gruplarla mücadelenin kilit noktalarından biri. Yetkililer can kaybına ya da girişime kaç askerin katıldığına dair tam bir bilanço vermedi; hükümet yönetimin yeni bir tehditle karşı karşıya olup olmadığını da açıklamadı."
           },
           "points": {
             "en": [
-              "Iran demands: end blockade, compensation, sanctions relief",
-              "Trump: US not in talks with Iran",
-              "Hormuz is a key chokepoint for global oil"
+              "Gunfire hit Niamey's airport and presidential district",
+              "Niger has been under military rule since the 2023 coup",
+              "No official casualty figure has been released"
             ],
             "es": [
-              "Exigencias de Irán: fin del bloqueo, compensación, alivio de sanciones",
-              "Trump: EE. UU. no negocia con Irán",
-              "Ormuz es un punto clave para el petróleo mundial"
+              "Los disparos alcanzaron el aeropuerto y el distrito presidencial de Niamey",
+              "Niger vive bajo mando militar desde el golpe de 2023",
+              "No se ha publicado una cifra oficial de bajas"
             ],
             "tr": [
-              "İran'ın talepleri: abluka sonu, tazminat, yaptırım hafifletme",
-              "Trump: ABD İran'la görüşmüyor",
-              "Hürmüz küresel petrol için kilit bir geçiş noktası"
+              "Silah sesleri Niamey havalimanı ve cumhurbaşkanlığı bölgesinde duyuldu",
+              "Nijer 2023 darbesinden bu yana askeri yönetimde",
+              "Resmi can kaybı rakamı açıklanmadı"
             ]
           },
-          "source": "Democracy Now!",
-          "url": "https://www.democracynow.org/2026/8/28/headlines",
-          "time": ""
+          "source": "Reuters",
+          "url": "https://www.reuters.com/world/europe/niger-says-it-regains-control-airbase-after-soldiers-mutiny-2026-08-30/",
+          "time": "14:30"
         },
         {
           "title": {
-            "en": "US Justice Department arrests 70 in cross-border cybercrime and drug-trafficking sweep",
-            "es": "El Departamento de Justicia de EE. UU. detiene a 70 personas en una redada transfronteriza de ciberdelincuencia y narcotráfico",
-            "tr": "ABD Adalet Bakanlığı sınır ötesi siber suç ve uyuşturucu operasyonunda 70 kişiyi tutukladı"
+            "en": "Nepal flood death toll passes 660 with thousands still missing",
+            "es": "Las inundaciones de Nepal superan los 660 muertos y miles siguen desaparecidos",
+            "tr": "Nepal'deki sel felaketinde ölü sayısı 660'ı aştı, binlerce kişi kayıp"
           },
           "summary": {
-            "en": "US authorities arrested 70 suspects accused of running a cybercrime network tied to fentanyl and cocaine trafficking, with 11 others still at large.",
-            "es": "Las autoridades estadounidenses detuvieron a 70 sospechosos acusados de dirigir una red de ciberdelincuencia vinculada al tráfico de fentanilo y cocaína, con otros 11 aún prófugos.",
-            "tr": "ABD makamları, fentanil ve kokain kaçakçılığıyla bağlantılı bir siber suç ağını yürütmekle suçlanan 70 şüpheliyi tutukladı; 11 kişi hâlâ firarda."
+            "en": "Flash floods across Nepal have killed at least 669 people, and more than 2,400 remain unaccounted for as rescue teams reach cut-off valleys.",
+            "es": "Las inundaciones repentinas en Nepal han matado al menos a 669 personas y mas de 2.400 siguen sin localizar mientras los equipos llegan a valles incomunicados.",
+            "tr": "Nepal genelindeki ani sellerde en az 669 kişi öldü; kurtarma ekipleri ulaşımı kesilen vadilere ulaşmaya çalışırken 2.400'den fazla kişiden haber alınamıyor."
           },
           "detail": {
-            "en": "The Justice Department announced the arrest of 70 people in a coordinated operation targeting a cybercrime organization accused of using online platforms to coordinate the trafficking of fentanyl, cocaine and other drugs. Eleven additional suspects tied to the network remain at large, and officials say the investigation is ongoing. The operation spanned multiple jurisdictions and involved cooperation between federal agencies working to trace how the group used digital tools to move product and launder proceeds. Officials framed the sweep as part of a broader push against organized crime networks that blend traditional trafficking with cyber-enabled coordination. Charges against those arrested are still being finalized, and further arrests are possible as the case develops.",
-            "es": "El Departamento de Justicia anunció la detención de 70 personas en una operación coordinada contra una organización de ciberdelincuencia acusada de usar plataformas en línea para coordinar el tráfico de fentanilo, cocaína y otras drogas. Otros once sospechosos vinculados a la red siguen prófugos, y las autoridades afirman que la investigación continúa. La operación abarcó varias jurisdicciones e involucró la cooperación entre agencias federales que trabajan para rastrear cómo el grupo usaba herramientas digitales para mover el producto y lavar las ganancias. Los funcionarios enmarcaron la redada como parte de un esfuerzo más amplio contra las redes de crimen organizado que combinan el tráfico tradicional con la coordinación habilitada por medios cibernéticos. Los cargos contra los detenidos aún se están definiendo, y son posibles nuevas detenciones a medida que avance el caso.",
-            "tr": "Adalet Bakanlığı, fentanil, kokain ve diğer uyuşturucuların kaçakçılığını koordine etmek için çevrimiçi platformları kullanmakla suçlanan bir siber suç örgütünü hedef alan koordineli bir operasyonda 70 kişinin tutuklandığını duyurdu. Ağa bağlı on bir şüpheli daha hâlâ firarda ve yetkililer soruşturmanın sürdüğünü belirtiyor. Operasyon birden fazla yargı bölgesini kapsadı ve grubun ürünü taşımak ve gelirleri aklamak için dijital araçları nasıl kullandığını izlemeye çalışan federal kurumlar arasında iş birliği içerdi. Yetkililer baskını, geleneksel kaçakçılığı siber destekli koordinasyonla birleştiren örgütlü suç ağlarına karşı daha geniş bir çabanın parçası olarak nitelendirdi. Tutuklananlara yönelik suçlamalar hâlâ netleştiriliyor ve dava ilerledikçe yeni tutuklamalar mümkün."
+            "en": "The confirmed death toll from Nepal's flash floods reached 669, with more than 2,400 people still missing, as search teams pushed into valleys where whole settlements were washed away. Counting the Tibetan side of the border, officials have put the combined number of missing at roughly 2,500. Landslides and destroyed bridges have kept many districts unreachable by road, so helicopters are doing much of the evacuation and supply work.\n\nThe monsoon rains that triggered the floods fell on slopes already loosened by earlier storms, which is why entire communities went at once rather than flooding gradually. Aid agencies warn that the immediate risk now shifts to shelter and clean water for tens of thousands of displaced people. The missing figure is expected to move in both directions as families are reunited and as bodies are recovered downstream.",
+            "es": "El numero confirmado de muertos por las inundaciones repentinas en Nepal llego a 669, con mas de 2.400 personas aun desaparecidas, mientras los equipos de busqueda avanzan hacia valles donde poblados enteros fueron arrasados. Contando el lado tibetano de la frontera, las autoridades situan el total de desaparecidos en torno a 2.500. Los deslizamientos y los puentes destruidos mantienen muchos distritos incomunicados por carretera, asi que los helicopteros asumen buena parte de la evacuacion y el suministro.\n\nLas lluvias monzonicas que provocaron las riadas cayeron sobre laderas ya debilitadas por tormentas anteriores, y por eso comunidades enteras cedieron de golpe en lugar de inundarse poco a poco. Las agencias de ayuda advierten de que el riesgo inmediato pasa ahora al refugio y al agua potable para decenas de miles de desplazados. Se espera que la cifra de desaparecidos varie en ambos sentidos a medida que se reunen familias y se recuperan cuerpos rio abajo.",
+            "tr": "Nepal'deki ani sellerde doğrulanan ölü sayısı 669'a çıktı; arama ekipleri yerleşimlerin tümüyle sürüklendiği vadilere ilerlerken 2.400'den fazla kişiden hala haber alınamıyor. Sınırın Tibet tarafı da sayıldığında yetkililer toplam kayıp sayısını yaklaşık 2.500 olarak veriyor. Heyelanlar ve yıkılan köprüler birçok bölgeye karayoluyla ulaşımı kestiği için tahliye ve ikmalin büyük bölümü helikopterlerle yapılıyor.\n\nSeli tetikleyen muson yağmurları, daha önceki fırtınalarla zaten gevşemiş yamaçlara düştü; bu yüzden yerleşimler kademeli olarak su altında kalmak yerine bir anda sürüklendi. Yardım kuruluşları, acil riskin artık on binlerce yerinden edilmiş kişi için barınak ve temiz suya kaydığı uyarısında bulunuyor. Aileler birbirine kavuştukça ve akıntı aşağısında cenazeler bulundukça kayıp sayısının iki yönde de değişmesi bekleniyor."
           },
           "points": {
             "en": [
-              "70 arrested, 11 suspects still at large",
-              "Network linked to fentanyl and cocaine trafficking",
-              "Multi-jurisdiction federal operation"
+              "Confirmed dead: 669",
+              "Missing in Nepal: more than 2,400; about 2,500 including Tibet",
+              "Road access cut in several districts; helicopters carrying relief"
             ],
             "es": [
-              "70 detenidos, 11 sospechosos siguen prófugos",
-              "Red vinculada al tráfico de fentanilo y cocaína",
-              "Operación federal en varias jurisdicciones"
+              "Muertos confirmados: 669",
+              "Desaparecidos en Nepal: mas de 2.400; unos 2.500 con el Tibet",
+              "Varios distritos sin acceso por carretera; los helicopteros llevan la ayuda"
             ],
             "tr": [
-              "70 tutuklama, 11 şüpheli hâlâ firarda",
-              "Ağ fentanil ve kokain kaçakçılığıyla bağlantılı",
-              "Çok yargı bölgeli federal operasyon"
+              "Doğrulanan ölü sayısı: 669",
+              "Nepal'de kayıp: 2.400'den fazla; Tibet dahil yaklaşık 2.500",
+              "Birkaç bölgede karayolu kapalı, yardım helikopterle taşınıyor"
             ]
           },
-          "source": "Just Security",
-          "url": "https://www.justsecurity.org/155508/early-edition-august-28-2026/",
-          "time": ""
+          "source": "NBC News",
+          "url": "https://www.nbcnews.com/world/asia/nepal-floods-death-toll-climbs-missing-rescue-efforts-rcna594990",
+          "time": "11:00"
+        },
+        {
+          "title": {
+            "en": "Iceland votes against reopening EU membership talks",
+            "es": "Islandia vota en contra de reabrir las negociaciones de adhesion a la UE",
+            "tr": "İzlanda AB üyelik görüşmelerini yeniden açmaya hayır dedi"
+          },
+          "summary": {
+            "en": "Icelandic voters rejected restarting accession negotiations with the European Union, closing a question that has divided the country since 2013.",
+            "es": "Los votantes islandeses rechazaron reanudar las negociaciones de adhesion a la Union Europea y cierran una cuestion que divide al pais desde 2013.",
+            "tr": "İzlandalı seçmenler Avrupa Birliği ile katılım müzakerelerini yeniden başlatmayı reddederek 2013'ten bu yana ülkeyi bölen soruyu kapattı."
+          },
+          "detail": {
+            "en": "Iceland held a referendum on whether to restart European Union accession negotiations and the result was No. The country applied in 2009 after its banking collapse, but the talks were frozen in 2013 and never resumed, and the question has resurfaced at almost every election since.\n\nFisheries are the central obstacle: joining would place Iceland's waters under the Common Fisheries Policy, and the industry remains a large share of exports. Iceland already sits inside the European Economic Area and the Schengen area, so it takes on much of the single market's rulebook without a vote on writing it. The referendum settles the political question for this parliament rather than the underlying trade-off, and the EEA arrangement continues unchanged.",
+            "es": "Islandia celebro un referendum sobre reanudar las negociaciones de adhesion a la Union Europea y el resultado fue No. El pais presento su solicitud en 2009 tras el colapso de su banca, pero las conversaciones se congelaron en 2013 y nunca se retomaron, y el asunto ha reaparecido en casi cada eleccion desde entonces.\n\nLa pesca es el obstaculo central: entrar situaria las aguas islandesas bajo la Politica Pesquera Comun, y el sector sigue siendo una parte grande de las exportaciones. Islandia ya pertenece al Espacio Economico Europeo y a Schengen, de modo que asume buena parte de las normas del mercado unico sin voto para redactarlas. El referendum zanja la cuestion politica para esta legislatura, no el dilema de fondo, y el acuerdo del EEE sigue igual.",
+            "tr": "İzlanda, Avrupa Birliği katılım müzakerelerinin yeniden başlatılıp başlatılmayacağını referanduma götürdü ve sonuç hayır çıktı. Ülke 2009'da bankacılık çöküşünün ardından başvurmuş, görüşmeler 2013'te dondurulmuş ve bir daha açılmamıştı; soru o tarihten beri neredeyse her seçimde yeniden gündeme geliyordu.\n\nAsıl engel balıkçılık: üyelik, İzlanda sularını Ortak Balıkçılık Politikası'na tabi kılacak ve sektör ihracatın büyük bir bölümünü oluşturmayı sürdürüyor. İzlanda halihazırda Avrupa Ekonomik Alanı ve Schengen içinde; yani tek pazar kurallarının çoğunu, onları yazarken oy hakkı olmadan uyguluyor. Referandum, temeldeki tercihi değil bu meclis dönemi için siyasi soruyu kapatıyor; EEA düzeni aynen sürüyor."
+          },
+          "points": {
+            "en": [
+              "Iceland applied for EU membership in 2009; talks frozen in 2013",
+              "Fisheries policy is the main sticking point",
+              "Iceland stays in the EEA and Schengen regardless"
+            ],
+            "es": [
+              "Islandia solicito la adhesion en 2009; las conversaciones se congelaron en 2013",
+              "La politica pesquera es el principal escollo",
+              "Islandia sigue en el EEE y en Schengen en cualquier caso"
+            ],
+            "tr": [
+              "İzlanda 2009'da başvurdu, görüşmeler 2013'te donduruldu",
+              "Ana pürüz balıkçılık politikası",
+              "İzlanda her hâlükârda EEA ve Schengen içinde kalıyor"
+            ]
+          },
+          "source": "RUV",
+          "url": "https://www.ruv.is/english/2026-08-29-iceland-rejects-eu-accession-talks-485377",
+          "time": "22:00"
         }
       ],
       "author": "Daily Now",
-      "path": "2026-08-28__Daily Now__World 28 August 2026.json",
-      "size": 13314,
-      "mtime": 1787941491880
+      "path": "2026-08-31__Daily Now__World 31 August 2026.json",
+      "size": 17757,
+      "mtime": 1788128975146
     }
   ]
 }

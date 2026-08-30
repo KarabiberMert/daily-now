@@ -1,0 +1,87 @@
+{
+  "title": {
+    "en": "Technology — 31 August 2026",
+    "es": "Tecnología — 31 de agosto de 2026",
+    "tr": "Teknoloji — 31 Ağustos 2026"
+  },
+  "category": "tech",
+  "date": "2026-08-31",
+  "source": "Daily Now",
+  "stories": [
+    {
+      "title": {
+        "en": "NASA's Roman Space Telescope launches on a Falcon Heavy",
+        "es": "El telescopio espacial Roman de la NASA despega en un Falcon Heavy",
+        "tr": "NASA'nın Roman Uzay Teleskobu Falcon Heavy ile fırlatıldı"
+      },
+      "summary": {
+        "en": "The Nancy Grace Roman Space Telescope lifted off from Florida aboard a SpaceX Falcon Heavy to survey dark matter, dark energy, exoplanets and supernovae.",
+        "es": "El telescopio espacial Nancy Grace Roman desperto desde Florida a bordo de un Falcon Heavy de SpaceX para estudiar la materia oscura, la energia oscura, los exoplanetas y las supernovas.",
+        "tr": "Nancy Grace Roman Uzay Teleskobu, karanlık madde, karanlık enerji, ötegezegenler ve süpernovaları taramak üzere Florida'dan SpaceX Falcon Heavy ile yörüngeye gönderildi."
+      },
+      "detail": {
+        "en": "NASA launched the Nancy Grace Roman Space Telescope from Florida on a SpaceX Falcon Heavy rocket, sending up the agency's next flagship observatory after the James Webb Space Telescope. Roman's mission is dark matter, dark energy, exoplanets and supernovae.\n\nWhat makes it different from Webb is the field of view. Roman carries an infrared camera with roughly the sharpness of Hubble but a viewing area about a hundred times wider, which turns it into a survey instrument rather than a targeted one. Instead of studying a handful of objects in depth, it maps large areas of sky repeatedly and catches things that change, such as supernovae and the brief brightening events used to find distant planets.\n\nThe scientific payoff is statistical: measuring how cosmic expansion has accelerated over time requires large, uniform samples rather than individual spectacular images. Commissioning takes months before the survey work begins in earnest.",
+        "es": "La NASA lanzo el telescopio espacial Nancy Grace Roman desde Florida a bordo de un cohete Falcon Heavy de SpaceX, y pone en orbita el siguiente gran observatorio de la agencia despues del telescopio James Webb. La mision de Roman es la materia oscura, la energia oscura, los exoplanetas y las supernovas.\n\nLo que lo diferencia de Webb es el campo de vision. Roman lleva una camara infrarroja con una nitidez parecida a la del Hubble pero con un area de observacion unas cien veces mas amplia, lo que lo convierte en un instrumento de rastreo y no de observacion dirigida. En lugar de estudiar a fondo un puñado de objetos, cartografia grandes zonas del cielo de forma repetida y capta lo que cambia, como las supernovas o los breves destellos que sirven para detectar planetas lejanos.\n\nEl beneficio cientifico es estadistico: medir como se ha acelerado la expansion del cosmos exige muestras amplias y uniformes, no imagenes espectaculares aisladas. La puesta a punto llevara meses antes de que empiece el rastreo de verdad.",
+        "tr": "NASA, Nancy Grace Roman Uzay Teleskobu'nu Florida'dan SpaceX Falcon Heavy roketiyle fırlattı; böylece James Webb Uzay Teleskobu'ndan sonraki amiral gemisi gözlemevi yörüngeye çıktı. Roman'ın görevi karanlık madde, karanlık enerji, ötegezegenler ve süpernovalar.\n\nWebb'den farkı görüş alanı. Roman, Hubble'a yakın keskinlikte ama yaklaşık yüz kat daha geniş bir alanı gören bir kızılötesi kamera taşıyor; bu da onu hedefe yönelik değil tarama yapan bir araç hâline getiriyor. Birkaç gök cismini derinlemesine incelemek yerine gökyüzünün geniş bölgelerini tekrar tekrar haritalıyor ve süpernovalar ile uzak gezegenleri bulmakta kullanılan kısa parlama olayları gibi değişen şeyleri yakalıyor.\n\nBilimsel getirisi istatistiksel: evrenin genişlemesinin zamanla nasıl hızlandığını ölçmek, tek tek görkemli görüntüler değil geniş ve tekdüze örneklemler gerektiriyor. Asıl tarama çalışması başlamadan önce aylar sürecek bir devreye alma dönemi var."
+      },
+      "points": {
+        "en": [
+          "Launched from Florida on a SpaceX Falcon Heavy",
+          "Hubble-class sharpness over a field of view roughly 100 times wider",
+          "Targets: dark matter, dark energy, exoplanets, supernovae"
+        ],
+        "es": [
+          "Lanzado desde Florida en un Falcon Heavy de SpaceX",
+          "Nitidez de clase Hubble sobre un campo unas 100 veces mas amplio",
+          "Objetivos: materia oscura, energia oscura, exoplanetas, supernovas"
+        ],
+        "tr": [
+          "Florida'dan SpaceX Falcon Heavy ile fırlatıldı",
+          "Hubble sınıfı keskinlik, yaklaşık 100 kat geniş görüş alanı",
+          "Hedefler: karanlık madde, karanlık enerji, ötegezegenler, süpernovalar"
+        ]
+      },
+      "source": "Space.com",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/nasa-roman-space-telescope-launch-success-on-a-spacex-falcon-heavy-rocket-spectacular-launch-video",
+      "time": "16:00"
+    },
+    {
+      "title": {
+        "en": "OpenAI unveils Jalapeño, its first in-house AI chip",
+        "es": "OpenAI presenta Jalapeño, su primer chip de IA propio",
+        "tr": "OpenAI ilk kendi yapay zekâ çipi Jalapeño'yu tanıttı"
+      },
+      "summary": {
+        "en": "OpenAI published the first benchmarks for Jalapeño, a chip built with Broadcom that it says beat Nvidia's Blackwell on performance per watt in nearly every test.",
+        "es": "OpenAI publico los primeros resultados de Jalapeño, un chip desarrollado con Broadcom que, segun la compañia, supero a Blackwell de Nvidia en rendimiento por vatio en casi todas las pruebas.",
+        "tr": "OpenAI, Broadcom ile geliştirdiği Jalapeño çipinin ilk kıyaslama sonuçlarını yayımladı; şirkete göre çip neredeyse tüm testlerde watt başına performansta Nvidia'nın Blackwell'ini geçti."
+      },
+      "detail": {
+        "en": "OpenAI announced Jalapeño, its first AI chip, and published benchmark results claiming industry-leading speed and efficiency. The chip was developed with Broadcom and is due to be running inside OpenAI's own compute infrastructure by the end of the year.\n\nAccording to independent analysis of the published figures, Jalapeño beat Nvidia's Blackwell on performance per watt in nearly all tested scenarios. Power efficiency is the number that matters most at this stage, because data centre buildouts are now constrained by electricity supply and cooling rather than by how many chips can be bought.\n\nOpenAI frames the benefit in product terms: faster responses, more responsive agents and more reliable access as demand keeps climbing. The chip is designed for inference, meaning the serving of models to users, rather than for training the models in the first place, and OpenAI has given no indication that it intends to sell it to anyone else.",
+        "es": "OpenAI presento Jalapeño, su primer chip de IA, y publico resultados que reivindican una velocidad y una eficiencia lideres del sector. El chip se desarrollo con Broadcom y deberia estar funcionando dentro de la infraestructura de computo de OpenAI antes de que acabe el año.\n\nSegun un analisis independiente de las cifras publicadas, Jalapeño supero a Blackwell de Nvidia en rendimiento por vatio en casi todos los escenarios probados. La eficiencia energetica es el dato que mas importa en esta fase, porque la construccion de centros de datos esta limitada por el suministro electrico y la refrigeracion, no por cuantos chips se pueden comprar.\n\nOpenAI plantea la ventaja en terminos de producto: respuestas mas rapidas, agentes mas agiles y un acceso mas fiable a medida que sube la demanda. El chip esta diseñado para inferencia, es decir, para servir los modelos a los usuarios, y no para entrenarlos, y OpenAI no ha dado ninguna señal de que piense venderlo a terceros.",
+        "tr": "OpenAI ilk yapay zekâ çipi Jalapeño'yu duyurdu ve sektör lideri hız ile verimlilik iddiasında bulunan kıyaslama sonuçlarını yayımladı. Çip Broadcom ile geliştirildi ve yıl sonuna kadar OpenAI'nin kendi hesaplama altyapısında çalışır durumda olması planlanıyor.\n\nYayımlanan verilerin bağımsız analizine göre Jalapeño, test edilen neredeyse tüm senaryolarda watt başına performansta Nvidia'nın Blackwell'ini geçti. Bu aşamada en çok önemsenen rakam enerji verimliliği; çünkü veri merkezi yatırımlarını artık kaç çip satın alınabildiği değil elektrik arzı ve soğutma sınırlıyor.\n\nOpenAI faydayı ürün diliyle anlatıyor: talep artarken daha hızlı yanıtlar, daha çevik ajanlar ve daha güvenilir erişim. Çip modelleri eğitmek için değil, kullanıcılara sunmak anlamına gelen çıkarım için tasarlandı; OpenAI çipi başkalarına satma niyetine dair bir işaret vermedi."
+      },
+      "points": {
+        "en": [
+          "Developed with Broadcom; in OpenAI's own infrastructure by year end",
+          "Beat Blackwell on performance per watt in nearly all tested scenarios",
+          "Built for inference, not for training"
+        ],
+        "es": [
+          "Desarrollado con Broadcom; en la infraestructura de OpenAI a final de año",
+          "Supero a Blackwell en rendimiento por vatio en casi todas las pruebas",
+          "Diseñado para inferencia, no para entrenamiento"
+        ],
+        "tr": [
+          "Broadcom ile geliştirildi, yıl sonunda OpenAI altyapısında olacak",
+          "Test edilen neredeyse tüm senaryolarda watt başına performansta Blackwell'i geçti",
+          "Eğitim için değil çıkarım için tasarlandı"
+        ]
+      },
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/26/openai-jalapeno-ai-chip-nvidia.html",
+      "time": "12:00"
+    }
+  ],
+  "author": "Daily Now"
+}

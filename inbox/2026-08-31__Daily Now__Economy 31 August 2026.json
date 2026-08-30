@@ -1,0 +1,124 @@
+{
+  "title": {
+    "en": "Economy — 31 August 2026",
+    "es": "Economía — 31 de agosto de 2026",
+    "tr": "Ekonomi — 31 Ağustos 2026"
+  },
+  "category": "economy",
+  "date": "2026-08-31",
+  "source": "Daily Now",
+  "stories": [
+    {
+      "title": {
+        "en": "Fed chair Warsh says inflation is too high, and a September hike is back on the table",
+        "es": "Warsh dice que la inflacion es demasiado alta y vuelve a abrirse la puerta a una subida en septiembre",
+        "tr": "Fed Başkanı Warsh enflasyonun çok yüksek olduğunu söyledi, eylülde faiz artışı yeniden masada"
+      },
+      "summary": {
+        "en": "At Jackson Hole, Federal Reserve chair Kevin Warsh said price stability is the Fed's predominant focus, and markets flipped from expecting cuts to pricing a rate hike.",
+        "es": "En Jackson Hole, el presidente de la Reserva Federal, Kevin Warsh, dijo que la estabilidad de precios es la prioridad de la Fed y el mercado paso de esperar recortes a descontar una subida.",
+        "tr": "Jackson Hole'da Fed Başkanı Kevin Warsh fiyat istikrarının bankanın öncelikli odağı olduğunu söyledi; piyasa faiz indirimi beklemekten faiz artışı fiyatlamaya geçti."
+      },
+      "detail": {
+        "en": "Federal Reserve chair Kevin Warsh used his Jackson Hole appearance to say that inflation is running too high and that price stability will be the central bank's predominant focus. That is a sharper line than the market had assumed, and it lands after a summer in which investors spent most of their time debating how fast the Fed would cut.\n\nThe repricing was immediate. Odds of a rate increase at the September FOMC meeting jumped to roughly 58 percent from about 35 percent before the speech, and the implied probability for October rose to 88 percent from 64 percent. The complication is the labour market: a run of payroll prints below 100,000 and heavy downward revisions has left the Fed facing a slowing jobs picture at the same time as sticky prices.\n\nThe week ahead fills in the picture, with ISM manufacturing and services, JOLTS, ADP and the Beige Book all due. A firm payrolls number would strengthen the hawks; further softening would sharpen the stagflationary bind.",
+        "es": "El presidente de la Reserva Federal, Kevin Warsh, aprovecho su intervencion en Jackson Hole para decir que la inflacion es demasiado alta y que la estabilidad de precios sera la prioridad del banco central. Es un tono mas duro del que asumia el mercado y llega tras un verano en el que los inversores dedicaron casi todo el tiempo a discutir con que rapidez recortaria la Fed.\n\nLa revaloracion fue inmediata. La probabilidad de una subida en la reunion del FOMC de septiembre salto a alrededor del 58 por ciento desde cerca del 35 por ciento previo al discurso, y la de octubre subio del 64 al 88 por ciento. La complicacion es el empleo: una serie de nominas por debajo de 100.000 y fuertes revisiones a la baja dejan a la Fed ante un mercado laboral que se enfria al mismo tiempo que los precios se resisten.\n\nLa semana que viene completa el cuadro, con los ISM de manufacturas y servicios, JOLTS, ADP y el Libro Beige. Un dato firme de empleo reforzaria a los halcones; mas debilidad agudizaria el dilema estanflacionario.",
+        "tr": "Fed Başkanı Kevin Warsh, Jackson Hole konuşmasında enflasyonun çok yüksek seyrettiğini ve fiyat istikrarının merkez bankasının öncelikli odağı olacağını söyledi. Bu, piyasanın varsaydığından daha sert bir çizgi ve yatırımcıların neredeyse tüm yazı Fed'in ne kadar hızlı indirim yapacağını tartışarak geçirmesinin ardından geldi.\n\nFiyatlama anında değişti. Eylül FOMC toplantısında faiz artışı ihtimali konuşma öncesindeki yüzde 35 civarından yaklaşık yüzde 58'e, ekim için ima edilen olasılık ise yüzde 64'ten yüzde 88'e yükseldi. Zorluk işgücü piyasasında: 100 binin altında kalan tarım dışı istihdam serisi ve sert aşağı yönlü revizyonlar, Fed'i yapışkan fiyatlarla aynı anda yavaşlayan bir istihdam tablosuyla karşı karşıya bırakıyor.\n\nÖnümüzdeki hafta tabloyu tamamlıyor: ISM imalat ve hizmetler, JOLTS, ADP ve Bej Kitap açıklanacak. Güçlü bir istihdam verisi şahinleri güçlendirir; daha fazla zayıflama ise stagflasyon çıkmazını keskinleştirir."
+      },
+      "points": {
+        "en": [
+          "September hike odds: about 58%, up from roughly 35% before the speech",
+          "October: 88%, up from 64%",
+          "Recent payrolls have printed below 100,000 with large downward revisions"
+        ],
+        "es": [
+          "Probabilidad de subida en septiembre: cerca del 58%, frente a un 35% previo",
+          "Octubre: 88%, frente al 64%",
+          "Las ultimas nominas han quedado por debajo de 100.000 con grandes revisiones a la baja"
+        ],
+        "tr": [
+          "Eylül faiz artışı ihtimali: konuşma öncesi yüzde 35'ten yaklaşık yüzde 58'e",
+          "Ekim: yüzde 64'ten yüzde 88'e",
+          "Son istihdam verileri 100 binin altında, revizyonlar sert aşağı yönlü"
+        ]
+      },
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-28-dow-sp-500-nasdaq-dip-fed-warsh-jackson-hole-speech-081514091.html",
+      "time": "15:15"
+    },
+    {
+      "title": {
+        "en": "Euro area inflation drifts up before the ECB's 10 September decision",
+        "es": "La inflacion de la zona euro repunta antes de la decision del BCE del 10 de septiembre",
+        "tr": "Euro Bölgesi enflasyonu, ECB'nin 10 Eylül kararı öncesinde yukarı kıpırdadı"
+      },
+      "summary": {
+        "en": "Euro area inflation rose to 2.9 percent in July from 2.8 percent in June, and markets now put roughly a 79 percent chance on a quarter-point ECB hike next month.",
+        "es": "La inflacion de la zona euro subio al 2,9 por ciento en julio desde el 2,8 de junio, y el mercado asigna ya cerca de un 79 por ciento de probabilidad a una subida de un cuarto de punto del BCE el mes que viene.",
+        "tr": "Euro Bölgesi enflasyonu temmuzda haziranın yüzde 2,8'inden yüzde 2,9'a çıktı; piyasa artık ECB'nin gelecek ay çeyrek puanlık faiz artırımına yaklaşık yüzde 79 ihtimal veriyor."
+      },
+      "detail": {
+        "en": "Euro area inflation edged up to 2.9 percent in July from 2.8 percent in June, keeping it above the European Central Bank's 2 percent target and turning the 10 September meeting into the year's most consequential decision in Europe. Money markets now assign roughly a 79 percent probability to a 25 basis point increase.\n\nEnergy is the pressure point. The war between the United States and Iran and the disruption around the Strait of Hormuz have kept a risk premium in oil and gas prices, and that feeds through European headline inflation faster than it does in the United States. Policymakers have deliberately kept September open rather than signalling in advance, leaving room for the medium-term outlook to improve.\n\nThe August flash estimate, published at the start of September, is the last major reading before the meeting and will largely settle the argument.",
+        "es": "La inflacion de la zona euro subio al 2,9 por ciento en julio desde el 2,8 de junio, se mantiene por encima del objetivo del 2 por ciento del Banco Central Europeo y convierte la reunion del 10 de septiembre en la decision mas relevante del año en Europa. Los mercados monetarios asignan ya cerca de un 79 por ciento de probabilidad a una subida de 25 puntos basicos.\n\nLa energia es el punto de presion. La guerra entre Estados Unidos e Iran y las interrupciones en torno al estrecho de Ormuz han mantenido una prima de riesgo en el petroleo y el gas, y eso se traslada a la inflacion europea mas rapido que a la estadounidense. Los responsables han mantenido septiembre deliberadamente abierto en lugar de anticipar señales, dejando margen para que mejore la perspectiva a medio plazo.\n\nLa estimacion adelantada de agosto, que se publica a comienzos de septiembre, es la ultima lectura importante antes de la reunion y decidira en gran parte el debate.",
+        "tr": "Euro Bölgesi enflasyonu temmuzda haziranın yüzde 2,8'inden yüzde 2,9'a çıkarak Avrupa Merkez Bankası'nın yüzde 2'lik hedefinin üzerinde kaldı; bu da 10 Eylül toplantısını Avrupa'nın yılın en kritik kararı hâline getirdi. Para piyasaları 25 baz puanlık artışa yaklaşık yüzde 79 olasılık veriyor.\n\nBaskı noktası enerji. ABD ile İran arasındaki savaş ve Hürmüz Boğazı çevresindeki aksamalar petrol ve gaz fiyatlarında bir risk primi bırakıyor; bu da Avrupa'da manşet enflasyona ABD'dekinden daha hızlı yansıyor. Karar alıcılar önceden sinyal vermek yerine eylülü bilinçli olarak açık tuttu ve orta vadeli görünümün iyileşmesine alan bıraktı.\n\nEylül başında yayımlanacak ağustos öncü enflasyonu, toplantı öncesindeki son önemli veri ve tartışmayı büyük ölçüde belirleyecek."
+      },
+      "points": {
+        "en": [
+          "July inflation: 2.9%, up from 2.8% in June",
+          "Market-implied odds of a 25bp hike on 10 September: about 79%",
+          "Energy prices remain the main upward pressure"
+        ],
+        "es": [
+          "Inflacion de julio: 2,9%, frente al 2,8% de junio",
+          "Probabilidad implicita de una subida de 25 pb el 10 de septiembre: cerca del 79%",
+          "Los precios de la energia siguen siendo la principal presion al alza"
+        ],
+        "tr": [
+          "Temmuz enflasyonu: yüzde 2,9 (haziran yüzde 2,8)",
+          "10 Eylül'de 25 baz puan artış ihtimali: yaklaşık yüzde 79",
+          "Ana yukarı yönlü baskı enerji fiyatları"
+        ]
+      },
+      "source": "Trading Economics",
+      "url": "https://tradingeconomics.com/euro-area/inflation-cpi",
+      "time": "10:00"
+    },
+    {
+      "title": {
+        "en": "German growth revised up and Ifo hits a one-year high",
+        "es": "El crecimiento aleman se revisa al alza y el Ifo toca un maximo de un año",
+        "tr": "Almanya'nın büyümesi yukarı revize edildi, Ifo bir yılın zirvesinde"
+      },
+      "summary": {
+        "en": "German second-quarter growth was revised higher and the Ifo business climate index reached its best level in a year, strengthening the case for an ECB move.",
+        "es": "El crecimiento aleman del segundo trimestre se reviso al alza y el indice Ifo de clima empresarial alcanzo su mejor nivel en un año, lo que refuerza los argumentos para un movimiento del BCE.",
+        "tr": "Almanya'nın ikinci çeyrek büyümesi yukarı revize edildi ve Ifo iş iklimi endeksi bir yılın en iyi seviyesine çıktı; bu da ECB'nin adım atma gerekçesini güçlendiriyor."
+      },
+      "detail": {
+        "en": "Germany's second-quarter growth was revised higher and the Ifo business climate index climbed to a one-year high, two data points that make the euro area's largest economy look sturdier than it did in the spring. For the European Central Bank, a firmer Germany removes one of the standard objections to tightening.\n\nThat matters because the September decision is finely balanced. Inflation is above target and energy costs carry a war premium, but the bank has been reluctant to move while growth looked fragile. Improving sentiment surveys shift the balance of risk toward acting rather than waiting.\n\nThe caveat is that Ifo measures expectations as much as current conditions, and expectations can reverse quickly if the Hormuz disruption worsens or if export orders from Asia soften. Hard data on industrial orders and production over the coming weeks will show whether the improvement is real.",
+        "es": "El crecimiento aleman del segundo trimestre se reviso al alza y el indice Ifo de clima empresarial subio a un maximo de un año, dos datos que hacen parecer a la mayor economia de la zona euro mas solida que en primavera. Para el Banco Central Europeo, una Alemania mas firme elimina una de las objeciones habituales al endurecimiento.\n\nImporta porque la decision de septiembre esta muy ajustada. La inflacion supera el objetivo y los costes energeticos cargan con una prima de guerra, pero el banco se ha resistido a moverse mientras el crecimiento parecia fragil. La mejora de las encuestas de confianza inclina el balance de riesgos hacia actuar en vez de esperar.\n\nLa advertencia es que el Ifo mide tanto expectativas como condiciones actuales, y las expectativas pueden darse la vuelta rapido si empeora la situacion en Ormuz o si se debilitan los pedidos de exportacion desde Asia. Los datos duros de pedidos y produccion industrial de las proximas semanas diran si la mejora es real.",
+        "tr": "Almanya'nın ikinci çeyrek büyümesi yukarı revize edildi ve Ifo iş iklimi endeksi bir yılın zirvesine çıktı; bu iki veri Euro Bölgesi'nin en büyük ekonomisini ilkbahardakinden daha sağlam gösteriyor. Avrupa Merkez Bankası açısından daha güçlü bir Almanya, sıkılaştırmaya karşı öne sürülen standart itirazlardan birini ortadan kaldırıyor.\n\nBu önemli, çünkü eylül kararı çok dengeli. Enflasyon hedefin üzerinde ve enerji maliyetleri savaş primi taşıyor; ancak banka büyüme kırılgan göründüğü sürece adım atmaktan kaçındı. Güven anketlerindeki iyileşme, risk dengesini beklemekten harekete geçmeye doğru kaydırıyor.\n\nÇekince şu: Ifo, mevcut koşullar kadar beklentileri de ölçüyor ve Hürmüz'deki aksama derinleşirse ya da Asya'dan gelen ihracat siparişleri zayıflarsa beklentiler hızla tersine dönebilir. Önümüzdeki haftalarda gelecek sanayi siparişi ve üretim verileri iyileşmenin gerçek olup olmadığını gösterecek."
+      },
+      "points": {
+        "en": [
+          "Q2 German GDP revised higher",
+          "Ifo business climate at a one-year high",
+          "ECB decision due 10 September"
+        ],
+        "es": [
+          "El PIB aleman del segundo trimestre se revisa al alza",
+          "El clima empresarial Ifo, en maximos de un año",
+          "La decision del BCE llega el 10 de septiembre"
+        ],
+        "tr": [
+          "Almanya'nın 2. çeyrek GSYH'si yukarı revize edildi",
+          "Ifo iş iklimi bir yılın zirvesinde",
+          "ECB kararı 10 Eylül'de"
+        ]
+      },
+      "source": "Gramercy",
+      "url": "https://www.gramercy.com/2026/08/em-weekly-august-29-2026/",
+      "time": "09:00"
+    }
+  ],
+  "author": "Daily Now"
+}
