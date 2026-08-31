@@ -196,6 +196,7 @@ const STRINGS = {
                           tr: 'Haberin tamamını aç ↗' },
   'cat.openSummary':    { en: 'Open the full summary ↗', es: 'Abrir el resumen completo ↗',
                           tr: 'Özetin tamamını aç ↗' },
+  'cat.more':           { en: 'Also today', es: 'También hoy', tr: 'Bugün ayrıca' },
   'cat.related':        { en: 'Earlier headlines', es: 'Titulares anteriores',
                           tr: 'İlgili diğer başlıklar' },
   'cat.relatedNote':    { en: 'Older agendas from {label}',

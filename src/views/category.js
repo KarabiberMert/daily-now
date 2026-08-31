@@ -131,8 +131,13 @@ export function openCategory(categoryId) {
     ? `${count} · ${dayCount === 1 ? formatDay(current[0].date) : t('cat.days', { n: dayCount })}`
     : t('cat.emptyTitle');
 
+  // Ozeti yazilmis haberler tam blok olur; yalnizca baslik olarak birakilanlar
+  // en altta tek satirlik baglanti listesine dusuyor (bkz. briefsHtml).
+  const detailed = current.filter(hasBody);
+  const briefs = current.filter(s => !hasBody(s));
+
   el.body.innerHTML = (current.length
-    ? current.map((s, i) => storyPage(s, i + 1)).join('')
+    ? detailed.map((s, i) => storyPage(s, i + 1)).join('') + briefsHtml(briefs)
     : `<div class="empty" style="margin:20px 0"><div class="em-ico">◍</div>
          <h3>${t('cat.emptyTitle')}</h3>
          <p>${t('cat.emptyText')}</p></div>`
@@ -215,6 +220,46 @@ function storyPage(s, rank) {
     <div class="ss-detail">${detail}${points}</div>
     <div class="ss-foot">${actionHtml(s)}</div>
   </article>`;
+}
+
+/** Uzerinde durulmus bir haber mi, yoksa yalnizca baslik mi? */
+function hasBody(s) {
+  return !!(s.detail.length || s.points.length);
+}
+
+/* Yalnizca baslik olarak birakilan gelismeler.
+ *
+ * Gunluk rutin kategori basina en fazla uc tam ozet yaziyor; kalan onemli
+ * haberleri zorlama ozet yazmak yerine baslik olarak birakip kaynagina
+ * yonlendiriyor. Burada tam blok yerine sikistirilmis bir liste olarak
+ * cikiyorlar — okundu/yildiz davranisi tam haberlerle ayni.
+ */
+function briefsHtml(list) {
+  if (!list.length) return '';
+  return `
+  <section class="sheet-briefs">
+    <h4>${t('cat.more')}</h4>
+    <ul>
+      ${list.map(s => {
+        const stamp = [s.source, relativeDay(s.date) || formatDay(s.date), storyTime(s)]
+          .filter(Boolean).join(' · ');
+        const text = esc(s.title || s.summary || '');
+        const head = s.url
+          ? `<a class="sb-title" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer"
+                data-story-link="${esc(s.key)}">${text} ↗</a>`
+          : `<span class="sb-title sb-plain">${text}</span>`;
+        const lead = s.title && s.summary ? `<p class="sb-lead">${esc(s.summary)}</p>` : '';
+        return `
+        <li class="sb ${isStoryRead(s.key) ? 'is-read' : ''}" data-story-read="${esc(s.key)}">
+          <div class="sb-main">${head}${lead}<span class="sb-stamp">${esc(stamp)}</span></div>
+          <button class="ss-star ${isStoryStarred(s.key) ? 'on' : ''}"
+                  data-story-star="${esc(s.key)}" aria-label="${t('a11y.star')}">
+            <svg viewBox="0 0 24 24"><path d="m12 3.6 2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.8l5.9-.9Z"/></svg>
+          </button>
+        </li>`;
+      }).join('')}
+    </ul>
+  </section>`;
 }
 
 function relatedHtml(older, label) {

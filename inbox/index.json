@@ -353,28 +353,6 @@
             "es": "Una victoria sobre Republica Dominicana llevo a Canada a los Juegos de Los Angeles, su primera plaza olimpica en voleibol femenino desde 1996.",
             "tr": "Dominik Cumhuriyeti karşısında alınan galibiyet Kanada'yı Los Angeles Oyunları'na taşıdı; bu, 1996'dan bu yana kadın voleybolunda ilk olimpiyat bileti."
           },
-          "detail": {
-            "en": "Canada's women's volleyball team beat the Dominican Republic to qualify for the 2028 Olympic Games in Los Angeles, ending a drought that stretches back to Atlanta in 1996.\n\nThirty-two years is long enough that no player in the current squad was born the last time the country sent a women's volleyball team to a Games. Canada's men have qualified repeatedly over the past decade while the women's programme rebuilt from a much lower base, largely through players developed in North American college systems and then in European club leagues.\n\nQualifying early also changes the preparation. Instead of chasing points through a qualification calendar, the programme can plan a two-year run-up to a home-continent Olympics, with the crowd and the time zone on its side.",
-            "es": "La seleccion femenina de voleibol de Canada vencio a Republica Dominicana y se clasifico para los Juegos Olimpicos de 2028 en Los Angeles, y pone fin a una sequia que se remonta a Atlanta 1996.\n\nTreinta y dos años son suficientes para que ninguna jugadora del plantel actual hubiera nacido la ultima vez que el pais llevo un equipo femenino de voleibol a unos Juegos. Los hombres canadienses se han clasificado varias veces en la ultima decada mientras el programa femenino se reconstruia desde mucho mas abajo, sobre todo con jugadoras formadas en el sistema universitario norteamericano y despues en las ligas europeas.\n\nClasificarse pronto tambien cambia la preparacion. En lugar de perseguir puntos en un calendario clasificatorio, el programa puede planificar dos años de camino hacia unos Juegos en su propio continente, con el publico y el huso horario a favor.",
-            "tr": "Kanada kadın voleybol takımı, Dominik Cumhuriyeti'ni yenerek Los Angeles'ta düzenlenecek 2028 Olimpiyat Oyunları'na katılmayı garantiledi ve 1996 Atlanta'ya kadar uzanan kuraklığı bitirdi.\n\nOtuz iki yıl, ülkenin bir Oyunlar'a kadın voleybol takımı gönderdiği son seferde mevcut kadrodaki hiçbir oyuncunun doğmamış olmasına yetecek kadar uzun bir süre. Kanada'nın erkek takımı son on yılda birkaç kez baraj geçerken kadın programı çok daha aşağıdan, ağırlıklı olarak Kuzey Amerika üniversite sisteminde ve ardından Avrupa kulüp liglerinde yetişen oyuncularla yeniden inşa edildi.\n\nErken katılım hakkı kazanmak hazırlığı da değiştiriyor. Eleme takviminde puan kovalamak yerine program, seyirci ve saat dilimi kendi lehineyken kendi kıtasındaki bir olimpiyata iki yıllık bir hazırlık planlayabilir."
-          },
-          "points": {
-            "en": [
-              "Beat the Dominican Republic in the Olympic qualifier",
-              "First women's volleyball Olympic berth since Atlanta 1996",
-              "Los Angeles 2028 is a home-continent Games"
-            ],
-            "es": [
-              "Victoria sobre Republica Dominicana en el preolimpico",
-              "Primera plaza olimpica femenina de voleibol desde Atlanta 1996",
-              "Los Angeles 2028 son unos Juegos en su propio continente"
-            ],
-            "tr": [
-              "Olimpiyat elemesinde Dominik Cumhuriyeti yenildi",
-              "Atlanta 1996'dan bu yana kadın voleybolunda ilk olimpiyat bileti",
-              "Los Angeles 2028 kendi kıtalarında bir Oyunlar"
-            ]
-          },
           "source": "CBC",
           "url": "https://www.cbc.ca/sports/olympics/summer/volleyball/canada-women-volleyball-dominican-republic-recap-olympic-qualifier-9.7325709",
           "time": "19:00"
@@ -382,8 +360,8 @@
       ],
       "author": "Daily Now",
       "path": "2026-08-31__Daily Now__Sports 31 August 2026.json",
-      "size": 17404,
-      "mtime": 1788128975270
+      "size": 14109,
+      "mtime": 1788169663502
     },
     {
       "title": {
@@ -734,28 +712,6 @@
             "es": "Los votantes islandeses rechazaron reanudar las negociaciones de adhesion a la Union Europea y cierran una cuestion que divide al pais desde 2013.",
             "tr": "İzlandalı seçmenler Avrupa Birliği ile katılım müzakerelerini yeniden başlatmayı reddederek 2013'ten bu yana ülkeyi bölen soruyu kapattı."
           },
-          "detail": {
-            "en": "Iceland held a referendum on whether to restart European Union accession negotiations and the result was No. The country applied in 2009 after its banking collapse, but the talks were frozen in 2013 and never resumed, and the question has resurfaced at almost every election since.\n\nFisheries are the central obstacle: joining would place Iceland's waters under the Common Fisheries Policy, and the industry remains a large share of exports. Iceland already sits inside the European Economic Area and the Schengen area, so it takes on much of the single market's rulebook without a vote on writing it. The referendum settles the political question for this parliament rather than the underlying trade-off, and the EEA arrangement continues unchanged.",
-            "es": "Islandia celebro un referendum sobre reanudar las negociaciones de adhesion a la Union Europea y el resultado fue No. El pais presento su solicitud en 2009 tras el colapso de su banca, pero las conversaciones se congelaron en 2013 y nunca se retomaron, y el asunto ha reaparecido en casi cada eleccion desde entonces.\n\nLa pesca es el obstaculo central: entrar situaria las aguas islandesas bajo la Politica Pesquera Comun, y el sector sigue siendo una parte grande de las exportaciones. Islandia ya pertenece al Espacio Economico Europeo y a Schengen, de modo que asume buena parte de las normas del mercado unico sin voto para redactarlas. El referendum zanja la cuestion politica para esta legislatura, no el dilema de fondo, y el acuerdo del EEE sigue igual.",
-            "tr": "İzlanda, Avrupa Birliği katılım müzakerelerinin yeniden başlatılıp başlatılmayacağını referanduma götürdü ve sonuç hayır çıktı. Ülke 2009'da bankacılık çöküşünün ardından başvurmuş, görüşmeler 2013'te dondurulmuş ve bir daha açılmamıştı; soru o tarihten beri neredeyse her seçimde yeniden gündeme geliyordu.\n\nAsıl engel balıkçılık: üyelik, İzlanda sularını Ortak Balıkçılık Politikası'na tabi kılacak ve sektör ihracatın büyük bir bölümünü oluşturmayı sürdürüyor. İzlanda halihazırda Avrupa Ekonomik Alanı ve Schengen içinde; yani tek pazar kurallarının çoğunu, onları yazarken oy hakkı olmadan uyguluyor. Referandum, temeldeki tercihi değil bu meclis dönemi için siyasi soruyu kapatıyor; EEA düzeni aynen sürüyor."
-          },
-          "points": {
-            "en": [
-              "Iceland applied for EU membership in 2009; talks frozen in 2013",
-              "Fisheries policy is the main sticking point",
-              "Iceland stays in the EEA and Schengen regardless"
-            ],
-            "es": [
-              "Islandia solicito la adhesion en 2009; las conversaciones se congelaron en 2013",
-              "La politica pesquera es el principal escollo",
-              "Islandia sigue en el EEE y en Schengen en cualquier caso"
-            ],
-            "tr": [
-              "İzlanda 2009'da başvurdu, görüşmeler 2013'te donduruldu",
-              "Ana pürüz balıkçılık politikası",
-              "İzlanda her hâlükârda EEA ve Schengen içinde kalıyor"
-            ]
-          },
           "source": "RUV",
           "url": "https://www.ruv.is/english/2026-08-29-iceland-rejects-eu-accession-talks-485377",
           "time": "22:00"
@@ -763,8 +719,8 @@
       ],
       "author": "Daily Now",
       "path": "2026-08-31__Daily Now__World 31 August 2026.json",
-      "size": 17757,
-      "mtime": 1788128975146
+      "size": 14638,
+      "mtime": 1788169663476
     }
   ]
 }

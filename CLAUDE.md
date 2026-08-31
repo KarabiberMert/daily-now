@@ -70,17 +70,27 @@ Metin alanları `{ "en": …, "es": …, "tr": … }` biçiminde yazılır:
   `publish_news.py` yayını reddeder. Bir kaynaktan (ör. bir "günün haberleri"
   derlemesi) birden fazla gerçek gelişme çıkarıyorsan bunları ayrı story yapma —
   **tek bir haberde `points` listesiyle birleştir.**
-- Kategori başına **0-4 haber yeterlidir** — zorlama yok, o kategoride gerçekten
-  önemli/yeni gelişme yoksa az sayıda ya da hiç haber eklemeden geç. Doldurmak
-  için önemsiz/tekrar haber ekleme.
-- Her haber: `title` (kısa, tıklama tuzağı yok), `summary` (1-2 cümle), `detail`
-  (4-6 cümle — burası kullanıcının asıl okuma yeri, **bu alanı kısaltma**, boş
-  bırakma), `points` (opsiyonel 2-4 madde), `source`, `url` (**zorunlu**, gerçek
-  haber adresi — uydurma, yoksa yayın reddedilir), `time` (biliniyorsa).
+- **Kategori başına en fazla 3 tam özet.** Bir tane bile yeterli — haber bulmak
+  için zorlama. O kategoride gerçekten önemli/yeni bir gelişme yoksa az sayıda ya
+  da hiç haber eklemeden geç; doldurmak için önemsiz/tekrar haber ekleme.
+- **Kalan önemli gelişmeleri "yalnızca başlık" olarak ekle.** Üç özeti yazdıktan
+  sonra hâlâ atlanmaması gereken haberler varsa onlara zorlama özet yazma:
+  `detail` ve `points` alanlarını **hiç yazma**, sadece `title` + `summary`
+  (tek cümle) + `source` + `url` ver. Uygulama bunları kategori sayfasının altında
+  **"Bugün ayrıca"** başlığı altında sıkıştırılmış bir liste olarak gösterir ve
+  tıklayınca doğrudan kaynak siteye götürür. Okundu/yıldız davranışı aynıdır.
+- Tam özetli haber: `title` (kısa, tıklama tuzağı yok), `summary` (1-2 cümle),
+  `detail` (4-6 cümle — burası kullanıcının asıl okuma yeri, **bu alanı kısaltma**),
+  `points` (opsiyonel 2-4 madde), `source`, `url` (**zorunlu**, gerçek haber
+  adresi — uydurma, yoksa yayın reddedilir), `time` (biliniyorsa).
+- Sıralama: tam özetliler önce (en önemli başa), yalnızca başlık olanlar dizinin
+  sonunda. Uygulama ikisini kendisi ayırıyor ama dosyada da bu sırayı koru.
 - Kaynak metni birebir kopyalama, kendi cümlelerinle yaz. Emoji ve Latin dışı
   alfabelerden kaçın. Önem sırası = dizideki sıra, en önemli haber başa.
-- **`date` alanına bugünün tarihini yaz** (`date -u +%F`). Uygulama varsayılan olarak
-  "Bugün" aralığını gösteriyor; dünün tarihiyle yayınlanan haberler akışta hiç görünmez.
+- **`date` alanına bugünün tarihini yaz.** Uygulama varsayılan olarak "Bugün"
+  aralığını gösteriyor; dünün tarihiyle yayınlanan haberler akışta hiç görünmez.
+  Kullanıcının saat dilimi Istanbul; UTC ile Istanbul tarihi farklıysa **Istanbul
+  tarihini** kullan (`TZ=Europe/Istanbul date +%F`).
 - Arama sonuçları bazen eski yıllara ait içerik karıştırır — URL'deki tarihe bak,
   güncel değilse kullanma.
 
