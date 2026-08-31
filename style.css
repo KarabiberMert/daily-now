@@ -789,7 +789,6 @@ span.na-src { color: var(--mute); border-bottom: 0; }
   .topbar { flex-wrap: wrap; gap: 10px; padding: 10px var(--pad); }
   .search-wrap { order: 3; flex-basis: 100%; max-width: none; }
   .brand-text span { display: none; }
-}
 
   .panel-grid { grid-template-columns: 1fr; }
   .view { padding-bottom: 64px; }
