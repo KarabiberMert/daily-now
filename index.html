@@ -22,6 +22,22 @@
 
 <div class="app" id="app" hidden>
 
+  <!-- Ana ekrana ekle — yalniz telefonda, uygulama kurulu degilken gorunur.
+       Android'de dogrudan kurulum diyalogunu acar; iOS'ta nasil eklenecegini
+       anlatan alt sayfayi acar (Safari beforeinstallprompt desteklemiyor). -->
+  <div class="install-bar" id="installBar" hidden>
+    <span class="ib-mark" aria-hidden="true">DN</span>
+    <div class="ib-text">
+      <strong data-i18n="install.title">Add to home screen</strong>
+      <span data-i18n="install.sub">Opens full screen, works offline.</span>
+    </div>
+    <button class="ib-cta" id="installCta" type="button">Add</button>
+    <button class="ib-close" id="installClose" type="button"
+            aria-label="Not now" data-i18n-aria="install.dismiss">
+      <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+
   <!-- ───────────────────────── Main ───────────────────────── -->
   <main class="main">
     <header class="topbar">
@@ -77,6 +93,11 @@
         <div class="cat-cards" id="feedCats"></div>
 
         <div id="feedBody"></div>
+
+        <!-- Sitenin ne oldugunu anlatan kucuk dipnot. -->
+        <p class="site-note" data-i18n="site.note">Daily Now scans the news sites each
+          morning and writes short AI-assisted summaries, so you can catch up on the day
+          in one place. Every story links out to its original source.</p>
       </section>
 
       <!-- ── Arama ── -->
@@ -137,6 +158,77 @@
       </button>
     </header>
     <div class="sheet-body" id="sheetBody"></div>
+  </div>
+</div>
+
+<!-- ─────────────── iOS: ana ekrana nasil eklenir ─────────────── -->
+<div class="sheet install-sheet" id="installSheet" hidden>
+  <div class="sheet-scrim" data-install-close></div>
+  <div class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby="installSheetTitle">
+    <header class="sheet-head">
+      <div class="sheet-id">
+        <span class="sheet-kicker">DAILY NOW</span>
+        <h2 id="installSheetTitle" data-i18n="install.howTitle">Add Daily Now to your home screen</h2>
+        <p data-i18n="install.howSub">Three taps in Safari — no app store needed.</p>
+      </div>
+      <button class="icon-btn" data-install-close type="button"
+              aria-label="Close" data-i18n-aria="a11y.close">
+        <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </header>
+    <div class="sheet-body">
+      <ol class="ins-steps">
+        <li class="ins-step">
+          <div class="ins-head">
+            <span class="ins-num">1</span>
+            <p data-i18n="install.step1">Tap the Share button in Safari&rsquo;s bottom bar.</p>
+          </div>
+          <!-- Safari alt cubugu; paylas simgesi vurgulu. -->
+          <svg class="ins-art" viewBox="0 0 240 52" aria-hidden="true">
+            <rect x="1" y="1" width="238" height="50" rx="13" class="a-panel"/>
+            <path d="M40 19l-7 7 7 7" class="a-line"/>
+            <path d="M76 19l7 7-7 7" class="a-line"/>
+            <circle cx="120" cy="26" r="19" class="a-ring"/>
+            <path d="M110 25v11h20V25" class="a-hi"/>
+            <path d="M120 31V13" class="a-hi"/>
+            <path d="m114 19 6-6 6 6" class="a-hi"/>
+            <rect x="158" y="19" width="13" height="13" rx="3" class="a-line"/>
+            <rect x="164" y="25" width="13" height="13" rx="3" class="a-line"/>
+            <path d="M203 17h15v19l-7.5-5.5L203 36z" class="a-line"/>
+          </svg>
+        </li>
+        <li class="ins-step">
+          <div class="ins-head">
+            <span class="ins-num">2</span>
+            <p data-i18n="install.step2">Scroll down the menu and choose &ldquo;Add to Home Screen&rdquo;.</p>
+          </div>
+          <!-- Paylas menusundeki "Ana Ekrana Ekle" satiri. -->
+          <svg class="ins-art" viewBox="0 0 240 62" aria-hidden="true">
+            <rect x="1" y="1" width="238" height="60" rx="13" class="a-panel"/>
+            <rect x="9" y="9" width="222" height="44" rx="11" class="a-hl"/>
+            <rect x="20" y="17" width="28" height="28" rx="8" class="a-chip"/>
+            <path d="M34 25v12M28 31h12" class="a-hi"/>
+            <rect x="60" y="22" width="112" height="7" rx="3.5" class="a-bar"/>
+            <rect x="60" y="35" width="70" height="6" rx="3" class="a-bar-soft"/>
+          </svg>
+        </li>
+        <li class="ins-step">
+          <div class="ins-head">
+            <span class="ins-num">3</span>
+            <p data-i18n="install.step3">Tap &ldquo;Add&rdquo; at the top right &mdash; the icon lands on your home screen.</p>
+          </div>
+          <!-- Onay ekraninin ust cubugu; sagdaki "Ekle" vurgulu. -->
+          <svg class="ins-art" viewBox="0 0 240 52" aria-hidden="true">
+            <rect x="1" y="1" width="238" height="50" rx="13" class="a-panel"/>
+            <rect x="16" y="22" width="36" height="7" rx="3.5" class="a-bar-soft"/>
+            <rect x="86" y="21" width="68" height="9" rx="4.5" class="a-bar"/>
+            <rect x="176" y="13" width="50" height="26" rx="13" class="a-cta"/>
+          </svg>
+        </li>
+      </ol>
+      <button class="btn btn-primary ins-done" data-install-close type="button"
+              data-i18n="install.gotIt">Got it</button>
+    </div>
   </div>
 </div>
 

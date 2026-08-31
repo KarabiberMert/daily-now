@@ -8,6 +8,7 @@ import { bindCards } from './cards.js';
 import { renderFeed, unreadStoryCount } from './views/feed.js';
 import { initCategorySheet, openCategory, isOpen as sheetOpen } from './views/category.js';
 import { renderSearch } from './views/search.js';
+import { initInstall } from './install.js';
 import { $, $$, esc, debounce, toast, dayKey, formatDayShort } from './util.js';
 import { t, lang, setLang, LANGS, onLangChange, days } from './i18n.js';
 
@@ -41,6 +42,9 @@ const body = {
   subscribe(onChange);
   // Dil degisince hem sabit metinler hem de cizilmis gorunumler tazelenir.
   onLangChange(() => { applyStaticI18n(); buildLangSwitch(); render(); });
+
+  // Serit uygulama gorunmeden once yerine otursun, sonradan zipladigi olmasin.
+  initInstall();
 
   render();
   $('#app').hidden = false;
