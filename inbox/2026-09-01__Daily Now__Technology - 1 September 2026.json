@@ -1,0 +1,91 @@
+{
+  "title": {
+    "en": "Technology - 1 September 2026",
+    "es": "Tecnología - 1 de septiembre de 2026",
+    "tr": "Teknoloji - 1 Eylul 2026"
+  },
+  "category": "tech",
+  "date": "2026-09-01",
+  "source": "Daily Now",
+  "stories": [
+    {
+      "title": {
+        "en": "Meta pledges $1 billion to data center communities as new models ship",
+        "es": "Meta destina 1.000 millones de dólares a las comunidades de sus centros de datos mientras lanza nuevos modelos",
+        "tr": "Meta, yeni modellerini duyururken veri merkezi cevrelerine 1 milyar dolar ayirdi"
+      },
+      "summary": {
+        "en": "Mark Zuckerberg paired the release of Meta's Muse Glimmer model with a fund for the towns hosting its data centers, on a day that also brought new forecasting and legal-industry models from Google.",
+        "es": "Mark Zuckerberg acompañó el lanzamiento del modelo Muse Glimmer de Meta con un fondo para las localidades que albergan sus centros de datos, en una jornada que también trajo nuevos modelos de previsión y para el sector legal de Google.",
+        "tr": "Mark Zuckerberg, Meta'nin Muse Glimmer modelinin tanitimini veri merkezlerine ev sahipligi yapan yerlesimler icin bir fonla birlestirdi; ayni gun Google da yeni tahminleme ve hukuk sektorune ozel modellerini duyurdu."
+      },
+      "detail": {
+        "en": "Meta announced a $1 billion fund to invest in the communities around its data centers, unveiled alongside the release of its latest AI model, Muse Glimmer. The pairing is not accidental. The current build-out of AI infrastructure is running into local opposition over electricity demand, water use for cooling and the strain large facilities put on rural power grids, and the money is aimed squarely at that friction. Google was busy the same day, with Google Research putting out TimesFM-3, a 330-million-parameter foundation model that forecasts many related time series in a single pass without task-specific training, and Google Cloud launching a legal-industry version of Gemini, the first of several planned sector-specific packages. Both point to where the competition is moving: away from one general model for everything and toward models tuned for a single profession or data shape. The scale underneath all of it keeps growing, and Hugging Face chief executive Clement Delangue said builders and their agents uploaded more than 4 petabytes of models and datasets to the platform in a single week, roughly the storage equivalent of 800,000 HD movies.",
+        "es": "Meta anunció un fondo de 1.000 millones de dólares para invertir en las comunidades cercanas a sus centros de datos, presentado junto con el lanzamiento de su último modelo de IA, Muse Glimmer. La combinación no es casual. El despliegue actual de infraestructura de IA choca con la oposición local por la demanda eléctrica, el consumo de agua para refrigeración y la presión que las grandes instalaciones ejercen sobre las redes rurales, y el dinero apunta justo a esa fricción. Google también estuvo activo ese día: Google Research publicó TimesFM-3, un modelo fundacional de 330 millones de parámetros que predice muchas series temporales relacionadas en una sola pasada y sin entrenamiento específico, y Google Cloud lanzó una versión de Gemini para el sector legal, la primera de varios paquetes sectoriales previstos. Ambos movimientos señalan hacia dónde va la competencia: menos un modelo general para todo y más modelos afinados para una profesión o un tipo de dato concreto. La escala que hay debajo sigue creciendo: el consejero delegado de Hugging Face, Clement Delangue, dijo que los desarrolladores y sus agentes subieron más de 4 petabytes de modelos y conjuntos de datos a la plataforma en una sola semana, el equivalente aproximado a 800.000 películas en alta definición.",
+        "tr": "Meta, veri merkezlerinin cevresindeki yerlesimlere yatirim yapmak uzere 1 milyar dolarlik bir fon aciklarken bunu son yapay zeka modeli Muse Glimmer'in tanitimiyla birlikte duyurdu. Bu eslestirme tesaduf degil. Yapay zeka altyapisinin mevcut buyume dalgasi; elektrik talebi, sogutma icin kullanilan su ve buyuk tesislerin kirsal elektrik sebekelerine bindirdigi yuk nedeniyle yerel muhalefetle karsilasiyor ve para dogrudan bu surtunmeyi hedefliyor. Google da ayni gun hareketliydi: Google Research, birbiriyle iliskili cok sayida zaman serisini goreve ozel egitim olmadan tek gecisde tahmin eden 330 milyon parametreli TimesFM-3 modelini yayimladi; Google Cloud ise planlanan sektore ozel paketlerin ilki olarak Gemini'nin hukuk sektorune yonelik surumunu tanitti. Her iki adim da rekabetin nereye kaydigini gosteriyor: her ise yarayan tek bir genel model yerine, tek bir meslege ya da veri turune gore ayarlanmis modeller. Bunun altindaki olcek ise buyumeye devam ediyor; Hugging Face Genel Muduru Clement Delangue, gelistiricilerin ve ajanlarinin tek bir haftada platforma 4 petabayttan fazla model ve veri kumesi yukledigini, bunun kabaca 800 bin yuksek cozunurluklu filme denk geldigini soyledi."
+      },
+      "points": {
+        "en": [
+          "Meta's $1 billion fund targets local opposition to data center power and water use",
+          "Google Research's TimesFM-3 has 330 million parameters and needs no task-specific training",
+          "Google Cloud's legal Gemini is the first of several industry-specific packages",
+          "Hugging Face saw over 4 petabytes uploaded in one week"
+        ],
+        "es": [
+          "El fondo de 1.000 millones de Meta responde al rechazo local por el consumo de luz y agua de los centros de datos",
+          "TimesFM-3 de Google Research tiene 330 millones de parámetros y no requiere entrenamiento específico",
+          "El Gemini legal de Google Cloud es el primero de varios paquetes sectoriales",
+          "Hugging Face recibió más de 4 petabytes de subidas en una semana"
+        ],
+        "tr": [
+          "Meta'nin 1 milyar dolarlik fonu, veri merkezlerinin elektrik ve su tuketimine yonelik yerel tepkiyi hedefliyor",
+          "Google Research'un TimesFM-3 modeli 330 milyon parametreli ve goreve ozel egitim gerektirmiyor",
+          "Google Cloud'un hukuk Gemini'si sektore ozel paketlerin ilki",
+          "Hugging Face'e tek haftada 4 petabayttan fazla veri yuklendi"
+        ]
+      },
+      "source": "The Neuron",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-august-31-2026/"
+    },
+    {
+      "title": {
+        "en": "Meta starts production of its own Iris AI chip this month",
+        "es": "Meta inicia este mes la producción de su propio chip de IA, Iris",
+        "tr": "Meta, kendi yapay zeka cipi Iris'in uretimine bu ay basliyor"
+      },
+      "summary": {
+        "en": "The in-house data center accelerator moves from testing to manufacturing in September, part of Meta's push to double its computing capacity and lean less on Nvidia.",
+        "es": "El acelerador propio para centros de datos pasa de las pruebas a la fabricación en septiembre, dentro del plan de Meta para duplicar su capacidad de cómputo y depender menos de Nvidia.",
+        "tr": "Sirket ici veri merkezi hizlandiricisi eylulde test asamasindan uretime geciyor; bu, Meta'nin islem kapasitesini ikiye katlama ve Nvidia'ya daha az bagimli olma planinin parcasi."
+      },
+      "detail": {
+        "en": "Meta is beginning manufacturing of an in-house artificial intelligence chip this month as part of a plan to sharply increase its own computing power. The data center chip, code-named Iris, belongs to a four-generation programme of Meta Training and Inference Accelerators that the company designs itself rather than buying off the shelf. Testing reportedly took only about six weeks and turned up no major problems, an unusually clean run for a custom silicon project and a sign the design was conservative by intent. The strategic logic is cost and supply: Nvidia still holds roughly 85 to 90% of the market for AI accelerator GPUs, and its data center revenue reached $193.7 billion in the fiscal year ending January 2026, about 90% of the company's total. Every large buyer at Meta's scale has an obvious incentive to move some share of its inference workload onto hardware it controls. Custom chips rarely displace Nvidia outright, though, since the software ecosystem around its GPUs is as much of a moat as the silicon itself.",
+        "es": "Meta comienza este mes a fabricar un chip de inteligencia artificial propio dentro de su plan para aumentar con fuerza su capacidad de cómputo. El chip para centros de datos, con nombre en clave Iris, forma parte de un programa de cuatro generaciones de aceleradores de entrenamiento e inferencia que la compañía diseña internamente en lugar de comprarlos ya hechos. Según lo publicado, las pruebas duraron apenas unas seis semanas y no revelaron problemas de importancia, un recorrido inusualmente limpio para un proyecto de silicio a medida y una señal de que el diseño fue deliberadamente conservador. La lógica estratégica es de coste y suministro: Nvidia mantiene entre el 85% y el 90% del mercado de GPU aceleradoras de IA, y sus ingresos por centros de datos alcanzaron 193.700 millones de dólares en el ejercicio cerrado en enero de 2026, cerca del 90% del total de la empresa. Cualquier comprador del tamaño de Meta tiene un incentivo evidente para trasladar parte de su carga de inferencia a hardware propio. Aun así, los chips a medida rara vez desplazan del todo a Nvidia, porque el ecosistema de software en torno a sus GPU es una barrera tan sólida como el propio chip.",
+        "tr": "Meta, kendi islem gucunu ciddi olcude artirma planinin parcasi olarak bu ay sirket ici bir yapay zeka cipinin uretimine basliyor. Iris kod adli veri merkezi cipi, sirketin hazir satin almak yerine kendi tasarladigi dort nesillik Meta Egitim ve Cikarim Hizlandiricilari programina ait. Aktarilanlara gore testler yalnizca alti hafta surdu ve ciddi bir sorun ortaya cikarmadi; bu, ozel yonga projeleri icin alisilmadik olcude sorunsuz bir surec ve tasarimin bilincli olarak temkinli tutuldugunun isareti. Stratejik mantik maliyet ve tedarik uzerine kurulu: Nvidia yapay zeka hizlandirici GPU pazarinin halen yaklasik yuzde 85-90'ini elinde tutuyor ve ocak 2026'da biten mali yilda veri merkezi geliri 193,7 milyar dolara, sirket toplaminin yaklasik yuzde 90'ina ulasti. Meta olceginde her buyuk alicinin, cikarim yukunun bir bolumunu kendi kontrol ettigi donanima tasimak icin acik bir tesviki var. Yine de ozel cipler Nvidia'yi tumuyle saf disi birakmiyor; cunku GPU'larin cevresindeki yazilim ekosistemi en az yonganin kendisi kadar guclu bir engel olusturuyor."
+      },
+      "points": {
+        "en": [
+          "Iris is part of a four-generation in-house accelerator programme",
+          "Testing took about six weeks with no major issues found",
+          "Nvidia holds roughly 85-90% of the AI accelerator GPU market",
+          "Nvidia data center revenue was $193.7 billion in the year to January 2026"
+        ],
+        "es": [
+          "Iris forma parte de un programa propio de aceleradores de cuatro generaciones",
+          "Las pruebas duraron unas seis semanas sin problemas relevantes",
+          "Nvidia controla en torno al 85-90% del mercado de GPU aceleradoras de IA",
+          "Los ingresos de Nvidia por centros de datos fueron de 193.700 millones hasta enero de 2026"
+        ],
+        "tr": [
+          "Iris, dort nesillik sirket ici hizlandirici programinin bir parcasi",
+          "Testler yaklasik alti hafta surdu ve ciddi bir sorun cikmadi",
+          "Nvidia, yapay zeka hizlandirici GPU pazarinin yaklasik yuzde 85-90'ini elinde tutuyor",
+          "Nvidia'nin ocak 2026'ya kadarki yilda veri merkezi geliri 193,7 milyar dolar oldu"
+        ]
+      },
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/meta-start-production-iris-ai-122141801.html"
+    }
+  ],
+  "author": "Daily Now"
+}

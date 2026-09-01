@@ -1,0 +1,52 @@
+{
+  "title": {
+    "en": "Economy - 1 September 2026",
+    "es": "Economía - 1 de septiembre de 2026",
+    "tr": "Ekonomi - 1 Eylul 2026"
+  },
+  "category": "economy",
+  "date": "2026-09-01",
+  "source": "Daily Now",
+  "stories": [
+    {
+      "title": {
+        "en": "Japan's inflation data makes a September rate hike hard to avoid",
+        "es": "Los datos de inflación de Japón hacen difícil evitar una subida de tipos en septiembre",
+        "tr": "Japonya'nin enflasyon verileri eylulde faiz artirimini kacinilmaz kiliyor"
+      },
+      "summary": {
+        "en": "Underlying price growth stayed above the Bank of Japan's 2% target in July, and traders now put the odds of a quarter-point hike at this month's meeting well above 80%.",
+        "es": "El crecimiento subyacente de los precios se mantuvo por encima del objetivo del 2% del Banco de Japón en julio, y los operadores sitúan ya la probabilidad de una subida de un cuarto de punto este mes muy por encima del 80%.",
+        "tr": "Temel enflasyon temmuzda Japonya Merkez Bankasi'nin yuzde 2 hedefinin uzerinde kaldi; yatirimcilar bu ayki toplantida ceyrek puanlik artirim ihtimalini yuzde 80'in belirgin sekilde uzerinde goruyor."
+      },
+      "detail": {
+        "en": "Japan's latest price figures leave the Bank of Japan with little room to sit still. Core inflation, which excludes fresh food but keeps energy, matched forecasts at 1.8%, while the core-core measure that strips out both came in at 1.9%. More telling for policymakers, the BOJ's own gauge of underlying inflation, which removes fresh food and the effect of various government relief measures, rose 2.3% in July from a year earlier. That is the third straight signal that price pressure is coming from wages and demand rather than one-off shocks. The board next sets policy in September, and prediction markets put the chance of a 25 basis point increase at about 84%. The bank lifted its policy rate to 1% in June, the highest level since 1995, and warned last month that core inflation would move clearly above 2% in the second half of its fiscal year, which runs from September to March. Officials have pointed to three drivers in particular: wage increases being passed through into selling prices, higher crude oil costs, and the recent slide in the yen, which makes everything Japan imports more expensive.",
+        "es": "Las últimas cifras de precios de Japón dejan poco margen al Banco de Japón para quedarse quieto. La inflación subyacente, que excluye los alimentos frescos pero mantiene la energía, coincidió con las previsiones en el 1,8%, mientras que la medida que descuenta ambos componentes se situó en el 1,9%. Más revelador para los responsables de política monetaria: el propio indicador del BOJ sobre la inflación de fondo, que elimina los alimentos frescos y el efecto de diversas ayudas públicas, subió un 2,3% en julio interanual. Es la tercera señal consecutiva de que la presión de precios viene de los salarios y la demanda, y no de choques puntuales. El consejo vuelve a decidir en septiembre y los mercados de predicción sitúan la probabilidad de una subida de 25 puntos básicos en torno al 84%. El banco elevó su tipo de referencia al 1% en junio, el nivel más alto desde 1995, y advirtió el mes pasado de que la inflación subyacente superaría claramente el 2% en la segunda mitad de su año fiscal, que va de septiembre a marzo. Las autoridades señalan tres motores: el traslado de las subidas salariales a los precios de venta, el encarecimiento del crudo y la reciente caída del yen, que encarece todo lo que Japón importa.",
+        "tr": "Japonya'nin son fiyat verileri, Japonya Merkez Bankasi'na hareketsiz kalma alani birakmiyor. Taze gidayi dislayan ama enerjiyi iceren cekirdek enflasyon beklentilerle uyumlu sekilde yuzde 1,8 olurken, her ikisini de disarida birakan olcum yuzde 1,9 geldi. Politika yapicilar acisindan daha belirleyici olan ise, taze gidayi ve cesitli kamu destek onlemlerinin etkisini aritarak hesaplanan bankanin kendi temel enflasyon gostergesinin temmuzda yillik yuzde 2,3 artmasi oldu. Bu, fiyat baskisinin tek seferlik soklardan degil ucretlerden ve talepten geldigine dair ust uste ucuncu sinyal. Kurul eylulde yeniden faiz belirleyecek; tahmin piyasalari 25 baz puanlik artirim ihtimalini yaklasik yuzde 84 olarak fiyatliyor. Banka haziranda politika faizini 1995'ten bu yana en yuksek seviye olan yuzde 1'e cikarmis, gecen ay da cekirdek enflasyonun eylulden marta uzanan mali yilin ikinci yarisinda yuzde 2'nin belirgin sekilde uzerine cikacagi uyarisini yapmisti. Yetkililer ozellikle uc etkene isaret ediyor: ucret artislarinin satis fiyatlarina yansimasi, ham petrol maliyetlerindeki yukselis ve Japonya'nin ithal ettigi her seyi pahalilastiran son donemdeki yen deger kaybi."
+      },
+      "points": {
+        "en": [
+          "Core inflation 1.8%, core-core 1.9%, BOJ underlying gauge 2.3% in July",
+          "Prediction markets price an 84% chance of a 25 basis point hike in September",
+          "The policy rate reached 1% in June, the highest since 1995",
+          "Wage pass-through, crude oil costs and a weaker yen are the main drivers"
+        ],
+        "es": [
+          "Inflación subyacente 1,8%, sin energía 1,9% y el indicador de fondo del BOJ 2,3% en julio",
+          "Los mercados de predicción dan un 84% de probabilidad a una subida de 25 puntos básicos en septiembre",
+          "El tipo de referencia llegó al 1% en junio, máximo desde 1995",
+          "El traslado salarial, el crudo y un yen más débil son los principales motores"
+        ],
+        "tr": [
+          "Temmuzda cekirdek enflasyon yuzde 1,8, enerji haric yuzde 1,9, BOJ temel gostergesi yuzde 2,3",
+          "Tahmin piyasalari eylulde 25 baz puanlik artirima yuzde 84 ihtimal veriyor",
+          "Politika faizi haziranda 1995'ten bu yana en yuksek seviye olan yuzde 1'e ulasti",
+          "Ucret gecisleri, ham petrol maliyetleri ve zayiflayan yen baslica etkenler"
+        ]
+      },
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/economy/policy/articles/japan-inflation-print-just-made-071352297.html"
+    }
+  ],
+  "author": "Daily Now"
+}
