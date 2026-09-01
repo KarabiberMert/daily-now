@@ -62,6 +62,11 @@ function eligible() {
   return !isStandalone() && !dismissed() && isPhone();
 }
 
+/* Ana ekrana eklenmis uygulamada guvenli alan degiskenlerini acan bayrak.
+   Modul yuklenirken, ilk boyamadan once yaziliyor; CSS'te :root[data-standalone]
+   ust bari durum cubugunun altindan kurtariyor. */
+if (isStandalone()) document.documentElement.dataset.standalone = 'true';
+
 /* Olayi modul yuklenirken dinliyoruz: Chrome bunu cok erken firlatabiliyor,
    initInstall()'u beklersek kacirabilirdik. Masaustunde karismiyoruz —
    preventDefault etmeyip tarayicinin kendi kurulum ipucunu birakiyoruz. */
