@@ -1,0 +1,91 @@
+{
+  "title": {
+    "en": "US Markets - 2 September 2026",
+    "es": "Bolsa de EE. UU. - 2 de septiembre de 2026",
+    "tr": "ABD Borsasi - 2 Eylul 2026"
+  },
+  "category": "usmarkets",
+  "date": "2026-09-02",
+  "source": "Daily Now",
+  "stories": [
+    {
+      "title": {
+        "en": "Wall Street opens September in the red as Nasdaq leads the fall",
+        "es": "Wall Street abre septiembre en rojo con el Nasdaq liderando las caídas",
+        "tr": "Wall Street eylule dususle basladi, kaybin onunde Nasdaq var"
+      },
+      "summary": {
+        "en": "The S&P 500 fell 0.71% to 7,631.47, the Nasdaq lost 1.03% and the Dow shed 419 points as renewed US-Iran hostilities lifted oil and hit technology shares hardest.",
+        "es": "El S&P 500 cayó un 0,71% hasta 7.631,47, el Nasdaq perdió un 1,03% y el Dow cedió 419 puntos, mientras la reanudación de las hostilidades entre EE. UU. e Irán elevaba el petróleo y golpeaba sobre todo a la tecnología.",
+        "tr": "ABD-Iran catismasinin yeniden alevlenmesi petrolu yukseltip en cok teknoloji hisselerini vururken S&P 500 yuzde 0,71 dususle 7.631,47'ye geriledi, Nasdaq yuzde 1,03 kaybetti, Dow ise 419 puan eridi."
+      },
+      "detail": {
+        "en": "September began on Wall Street the way the history books warned it might. The S&P 500 shed 0.71% to finish at 7,631.47, the Nasdaq Composite fell 1.03% to 26,099.77, and the Dow Jones Industrial Average lost 419.02 points, or 0.79%, to close at 52,766.88. The drop landed immediately after one of the strongest Augusts in years, in which the S&P had gained 2.6% and the Nasdaq 3.9%. What changed was not corporate news but the backdrop: renewed fighting between the United States and Iran around the Strait of Hormuz pushed oil higher, and that fed straight into inflation expectations and bond yields. The Nasdaq falling at roughly one and a half times the rate of the S&P is the tell, since higher long-term rates hit the valuations of long-duration growth stocks hardest, and those are exactly the names that carried the summer rally. Nothing in the session suggested distress in the underlying economy, which makes this a repricing of interest rate expectations rather than a verdict on earnings.",
+        "es": "Septiembre empezó en Wall Street tal y como advertían los libros de historia. El S&P 500 cedió un 0,71% hasta 7.631,47, el Nasdaq Composite bajó un 1,03% hasta 26.099,77 y el Dow Jones perdió 419,02 puntos, un 0,79%, para cerrar en 52.766,88. La caída llegó justo después de uno de los mejores agostos en años, en el que el S&P había ganado un 2,6% y el Nasdaq un 3,9%. Lo que cambió no fueron las noticias empresariales sino el contexto: la reanudación de los combates entre Estados Unidos e Irán en torno al estrecho de Ormuz encareció el petróleo, y eso se trasladó directamente a las expectativas de inflación y a los rendimientos de los bonos. Que el Nasdaq cayera aproximadamente una vez y media más que el S&P es la señal reveladora, porque los tipos a largo plazo más altos golpean sobre todo la valoración de los valores de crecimiento de larga duración, justo los que impulsaron el rally del verano. Nada en la sesión apuntó a problemas en la economía real, lo que convierte esto en una revisión de las expectativas de tipos y no en un veredicto sobre los beneficios.",
+        "tr": "Eylul, Wall Street'te tarih kitaplarinin uyardigi bicimde basladi. S&P 500 yuzde 0,71 gerileyerek 7.631,47'den, Nasdaq Composite yuzde 1,03 dususle 26.099,77'den kapandi; Dow Jones Sanayi Endeksi ise 419,02 puan, yani yuzde 0,79 kaybederek 52.766,88 seviyesine indi. Dusus, S&P'nin yuzde 2,6, Nasdaq'in yuzde 3,9 kazandigi son yillarin en guclu agustos aylarindan birinin hemen ardindan geldi. Degisen sey sirket haberleri degil arka plandi: ABD ile Iran arasinda Hurmuz Bogazi cevresinde yeniden alevlenen catisma petrolu yukseltti ve bu dogrudan enflasyon beklentilerine ve tahvil getirilerine yansidi. Nasdaq'in S&P'nin yaklasik bir bucuk kati hizla dusmesi belirleyici ipucu; cunku yukselen uzun vadeli faizler en cok uzun vadeli buyume hisselerinin degerlemesini vuruyor ve yaz ralisini tasiyan da tam olarak bu hisselerdi. Seansta ekonominin temelinde bir sikinti oldugunu gosteren bir isaret yoktu; bu da olan biteni kar beklentilerine dair bir yargidan cok, faiz beklentilerinin yeniden fiyatlanmasi haline getiriyor."
+      },
+      "points": {
+        "en": [
+          "S&P 500 -0.71% to 7,631.47",
+          "Nasdaq Composite -1.03% to 26,099.77",
+          "Dow Jones -419.02 points (-0.79%) to 52,766.88",
+          "Higher oil and bond yields hit long-duration growth stocks hardest"
+        ],
+        "es": [
+          "S&P 500 -0,71% hasta 7.631,47",
+          "Nasdaq Composite -1,03% hasta 26.099,77",
+          "Dow Jones -419,02 puntos (-0,79%) hasta 52.766,88",
+          "El alza del petróleo y de los rendimientos golpea más a los valores de crecimiento"
+        ],
+        "tr": [
+          "S&P 500 yuzde 0,71 dususle 7.631,47",
+          "Nasdaq Composite yuzde 1,03 dususle 26.099,77",
+          "Dow Jones 419,02 puan (yuzde 0,79) kayipla 52.766,88",
+          "Yukselen petrol ve tahvil getirileri en cok uzun vadeli buyume hisselerini vurdu"
+        ]
+      },
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-1-135016820.html"
+    },
+    {
+      "title": {
+        "en": "The bond market, not earnings, is now setting the tone for stocks",
+        "es": "El mercado de bonos, y no los resultados, marca ahora el tono de la bolsa",
+        "tr": "Hisselerin yonunu artik bilancolar degil tahvil piyasasi belirliyor"
+      },
+      "summary": {
+        "en": "US equities slid through the session as a worldwide sell-off in government debt pushed yields up, shifting the market's attention from company results to the cost of money.",
+        "es": "La bolsa estadounidense cayó durante la sesión mientras una venta masiva mundial de deuda pública elevaba los rendimientos, desplazando la atención del mercado de los resultados empresariales al precio del dinero.",
+        "tr": "Kuresel capta devlet tahvili satisi getirileri yukseltirken ABD hisseleri seans boyunca geriledi ve piyasanin dikkati sirket sonuclarindan paranin maliyetine kaydi."
+      },
+      "detail": {
+        "en": "US stocks slid through the trading day as a global sell-off in government debt lifted yields in every major market at once. For most of the year Wall Street had taken its direction from corporate earnings, which were solid enough to support a five-month advance in the Dow. That link has now been displaced by a simpler one: when the yield on safe government bonds rises, every other asset has to justify itself against a higher risk-free return. A 10-year Treasury paying 4.79% sets a materially tougher benchmark than one paying four, and equity valuations adjust downward to compensate. The trigger is coming from outside the US as much as inside it, with Japanese, British and German yields all pushing to multi-decade highs on the same day. That simultaneity matters, because it means American investors cannot rotate into foreign bonds to escape the move, and it leaves the Federal Reserve's September decision as the single event most likely to settle the direction of both markets.",
+        "es": "La bolsa estadounidense cayó a lo largo de la sesión mientras una venta masiva mundial de deuda pública elevaba los rendimientos en todos los grandes mercados a la vez. Durante casi todo el año Wall Street se había guiado por los resultados empresariales, lo bastante sólidos como para sostener cinco meses de avance del Dow. Ese vínculo ha sido desplazado por otro más simple: cuando sube el rendimiento de la deuda pública segura, cualquier otro activo debe justificarse frente a una rentabilidad sin riesgo más alta. Un bono a 10 años que paga un 4,79% fija un listón bastante más exigente que uno que paga un cuatro, y las valoraciones bursátiles se ajustan a la baja para compensar. El detonante viene tanto de fuera como de dentro de EE. UU., con los rendimientos japonés, británico y alemán marcando máximos de varias décadas el mismo día. Esa simultaneidad importa, porque implica que los inversores estadounidenses no pueden refugiarse en bonos extranjeros para escapar del movimiento, y deja la decisión de la Reserva Federal de septiembre como el acontecimiento con más probabilidades de fijar el rumbo de ambos mercados.",
+        "tr": "Kuresel capta devlet tahvili satisi butun buyuk piyasalarda getirileri ayni anda yukseltirken ABD hisseleri seans boyunca geriledi. Yilin buyuk bolumunde Wall Street yonunu sirket bilancolarindan almisti; bu sonuclar Dow'un bes aylik yukselisini destekleyecek kadar saglamdi. Bu bag artik yerini daha basit bir baglantiya birakti: guvenli devlet tahvillerinin getirisi yukseldiginde, diger her varlik kendini daha yuksek bir risksiz getiriye karsi savunmak zorunda kalir. Yuzde 4,79 odeyen 10 yillik bir tahvil, yuzde 4 odeyene gore belirgin sekilde daha zorlu bir esik koyar ve hisse degerlemeleri bunu telafi etmek icin asagi yonlu ayarlanir. Tetikleyici ABD'nin icinden oldugu kadar disindan da geliyor; Japon, Ingiliz ve Alman getirileri ayni gun onlarca yilin zirvesine cikti. Bu es zamanlilik onemli, cunku Amerikali yatirimcilarin hareketten kacmak icin yabanci tahvillere yonelmesini imkansiz kiliyor ve her iki piyasanin yonunu belirleyecek tek olay olarak Federal Rezerv'in eylul kararini one cikariyor."
+      },
+      "points": {
+        "en": [
+          "A global government debt sell-off lifted yields in every major market",
+          "A 4.79% risk-free return raises the bar for every other asset",
+          "Japanese, British and German yields hit multi-decade highs the same day",
+          "The Fed's September decision is now the key event for both markets"
+        ],
+        "es": [
+          "Una venta mundial de deuda pública elevó los rendimientos en todos los grandes mercados",
+          "Una rentabilidad sin riesgo del 4,79% sube el listón para cualquier otro activo",
+          "Los rendimientos japonés, británico y alemán marcaron máximos de décadas el mismo día",
+          "La decisión de la Fed en septiembre es ahora el acontecimiento clave"
+        ],
+        "tr": [
+          "Kuresel devlet borcu satisi butun buyuk piyasalarda getirileri yukseltti",
+          "Yuzde 4,79'luk risksiz getiri diger tum varliklar icin esigi yukseltiyor",
+          "Japon, Ingiliz ve Alman getirileri ayni gun onlarca yilin zirvesini gordu",
+          "Fed'in eylul karari artik her iki piyasa icin de kilit olay"
+        ]
+      },
+      "source": "The Motley Fool",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/09/01/stock-market-midday-sept-1-stocks-slide-on-global-bond-sell-off/"
+    }
+  ],
+  "author": "Daily Now"
+}

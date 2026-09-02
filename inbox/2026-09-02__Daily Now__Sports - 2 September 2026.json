@@ -1,0 +1,91 @@
+{
+  "title": {
+    "en": "Sports - 2 September 2026",
+    "es": "Deportes - 2 de septiembre de 2026",
+    "tr": "Spor - 2 Eylul 2026"
+  },
+  "category": "sports",
+  "date": "2026-09-02",
+  "source": "Daily Now",
+  "stories": [
+    {
+      "title": {
+        "en": "Zverev survives five-set scare against Sonego at 1:55 a.m.",
+        "es": "Zverev sobrevive a un susto de cinco sets ante Sonego a la 1:55 de la madrugada",
+        "tr": "Zverev, gece 01.55'te biten bes setlik macta Sonego korkusunu atlatti"
+      },
+      "summary": {
+        "en": "The top seed came back from two points from defeat to beat Lorenzo Sonego 6-4, 3-6, 6-7(7), 7-5, 6-4 in a first-round match lasting four hours and 53 minutes.",
+        "es": "El primer cabeza de serie remontó cuando estaba a dos puntos de la derrota para vencer a Lorenzo Sonego por 6-4, 3-6, 6-7(7), 7-5 y 6-4 en un partido de primera ronda de cuatro horas y 53 minutos.",
+        "tr": "Bir numarali seri basi, yenilgiye iki puan kala geri donerek Lorenzo Sonego'yu dort saat 53 dakika suren ilk tur macinda 6-4, 3-6, 6-7(7), 7-5, 6-4 yendi."
+      },
+      "detail": {
+        "en": "Alexander Zverev escaped one of the great first-round scares in recent US Open history, beating Lorenzo Sonego 6-4, 3-6, 6-7(7), 7-5, 6-4 at Arthur Ashe Stadium in a match that finished at 1:55 in the morning. The top seed, who won his first Grand Slam title at Roland Garros earlier this year, was two points from defeat at 4-5 in the fourth set before turning the match around over its closing stages. Sonego, ranked 89th in the world, had lost all six of their previous ATP meetings, and none of that history counted for anything across four hours and 53 minutes of relentless net-rushing that dragged Zverev out of his baseline rhythm. Had the German lost, it would have been only the sixth time in the Open Era that a men's top seed fell in the first round, and the first in more than two decades. Escaping a match like this is a genuinely mixed result: the win keeps a title campaign alive, but nearly five hours of court time in the opening round is a debt that comes due in the second week.",
+        "es": "Alexander Zverev escapó de uno de los grandes sustos de primera ronda de la historia reciente del US Open al vencer a Lorenzo Sonego por 6-4, 3-6, 6-7(7), 7-5 y 6-4 en el estadio Arthur Ashe, en un partido que terminó a la 1:55 de la madrugada. El primer cabeza de serie, que ganó su primer título de Grand Slam en Roland Garros este año, estuvo a dos puntos de la derrota con 4-5 en el cuarto set antes de dar la vuelta al partido en los tramos finales. Sonego, número 89 del mundo, había perdido los seis enfrentamientos previos en el circuito ATP, y nada de ese historial sirvió durante cuatro horas y 53 minutos de incesantes subidas a la red que sacaron a Zverev de su ritmo de fondo. Si el alemán hubiera perdido, habría sido apenas la sexta vez en la era Open que un primer cabeza de serie masculino cae en primera ronda, y la primera en más de dos décadas. Salvar un partido así es un resultado ambiguo: la victoria mantiene vivas sus opciones al título, pero casi cinco horas de pista en la ronda inicial son una deuda que se paga en la segunda semana.",
+        "tr": "Alexander Zverev, ABD Acik'in yakin tarihindeki en buyuk ilk tur korkularindan birini atlatarak Arthur Ashe Stadyumu'nda Lorenzo Sonego'yu 6-4, 3-6, 6-7(7), 7-5, 6-4 yendi; mac gece 01.55'te sona erdi. Bu yil Roland Garros'ta ilk Grand Slam unvanini kazanan bir numarali seri basi, dorduncu sette 4-5 durumunda yenilgiye iki puan kadar yaklasmis, ardindan macin son bolumlerinde tabloyu tersine cevirmisti. Dunya siralamasinda 89. sirada bulunan Sonego, daha onceki alti ATP karsilasmasinin tumunu kaybetmisti; ancak bu gecmis, Zverev'i dip cizgi ritminden koparan dort saat 53 dakikalik durmak bilmez file oyunu boyunca hicbir anlam tasimadi. Alman oyuncu kaybetseydi, Acik Cag'da bir numarali seri basi erkek oyuncunun ilk turda elenmesi yalnizca altinci kez, yirmi yildan uzun surenin ise ilk defa yasanmis olacakti. Boyle bir maci kurtarmak gercekten karisik bir sonuc: galibiyet unvan yolculugunu surduruyor, ama ilk turda bes saate yakin kort suresi ikinci haftada odenecek bir borc anlamina geliyor."
+      },
+      "points": {
+        "en": [
+          "Final score 6-4, 3-6, 6-7(7), 7-5, 6-4 over four hours and 53 minutes",
+          "Zverev was two points from defeat at 4-5 in the fourth set",
+          "Sonego, ranked 89, had lost all six previous meetings",
+          "A loss would have been the first top-seed first-round exit in over two decades"
+        ],
+        "es": [
+          "Resultado final 6-4, 3-6, 6-7(7), 7-5 y 6-4 en cuatro horas y 53 minutos",
+          "Zverev estuvo a dos puntos de la derrota con 4-5 en el cuarto set",
+          "Sonego, número 89, había perdido los seis duelos anteriores",
+          "Una derrota habría sido la primera caída de un primer cabeza de serie en más de veinte años"
+        ],
+        "tr": [
+          "Mac dort saat 53 dakikada 6-4, 3-6, 6-7(7), 7-5, 6-4 sona erdi",
+          "Zverev dorduncu sette 4-5'te yenilgiye iki puan kadar yaklasti",
+          "89. siradaki Sonego onceki alti karsilasmanin tumunu kaybetmisti",
+          "Yenilgi, yirmi yildan uzun surenin ilk bir numarali seri basi ilk tur elenmesi olacakti"
+        ]
+      },
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/tennis/article/us-open-top-seed-alexander-zverev-avoids-first-round-disaster-holds-off-lorenzo-sonego-in-5-sets-055542986.html"
+    },
+    {
+      "title": {
+        "en": "Fritz cruises as the US Open first round closes out",
+        "es": "Fritz avanza con solvencia al cerrarse la primera ronda del US Open",
+        "tr": "ABD Acik'ta ilk tur kapanirken Fritz rahat turladi"
+      },
+      "summary": {
+        "en": "Taylor Fritz beat Darwin Blanch in straight sets and Flavio Cobolli recovered from two sets down, as the draw completed its opening round and moved into the second.",
+        "es": "Taylor Fritz venció a Darwin Blanch en tres sets y Flavio Cobolli remontó dos sets en contra, mientras el cuadro completaba su primera ronda y pasaba a la segunda.",
+        "tr": "Taylor Fritz, Darwin Blanch'i set vermeden yenerken Flavio Cobolli iki set geriden gelip turladi; boylece ana tablo ilk turunu tamamlayip ikinci tura gecti."
+      },
+      "detail": {
+        "en": "The US Open completed its first round with the home contingent in comfortable shape. Taylor Fritz moved through with a 6-3, 6-2, 6-4 win over fellow American Darwin Blanch, an efficient hour-count that stands in sharp contrast to the marathon Alexander Zverev needed on the same day. Flavio Cobolli produced the other notable escape, recovering from two sets down to beat Francisco Comesana 3-6, 2-6, 6-3, 6-4, 6-4. Opening rounds at Flushing Meadows tend to produce this spread, with the fast hard courts rewarding players who can end points early and punishing anyone drawn into long rallies in late-summer humidity. The second round begins with the top of the men's draw intact but unevenly rested, which is the sort of imbalance that rarely shows up immediately and often decides quarter-finals. Attention now turns to whether the players who spent five sets in the opening round can recover in time for the next one.",
+        "es": "El US Open completó su primera ronda con los tenistas locales en buena forma. Taylor Fritz avanzó con un 6-3, 6-2 y 6-4 sobre su compatriota Darwin Blanch, un recuento de horas eficiente que contrasta con el maratón que Alexander Zverev necesitó el mismo día. Flavio Cobolli protagonizó la otra remontada destacada, al levantar dos sets en contra para ganar a Francisco Comesana por 3-6, 2-6, 6-3, 6-4 y 6-4. Las primeras rondas en Flushing Meadows suelen producir este contraste, ya que la pista dura y rápida premia a quien cierra los puntos pronto y castiga a quien se ve arrastrado a intercambios largos con la humedad del final del verano. La segunda ronda empieza con la parte alta del cuadro masculino intacta pero desigualmente descansada, un desequilibrio que rara vez se nota de inmediato y que a menudo decide los cuartos de final. La atención se centra ahora en si quienes disputaron cinco sets en la ronda inicial llegarán recuperados a la siguiente.",
+        "tr": "ABD Acik, ev sahibi oyuncularin rahat gorundugu bir tabloyla ilk turunu tamamladi. Taylor Fritz, ayni gun Alexander Zverev'in ihtiyac duydugu maratonla keskin bir tezat olusturan verimli bir sureyle, Amerikali rakibi Darwin Blanch'i 6-3, 6-2, 6-4 yenerek tur atladi. Diger dikkat ceken geri donusu Flavio Cobolli yapti; iki set geriden gelerek Francisco Comesana'yi 3-6, 2-6, 6-3, 6-4, 6-4 maglup etti. Flushing Meadows'ta ilk turlar genelde bu tur bir dagilim uretir; hizli sert kortlar sayilari erken bitirebilen oyuncuyu odullendirir, yaz sonu nemi altinda uzun ralilere cekilen oyuncuyu ise cezalandirir. Ikinci tur, erkekler tablosunun ust bolumu bozulmadan ama dinlenme acisindan esitsiz bicimde basliyor; bu tur bir dengesizlik nadiren hemen kendini gosterir, cogu zaman ceyrek finalleri belirler. Simdi dikkatler, ilk turda bes set oynayan oyuncularin bir sonraki maca yetisecek kadar toparlanip toparlanamayacagina cevrildi."
+      },
+      "points": {
+        "en": [
+          "Taylor Fritz beat Darwin Blanch 6-3, 6-2, 6-4",
+          "Flavio Cobolli came from two sets down to beat Francisco Comesana",
+          "The first round is complete and the second round is under way",
+          "Recovery time is now the main variable at the top of the men's draw"
+        ],
+        "es": [
+          "Taylor Fritz venció a Darwin Blanch por 6-3, 6-2 y 6-4",
+          "Flavio Cobolli remontó dos sets para ganar a Francisco Comesana",
+          "La primera ronda está completa y la segunda ya ha comenzado",
+          "El tiempo de recuperación es ahora la principal variable en la parte alta del cuadro"
+        ],
+        "tr": [
+          "Taylor Fritz, Darwin Blanch'i 6-3, 6-2, 6-4 yendi",
+          "Flavio Cobolli iki set geriden gelerek Francisco Comesana'yi devirdi",
+          "Ilk tur tamamlandi ve ikinci tur basladi",
+          "Erkekler tablosunun ust bolumunde asil degisken artik toparlanma suresi"
+        ]
+      },
+      "source": "Bleacher Report",
+      "url": "https://bleacherreport.com/articles/25494943-us-open-tennis-2026-results-day-2-bracket-winners-losers-highlights-and-day-3-schedule"
+    }
+  ],
+  "author": "Daily Now"
+}

@@ -1,0 +1,52 @@
+{
+  "title": {
+    "en": "Health - 2 September 2026",
+    "es": "Salud - 2 de septiembre de 2026",
+    "tr": "Saglik - 2 Eylul 2026"
+  },
+  "category": "health",
+  "date": "2026-09-02",
+  "source": "Daily Now",
+  "stories": [
+    {
+      "title": {
+        "en": "Personalised mRNA cancer vaccine cuts melanoma recurrence in Phase 3",
+        "es": "Una vacuna de ARNm personalizada reduce la recaída del melanoma en fase 3",
+        "tr": "Kisiye ozel mRNA kanser asisi, Faz 3'te melanomun nuksunu azaltti"
+      },
+      "summary": {
+        "en": "Merck and Moderna say intismeran autogene added to Keytruda cut the risk of recurrence or death by 49% in patients whose melanoma had been surgically removed.",
+        "es": "Merck y Moderna afirman que intismerán autógeno añadido a Keytruda redujo un 49% el riesgo de recaída o muerte en pacientes con melanoma extirpado quirúrgicamente.",
+        "tr": "Merck ve Moderna, Keytruda'ya eklenen intismeran autogene'in melanomu cerrahi olarak alinmis hastalarda nuks ya da olum riskini yuzde 49 azalttigini bildirdi."
+      },
+      "detail": {
+        "en": "Merck and Moderna have reported that their Phase 3 INTerpath-001 trial met its primary endpoints, in what may be the strongest evidence yet for personalised cancer vaccines. The treatment, intismeran autogene, is an individualised mRNA vaccine given alongside Merck's immunotherapy Keytruda to patients whose stage IIB to IV melanoma has been completely removed by surgery. Combined with Keytruda, it reduced the risk of recurrence or death by 49% and the risk of the cancer spreading to distant organs or death by 59%, compared with Keytruda alone. The approach is fundamentally different from a conventional vaccine: each dose is manufactured for one patient, built from the specific mutations found in that person's own tumour, so the immune system is trained on targets unique to them. That customisation is also the hard part, since it requires sequencing a tumour, designing the sequence and manufacturing a bespoke product within a clinically useful window. Melanoma is the proving ground rather than the destination, and the same platform is being tested in other tumour types where surgery leaves behind cells too few to detect but enough to bring the disease back.",
+        "es": "Merck y Moderna han comunicado que su ensayo de fase 3 INTerpath-001 alcanzó sus objetivos principales, en lo que puede ser la evidencia más sólida hasta la fecha a favor de las vacunas personalizadas contra el cáncer. El tratamiento, intismerán autógeno, es una vacuna de ARNm individualizada que se administra junto a la inmunoterapia Keytruda de Merck en pacientes cuyo melanoma en estadio IIB a IV ha sido extirpado por completo mediante cirugía. Combinada con Keytruda, redujo un 49% el riesgo de recaída o muerte y un 59% el riesgo de metástasis a distancia o muerte, frente a Keytruda en solitario. El enfoque es radicalmente distinto al de una vacuna convencional: cada dosis se fabrica para un solo paciente, a partir de las mutaciones concretas halladas en su propio tumor, de modo que el sistema inmunitario se entrena con dianas exclusivas de esa persona. Esa personalización es también la parte difícil, porque exige secuenciar el tumor, diseñar la secuencia y fabricar un producto a medida dentro de un plazo clínicamente útil. El melanoma es el banco de pruebas y no el destino final: la misma plataforma se está ensayando en otros tumores en los que la cirugía deja células demasiado escasas para detectarse pero suficientes para que la enfermedad vuelva.",
+        "tr": "Merck ve Moderna, Faz 3 INTerpath-001 calismasinin birincil hedeflerini karsiladigini bildirdi; bu, kisiye ozel kanser asilari icin bugune kadarki en guclu kanit olabilir. Intismeran autogene adli tedavi, evre IIB ila IV melanomu cerrahi olarak tamamen alinmis hastalara Merck'in immunoterapi ilaci Keytruda ile birlikte verilen bireysellestirilmis bir mRNA asisi. Keytruda ile birlikte kullanildiginda, tek basina Keytruda'ya kiyasla nuks ya da olum riskini yuzde 49, kanserin uzak organlara yayilmasi ya da olum riskini ise yuzde 59 azaltti. Yaklasim, geleneksel bir asidan koklu bicimde farkli: her doz tek bir hasta icin, o kisinin kendi tumorunde bulunan spesifik mutasyonlardan yola cikilarak uretiliyor; boylece bagisiklik sistemi yalnizca o hastaya ozgu hedefler uzerinde egitiliyor. Bu kisisellestirme ayni zamanda isin zor tarafi; cunku tumorun dizilenmesini, dizinin tasarlanmasini ve klinik olarak anlamli bir sure icinde ozel bir urunun uretilmesini gerektiriyor. Melanom burada varis noktasi degil bir test alani; ayni platform, cerrahinin saptanamayacak kadar az ama hastaligi geri getirmeye yetecek kadar hucre biraktigi diger tumor turlerinde de deneniyor."
+      },
+      "points": {
+        "en": [
+          "Phase 3 INTerpath-001 met both primary endpoints",
+          "49% lower risk of recurrence or death versus Keytruda alone",
+          "59% lower risk of distant metastasis or death",
+          "Each dose is built from mutations found in that individual patient's tumour"
+        ],
+        "es": [
+          "El ensayo de fase 3 INTerpath-001 cumplió ambos objetivos principales",
+          "49% menos riesgo de recaída o muerte frente a Keytruda en solitario",
+          "59% menos riesgo de metástasis a distancia o muerte",
+          "Cada dosis se elabora a partir de las mutaciones del tumor de cada paciente"
+        ],
+        "tr": [
+          "Faz 3 INTerpath-001 calismasi her iki birincil hedefi de karsiladi",
+          "Tek basina Keytruda'ya kiyasla nuks ya da olum riskinde yuzde 49 azalma",
+          "Uzak metastaz ya da olum riskinde yuzde 59 azalma",
+          "Her doz, ilgili hastanin tumorunde bulunan mutasyonlardan uretiliyor"
+        ]
+      },
+      "source": "Merck",
+      "url": "https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/"
+    }
+  ],
+  "author": "Daily Now"
+}

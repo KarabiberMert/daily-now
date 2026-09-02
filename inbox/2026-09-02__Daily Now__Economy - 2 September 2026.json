@@ -1,0 +1,91 @@
+{
+  "title": {
+    "en": "Economy - 2 September 2026",
+    "es": "Economía - 2 de septiembre de 2026",
+    "tr": "Ekonomi - 2 Eylul 2026"
+  },
+  "category": "economy",
+  "date": "2026-09-02",
+  "source": "Daily Now",
+  "stories": [
+    {
+      "title": {
+        "en": "Global bond sell-off deepens as oil and debt fears collide",
+        "es": "La venta masiva de bonos se agrava por el petróleo y el miedo a la deuda pública",
+        "tr": "Petrol ve borc endiseleri birlesirken kuresel tahvil satisi derinlesiyor"
+      },
+      "summary": {
+        "en": "Government bond yields climbed to levels not seen in decades across the US, Japan, the UK and Germany, driven by rising oil prices and mounting worries about public debt.",
+        "es": "Los rendimientos de la deuda pública subieron a niveles no vistos en décadas en EE. UU., Japón, Reino Unido y Alemania, impulsados por el alza del petróleo y la creciente inquietud por la deuda pública.",
+        "tr": "Devlet tahvili getirileri ABD, Japonya, Ingiltere ve Almanya'da onlarca yildir gorulmeyen seviyelere cikti; itici gucler yukselen petrol fiyatlari ve kamu borcuna dair artan endiseler."
+      },
+      "detail": {
+        "en": "The sell-off in government bonds gathered force on Wednesday, pushing yields in several major economies to levels not seen in decades. The yield on the 10-year US Treasury note, the benchmark that feeds through into mortgage rates and consumer borrowing costs, rose to 4.79%, its highest since January 2025. Japan's 10-year government bond yield touched 3% for the first time since 1996, an extraordinary move for a market that spent years pinned near zero. Britain's 30-year yield reached its highest level since 1998 and Germany's 10-year hit its highest since 2011. Two forces are pushing in the same direction: the renewed fighting between the United States and Iran has driven oil higher, which feeds directly into inflation expectations, and investors are simultaneously demanding more compensation to hold the debt of governments whose borrowing has kept growing. When yields rise everywhere at once, it is usually a sign the repricing is about the price of money itself rather than about any single country's finances.",
+        "es": "La venta de deuda pública se intensificó el miércoles y llevó los rendimientos de varias grandes economías a niveles que no se veían en décadas. El rendimiento del bono estadounidense a 10 años, la referencia que se traslada a las hipotecas y al coste del crédito al consumo, subió al 4,79%, su nivel más alto desde enero de 2025. El bono japonés a 10 años alcanzó el 3% por primera vez desde 1996, un movimiento extraordinario en un mercado que pasó años anclado cerca de cero. El británico a 30 años llegó a su nivel más alto desde 1998 y el alemán a 10 años al mayor desde 2011. Dos fuerzas empujan en la misma dirección: la reanudación de los combates entre Estados Unidos e Irán ha encarecido el petróleo, lo que alimenta directamente las expectativas de inflación, y a la vez los inversores exigen más compensación por mantener deuda de gobiernos cuyo endeudamiento no deja de crecer. Cuando los rendimientos suben a la vez en todas partes, suele ser señal de que la revisión afecta al precio del dinero en sí y no a las cuentas de un país concreto.",
+        "tr": "Devlet tahvillerindeki satis dalgasi carsamba gunu guclendi ve bircok buyuk ekonomide getirileri onlarca yildir gorulmeyen seviyelere tasidi. Konut kredisi faizlerine ve tuketici borclanma maliyetlerine yansiyan gosterge olan 10 yillik ABD Hazine tahvilinin getirisi, ocak 2025'ten bu yana en yuksek seviye olan yuzde 4,79'a yukseldi. Japonya'nin 10 yillik devlet tahvili getirisi 1996'dan bu yana ilk kez yuzde 3'e dokundu; yillarca sifira yakin cakili kalmis bir piyasa icin bu olaganustu bir hareket. Ingiltere'nin 30 yillik getirisi 1998'den, Almanya'nin 10 yilligi ise 2011'den bu yana en yuksek duzeye ulasti. Iki guc ayni yone itiyor: ABD ile Iran arasinda yeniden alevlenen catisma petrolu yukseltti ve bu dogrudan enflasyon beklentilerini besliyor; ayni anda yatirimcilar borclanmasi surekli buyuyen hukumetlerin tahvillerini tutmak icin daha yuksek getiri talep ediyor. Getiriler her yerde ayni anda yukseldiginde, bu genellikle yeniden fiyatlamanin tek bir ulkenin maliyesiyle degil paranin fiyatiyla ilgili oldugunun isaretidir."
+      },
+      "points": {
+        "en": [
+          "10-year US Treasury yield at 4.79%, highest since January 2025",
+          "Japan's 10-year yield touched 3% for the first time since 1996",
+          "UK 30-year yield at its highest since 1998",
+          "German 10-year yield at its highest since 2011"
+        ],
+        "es": [
+          "El bono de EE. UU. a 10 años, al 4,79%, máximo desde enero de 2025",
+          "El japonés a 10 años tocó el 3% por primera vez desde 1996",
+          "El británico a 30 años, en máximos desde 1998",
+          "El alemán a 10 años, en máximos desde 2011"
+        ],
+        "tr": [
+          "10 yillik ABD tahvil getirisi yuzde 4,79 ile ocak 2025'ten bu yana en yuksek seviyede",
+          "Japonya'nin 10 yillik getirisi 1996'dan bu yana ilk kez yuzde 3'e dokundu",
+          "Ingiltere'nin 30 yillik getirisi 1998'den bu yana zirvede",
+          "Almanya'nin 10 yillik getirisi 2011'den bu yana en yuksek duzeyde"
+        ]
+      },
+      "source": "BNN Bloomberg",
+      "url": "https://www.bnnbloomberg.ca/investing/2026/09/02/bond-selloff-deepens-as-oil-prices-and-public-debt-fears-jolt-markets/"
+    },
+    {
+      "title": {
+        "en": "Oil back above $92 revives the inflation problem",
+        "es": "El petróleo por encima de 92 dólares reaviva el problema de la inflación",
+        "tr": "92 dolarin uzerine cikan petrol enflasyon sorununu yeniden gundeme tasidi"
+      },
+      "summary": {
+        "en": "Brent crude rose 2% as fighting between the US and Iran resumed, pushing central banks that had been expected to cut rates toward the opposite decision.",
+        "es": "El crudo Brent subió un 2% al reanudarse los combates entre EE. UU. e Irán, empujando hacia la decisión contraria a los bancos centrales de los que se esperaban recortes de tipos.",
+        "tr": "ABD ile Iran arasindaki catismanin yeniden baslamasiyla Brent ham petrolu yuzde 2 yukseldi ve faiz indirmesi beklenen merkez bankalarini tam tersi bir karara dogru itti."
+      },
+      "detail": {
+        "en": "Brent crude, the global oil benchmark, rose 2% to climb back above $92 a barrel as the latest round of fighting between the United States and Iran resumed around the Strait of Hormuz. Energy prices are the fastest route from a distant conflict to a household budget, since fuel costs pass into transport, food and manufacturing within weeks rather than years. That transmission is what makes this a monetary policy problem rather than only a geopolitical one. Central banks spent the first half of 2026 expecting to cut rates as inflation cooled, and have spent the second half watching that assumption unwind. The market has now moved from pricing cuts to pricing a real possibility of increases, with the Federal Reserve holding at 3.50% to 3.75% through five straight meetings while it waits for clarity. The awkward part for policymakers is that a rate rise does nothing to bring more oil to market; it can only cool demand elsewhere in the economy to offset the price shock, which is a blunt tool for a supply problem.",
+        "es": "El crudo Brent, referencia mundial del petróleo, subió un 2% y volvió a superar los 92 dólares por barril al reanudarse la última ronda de combates entre Estados Unidos e Irán en torno al estrecho de Ormuz. Los precios de la energía son la vía más rápida entre un conflicto lejano y el presupuesto de un hogar, porque el coste del combustible se traslada al transporte, la alimentación y la industria en semanas, no en años. Esa transmisión es lo que convierte el asunto en un problema de política monetaria y no solo geopolítico. Los bancos centrales pasaron la primera mitad de 2026 esperando bajar tipos a medida que la inflación se enfriaba, y la segunda mitad viendo cómo se deshacía esa premisa. El mercado ha pasado de descontar recortes a descontar una posibilidad real de subidas, con la Reserva Federal manteniéndose entre el 3,50% y el 3,75% durante cinco reuniones seguidas mientras espera claridad. Lo incómodo para las autoridades es que subir tipos no aporta ni un barril más al mercado: solo puede enfriar la demanda en otras partes de la economía para compensar el shock de precios, una herramienta muy tosca para un problema de oferta.",
+        "tr": "Kuresel petrol gostergesi Brent, ABD ile Iran arasindaki catismanin Hurmuz Bogazi cevresinde yeniden alevlenmesiyle yuzde 2 yukselerek varil basina 92 dolarin uzerine dondu. Enerji fiyatlari, uzaktaki bir catismadan hane butcesine giden en hizli yoldur; cunku yakit maliyeti ulasima, gidaya ve sanayiye yillar icinde degil haftalar icinde gecer. Bu gecis mekanizmasi, meseleyi yalnizca jeopolitik degil bir para politikasi sorunu haline getiriyor. Merkez bankalari 2026'nin ilk yarisini, enflasyon sogudukca faiz indirmeyi bekleyerek gecirdi; ikinci yarisini ise bu varsayimin cozulusunu izleyerek. Piyasa artik indirim fiyatlamasindan gercek bir artirim ihtimalini fiyatlamaya gecti; Federal Rezerv ise netlik beklerken ust uste bes toplantidir faizi yuzde 3,50-3,75 araliginda tutuyor. Politika yapicilar acisindan zor olan sey, faiz artiriminin piyasaya tek bir varil bile fazladan petrol getirmemesi; yalnizca fiyat sokunu dengelemek icin ekonominin baska yerlerindeki talebi sogutabilir ki bu, bir arz sorunu icin oldukca kaba bir arac."
+      },
+      "points": {
+        "en": [
+          "Brent crude rose 2% to above $92 a barrel",
+          "Fuel costs reach transport, food and manufacturing within weeks",
+          "The Fed has held at 3.50%-3.75% for five straight meetings",
+          "Rate rises cannot add supply, only cool demand elsewhere"
+        ],
+        "es": [
+          "El crudo Brent subió un 2% y superó los 92 dólares por barril",
+          "El coste del combustible llega al transporte, la alimentación y la industria en semanas",
+          "La Fed lleva cinco reuniones seguidas entre el 3,50% y el 3,75%",
+          "Subir tipos no añade oferta, solo enfría la demanda en otros ámbitos"
+        ],
+        "tr": [
+          "Brent ham petrolu yuzde 2 yukselerek varil basina 92 dolarin uzerine cikti",
+          "Yakit maliyeti ulasima, gidaya ve sanayiye haftalar icinde yansiyor",
+          "Fed ust uste bes toplantidir faizi yuzde 3,50-3,75 araliginda tutuyor",
+          "Faiz artirimi arzi artiramaz, yalnizca baska alanlardaki talebi sogutabilir"
+        ]
+      },
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/09/01/oil-prices-bond-yields-inflation-fe/"
+    }
+  ],
+  "author": "Daily Now"
+}

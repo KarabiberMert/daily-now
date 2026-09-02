@@ -6,567 +6,581 @@
   "articles": [
     {
       "title": {
-        "en": "Economy - 1 September 2026",
-        "es": "Economía - 1 de septiembre de 2026",
-        "tr": "Ekonomi - 1 Eylul 2026"
+        "en": "Economy - 2 September 2026",
+        "es": "Economía - 2 de septiembre de 2026",
+        "tr": "Ekonomi - 2 Eylul 2026"
       },
       "category": "economy",
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "source": "Daily Now",
       "stories": [
         {
           "title": {
-            "en": "Japan's inflation data makes a September rate hike hard to avoid",
-            "es": "Los datos de inflación de Japón hacen difícil evitar una subida de tipos en septiembre",
-            "tr": "Japonya'nin enflasyon verileri eylulde faiz artirimini kacinilmaz kiliyor"
+            "en": "Global bond sell-off deepens as oil and debt fears collide",
+            "es": "La venta masiva de bonos se agrava por el petróleo y el miedo a la deuda pública",
+            "tr": "Petrol ve borc endiseleri birlesirken kuresel tahvil satisi derinlesiyor"
           },
           "summary": {
-            "en": "Underlying price growth stayed above the Bank of Japan's 2% target in July, and traders now put the odds of a quarter-point hike at this month's meeting well above 80%.",
-            "es": "El crecimiento subyacente de los precios se mantuvo por encima del objetivo del 2% del Banco de Japón en julio, y los operadores sitúan ya la probabilidad de una subida de un cuarto de punto este mes muy por encima del 80%.",
-            "tr": "Temel enflasyon temmuzda Japonya Merkez Bankasi'nin yuzde 2 hedefinin uzerinde kaldi; yatirimcilar bu ayki toplantida ceyrek puanlik artirim ihtimalini yuzde 80'in belirgin sekilde uzerinde goruyor."
+            "en": "Government bond yields climbed to levels not seen in decades across the US, Japan, the UK and Germany, driven by rising oil prices and mounting worries about public debt.",
+            "es": "Los rendimientos de la deuda pública subieron a niveles no vistos en décadas en EE. UU., Japón, Reino Unido y Alemania, impulsados por el alza del petróleo y la creciente inquietud por la deuda pública.",
+            "tr": "Devlet tahvili getirileri ABD, Japonya, Ingiltere ve Almanya'da onlarca yildir gorulmeyen seviyelere cikti; itici gucler yukselen petrol fiyatlari ve kamu borcuna dair artan endiseler."
           },
           "detail": {
-            "en": "Japan's latest price figures leave the Bank of Japan with little room to sit still. Core inflation, which excludes fresh food but keeps energy, matched forecasts at 1.8%, while the core-core measure that strips out both came in at 1.9%. More telling for policymakers, the BOJ's own gauge of underlying inflation, which removes fresh food and the effect of various government relief measures, rose 2.3% in July from a year earlier. That is the third straight signal that price pressure is coming from wages and demand rather than one-off shocks. The board next sets policy in September, and prediction markets put the chance of a 25 basis point increase at about 84%. The bank lifted its policy rate to 1% in June, the highest level since 1995, and warned last month that core inflation would move clearly above 2% in the second half of its fiscal year, which runs from September to March. Officials have pointed to three drivers in particular: wage increases being passed through into selling prices, higher crude oil costs, and the recent slide in the yen, which makes everything Japan imports more expensive.",
-            "es": "Las últimas cifras de precios de Japón dejan poco margen al Banco de Japón para quedarse quieto. La inflación subyacente, que excluye los alimentos frescos pero mantiene la energía, coincidió con las previsiones en el 1,8%, mientras que la medida que descuenta ambos componentes se situó en el 1,9%. Más revelador para los responsables de política monetaria: el propio indicador del BOJ sobre la inflación de fondo, que elimina los alimentos frescos y el efecto de diversas ayudas públicas, subió un 2,3% en julio interanual. Es la tercera señal consecutiva de que la presión de precios viene de los salarios y la demanda, y no de choques puntuales. El consejo vuelve a decidir en septiembre y los mercados de predicción sitúan la probabilidad de una subida de 25 puntos básicos en torno al 84%. El banco elevó su tipo de referencia al 1% en junio, el nivel más alto desde 1995, y advirtió el mes pasado de que la inflación subyacente superaría claramente el 2% en la segunda mitad de su año fiscal, que va de septiembre a marzo. Las autoridades señalan tres motores: el traslado de las subidas salariales a los precios de venta, el encarecimiento del crudo y la reciente caída del yen, que encarece todo lo que Japón importa.",
-            "tr": "Japonya'nin son fiyat verileri, Japonya Merkez Bankasi'na hareketsiz kalma alani birakmiyor. Taze gidayi dislayan ama enerjiyi iceren cekirdek enflasyon beklentilerle uyumlu sekilde yuzde 1,8 olurken, her ikisini de disarida birakan olcum yuzde 1,9 geldi. Politika yapicilar acisindan daha belirleyici olan ise, taze gidayi ve cesitli kamu destek onlemlerinin etkisini aritarak hesaplanan bankanin kendi temel enflasyon gostergesinin temmuzda yillik yuzde 2,3 artmasi oldu. Bu, fiyat baskisinin tek seferlik soklardan degil ucretlerden ve talepten geldigine dair ust uste ucuncu sinyal. Kurul eylulde yeniden faiz belirleyecek; tahmin piyasalari 25 baz puanlik artirim ihtimalini yaklasik yuzde 84 olarak fiyatliyor. Banka haziranda politika faizini 1995'ten bu yana en yuksek seviye olan yuzde 1'e cikarmis, gecen ay da cekirdek enflasyonun eylulden marta uzanan mali yilin ikinci yarisinda yuzde 2'nin belirgin sekilde uzerine cikacagi uyarisini yapmisti. Yetkililer ozellikle uc etkene isaret ediyor: ucret artislarinin satis fiyatlarina yansimasi, ham petrol maliyetlerindeki yukselis ve Japonya'nin ithal ettigi her seyi pahalilastiran son donemdeki yen deger kaybi."
+            "en": "The sell-off in government bonds gathered force on Wednesday, pushing yields in several major economies to levels not seen in decades. The yield on the 10-year US Treasury note, the benchmark that feeds through into mortgage rates and consumer borrowing costs, rose to 4.79%, its highest since January 2025. Japan's 10-year government bond yield touched 3% for the first time since 1996, an extraordinary move for a market that spent years pinned near zero. Britain's 30-year yield reached its highest level since 1998 and Germany's 10-year hit its highest since 2011. Two forces are pushing in the same direction: the renewed fighting between the United States and Iran has driven oil higher, which feeds directly into inflation expectations, and investors are simultaneously demanding more compensation to hold the debt of governments whose borrowing has kept growing. When yields rise everywhere at once, it is usually a sign the repricing is about the price of money itself rather than about any single country's finances.",
+            "es": "La venta de deuda pública se intensificó el miércoles y llevó los rendimientos de varias grandes economías a niveles que no se veían en décadas. El rendimiento del bono estadounidense a 10 años, la referencia que se traslada a las hipotecas y al coste del crédito al consumo, subió al 4,79%, su nivel más alto desde enero de 2025. El bono japonés a 10 años alcanzó el 3% por primera vez desde 1996, un movimiento extraordinario en un mercado que pasó años anclado cerca de cero. El británico a 30 años llegó a su nivel más alto desde 1998 y el alemán a 10 años al mayor desde 2011. Dos fuerzas empujan en la misma dirección: la reanudación de los combates entre Estados Unidos e Irán ha encarecido el petróleo, lo que alimenta directamente las expectativas de inflación, y a la vez los inversores exigen más compensación por mantener deuda de gobiernos cuyo endeudamiento no deja de crecer. Cuando los rendimientos suben a la vez en todas partes, suele ser señal de que la revisión afecta al precio del dinero en sí y no a las cuentas de un país concreto.",
+            "tr": "Devlet tahvillerindeki satis dalgasi carsamba gunu guclendi ve bircok buyuk ekonomide getirileri onlarca yildir gorulmeyen seviyelere tasidi. Konut kredisi faizlerine ve tuketici borclanma maliyetlerine yansiyan gosterge olan 10 yillik ABD Hazine tahvilinin getirisi, ocak 2025'ten bu yana en yuksek seviye olan yuzde 4,79'a yukseldi. Japonya'nin 10 yillik devlet tahvili getirisi 1996'dan bu yana ilk kez yuzde 3'e dokundu; yillarca sifira yakin cakili kalmis bir piyasa icin bu olaganustu bir hareket. Ingiltere'nin 30 yillik getirisi 1998'den, Almanya'nin 10 yilligi ise 2011'den bu yana en yuksek duzeye ulasti. Iki guc ayni yone itiyor: ABD ile Iran arasinda yeniden alevlenen catisma petrolu yukseltti ve bu dogrudan enflasyon beklentilerini besliyor; ayni anda yatirimcilar borclanmasi surekli buyuyen hukumetlerin tahvillerini tutmak icin daha yuksek getiri talep ediyor. Getiriler her yerde ayni anda yukseldiginde, bu genellikle yeniden fiyatlamanin tek bir ulkenin maliyesiyle degil paranin fiyatiyla ilgili oldugunun isaretidir."
           },
           "points": {
             "en": [
-              "Core inflation 1.8%, core-core 1.9%, BOJ underlying gauge 2.3% in July",
-              "Prediction markets price an 84% chance of a 25 basis point hike in September",
-              "The policy rate reached 1% in June, the highest since 1995",
-              "Wage pass-through, crude oil costs and a weaker yen are the main drivers"
+              "10-year US Treasury yield at 4.79%, highest since January 2025",
+              "Japan's 10-year yield touched 3% for the first time since 1996",
+              "UK 30-year yield at its highest since 1998",
+              "German 10-year yield at its highest since 2011"
             ],
             "es": [
-              "Inflación subyacente 1,8%, sin energía 1,9% y el indicador de fondo del BOJ 2,3% en julio",
-              "Los mercados de predicción dan un 84% de probabilidad a una subida de 25 puntos básicos en septiembre",
-              "El tipo de referencia llegó al 1% en junio, máximo desde 1995",
-              "El traslado salarial, el crudo y un yen más débil son los principales motores"
+              "El bono de EE. UU. a 10 años, al 4,79%, máximo desde enero de 2025",
+              "El japonés a 10 años tocó el 3% por primera vez desde 1996",
+              "El británico a 30 años, en máximos desde 1998",
+              "El alemán a 10 años, en máximos desde 2011"
             ],
             "tr": [
-              "Temmuzda cekirdek enflasyon yuzde 1,8, enerji haric yuzde 1,9, BOJ temel gostergesi yuzde 2,3",
-              "Tahmin piyasalari eylulde 25 baz puanlik artirima yuzde 84 ihtimal veriyor",
-              "Politika faizi haziranda 1995'ten bu yana en yuksek seviye olan yuzde 1'e ulasti",
-              "Ucret gecisleri, ham petrol maliyetleri ve zayiflayan yen baslica etkenler"
+              "10 yillik ABD tahvil getirisi yuzde 4,79 ile ocak 2025'ten bu yana en yuksek seviyede",
+              "Japonya'nin 10 yillik getirisi 1996'dan bu yana ilk kez yuzde 3'e dokundu",
+              "Ingiltere'nin 30 yillik getirisi 1998'den bu yana zirvede",
+              "Almanya'nin 10 yillik getirisi 2011'den bu yana en yuksek duzeyde"
             ]
           },
-          "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/economy/policy/articles/japan-inflation-print-just-made-071352297.html"
+          "source": "BNN Bloomberg",
+          "url": "https://www.bnnbloomberg.ca/investing/2026/09/02/bond-selloff-deepens-as-oil-prices-and-public-debt-fears-jolt-markets/"
+        },
+        {
+          "title": {
+            "en": "Oil back above $92 revives the inflation problem",
+            "es": "El petróleo por encima de 92 dólares reaviva el problema de la inflación",
+            "tr": "92 dolarin uzerine cikan petrol enflasyon sorununu yeniden gundeme tasidi"
+          },
+          "summary": {
+            "en": "Brent crude rose 2% as fighting between the US and Iran resumed, pushing central banks that had been expected to cut rates toward the opposite decision.",
+            "es": "El crudo Brent subió un 2% al reanudarse los combates entre EE. UU. e Irán, empujando hacia la decisión contraria a los bancos centrales de los que se esperaban recortes de tipos.",
+            "tr": "ABD ile Iran arasindaki catismanin yeniden baslamasiyla Brent ham petrolu yuzde 2 yukseldi ve faiz indirmesi beklenen merkez bankalarini tam tersi bir karara dogru itti."
+          },
+          "detail": {
+            "en": "Brent crude, the global oil benchmark, rose 2% to climb back above $92 a barrel as the latest round of fighting between the United States and Iran resumed around the Strait of Hormuz. Energy prices are the fastest route from a distant conflict to a household budget, since fuel costs pass into transport, food and manufacturing within weeks rather than years. That transmission is what makes this a monetary policy problem rather than only a geopolitical one. Central banks spent the first half of 2026 expecting to cut rates as inflation cooled, and have spent the second half watching that assumption unwind. The market has now moved from pricing cuts to pricing a real possibility of increases, with the Federal Reserve holding at 3.50% to 3.75% through five straight meetings while it waits for clarity. The awkward part for policymakers is that a rate rise does nothing to bring more oil to market; it can only cool demand elsewhere in the economy to offset the price shock, which is a blunt tool for a supply problem.",
+            "es": "El crudo Brent, referencia mundial del petróleo, subió un 2% y volvió a superar los 92 dólares por barril al reanudarse la última ronda de combates entre Estados Unidos e Irán en torno al estrecho de Ormuz. Los precios de la energía son la vía más rápida entre un conflicto lejano y el presupuesto de un hogar, porque el coste del combustible se traslada al transporte, la alimentación y la industria en semanas, no en años. Esa transmisión es lo que convierte el asunto en un problema de política monetaria y no solo geopolítico. Los bancos centrales pasaron la primera mitad de 2026 esperando bajar tipos a medida que la inflación se enfriaba, y la segunda mitad viendo cómo se deshacía esa premisa. El mercado ha pasado de descontar recortes a descontar una posibilidad real de subidas, con la Reserva Federal manteniéndose entre el 3,50% y el 3,75% durante cinco reuniones seguidas mientras espera claridad. Lo incómodo para las autoridades es que subir tipos no aporta ni un barril más al mercado: solo puede enfriar la demanda en otras partes de la economía para compensar el shock de precios, una herramienta muy tosca para un problema de oferta.",
+            "tr": "Kuresel petrol gostergesi Brent, ABD ile Iran arasindaki catismanin Hurmuz Bogazi cevresinde yeniden alevlenmesiyle yuzde 2 yukselerek varil basina 92 dolarin uzerine dondu. Enerji fiyatlari, uzaktaki bir catismadan hane butcesine giden en hizli yoldur; cunku yakit maliyeti ulasima, gidaya ve sanayiye yillar icinde degil haftalar icinde gecer. Bu gecis mekanizmasi, meseleyi yalnizca jeopolitik degil bir para politikasi sorunu haline getiriyor. Merkez bankalari 2026'nin ilk yarisini, enflasyon sogudukca faiz indirmeyi bekleyerek gecirdi; ikinci yarisini ise bu varsayimin cozulusunu izleyerek. Piyasa artik indirim fiyatlamasindan gercek bir artirim ihtimalini fiyatlamaya gecti; Federal Rezerv ise netlik beklerken ust uste bes toplantidir faizi yuzde 3,50-3,75 araliginda tutuyor. Politika yapicilar acisindan zor olan sey, faiz artiriminin piyasaya tek bir varil bile fazladan petrol getirmemesi; yalnizca fiyat sokunu dengelemek icin ekonominin baska yerlerindeki talebi sogutabilir ki bu, bir arz sorunu icin oldukca kaba bir arac."
+          },
+          "points": {
+            "en": [
+              "Brent crude rose 2% to above $92 a barrel",
+              "Fuel costs reach transport, food and manufacturing within weeks",
+              "The Fed has held at 3.50%-3.75% for five straight meetings",
+              "Rate rises cannot add supply, only cool demand elsewhere"
+            ],
+            "es": [
+              "El crudo Brent subió un 2% y superó los 92 dólares por barril",
+              "El coste del combustible llega al transporte, la alimentación y la industria en semanas",
+              "La Fed lleva cinco reuniones seguidas entre el 3,50% y el 3,75%",
+              "Subir tipos no añade oferta, solo enfría la demanda en otros ámbitos"
+            ],
+            "tr": [
+              "Brent ham petrolu yuzde 2 yukselerek varil basina 92 dolarin uzerine cikti",
+              "Yakit maliyeti ulasima, gidaya ve sanayiye haftalar icinde yansiyor",
+              "Fed ust uste bes toplantidir faizi yuzde 3,50-3,75 araliginda tutuyor",
+              "Faiz artirimi arzi artiramaz, yalnizca baska alanlardaki talebi sogutabilir"
+            ]
+          },
+          "source": "Fortune",
+          "url": "https://fortune.com/2026/09/01/oil-prices-bond-yields-inflation-fe/"
         }
       ],
       "author": "Daily Now",
-      "path": "2026-09-01__Daily Now__Economy - 1 September 2026.json",
-      "size": 6215,
-      "mtime": 1788259065996
+      "path": "2026-09-02__Daily Now__Economy - 2 September 2026.json",
+      "size": 10958,
+      "mtime": 1788355220176
     },
     {
       "title": {
-        "en": "Health - 1 September 2026",
-        "es": "Salud - 1 de septiembre de 2026",
-        "tr": "Saglik - 1 Eylul 2026"
+        "en": "Health - 2 September 2026",
+        "es": "Salud - 2 de septiembre de 2026",
+        "tr": "Saglik - 2 Eylul 2026"
       },
       "category": "health",
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "source": "Daily Now",
       "stories": [
         {
           "title": {
-            "en": "FDA approves first hepcidin-mimicking drug for a rare blood disorder",
-            "es": "La FDA aprueba el primer fármaco que imita la hepcidina para un trastorno sanguíneo raro",
-            "tr": "FDA, nadir bir kan hastaligi icin hepsidin taklidi ilk ilaci onayladi"
+            "en": "Personalised mRNA cancer vaccine cuts melanoma recurrence in Phase 3",
+            "es": "Una vacuna de ARNm personalizada reduce la recaída del melanoma en fase 3",
+            "tr": "Kisiye ozel mRNA kanser asisi, Faz 3'te melanomun nuksunu azaltti"
           },
           "summary": {
-            "en": "Mimrylo treats polycythemia vera by limiting the iron available for red blood cell production, a mechanism no approved therapy had used before.",
-            "es": "Mimrylo trata la policitemia vera limitando el hierro disponible para producir glóbulos rojos, un mecanismo que ningún tratamiento aprobado había usado antes.",
-            "tr": "Mimrylo, polisitemia vera hastaligini kirmizi kan hucresi uretimi icin kullanilabilir demiri sinirlayarak tedavi ediyor; bu mekanizmayi daha once onayli hicbir tedavi kullanmamisti."
+            "en": "Merck and Moderna say intismeran autogene added to Keytruda cut the risk of recurrence or death by 49% in patients whose melanoma had been surgically removed.",
+            "es": "Merck y Moderna afirman que intismerán autógeno añadido a Keytruda redujo un 49% el riesgo de recaída o muerte en pacientes con melanoma extirpado quirúrgicamente.",
+            "tr": "Merck ve Moderna, Keytruda'ya eklenen intismeran autogene'in melanomu cerrahi olarak alinmis hastalarda nuks ya da olum riskini yuzde 49 azalttigini bildirdi."
           },
           "detail": {
-            "en": "The US Food and Drug Administration has approved Mimrylo, known generically as rusfertide, for adults with polycythemia vera, a rare blood disorder in which the body produces too many red blood cells. The drug works by mimicking hepcidin, the hormone that regulates how much iron the body makes available. By restricting the iron supply that new red blood cells need, it slows the overproduction at its source rather than removing blood after the fact. That matters because the long-standing management for polycythemia vera is therapeutic phlebotomy, essentially repeated blood draws, which controls the cell count but leaves patients iron-depleted and tied to a clinic schedule. Approval was supported by the Phase 3 VERIFY trial, in which 76.9% of patients achieved a clinical response during weeks 20 to 32. The drug was developed by Protagonist Therapeutics and Takeda, and is aimed at patients whose disease has not been adequately controlled by existing therapies.",
-            "es": "La Administración de Alimentos y Medicamentos de EE. UU. ha aprobado Mimrylo, de nombre genérico rusfertida, para adultos con policitemia vera, un trastorno sanguíneo raro en el que el organismo produce demasiados glóbulos rojos. El fármaco actúa imitando la hepcidina, la hormona que regula cuánto hierro pone el cuerpo a disposición. Al restringir el hierro que necesitan los nuevos glóbulos rojos, frena la sobreproducción en su origen en lugar de extraer sangre a posteriori. Esto importa porque el manejo habitual de la policitemia vera es la flebotomía terapéutica, es decir, extracciones de sangre repetidas, que controla el recuento celular pero deja al paciente con déficit de hierro y atado al calendario de la clínica. La aprobación se apoyó en el ensayo de fase 3 VERIFY, en el que el 76,9% de los pacientes logró una respuesta clínica entre las semanas 20 y 32. El medicamento ha sido desarrollado por Protagonist Therapeutics y Takeda, y se dirige a pacientes cuya enfermedad no se controla adecuadamente con las terapias existentes.",
-            "tr": "ABD Gida ve Ilac Dairesi, jenerik adi rusfertid olan Mimrylo'yu, vucudun asiri sayida kirmizi kan hucresi urettigi nadir bir kan hastaligi olan polisitemia vera icin yetiskinlerde kullanilmak uzere onayladi. Ilac, vucudun ne kadar demiri kullanilabilir hale getirdigini duzenleyen hormon olan hepsidini taklit ederek etki gosteriyor. Yeni kirmizi kan hucrelerinin ihtiyac duydugu demir arzini kisitlayarak, asiri uretimi sonradan kan alarak degil kaynaginda yavaslatiyor. Bu onemli; cunku polisitemia veranin uzun sureli standart yonetimi, hucre sayisini kontrol eden ama hastayi demir eksikligine ve klinik takvimine bagimli birakan tekrarli kan alma islemi, yani terapotik flebotomi. Onay, hastalarin yuzde 76,9'unun 20 ile 32. haftalar arasinda klinik yanit elde ettigi Faz 3 VERIFY calismasina dayaniyor. Protagonist Therapeutics ve Takeda tarafindan gelistirilen ilac, hastaligi mevcut tedavilerle yeterince kontrol altina alinamayan hastalari hedefliyor."
+            "en": "Merck and Moderna have reported that their Phase 3 INTerpath-001 trial met its primary endpoints, in what may be the strongest evidence yet for personalised cancer vaccines. The treatment, intismeran autogene, is an individualised mRNA vaccine given alongside Merck's immunotherapy Keytruda to patients whose stage IIB to IV melanoma has been completely removed by surgery. Combined with Keytruda, it reduced the risk of recurrence or death by 49% and the risk of the cancer spreading to distant organs or death by 59%, compared with Keytruda alone. The approach is fundamentally different from a conventional vaccine: each dose is manufactured for one patient, built from the specific mutations found in that person's own tumour, so the immune system is trained on targets unique to them. That customisation is also the hard part, since it requires sequencing a tumour, designing the sequence and manufacturing a bespoke product within a clinically useful window. Melanoma is the proving ground rather than the destination, and the same platform is being tested in other tumour types where surgery leaves behind cells too few to detect but enough to bring the disease back.",
+            "es": "Merck y Moderna han comunicado que su ensayo de fase 3 INTerpath-001 alcanzó sus objetivos principales, en lo que puede ser la evidencia más sólida hasta la fecha a favor de las vacunas personalizadas contra el cáncer. El tratamiento, intismerán autógeno, es una vacuna de ARNm individualizada que se administra junto a la inmunoterapia Keytruda de Merck en pacientes cuyo melanoma en estadio IIB a IV ha sido extirpado por completo mediante cirugía. Combinada con Keytruda, redujo un 49% el riesgo de recaída o muerte y un 59% el riesgo de metástasis a distancia o muerte, frente a Keytruda en solitario. El enfoque es radicalmente distinto al de una vacuna convencional: cada dosis se fabrica para un solo paciente, a partir de las mutaciones concretas halladas en su propio tumor, de modo que el sistema inmunitario se entrena con dianas exclusivas de esa persona. Esa personalización es también la parte difícil, porque exige secuenciar el tumor, diseñar la secuencia y fabricar un producto a medida dentro de un plazo clínicamente útil. El melanoma es el banco de pruebas y no el destino final: la misma plataforma se está ensayando en otros tumores en los que la cirugía deja células demasiado escasas para detectarse pero suficientes para que la enfermedad vuelva.",
+            "tr": "Merck ve Moderna, Faz 3 INTerpath-001 calismasinin birincil hedeflerini karsiladigini bildirdi; bu, kisiye ozel kanser asilari icin bugune kadarki en guclu kanit olabilir. Intismeran autogene adli tedavi, evre IIB ila IV melanomu cerrahi olarak tamamen alinmis hastalara Merck'in immunoterapi ilaci Keytruda ile birlikte verilen bireysellestirilmis bir mRNA asisi. Keytruda ile birlikte kullanildiginda, tek basina Keytruda'ya kiyasla nuks ya da olum riskini yuzde 49, kanserin uzak organlara yayilmasi ya da olum riskini ise yuzde 59 azaltti. Yaklasim, geleneksel bir asidan koklu bicimde farkli: her doz tek bir hasta icin, o kisinin kendi tumorunde bulunan spesifik mutasyonlardan yola cikilarak uretiliyor; boylece bagisiklik sistemi yalnizca o hastaya ozgu hedefler uzerinde egitiliyor. Bu kisisellestirme ayni zamanda isin zor tarafi; cunku tumorun dizilenmesini, dizinin tasarlanmasini ve klinik olarak anlamli bir sure icinde ozel bir urunun uretilmesini gerektiriyor. Melanom burada varis noktasi degil bir test alani; ayni platform, cerrahinin saptanamayacak kadar az ama hastaligi geri getirmeye yetecek kadar hucre biraktigi diger tumor turlerinde de deneniyor."
           },
           "points": {
             "en": [
-              "Generic name rusfertide, developed by Protagonist Therapeutics and Takeda",
-              "First approved polycythemia vera therapy to work by mimicking hepcidin",
-              "Phase 3 VERIFY trial: 76.9% clinical response in weeks 20 to 32",
-              "Offers an alternative to repeated therapeutic phlebotomy"
+              "Phase 3 INTerpath-001 met both primary endpoints",
+              "49% lower risk of recurrence or death versus Keytruda alone",
+              "59% lower risk of distant metastasis or death",
+              "Each dose is built from mutations found in that individual patient's tumour"
             ],
             "es": [
-              "Nombre genérico rusfertida, desarrollado por Protagonist Therapeutics y Takeda",
-              "Primera terapia aprobada para la policitemia vera que actúa imitando la hepcidina",
-              "Ensayo de fase 3 VERIFY: 76,9% de respuesta clínica entre las semanas 20 y 32",
-              "Ofrece una alternativa a las flebotomías terapéuticas repetidas"
+              "El ensayo de fase 3 INTerpath-001 cumplió ambos objetivos principales",
+              "49% menos riesgo de recaída o muerte frente a Keytruda en solitario",
+              "59% menos riesgo de metástasis a distancia o muerte",
+              "Cada dosis se elabora a partir de las mutaciones del tumor de cada paciente"
             ],
             "tr": [
-              "Jenerik adi rusfertid; Protagonist Therapeutics ve Takeda tarafindan gelistirildi",
-              "Hepsidin taklidiyle etki gosteren ilk onayli polisitemia vera tedavisi",
-              "Faz 3 VERIFY calismasi: 20-32. haftalarda yuzde 76,9 klinik yanit",
-              "Tekrarli terapotik flebotomiye alternatif sunuyor"
+              "Faz 3 INTerpath-001 calismasi her iki birincil hedefi de karsiladi",
+              "Tek basina Keytruda'ya kiyasla nuks ya da olum riskinde yuzde 49 azalma",
+              "Uzak metastaz ya da olum riskinde yuzde 59 azalma",
+              "Her doz, ilgili hastanin tumorunde bulunan mutasyonlardan uretiliyor"
             ]
           },
-          "source": "FDA",
-          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-its-kind-polycythemia-vera-rare-blood-disorder"
-        },
-        {
-          "title": {
-            "en": "Lymphoma antibody Epkinly misses survival goal in confirmatory trial",
-            "es": "El anticuerpo para linfoma Epkinly no alcanza su objetivo de supervivencia en el ensayo confirmatorio",
-            "tr": "Lenfoma antikoru Epkinly, dogrulama calismasinda sagkalim hedefini tutturamadi"
-          },
-          "summary": {
-            "en": "Genmab and AbbVie say epcoritamab failed its US primary endpoint of overall survival in the Phase 3 EPCORE DLBCL-1 study, putting an accelerated approval to the test.",
-            "es": "Genmab y AbbVie afirman que epcoritamab no cumplió su objetivo primario de supervivencia global en EE. UU. en el estudio de fase 3 EPCORE DLBCL-1, lo que pone a prueba una aprobación acelerada.",
-            "tr": "Genmab ve AbbVie, epcoritamabin Faz 3 EPCORE DLBCL-1 calismasinda ABD'deki birincil genel sagkalim hedefini karsilamadigini bildirdi; bu durum hizlandirilmis onayi sinaviyor."
-          },
-          "detail": {
-            "en": "Epcoritamab, sold as Epkinly, missed its US primary endpoint of overall survival in the Phase 3 EPCORE DLBCL-1 trial, according to drugmakers Genmab and AbbVie. The drug is a CD3xCD20 bispecific antibody, a design that grabs a patient's own T cells with one arm and the cancer cell with the other to force an immune attack on the tumour. It had been granted accelerated approval by the FDA for relapsed or refractory diffuse large B-cell lymphoma, the most common aggressive form of non-Hodgkin lymphoma. Accelerated approval is conditional by design: it lets a promising drug reach patients early on the strength of a surrogate measure such as tumour response, on the understanding that a later trial must confirm real clinical benefit. A confirmatory study that misses overall survival is exactly the outcome that machinery exists to catch, and it now falls to regulators and the companies to decide what happens to the existing indication. For patients currently taking the drug, nothing changes immediately, and treatment decisions remain a matter for their own oncologists.",
-            "es": "Epcoritamab, comercializado como Epkinly, no alcanzó su objetivo primario de supervivencia global en EE. UU. dentro del ensayo de fase 3 EPCORE DLBCL-1, según las farmacéuticas Genmab y AbbVie. El fármaco es un anticuerpo biespecífico CD3xCD20, un diseño que sujeta con un brazo los linfocitos T del propio paciente y con el otro la célula tumoral para forzar un ataque inmunitario contra el tumor. Había recibido de la FDA una aprobación acelerada para el linfoma difuso de células B grandes en recaída o refractario, la forma agresiva más frecuente de linfoma no Hodgkin. La aprobación acelerada es condicional por definición: permite que un fármaco prometedor llegue pronto a los pacientes apoyándose en una medida indirecta, como la respuesta tumoral, a condición de que un ensayo posterior confirme un beneficio clínico real. Un estudio confirmatorio que falla en supervivencia global es justo el resultado que ese mecanismo existe para detectar, y ahora corresponde a los reguladores y a las compañías decidir qué ocurre con la indicación vigente. Para quienes ya toman el medicamento no cambia nada de inmediato, y las decisiones de tratamiento siguen en manos de sus oncólogos.",
-            "tr": "Epkinly adiyla satilan epcoritamab, ilac ureticileri Genmab ve AbbVie'ye gore Faz 3 EPCORE DLBCL-1 calismasinda ABD'deki birincil genel sagkalim hedefini tutturamadi. Ilac, bir koluyla hastanin kendi T hucrelerini, diger koluyla kanser hucresini yakalayarak tumore karsi bagisiklik saldirisi baslatan bir CD3xCD20 cift ozgul antikoru. FDA tarafindan, agresif Hodgkin disi lenfomanin en yaygin bicimi olan nuks etmis ya da direncli diffuz buyuk B hucreli lenfoma icin hizlandirilmis onay almisti. Hizlandirilmis onay tasarimi geregi kosullu bir onaydir: umut vadeden bir ilacin tumor yaniti gibi bir ara olcume dayanarak hastalara erken ulasmasina izin verir, ancak daha sonra yapilacak bir calismanin gercek klinik yarari dogrulamasi gerekir. Genel sagkalimi tutturamayan bir dogrulama calismasi, tam da bu mekanizmanin yakalamak icin var oldugu sonuctur; mevcut endikasyonun akibetine artik duzenleyiciler ve sirketler karar verecek. Ilaci halen kullanan hastalar acisindan hemen bir degisiklik yok; tedavi kararlari kendi onkologlarina ait."
-          },
-          "points": {
-            "en": [
-              "Epcoritamab is a CD3xCD20 bispecific antibody",
-              "It held FDA accelerated approval for relapsed or refractory DLBCL",
-              "The Phase 3 EPCORE DLBCL-1 trial missed overall survival in the US",
-              "Confirmatory trials are the condition attached to accelerated approval"
-            ],
-            "es": [
-              "Epcoritamab es un anticuerpo biespecífico CD3xCD20",
-              "Tenía aprobación acelerada de la FDA para el DLBCL en recaída o refractario",
-              "El ensayo de fase 3 EPCORE DLBCL-1 falló en supervivencia global en EE. UU.",
-              "Los ensayos confirmatorios son la condición de la aprobación acelerada"
-            ],
-            "tr": [
-              "Epcoritamab bir CD3xCD20 cift ozgul antikorudur",
-              "Nuks etmis ya da direncli DLBCL icin FDA hizlandirilmis onayina sahipti",
-              "Faz 3 EPCORE DLBCL-1 calismasi ABD'de genel sagkalimi tutturamadi",
-              "Dogrulama calismalari, hizlandirilmis onaya bagli kosuldur"
-            ]
-          },
-          "source": "Oncology News Central",
-          "url": "https://www.oncologynewscentral.com/oncology/cancer-research-concerns-rapid-roundup-for-august-2026"
+          "source": "Merck",
+          "url": "https://www.merck.com/news/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-autogene-plus-keytruda-met-endpoints-of-recurrence-free-survival-rfs-and-distant-metastasis-free-survival-dmfs-in-patient/"
         }
       ],
       "author": "Daily Now",
-      "path": "2026-09-01__Daily Now__Health - 1 September 2026.json",
-      "size": 11035,
-      "mtime": 1788259066141
+      "path": "2026-09-02__Daily Now__Health - 2 September 2026.json",
+      "size": 6112,
+      "mtime": 1788355220304
     },
     {
       "title": {
-        "en": "Sports - 1 September 2026",
-        "es": "Deportes - 1 de septiembre de 2026",
-        "tr": "Spor - 1 Eylul 2026"
+        "en": "Sports - 2 September 2026",
+        "es": "Deportes - 2 de septiembre de 2026",
+        "tr": "Spor - 2 Eylul 2026"
       },
       "category": "sports",
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "source": "Daily Now",
       "stories": [
         {
           "title": {
-            "en": "Alcaraz returns from injury with a straight-sets US Open win",
-            "es": "Alcaraz vuelve de su lesión con una victoria en tres sets en el US Open",
-            "tr": "Alcaraz, sakatlik sonrasi ABD Acik'ta setleri vermeden kazandi"
+            "en": "Zverev survives five-set scare against Sonego at 1:55 a.m.",
+            "es": "Zverev sobrevive a un susto de cinco sets ante Sonego a la 1:55 de la madrugada",
+            "tr": "Zverev, gece 01.55'te biten bes setlik macta Sonego korkusunu atlatti"
           },
           "summary": {
-            "en": "The defending champion beat Roman Safiullin 6-4, 6-4, 6-4 in his first match since April, showing no sign of the wrist injury that sidelined him.",
-            "es": "El campeón defensor venció a Roman Safiullin por 6-4, 6-4 y 6-4 en su primer partido desde abril, sin rastro de la lesión de muñeca que lo apartó.",
-            "tr": "Unvanini savunan sampiyon, nisandan bu yana ilk macinda Roman Safiullin'i 6-4, 6-4, 6-4 yendi ve kendisini sahalardan uzak tutan bilek sakatligindan eser gostermedi."
+            "en": "The top seed came back from two points from defeat to beat Lorenzo Sonego 6-4, 3-6, 6-7(7), 7-5, 6-4 in a first-round match lasting four hours and 53 minutes.",
+            "es": "El primer cabeza de serie remontó cuando estaba a dos puntos de la derrota para vencer a Lorenzo Sonego por 6-4, 3-6, 6-7(7), 7-5 y 6-4 en un partido de primera ronda de cuatro horas y 53 minutos.",
+            "tr": "Bir numarali seri basi, yenilgiye iki puan kala geri donerek Lorenzo Sonego'yu dort saat 53 dakika suren ilk tur macinda 6-4, 3-6, 6-7(7), 7-5, 6-4 yendi."
           },
           "detail": {
-            "en": "Carlos Alcaraz opened his US Open title defence with a 6-4, 6-4, 6-4 win over Roman Safiullin, his first competitive match since April. The 23-year-old Spaniard had been out with a right wrist injury, a worrying problem for a player whose game leans so heavily on heavy topspin and improvised angles off that side. On the evidence of the first round, the wrist held up. Winning in straight sets without a break of serve against him is the ideal way back for a player who needs matches more than he needs a statement, and it spares him physical cost in the early rounds of a two-week tournament. The second seed arrives in New York with less match play than any of his main rivals, which is the real question hanging over his fortnight rather than the injury itself. Rhythm tends to return quickly for players of his quality, but it usually gets tested somewhere in the second week.",
-            "es": "Carlos Alcaraz comenzó la defensa de su título en el US Open con un triunfo por 6-4, 6-4 y 6-4 sobre Roman Safiullin, su primer partido oficial desde abril. El español de 23 años había estado de baja por una lesión en la muñeca derecha, un problema preocupante para un jugador cuyo juego depende tanto del liftado pesado y de los ángulos improvisados desde ese lado. A juzgar por la primera ronda, la muñeca aguantó. Ganar en tres sets sin ceder el saque es la vuelta ideal para alguien que necesita partidos más que un golpe de efecto, y le ahorra desgaste físico en las primeras rondas de un torneo de dos semanas. El segundo cabeza de serie llega a Nueva York con menos ritmo de competición que cualquiera de sus grandes rivales, y esa es la verdadera incógnita de su quincena, más que la lesión. El ritmo suele volver rápido en jugadores de su nivel, pero casi siempre se pone a prueba en algún momento de la segunda semana.",
-            "tr": "Carlos Alcaraz, ABD Acik'ta unvan savunmasina Roman Safiullin'i 6-4, 6-4, 6-4 yenerek basladi; bu, nisandan bu yana oynadigi ilk resmi macti. 23 yasindaki Ispanyol, sag bilegindeki sakatlik nedeniyle uzun sure sahalardan uzak kalmisti; oyunu bu taraftan gelen agir topspin ve dogaclama acilara bu kadar dayanan bir sporcu icin endise verici bir sorundu. Ilk turdan cikan sonuca bakilirsa bilek sorun cikarmadi. Servisini hic kaptirmadan uc sette kazanmak, bir cikis yapmaktan cok mac ihtiyaci olan bir oyuncu icin ideal bir donus ve iki hafta surecek bir turnuvanin ilk turlarinda fiziksel maliyetten de kurtariyor. Ikinci seri basi New York'a rakiplerinin hicbiriyle kiyaslanamayacak kadar az mac yuku ile geldi; iki haftalik surecin asil sorusu sakatliktan cok bu. Onun seviyesindeki oyuncularda ritim genelde hizli geri doner, ama bu ritim cogunlukla ikinci haftada bir yerde sinanir."
+            "en": "Alexander Zverev escaped one of the great first-round scares in recent US Open history, beating Lorenzo Sonego 6-4, 3-6, 6-7(7), 7-5, 6-4 at Arthur Ashe Stadium in a match that finished at 1:55 in the morning. The top seed, who won his first Grand Slam title at Roland Garros earlier this year, was two points from defeat at 4-5 in the fourth set before turning the match around over its closing stages. Sonego, ranked 89th in the world, had lost all six of their previous ATP meetings, and none of that history counted for anything across four hours and 53 minutes of relentless net-rushing that dragged Zverev out of his baseline rhythm. Had the German lost, it would have been only the sixth time in the Open Era that a men's top seed fell in the first round, and the first in more than two decades. Escaping a match like this is a genuinely mixed result: the win keeps a title campaign alive, but nearly five hours of court time in the opening round is a debt that comes due in the second week.",
+            "es": "Alexander Zverev escapó de uno de los grandes sustos de primera ronda de la historia reciente del US Open al vencer a Lorenzo Sonego por 6-4, 3-6, 6-7(7), 7-5 y 6-4 en el estadio Arthur Ashe, en un partido que terminó a la 1:55 de la madrugada. El primer cabeza de serie, que ganó su primer título de Grand Slam en Roland Garros este año, estuvo a dos puntos de la derrota con 4-5 en el cuarto set antes de dar la vuelta al partido en los tramos finales. Sonego, número 89 del mundo, había perdido los seis enfrentamientos previos en el circuito ATP, y nada de ese historial sirvió durante cuatro horas y 53 minutos de incesantes subidas a la red que sacaron a Zverev de su ritmo de fondo. Si el alemán hubiera perdido, habría sido apenas la sexta vez en la era Open que un primer cabeza de serie masculino cae en primera ronda, y la primera en más de dos décadas. Salvar un partido así es un resultado ambiguo: la victoria mantiene vivas sus opciones al título, pero casi cinco horas de pista en la ronda inicial son una deuda que se paga en la segunda semana.",
+            "tr": "Alexander Zverev, ABD Acik'in yakin tarihindeki en buyuk ilk tur korkularindan birini atlatarak Arthur Ashe Stadyumu'nda Lorenzo Sonego'yu 6-4, 3-6, 6-7(7), 7-5, 6-4 yendi; mac gece 01.55'te sona erdi. Bu yil Roland Garros'ta ilk Grand Slam unvanini kazanan bir numarali seri basi, dorduncu sette 4-5 durumunda yenilgiye iki puan kadar yaklasmis, ardindan macin son bolumlerinde tabloyu tersine cevirmisti. Dunya siralamasinda 89. sirada bulunan Sonego, daha onceki alti ATP karsilasmasinin tumunu kaybetmisti; ancak bu gecmis, Zverev'i dip cizgi ritminden koparan dort saat 53 dakikalik durmak bilmez file oyunu boyunca hicbir anlam tasimadi. Alman oyuncu kaybetseydi, Acik Cag'da bir numarali seri basi erkek oyuncunun ilk turda elenmesi yalnizca altinci kez, yirmi yildan uzun surenin ise ilk defa yasanmis olacakti. Boyle bir maci kurtarmak gercekten karisik bir sonuc: galibiyet unvan yolculugunu surduruyor, ama ilk turda bes saate yakin kort suresi ikinci haftada odenecek bir borc anlamina geliyor."
           },
           "points": {
             "en": [
-              "First competitive match since April after a right wrist injury",
-              "Beat Roman Safiullin 6-4, 6-4, 6-4",
-              "Alcaraz is the second seed and defending men's champion",
-              "Match sharpness, not the wrist, is now the main question"
+              "Final score 6-4, 3-6, 6-7(7), 7-5, 6-4 over four hours and 53 minutes",
+              "Zverev was two points from defeat at 4-5 in the fourth set",
+              "Sonego, ranked 89, had lost all six previous meetings",
+              "A loss would have been the first top-seed first-round exit in over two decades"
             ],
             "es": [
-              "Primer partido oficial desde abril tras una lesión en la muñeca derecha",
-              "Venció a Roman Safiullin por 6-4, 6-4 y 6-4",
-              "Alcaraz es el segundo cabeza de serie y campeón defensor",
-              "El ritmo de competición, y no la muñeca, es ahora la principal duda"
+              "Resultado final 6-4, 3-6, 6-7(7), 7-5 y 6-4 en cuatro horas y 53 minutos",
+              "Zverev estuvo a dos puntos de la derrota con 4-5 en el cuarto set",
+              "Sonego, número 89, había perdido los seis duelos anteriores",
+              "Una derrota habría sido la primera caída de un primer cabeza de serie en más de veinte años"
             ],
             "tr": [
-              "Sag bilek sakatliginin ardindan nisandan bu yana ilk resmi mac",
-              "Roman Safiullin'i 6-4, 6-4, 6-4 yendi",
-              "Alcaraz ikinci seri basi ve erkeklerde unvanini savunan sampiyon",
-              "Artik asil soru bilek degil, mac temposu"
+              "Mac dort saat 53 dakikada 6-4, 3-6, 6-7(7), 7-5, 6-4 sona erdi",
+              "Zverev dorduncu sette 4-5'te yenilgiye iki puan kadar yaklasti",
+              "89. siradaki Sonego onceki alti karsilasmanin tumunu kaybetmisti",
+              "Yenilgi, yirmi yildan uzun surenin ilk bir numarali seri basi ilk tur elenmesi olacakti"
             ]
           },
-          "source": "NBC Sports",
-          "url": "https://www.nbcsports.com/tennis/news/carlos-alcaraz-returns-to-the-u-s-open-with-a-victory-aryna-sabalenka-also-wins-her-first-match"
+          "source": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/tennis/article/us-open-top-seed-alexander-zverev-avoids-first-round-disaster-holds-off-lorenzo-sonego-in-5-sets-055542986.html"
         },
         {
           "title": {
-            "en": "Sabalenka opens bid for a third straight US Open title",
-            "es": "Sabalenka arranca su intento de un tercer US Open consecutivo",
-            "tr": "Sabalenka, ust uste ucuncu ABD Acik unvani icin sahaya cikti"
+            "en": "Fritz cruises as the US Open first round closes out",
+            "es": "Fritz avanza con solvencia al cerrarse la primera ronda del US Open",
+            "tr": "ABD Acik'ta ilk tur kapanirken Fritz rahat turladi"
           },
           "summary": {
-            "en": "The world number one beat Camila Osorio 6-4, 6-4 as she starts chasing a feat no woman has managed since Serena Williams in 2012-14.",
-            "es": "La número uno del mundo venció a Camila Osorio por 6-4 y 6-4 al iniciar la búsqueda de una gesta que ninguna jugadora logra desde Serena Williams en 2012-14.",
-            "tr": "Dunya bir numarasi, Serena Williams'in 2012-14 arasindaki serisinden bu yana hicbir kadin oyuncunun basaramadigi bir hedefe yonelirken Camila Osorio'yu 6-4, 6-4 yendi."
+            "en": "Taylor Fritz beat Darwin Blanch in straight sets and Flavio Cobolli recovered from two sets down, as the draw completed its opening round and moved into the second.",
+            "es": "Taylor Fritz venció a Darwin Blanch en tres sets y Flavio Cobolli remontó dos sets en contra, mientras el cuadro completaba su primera ronda y pasaba a la segunda.",
+            "tr": "Taylor Fritz, Darwin Blanch'i set vermeden yenerken Flavio Cobolli iki set geriden gelip turladi; boylece ana tablo ilk turunu tamamlayip ikinci tura gecti."
           },
           "detail": {
-            "en": "Aryna Sabalenka began her US Open campaign with a 6-4, 6-4 win over Camila Osorio, a straightforward start to an unusually heavy assignment. The world number one is trying to become the first player to win three consecutive US Open championships since Serena Williams took the title from 2012 to 2014. Two-set wins that never quite become comfortable are typical of opening rounds at Flushing Meadows, where the hard courts play fast and the night sessions are unpredictable, and Osorio is a persistent enough opponent to make a favourite work for it. Sabalenka's power game has always suited these conditions better than most, which is a large part of why this particular tournament has become hers. The harder question is the accumulated weight of a title defence carried for a third year, when every opponent has now had two years to study how to disrupt her. She progresses to the second round with her serve intact and no time lost.",
-            "es": "Aryna Sabalenka empezó su torneo en el US Open con un triunfo por 6-4 y 6-4 sobre Camila Osorio, un inicio sin sobresaltos para un reto especialmente exigente. La número uno del mundo busca ser la primera jugadora en ganar tres campeonatos consecutivos del US Open desde que Serena Williams lo lograra entre 2012 y 2014. Las victorias en dos sets que nunca llegan a ser cómodas son habituales en las primeras rondas de Flushing Meadows, donde la pista dura es rápida y las sesiones nocturnas resultan imprevisibles, y Osorio es una rival lo bastante tenaz como para exigir a una favorita. El juego de potencia de Sabalenka siempre se ha adaptado a estas condiciones mejor que el de la mayoría, y esa es buena parte de la razón por la que este torneo se ha vuelto suyo. La pregunta más difícil es el peso acumulado de defender el título por tercer año, cuando todas sus rivales llevan ya dos temporadas estudiando cómo incomodarla. Avanza a segunda ronda con el saque intacto y sin tiempo perdido.",
-            "tr": "Aryna Sabalenka, ABD Acik seruvenine Camila Osorio'yu 6-4, 6-4 yenerek basladi; olagandisi agir bir gorev icin sorunsuz bir acilis oldu. Dunya bir numarasi, Serena Williams'in 2012-2014 arasindaki serisinden bu yana ust uste uc ABD Acik sampiyonlugu kazanan ilk oyuncu olmaya calisiyor. Hicbir zaman tam anlamiyla rahat gecmeyen iki setlik galibiyetler, sert kortlarin hizli oynadigi ve gece seanslarinin ongorulemez oldugu Flushing Meadows'un ilk turlarinda alisildik bir tablo; Osorio da bir favoriyi terletecek kadar israrci bir rakip. Sabalenka'nin guce dayali oyunu bu kosullara her zaman cogu oyuncudan daha iyi uymustur ve bu turnuvanin onun turnuvasi haline gelmesinin buyuk nedeni de budur. Daha zor soru, unvan savunmasinin ucuncu yilda tasidigi birikmis yuk; artik her rakibin onu nasil bozacagini calismak icin iki yili olmustur. Servisini kaptirmadan ve zaman kaybetmeden ikinci tura yukseldi."
+            "en": "The US Open completed its first round with the home contingent in comfortable shape. Taylor Fritz moved through with a 6-3, 6-2, 6-4 win over fellow American Darwin Blanch, an efficient hour-count that stands in sharp contrast to the marathon Alexander Zverev needed on the same day. Flavio Cobolli produced the other notable escape, recovering from two sets down to beat Francisco Comesana 3-6, 2-6, 6-3, 6-4, 6-4. Opening rounds at Flushing Meadows tend to produce this spread, with the fast hard courts rewarding players who can end points early and punishing anyone drawn into long rallies in late-summer humidity. The second round begins with the top of the men's draw intact but unevenly rested, which is the sort of imbalance that rarely shows up immediately and often decides quarter-finals. Attention now turns to whether the players who spent five sets in the opening round can recover in time for the next one.",
+            "es": "El US Open completó su primera ronda con los tenistas locales en buena forma. Taylor Fritz avanzó con un 6-3, 6-2 y 6-4 sobre su compatriota Darwin Blanch, un recuento de horas eficiente que contrasta con el maratón que Alexander Zverev necesitó el mismo día. Flavio Cobolli protagonizó la otra remontada destacada, al levantar dos sets en contra para ganar a Francisco Comesana por 3-6, 2-6, 6-3, 6-4 y 6-4. Las primeras rondas en Flushing Meadows suelen producir este contraste, ya que la pista dura y rápida premia a quien cierra los puntos pronto y castiga a quien se ve arrastrado a intercambios largos con la humedad del final del verano. La segunda ronda empieza con la parte alta del cuadro masculino intacta pero desigualmente descansada, un desequilibrio que rara vez se nota de inmediato y que a menudo decide los cuartos de final. La atención se centra ahora en si quienes disputaron cinco sets en la ronda inicial llegarán recuperados a la siguiente.",
+            "tr": "ABD Acik, ev sahibi oyuncularin rahat gorundugu bir tabloyla ilk turunu tamamladi. Taylor Fritz, ayni gun Alexander Zverev'in ihtiyac duydugu maratonla keskin bir tezat olusturan verimli bir sureyle, Amerikali rakibi Darwin Blanch'i 6-3, 6-2, 6-4 yenerek tur atladi. Diger dikkat ceken geri donusu Flavio Cobolli yapti; iki set geriden gelerek Francisco Comesana'yi 3-6, 2-6, 6-3, 6-4, 6-4 maglup etti. Flushing Meadows'ta ilk turlar genelde bu tur bir dagilim uretir; hizli sert kortlar sayilari erken bitirebilen oyuncuyu odullendirir, yaz sonu nemi altinda uzun ralilere cekilen oyuncuyu ise cezalandirir. Ikinci tur, erkekler tablosunun ust bolumu bozulmadan ama dinlenme acisindan esitsiz bicimde basliyor; bu tur bir dengesizlik nadiren hemen kendini gosterir, cogu zaman ceyrek finalleri belirler. Simdi dikkatler, ilk turda bes set oynayan oyuncularin bir sonraki maca yetisecek kadar toparlanip toparlanamayacagina cevrildi."
           },
           "points": {
             "en": [
-              "Beat Camila Osorio 6-4, 6-4 in the first round",
-              "Chasing a third consecutive US Open title",
-              "No woman has won three straight since Serena Williams in 2012-14",
-              "She is the world number one and two-time defending champion"
+              "Taylor Fritz beat Darwin Blanch 6-3, 6-2, 6-4",
+              "Flavio Cobolli came from two sets down to beat Francisco Comesana",
+              "The first round is complete and the second round is under way",
+              "Recovery time is now the main variable at the top of the men's draw"
             ],
             "es": [
-              "Venció a Camila Osorio por 6-4 y 6-4 en primera ronda",
-              "Persigue un tercer título consecutivo en el US Open",
-              "Ninguna jugadora gana tres seguidos desde Serena Williams en 2012-14",
-              "Es la número uno del mundo y bicampeona defensora"
+              "Taylor Fritz venció a Darwin Blanch por 6-3, 6-2 y 6-4",
+              "Flavio Cobolli remontó dos sets para ganar a Francisco Comesana",
+              "La primera ronda está completa y la segunda ya ha comenzado",
+              "El tiempo de recuperación es ahora la principal variable en la parte alta del cuadro"
             ],
             "tr": [
-              "Ilk turda Camila Osorio'yu 6-4, 6-4 yendi",
-              "Ust uste ucuncu ABD Acik unvanini kovaliyor",
-              "Serena Williams'in 2012-14 serisinden bu yana hicbir kadin oyuncu uc kez ust uste kazanamadi",
-              "Dunya bir numarasi ve iki kez unvanini savunan sampiyon"
+              "Taylor Fritz, Darwin Blanch'i 6-3, 6-2, 6-4 yendi",
+              "Flavio Cobolli iki set geriden gelerek Francisco Comesana'yi devirdi",
+              "Ilk tur tamamlandi ve ikinci tur basladi",
+              "Erkekler tablosunun ust bolumunde asil degisken artik toparlanma suresi"
             ]
           },
-          "source": "ESPN",
-          "url": "https://www.espn.com/tennis/story/_/id/49787124/us-open-2026-day-2-monday-august-31-women-singles-results-roundup"
+          "source": "Bleacher Report",
+          "url": "https://bleacherreport.com/articles/25494943-us-open-tennis-2026-results-day-2-bracket-winners-losers-highlights-and-day-3-schedule"
         }
       ],
       "author": "Daily Now",
-      "path": "2026-09-01__Daily Now__Sports - 1 September 2026.json",
-      "size": 9809,
-      "mtime": 1788259066183
+      "path": "2026-09-02__Daily Now__Sports - 2 September 2026.json",
+      "size": 10516,
+      "mtime": 1788355220348
     },
     {
       "title": {
-        "en": "Technology - 1 September 2026",
-        "es": "Tecnología - 1 de septiembre de 2026",
-        "tr": "Teknoloji - 1 Eylul 2026"
+        "en": "Technology - 2 September 2026",
+        "es": "Tecnología - 2 de septiembre de 2026",
+        "tr": "Teknoloji - 2 Eylul 2026"
       },
       "category": "tech",
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "source": "Daily Now",
       "stories": [
         {
           "title": {
-            "en": "Meta pledges $1 billion to data center communities as new models ship",
-            "es": "Meta destina 1.000 millones de dólares a las comunidades de sus centros de datos mientras lanza nuevos modelos",
-            "tr": "Meta, yeni modellerini duyururken veri merkezi cevrelerine 1 milyar dolar ayirdi"
+            "en": "Sony and Warner music publishers sue Anthropic over song training data",
+            "es": "Las editoriales musicales de Sony y Warner demandan a Anthropic por los datos de entrenamiento",
+            "tr": "Sony ve Warner muzik yayincilari, sarki egitim verileri nedeniyle Anthropic'e dava acti"
           },
           "summary": {
-            "en": "Mark Zuckerberg paired the release of Meta's Muse Glimmer model with a fund for the towns hosting its data centers, on a day that also brought new forecasting and legal-industry models from Google.",
-            "es": "Mark Zuckerberg acompañó el lanzamiento del modelo Muse Glimmer de Meta con un fondo para las localidades que albergan sus centros de datos, en una jornada que también trajo nuevos modelos de previsión y para el sector legal de Google.",
-            "tr": "Mark Zuckerberg, Meta'nin Muse Glimmer modelinin tanitimini veri merkezlerine ev sahipligi yapan yerlesimler icin bir fonla birlestirdi; ayni gun Google da yeni tahminleme ve hukuk sektorune ozel modellerini duyurdu."
+            "en": "Sony Music Publishing and Warner Chappell allege Anthropic torrented and scraped tens of thousands of copyrighted compositions to train its Claude models, and name the company's chief executive personally.",
+            "es": "Sony Music Publishing y Warner Chappell alegan que Anthropic descargó y rastreó decenas de miles de composiciones protegidas para entrenar sus modelos Claude, y señalan personalmente a su consejero delegado.",
+            "tr": "Sony Music Publishing ve Warner Chappell, Anthropic'in Claude modellerini egitmek icin on binlerce telifli besteyi torrentle indirdigini ve topladigini one suruyor; dava sirketin genel mudurunu de sahsen taraf gosteriyor."
           },
           "detail": {
-            "en": "Meta announced a $1 billion fund to invest in the communities around its data centers, unveiled alongside the release of its latest AI model, Muse Glimmer. The pairing is not accidental. The current build-out of AI infrastructure is running into local opposition over electricity demand, water use for cooling and the strain large facilities put on rural power grids, and the money is aimed squarely at that friction. Google was busy the same day, with Google Research putting out TimesFM-3, a 330-million-parameter foundation model that forecasts many related time series in a single pass without task-specific training, and Google Cloud launching a legal-industry version of Gemini, the first of several planned sector-specific packages. Both point to where the competition is moving: away from one general model for everything and toward models tuned for a single profession or data shape. The scale underneath all of it keeps growing, and Hugging Face chief executive Clement Delangue said builders and their agents uploaded more than 4 petabytes of models and datasets to the platform in a single week, roughly the storage equivalent of 800,000 HD movies.",
-            "es": "Meta anunció un fondo de 1.000 millones de dólares para invertir en las comunidades cercanas a sus centros de datos, presentado junto con el lanzamiento de su último modelo de IA, Muse Glimmer. La combinación no es casual. El despliegue actual de infraestructura de IA choca con la oposición local por la demanda eléctrica, el consumo de agua para refrigeración y la presión que las grandes instalaciones ejercen sobre las redes rurales, y el dinero apunta justo a esa fricción. Google también estuvo activo ese día: Google Research publicó TimesFM-3, un modelo fundacional de 330 millones de parámetros que predice muchas series temporales relacionadas en una sola pasada y sin entrenamiento específico, y Google Cloud lanzó una versión de Gemini para el sector legal, la primera de varios paquetes sectoriales previstos. Ambos movimientos señalan hacia dónde va la competencia: menos un modelo general para todo y más modelos afinados para una profesión o un tipo de dato concreto. La escala que hay debajo sigue creciendo: el consejero delegado de Hugging Face, Clement Delangue, dijo que los desarrolladores y sus agentes subieron más de 4 petabytes de modelos y conjuntos de datos a la plataforma en una sola semana, el equivalente aproximado a 800.000 películas en alta definición.",
-            "tr": "Meta, veri merkezlerinin cevresindeki yerlesimlere yatirim yapmak uzere 1 milyar dolarlik bir fon aciklarken bunu son yapay zeka modeli Muse Glimmer'in tanitimiyla birlikte duyurdu. Bu eslestirme tesaduf degil. Yapay zeka altyapisinin mevcut buyume dalgasi; elektrik talebi, sogutma icin kullanilan su ve buyuk tesislerin kirsal elektrik sebekelerine bindirdigi yuk nedeniyle yerel muhalefetle karsilasiyor ve para dogrudan bu surtunmeyi hedefliyor. Google da ayni gun hareketliydi: Google Research, birbiriyle iliskili cok sayida zaman serisini goreve ozel egitim olmadan tek gecisde tahmin eden 330 milyon parametreli TimesFM-3 modelini yayimladi; Google Cloud ise planlanan sektore ozel paketlerin ilki olarak Gemini'nin hukuk sektorune yonelik surumunu tanitti. Her iki adim da rekabetin nereye kaydigini gosteriyor: her ise yarayan tek bir genel model yerine, tek bir meslege ya da veri turune gore ayarlanmis modeller. Bunun altindaki olcek ise buyumeye devam ediyor; Hugging Face Genel Muduru Clement Delangue, gelistiricilerin ve ajanlarinin tek bir haftada platforma 4 petabayttan fazla model ve veri kumesi yukledigini, bunun kabaca 800 bin yuksek cozunurluklu filme denk geldigini soyledi."
+            "en": "Sony Music Publishing and Warner Chappell Music have sued Anthropic in the US District Court for the Northern District of California, in a complaint filed on 28 August that the publishers describe as covering one of the largest ongoing thefts of intellectual property in history. The suit alleges a campaign of illegally torrenting, scraping and downloading copyrighted works at scale in order to train the Claude family of AI models, and claims tens of thousands of musical compositions were used without permission. Songs named in the filing include Eye of the Tiger, September, Uptown Funk, Hallelujah, Taylor Swift's Paper Rings and Mariah Carey's All I Want for Christmas Is You. Unusually, the complaint names Anthropic co-founder and chief executive Dario Amodei and co-founder Benjamin Mann as individual defendants rather than suing only the company. The publishers are seeking a jury trial and damages of up to $150,000 for each infringed work, plus $25,000 for each instance of removing copyright management information. With this filing, the publishing arms of all three major music companies are now litigating against Anthropic, following a suit brought by Universal Music Publishing Group and Concord in January 2026 that covered more than 20,000 works and sought over $3 billion.",
+            "es": "Sony Music Publishing y Warner Chappell Music han demandado a Anthropic ante el Tribunal de Distrito de EE. UU. para el Distrito Norte de California, en una denuncia presentada el 28 de agosto que las editoriales describen como uno de los mayores robos continuados de propiedad intelectual de la historia. La demanda alega una campaña de descarga por torrent, rastreo y bajada ilegal de obras protegidas a gran escala para entrenar la familia de modelos Claude, y sostiene que se usaron decenas de miles de composiciones sin permiso. Entre las canciones citadas figuran Eye of the Tiger, September, Uptown Funk, Hallelujah, Paper Rings de Taylor Swift y All I Want for Christmas Is You de Mariah Carey. De forma poco habitual, la denuncia señala como demandados individuales al cofundador y consejero delegado de Anthropic, Dario Amodei, y al cofundador Benjamin Mann, en lugar de demandar solo a la empresa. Las editoriales piden juicio con jurado y hasta 150.000 dólares por cada obra infringida, más 25.000 por cada caso de eliminación de información de gestión de derechos. Con esta demanda, las divisiones editoriales de las tres grandes discográficas litigan ya contra Anthropic, tras la presentada por Universal Music Publishing Group y Concord en enero de 2026, que abarcaba más de 20.000 obras y reclamaba más de 3.000 millones de dólares.",
+            "tr": "Sony Music Publishing ve Warner Chappell Music, 28 Agustos'ta ABD Kaliforniya Kuzey Bolgesi Federal Mahkemesi'nde Anthropic aleyhine dava acti; yayincilar sikayeti, tarihin en buyuk suregelen fikri mulkiyet hirsizliklarindan biri olarak nitelendiriyor. Dava, Claude model ailesini egitmek amaciyla telifli eserlerin buyuk olcekte yasa disi bicimde torrentle indirilmesini, taranmasini ve toplanmasini iceren bir kampanya oldugunu one suruyor ve on binlerce muzik bestesinin izinsiz kullanildigini savunuyor. Dilekcede adi gecen sarkilar arasinda Eye of the Tiger, September, Uptown Funk, Hallelujah, Taylor Swift'in Paper Rings'i ve Mariah Carey'nin All I Want for Christmas Is You parcasi bulunuyor. Alisilmadik bicimde dava, yalnizca sirketi degil, Anthropic'in kurucu ortagi ve genel muduru Dario Amodei ile kurucu ortak Benjamin Mann'i da sahsen davali gosteriyor. Yayincilar juri onunde yargilama ve ihlal edilen her eser icin 150 bin dolara kadar tazminat ile telif yonetim bilgisinin kaldirildigi her bir durum icin 25 bin dolar talep ediyor. Bu dosyayla birlikte uc buyuk muzik sirketinin yayincilik kollari da Anthropic'e karsi hukuki surec yurutur hale geldi; Universal Music Publishing Group ve Concord ocak 2026'da 20 binden fazla eseri kapsayan ve 3 milyar dolarin uzerinde talep iceren bir dava acmisti."
           },
           "points": {
             "en": [
-              "Meta's $1 billion fund targets local opposition to data center power and water use",
-              "Google Research's TimesFM-3 has 330 million parameters and needs no task-specific training",
-              "Google Cloud's legal Gemini is the first of several industry-specific packages",
-              "Hugging Face saw over 4 petabytes uploaded in one week"
+              "Filed 28 August in the Northern District of California",
+              "Chief executive Dario Amodei and co-founder Benjamin Mann named individually",
+              "Up to $150,000 sought per infringed work, plus $25,000 per rights-information removal",
+              "All three major publishers are now suing Anthropic"
             ],
             "es": [
-              "El fondo de 1.000 millones de Meta responde al rechazo local por el consumo de luz y agua de los centros de datos",
-              "TimesFM-3 de Google Research tiene 330 millones de parámetros y no requiere entrenamiento específico",
-              "El Gemini legal de Google Cloud es el primero de varios paquetes sectoriales",
-              "Hugging Face recibió más de 4 petabytes de subidas en una semana"
+              "Presentada el 28 de agosto en el Distrito Norte de California",
+              "El consejero delegado Dario Amodei y el cofundador Benjamin Mann, demandados a título personal",
+              "Se reclaman hasta 150.000 dólares por obra infringida y 25.000 por cada supresión de datos de derechos",
+              "Las tres grandes editoriales litigan ya contra Anthropic"
             ],
             "tr": [
-              "Meta'nin 1 milyar dolarlik fonu, veri merkezlerinin elektrik ve su tuketimine yonelik yerel tepkiyi hedefliyor",
-              "Google Research'un TimesFM-3 modeli 330 milyon parametreli ve goreve ozel egitim gerektirmiyor",
-              "Google Cloud'un hukuk Gemini'si sektore ozel paketlerin ilki",
-              "Hugging Face'e tek haftada 4 petabayttan fazla veri yuklendi"
+              "Dava 28 Agustos'ta Kaliforniya Kuzey Bolgesi'nde acildi",
+              "Genel Mudur Dario Amodei ve kurucu ortak Benjamin Mann sahsen davali gosterildi",
+              "Ihlal edilen her eser icin 150 bin dolara kadar, her telif bilgisi silme icin 25 bin dolar talep ediliyor",
+              "Uc buyuk yayincinin ucu de artik Anthropic'e dava acmis durumda"
             ]
           },
-          "source": "The Neuron",
-          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-august-31-2026/"
+          "source": "Variety",
+          "url": "https://variety.com/2026/music/news/sony-music-publishing-warner-chappell-anthropic-lawsuit-1236847442/"
         },
         {
           "title": {
-            "en": "Meta starts production of its own Iris AI chip this month",
-            "es": "Meta inicia este mes la producción de su propio chip de IA, Iris",
-            "tr": "Meta, kendi yapay zeka cipi Iris'in uretimine bu ay basliyor"
+            "en": "Nvidia turns to MediaTek as buyers build their own AI chips",
+            "es": "Nvidia recurre a MediaTek mientras sus clientes fabrican sus propios chips de IA",
+            "tr": "Alicilar kendi yapay zeka ciplerini uretirken Nvidia MediaTek'e yoneliyor"
           },
           "summary": {
-            "en": "The in-house data center accelerator moves from testing to manufacturing in September, part of Meta's push to double its computing capacity and lean less on Nvidia.",
-            "es": "El acelerador propio para centros de datos pasa de las pruebas a la fabricación en septiembre, dentro del plan de Meta para duplicar su capacidad de cómputo y depender menos de Nvidia.",
-            "tr": "Sirket ici veri merkezi hizlandiricisi eylulde test asamasindan uretime geciyor; bu, Meta'nin islem kapasitesini ikiye katlama ve Nvidia'ya daha az bagimli olma planinin parcasi."
+            "en": "The chipmaker is partnering with MediaTek to defend its position as its largest customers design in-house hardware, while Anthropic locked in $35 billion of Nvidia-backed compute in Texas.",
+            "es": "El fabricante de chips se alía con MediaTek para defender su posición mientras sus mayores clientes diseñan hardware propio, y Anthropic cerró 35.000 millones de dólares en capacidad de cómputo respaldada por Nvidia en Texas.",
+            "tr": "Cip ureticisi, en buyuk musterileri kendi donanimlarini tasarlarken konumunu korumak icin MediaTek ile is birligi yapiyor; Anthropic ise Teksas'ta Nvidia destekli 35 milyar dolarlik islem kapasitesi baglandi."
           },
           "detail": {
-            "en": "Meta is beginning manufacturing of an in-house artificial intelligence chip this month as part of a plan to sharply increase its own computing power. The data center chip, code-named Iris, belongs to a four-generation programme of Meta Training and Inference Accelerators that the company designs itself rather than buying off the shelf. Testing reportedly took only about six weeks and turned up no major problems, an unusually clean run for a custom silicon project and a sign the design was conservative by intent. The strategic logic is cost and supply: Nvidia still holds roughly 85 to 90% of the market for AI accelerator GPUs, and its data center revenue reached $193.7 billion in the fiscal year ending January 2026, about 90% of the company's total. Every large buyer at Meta's scale has an obvious incentive to move some share of its inference workload onto hardware it controls. Custom chips rarely displace Nvidia outright, though, since the software ecosystem around its GPUs is as much of a moat as the silicon itself.",
-            "es": "Meta comienza este mes a fabricar un chip de inteligencia artificial propio dentro de su plan para aumentar con fuerza su capacidad de cómputo. El chip para centros de datos, con nombre en clave Iris, forma parte de un programa de cuatro generaciones de aceleradores de entrenamiento e inferencia que la compañía diseña internamente en lugar de comprarlos ya hechos. Según lo publicado, las pruebas duraron apenas unas seis semanas y no revelaron problemas de importancia, un recorrido inusualmente limpio para un proyecto de silicio a medida y una señal de que el diseño fue deliberadamente conservador. La lógica estratégica es de coste y suministro: Nvidia mantiene entre el 85% y el 90% del mercado de GPU aceleradoras de IA, y sus ingresos por centros de datos alcanzaron 193.700 millones de dólares en el ejercicio cerrado en enero de 2026, cerca del 90% del total de la empresa. Cualquier comprador del tamaño de Meta tiene un incentivo evidente para trasladar parte de su carga de inferencia a hardware propio. Aun así, los chips a medida rara vez desplazan del todo a Nvidia, porque el ecosistema de software en torno a sus GPU es una barrera tan sólida como el propio chip.",
-            "tr": "Meta, kendi islem gucunu ciddi olcude artirma planinin parcasi olarak bu ay sirket ici bir yapay zeka cipinin uretimine basliyor. Iris kod adli veri merkezi cipi, sirketin hazir satin almak yerine kendi tasarladigi dort nesillik Meta Egitim ve Cikarim Hizlandiricilari programina ait. Aktarilanlara gore testler yalnizca alti hafta surdu ve ciddi bir sorun ortaya cikarmadi; bu, ozel yonga projeleri icin alisilmadik olcude sorunsuz bir surec ve tasarimin bilincli olarak temkinli tutuldugunun isareti. Stratejik mantik maliyet ve tedarik uzerine kurulu: Nvidia yapay zeka hizlandirici GPU pazarinin halen yaklasik yuzde 85-90'ini elinde tutuyor ve ocak 2026'da biten mali yilda veri merkezi geliri 193,7 milyar dolara, sirket toplaminin yaklasik yuzde 90'ina ulasti. Meta olceginde her buyuk alicinin, cikarim yukunun bir bolumunu kendi kontrol ettigi donanima tasimak icin acik bir tesviki var. Yine de ozel cipler Nvidia'yi tumuyle saf disi birakmiyor; cunku GPU'larin cevresindeki yazilim ekosistemi en az yonganin kendisi kadar guclu bir engel olusturuyor."
+            "en": "Nvidia is partnering with MediaTek as it works to hold its dominant position in AI hardware against customers who are increasingly designing their own. The pressure is real: Meta, Google, Amazon and others have all moved to build in-house accelerators, and every workload that shifts onto custom silicon is one Nvidia does not sell a GPU for. Partnering with MediaTek, a company with deep experience in high-volume, cost-sensitive chip design, gives Nvidia a route into segments where its top-end parts are more capability than a buyer needs. At the same time the demand side keeps validating the incumbent, with Anthropic locking in $35 billion of Nvidia-backed compute capacity in Texas, one of the largest single commitments of its kind. Governments are becoming buyers at similar scale, and South Korea plans to supply a total of 512 Nvidia B200 units during 2026 while covering operating costs and offering generative AI assistants free, with no token limit, to its entire population. Taken together the moves show a market splitting in two: frontier training runs that still require the fastest available hardware, and an enormous volume tier where cost per inference decides the winner.",
+            "es": "Nvidia se alía con MediaTek mientras trata de mantener su posición dominante en hardware de IA frente a clientes que cada vez más diseñan el suyo propio. La presión es real: Meta, Google, Amazon y otros han avanzado en la construcción de aceleradores internos, y cada carga de trabajo que pasa a silicio propio es una GPU que Nvidia no vende. Aliarse con MediaTek, una empresa con amplia experiencia en diseño de chips de gran volumen y sensibles al coste, abre a Nvidia la puerta a segmentos donde sus piezas de gama alta ofrecen más capacidad de la que el comprador necesita. Al mismo tiempo, la demanda sigue avalando al líder: Anthropic ha cerrado 35.000 millones de dólares en capacidad de cómputo respaldada por Nvidia en Texas, uno de los mayores compromisos individuales de este tipo. Los gobiernos se están convirtiendo en compradores de escala similar, y Corea del Sur prevé suministrar un total de 512 unidades Nvidia B200 durante 2026, cubriendo además los costes operativos y ofreciendo asistentes de IA generativa gratis, sin límite de tokens, a toda su población. En conjunto, los movimientos muestran un mercado que se parte en dos: los entrenamientos de frontera que aún exigen el hardware más rápido disponible, y un enorme segmento de volumen donde gana quien logre el menor coste por inferencia.",
+            "tr": "Nvidia, musterilerinin giderek kendi donanimlarini tasarladigi bir ortamda yapay zeka donanimindaki hakim konumunu korumak icin MediaTek ile is birligine gidiyor. Baski gercek: Meta, Google, Amazon ve digerleri sirket ici hizlandirici gelistirmeye yoneldi ve ozel yongalara kayan her is yuku, Nvidia'nin satamadigi bir GPU anlamina geliyor. Yuksek hacimli ve maliyete duyarli cip tasariminda derin deneyime sahip MediaTek ile ortaklik, Nvidia'ya ust segment urunlerinin alicinin ihtiyacindan fazla geldigi alanlara giris yolu aciyor. Ayni anda talep tarafi lideri dogrulamayi surduruyor; Anthropic, Teksas'ta Nvidia destekli 35 milyar dolarlik islem kapasitesi baglayarak turunun en buyuk tekil taahhutlerinden birini yapti. Hukumetler de benzer olcekte alici haline geliyor: Guney Kore 2026 boyunca toplam 512 adet Nvidia B200 saglamayi, isletme maliyetlerini ustlenmeyi ve tum nufusuna token siniri olmadan ucretsiz uretken yapay zeka asistanlari sunmayi planliyor. Butun bunlar piyasanin ikiye ayrildigini gosteriyor: halen mevcut en hizli donanimi gerektiren sinir egitim calismalari ve kazananin cikarim basina maliyetle belirlendigi devasa bir hacim katmani."
           },
           "points": {
             "en": [
-              "Iris is part of a four-generation in-house accelerator programme",
-              "Testing took about six weeks with no major issues found",
-              "Nvidia holds roughly 85-90% of the AI accelerator GPU market",
-              "Nvidia data center revenue was $193.7 billion in the year to January 2026"
+              "MediaTek partnership targets high-volume, cost-sensitive segments",
+              "Meta, Google and Amazon are all building in-house accelerators",
+              "Anthropic committed to $35 billion of Nvidia-backed compute in Texas",
+              "South Korea will supply 512 B200 units and free national AI assistants in 2026"
             ],
             "es": [
-              "Iris forma parte de un programa propio de aceleradores de cuatro generaciones",
-              "Las pruebas duraron unas seis semanas sin problemas relevantes",
-              "Nvidia controla en torno al 85-90% del mercado de GPU aceleradoras de IA",
-              "Los ingresos de Nvidia por centros de datos fueron de 193.700 millones hasta enero de 2026"
+              "La alianza con MediaTek apunta a segmentos de gran volumen y sensibles al coste",
+              "Meta, Google y Amazon construyen aceleradores propios",
+              "Anthropic comprometió 35.000 millones en cómputo respaldado por Nvidia en Texas",
+              "Corea del Sur suministrará 512 unidades B200 y asistentes de IA gratuitos en 2026"
             ],
             "tr": [
-              "Iris, dort nesillik sirket ici hizlandirici programinin bir parcasi",
-              "Testler yaklasik alti hafta surdu ve ciddi bir sorun cikmadi",
-              "Nvidia, yapay zeka hizlandirici GPU pazarinin yaklasik yuzde 85-90'ini elinde tutuyor",
-              "Nvidia'nin ocak 2026'ya kadarki yilda veri merkezi geliri 193,7 milyar dolar oldu"
+              "MediaTek ortakligi yuksek hacimli ve maliyete duyarli segmentleri hedefliyor",
+              "Meta, Google ve Amazon kendi hizlandiricilarini gelistiriyor",
+              "Anthropic Teksas'ta Nvidia destekli 35 milyar dolarlik islem kapasitesi taahhut etti",
+              "Guney Kore 2026'da 512 adet B200 saglayacak ve ucretsiz ulusal yapay zeka asistani sunacak"
+            ]
+          },
+          "source": "Tech Startups",
+          "url": "https://techstartups.com/2026/09/01/top-tech-news-today-september-1-2026-amazon-anthropic-honda-openai-sony-warner-z-ai-more/"
+        }
+      ],
+      "author": "Daily Now",
+      "path": "2026-09-02__Daily Now__Technology - 2 September 2026.json",
+      "size": 12785,
+      "mtime": 1788355220256
+    },
+    {
+      "title": {
+        "en": "US Markets - 2 September 2026",
+        "es": "Bolsa de EE. UU. - 2 de septiembre de 2026",
+        "tr": "ABD Borsasi - 2 Eylul 2026"
+      },
+      "category": "usmarkets",
+      "date": "2026-09-02",
+      "source": "Daily Now",
+      "stories": [
+        {
+          "title": {
+            "en": "Wall Street opens September in the red as Nasdaq leads the fall",
+            "es": "Wall Street abre septiembre en rojo con el Nasdaq liderando las caídas",
+            "tr": "Wall Street eylule dususle basladi, kaybin onunde Nasdaq var"
+          },
+          "summary": {
+            "en": "The S&P 500 fell 0.71% to 7,631.47, the Nasdaq lost 1.03% and the Dow shed 419 points as renewed US-Iran hostilities lifted oil and hit technology shares hardest.",
+            "es": "El S&P 500 cayó un 0,71% hasta 7.631,47, el Nasdaq perdió un 1,03% y el Dow cedió 419 puntos, mientras la reanudación de las hostilidades entre EE. UU. e Irán elevaba el petróleo y golpeaba sobre todo a la tecnología.",
+            "tr": "ABD-Iran catismasinin yeniden alevlenmesi petrolu yukseltip en cok teknoloji hisselerini vururken S&P 500 yuzde 0,71 dususle 7.631,47'ye geriledi, Nasdaq yuzde 1,03 kaybetti, Dow ise 419 puan eridi."
+          },
+          "detail": {
+            "en": "September began on Wall Street the way the history books warned it might. The S&P 500 shed 0.71% to finish at 7,631.47, the Nasdaq Composite fell 1.03% to 26,099.77, and the Dow Jones Industrial Average lost 419.02 points, or 0.79%, to close at 52,766.88. The drop landed immediately after one of the strongest Augusts in years, in which the S&P had gained 2.6% and the Nasdaq 3.9%. What changed was not corporate news but the backdrop: renewed fighting between the United States and Iran around the Strait of Hormuz pushed oil higher, and that fed straight into inflation expectations and bond yields. The Nasdaq falling at roughly one and a half times the rate of the S&P is the tell, since higher long-term rates hit the valuations of long-duration growth stocks hardest, and those are exactly the names that carried the summer rally. Nothing in the session suggested distress in the underlying economy, which makes this a repricing of interest rate expectations rather than a verdict on earnings.",
+            "es": "Septiembre empezó en Wall Street tal y como advertían los libros de historia. El S&P 500 cedió un 0,71% hasta 7.631,47, el Nasdaq Composite bajó un 1,03% hasta 26.099,77 y el Dow Jones perdió 419,02 puntos, un 0,79%, para cerrar en 52.766,88. La caída llegó justo después de uno de los mejores agostos en años, en el que el S&P había ganado un 2,6% y el Nasdaq un 3,9%. Lo que cambió no fueron las noticias empresariales sino el contexto: la reanudación de los combates entre Estados Unidos e Irán en torno al estrecho de Ormuz encareció el petróleo, y eso se trasladó directamente a las expectativas de inflación y a los rendimientos de los bonos. Que el Nasdaq cayera aproximadamente una vez y media más que el S&P es la señal reveladora, porque los tipos a largo plazo más altos golpean sobre todo la valoración de los valores de crecimiento de larga duración, justo los que impulsaron el rally del verano. Nada en la sesión apuntó a problemas en la economía real, lo que convierte esto en una revisión de las expectativas de tipos y no en un veredicto sobre los beneficios.",
+            "tr": "Eylul, Wall Street'te tarih kitaplarinin uyardigi bicimde basladi. S&P 500 yuzde 0,71 gerileyerek 7.631,47'den, Nasdaq Composite yuzde 1,03 dususle 26.099,77'den kapandi; Dow Jones Sanayi Endeksi ise 419,02 puan, yani yuzde 0,79 kaybederek 52.766,88 seviyesine indi. Dusus, S&P'nin yuzde 2,6, Nasdaq'in yuzde 3,9 kazandigi son yillarin en guclu agustos aylarindan birinin hemen ardindan geldi. Degisen sey sirket haberleri degil arka plandi: ABD ile Iran arasinda Hurmuz Bogazi cevresinde yeniden alevlenen catisma petrolu yukseltti ve bu dogrudan enflasyon beklentilerine ve tahvil getirilerine yansidi. Nasdaq'in S&P'nin yaklasik bir bucuk kati hizla dusmesi belirleyici ipucu; cunku yukselen uzun vadeli faizler en cok uzun vadeli buyume hisselerinin degerlemesini vuruyor ve yaz ralisini tasiyan da tam olarak bu hisselerdi. Seansta ekonominin temelinde bir sikinti oldugunu gosteren bir isaret yoktu; bu da olan biteni kar beklentilerine dair bir yargidan cok, faiz beklentilerinin yeniden fiyatlanmasi haline getiriyor."
+          },
+          "points": {
+            "en": [
+              "S&P 500 -0.71% to 7,631.47",
+              "Nasdaq Composite -1.03% to 26,099.77",
+              "Dow Jones -419.02 points (-0.79%) to 52,766.88",
+              "Higher oil and bond yields hit long-duration growth stocks hardest"
+            ],
+            "es": [
+              "S&P 500 -0,71% hasta 7.631,47",
+              "Nasdaq Composite -1,03% hasta 26.099,77",
+              "Dow Jones -419,02 puntos (-0,79%) hasta 52.766,88",
+              "El alza del petróleo y de los rendimientos golpea más a los valores de crecimiento"
+            ],
+            "tr": [
+              "S&P 500 yuzde 0,71 dususle 7.631,47",
+              "Nasdaq Composite yuzde 1,03 dususle 26.099,77",
+              "Dow Jones 419,02 puan (yuzde 0,79) kayipla 52.766,88",
+              "Yukselen petrol ve tahvil getirileri en cok uzun vadeli buyume hisselerini vurdu"
             ]
           },
           "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/technology/ai/articles/meta-start-production-iris-ai-122141801.html"
-        }
-      ],
-      "author": "Daily Now",
-      "path": "2026-09-01__Daily Now__Technology - 1 September 2026.json",
-      "size": 12007,
-      "mtime": 1788259066097
-    },
-    {
-      "title": {
-        "en": "US Markets - 1 September 2026",
-        "es": "Bolsa de EE. UU. - 1 de septiembre de 2026",
-        "tr": "ABD Borsasi - 1 Eylul 2026"
-      },
-      "category": "usmarkets",
-      "date": "2026-09-01",
-      "source": "Daily Now",
-      "stories": [
-        {
-          "title": {
-            "en": "Futures slip after Wall Street closes out a winning August",
-            "es": "Los futuros caen tras cerrar Wall Street un agosto ganador",
-            "tr": "Wall Street kazancli bir agustosu geride birakirken vadeliler geriledi"
-          },
-          "summary": {
-            "en": "The S&P 500 gained 2.6% in August and the Dow logged a fifth straight monthly advance, but stock futures turned lower as September trading opened.",
-            "es": "El S&P 500 ganó un 2,6% en agosto y el Dow encadenó su quinto avance mensual, pero los futuros bajaron al abrir la negociación de septiembre.",
-            "tr": "S&P 500 agustosta yuzde 2,6 kazandi ve Dow ust uste besinci aylik yukselisini kaydetti; ancak eylul islemleri baslarken vadeliler asagi dondu."
-          },
-          "detail": {
-            "en": "US stocks finished August with a solid month behind them and a cautious tone ahead. The S&P 500 advanced 2.6% over the month, the Nasdaq Composite rose 3.9% and the Dow Jones Industrial Average added 1.3%, its fifth consecutive monthly gain. That run leaves the major indexes near the highs of the year, which is part of why the opening of September looked shaky. Stock futures traded lower early Tuesday following a losing session, with Nasdaq-100 futures down about 1%, a sign that the pressure is concentrated in the large technology names that drove the summer rally. The immediate worry is the Federal Reserve: after five meetings on hold, the market has swung from expecting cuts to pricing a real chance of a rate increase this month. Higher rates weigh most on the long-duration growth stocks that have carried the index, which is why a repricing of Fed expectations shows up first in the Nasdaq.",
-            "es": "La bolsa estadounidense cerró agosto con un buen mes a sus espaldas y un tono cauto por delante. El S&P 500 avanzó un 2,6% en el mes, el Nasdaq Composite subió un 3,9% y el Dow Jones sumó un 1,3%, su quinta ganancia mensual consecutiva. Esa racha deja a los principales índices cerca de los máximos del año, lo que explica en parte que la apertura de septiembre pareciera frágil. Los futuros bajaban el martes por la mañana tras una sesión en negativo, con los del Nasdaq-100 cediendo cerca de un 1%, señal de que la presión se concentra en los grandes valores tecnológicos que impulsaron el rally del verano. La preocupación inmediata es la Reserva Federal: tras cinco reuniones sin cambios, el mercado ha pasado de esperar recortes a descontar una probabilidad real de subida este mes. Los tipos altos penalizan sobre todo a los valores de crecimiento de larga duración que han sostenido el índice, y por eso una revisión de las expectativas sobre la Fed se nota primero en el Nasdaq.",
-            "tr": "ABD borsalari agustosu saglam bir ay geride birakarak ama temkinli bir havayla kapatti. S&P 500 ay boyunca yuzde 2,6 yukseldi, Nasdaq Composite yuzde 3,9 kazandi, Dow Jones Sanayi Endeksi ise ust uste besinci aylik artisiyla yuzde 1,3 ekledi. Bu seri ana endeksleri yilin zirvelerine yaklastirdi; eylul acilisinin kirilgan gorunmesinin bir nedeni de bu. Vadeli islemler, kayipla kapanan bir seansin ardindan sali sabahi geriledi; Nasdaq-100 vadelileri yaklasik yuzde 1 dususteydi ve bu, baskinin yaz ralisini surukleyen buyuk teknoloji hisselerinde yogunlastigini gosteriyor. En yakin endise Federal Rezerv: bes toplantidir faizi sabit tutan Fed icin piyasa, indirim beklentisinden bu ay faiz artirimi ihtimalini ciddi sekilde fiyatlamaya gecti. Yuksek faiz en cok endeksi tasiyan uzun vadeli buyume hisselerini vuruyor; Fed beklentilerindeki degisimin once Nasdaq'ta gorulmesinin nedeni de bu."
-          },
-          "points": {
-            "en": [
-              "August: S&P 500 +2.6%, Nasdaq Composite +3.9%, Dow +1.3%",
-              "It was the Dow's fifth straight monthly gain",
-              "Nasdaq-100 futures fell about 1% early Tuesday",
-              "Markets are pricing a real chance of a Fed hike this month"
-            ],
-            "es": [
-              "Agosto: S&P 500 +2,6%, Nasdaq Composite +3,9%, Dow +1,3%",
-              "Fue la quinta ganancia mensual consecutiva del Dow",
-              "Los futuros del Nasdaq-100 cayeron cerca de un 1% el martes por la mañana",
-              "El mercado descuenta una probabilidad real de subida de tipos este mes"
-            ],
-            "tr": [
-              "Agustos: S&P 500 yuzde 2,6, Nasdaq Composite yuzde 3,9, Dow yuzde 1,3 artti",
-              "Bu, Dow'un ust uste besinci aylik kazanciydi",
-              "Nasdaq-100 vadelileri sali sabahi yaklasik yuzde 1 geriledi",
-              "Piyasa bu ay Fed faiz artirimi ihtimalini ciddi olarak fiyatliyor"
-            ]
-          },
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/08/31/stock-market-today-live-updates.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-1-135016820.html"
         },
         {
           "title": {
-            "en": "September is historically the worst month for US stocks",
-            "es": "Septiembre es históricamente el peor mes para la bolsa estadounidense",
-            "tr": "Eylul, tarihsel olarak ABD hisseleri icin en kotu ay"
+            "en": "The bond market, not earnings, is now setting the tone for stocks",
+            "es": "El mercado de bonos, y no los resultados, marca ahora el tono de la bolsa",
+            "tr": "Hisselerin yonunu artik bilancolar degil tahvil piyasasi belirliyor"
           },
           "summary": {
-            "en": "Every major US index has averaged a loss in September for decades, and this year the calendar collides with a possible Federal Reserve rate hike.",
-            "es": "Todos los grandes índices estadounidenses acumulan pérdidas medias en septiembre desde hace décadas, y este año el calendario coincide con una posible subida de tipos de la Reserva Federal.",
-            "tr": "Butun buyuk ABD endeksleri onlarca yildir eylulde ortalama kayip yaziyor; bu yil takvim ayrica olasi bir Fed faiz artirimiyla ust uste biniyor."
+            "en": "US equities slid through the session as a worldwide sell-off in government debt pushed yields up, shifting the market's attention from company results to the cost of money.",
+            "es": "La bolsa estadounidense cayó durante la sesión mientras una venta masiva mundial de deuda pública elevaba los rendimientos, desplazando la atención del mercado de los resultados empresariales al precio del dinero.",
+            "tr": "Kuresel capta devlet tahvili satisi getirileri yukseltirken ABD hisseleri seans boyunca geriledi ve piyasanin dikkati sirket sonuclarindan paranin maliyetine kaydi."
           },
           "detail": {
-            "en": "Wall Street heads into September carrying a strong summer and an uncomfortable statistic. According to the 2026 Stock Trader's Almanac, September ranks as the worst performing month across all the major US stock indexes going back decades. The Dow Jones Industrial Average has fallen an average of 0.8% in Septembers since 1950 and the S&P 500 an average of 0.7% over the same span. The technology-heavy Nasdaq Composite has dropped an average of 0.9% during the month since 1971, and the small-cap Russell 2000 has lost an average of 0.8% since 1979. Seasonality on its own is a weak reason to sell, since the averages hide enormous variation between individual years. What makes this September different is that the seasonal pattern lines up with a genuine policy risk: the odds of a Federal Reserve rate increase this month have risen as inflation has proved stickier than expected, so a weak calendar month and a possible hawkish surprise arrive together.",
-            "es": "Wall Street llega a septiembre con un verano fuerte a la espalda y una estadística incómoda. Según el Stock Trader's Almanac de 2026, septiembre es el mes de peor comportamiento en todos los grandes índices estadounidenses desde hace décadas. El Dow Jones ha caído un 0,8% de media en los septiembres desde 1950 y el S&P 500 un 0,7% en el mismo periodo. El Nasdaq Composite, con fuerte peso tecnológico, ha bajado una media del 0,9% en ese mes desde 1971, y el Russell 2000 de pequeña capitalización ha perdido un 0,8% de media desde 1979. La estacionalidad por sí sola es un motivo débil para vender, porque las medias esconden enormes diferencias entre años concretos. Lo que hace distinto a este septiembre es que el patrón estacional coincide con un riesgo real de política monetaria: la probabilidad de una subida de tipos de la Fed este mes ha aumentado al resistirse la inflación más de lo previsto, de modo que un mes flojo del calendario y una posible sorpresa restrictiva llegan a la vez.",
-            "tr": "Wall Street eylule guclu bir yazi ve rahatsiz edici bir istatistigi omuzlayarak giriyor. 2026 Stock Trader's Almanac'a gore eylul, onlarca yildir butun buyuk ABD endekslerinde en kotu performans gosteren ay. Dow Jones Sanayi Endeksi 1950'den bu yana eylul aylarinda ortalama yuzde 0,8, S&P 500 ise ayni donemde ortalama yuzde 0,7 geriledi. Teknoloji agirlikli Nasdaq Composite 1971'den bu yana bu ayda ortalama yuzde 0,9, kucuk sermayeli Russell 2000 ise 1979'dan beri ortalama yuzde 0,8 kaybetti. Mevsimsellik tek basina satis icin zayif bir gerekce; cunku ortalamalar tek tek yillar arasindaki buyuk farklari gizliyor. Bu eylulu farkli kilan, mevsimsel kalibin gercek bir politika riskiyle ust uste binmesi: enflasyonun beklenenden inatci cikmasiyla Fed'in bu ay faiz artirma ihtimali yukseldi, boylece zayif bir takvim ayi ile olasi bir sikilastirma surprizi ayni anda geliyor."
+            "en": "US stocks slid through the trading day as a global sell-off in government debt lifted yields in every major market at once. For most of the year Wall Street had taken its direction from corporate earnings, which were solid enough to support a five-month advance in the Dow. That link has now been displaced by a simpler one: when the yield on safe government bonds rises, every other asset has to justify itself against a higher risk-free return. A 10-year Treasury paying 4.79% sets a materially tougher benchmark than one paying four, and equity valuations adjust downward to compensate. The trigger is coming from outside the US as much as inside it, with Japanese, British and German yields all pushing to multi-decade highs on the same day. That simultaneity matters, because it means American investors cannot rotate into foreign bonds to escape the move, and it leaves the Federal Reserve's September decision as the single event most likely to settle the direction of both markets.",
+            "es": "La bolsa estadounidense cayó a lo largo de la sesión mientras una venta masiva mundial de deuda pública elevaba los rendimientos en todos los grandes mercados a la vez. Durante casi todo el año Wall Street se había guiado por los resultados empresariales, lo bastante sólidos como para sostener cinco meses de avance del Dow. Ese vínculo ha sido desplazado por otro más simple: cuando sube el rendimiento de la deuda pública segura, cualquier otro activo debe justificarse frente a una rentabilidad sin riesgo más alta. Un bono a 10 años que paga un 4,79% fija un listón bastante más exigente que uno que paga un cuatro, y las valoraciones bursátiles se ajustan a la baja para compensar. El detonante viene tanto de fuera como de dentro de EE. UU., con los rendimientos japonés, británico y alemán marcando máximos de varias décadas el mismo día. Esa simultaneidad importa, porque implica que los inversores estadounidenses no pueden refugiarse en bonos extranjeros para escapar del movimiento, y deja la decisión de la Reserva Federal de septiembre como el acontecimiento con más probabilidades de fijar el rumbo de ambos mercados.",
+            "tr": "Kuresel capta devlet tahvili satisi butun buyuk piyasalarda getirileri ayni anda yukseltirken ABD hisseleri seans boyunca geriledi. Yilin buyuk bolumunde Wall Street yonunu sirket bilancolarindan almisti; bu sonuclar Dow'un bes aylik yukselisini destekleyecek kadar saglamdi. Bu bag artik yerini daha basit bir baglantiya birakti: guvenli devlet tahvillerinin getirisi yukseldiginde, diger her varlik kendini daha yuksek bir risksiz getiriye karsi savunmak zorunda kalir. Yuzde 4,79 odeyen 10 yillik bir tahvil, yuzde 4 odeyene gore belirgin sekilde daha zorlu bir esik koyar ve hisse degerlemeleri bunu telafi etmek icin asagi yonlu ayarlanir. Tetikleyici ABD'nin icinden oldugu kadar disindan da geliyor; Japon, Ingiliz ve Alman getirileri ayni gun onlarca yilin zirvesine cikti. Bu es zamanlilik onemli, cunku Amerikali yatirimcilarin hareketten kacmak icin yabanci tahvillere yonelmesini imkansiz kiliyor ve her iki piyasanin yonunu belirleyecek tek olay olarak Federal Rezerv'in eylul kararini one cikariyor."
           },
           "points": {
             "en": [
-              "Dow: average September loss of 0.8% since 1950",
-              "S&P 500: average September loss of 0.7% since 1950",
-              "Nasdaq Composite: average 0.9% drop since 1971",
-              "Russell 2000: average 0.8% drop since 1979"
+              "A global government debt sell-off lifted yields in every major market",
+              "A 4.79% risk-free return raises the bar for every other asset",
+              "Japanese, British and German yields hit multi-decade highs the same day",
+              "The Fed's September decision is now the key event for both markets"
             ],
             "es": [
-              "Dow: pérdida media del 0,8% en septiembre desde 1950",
-              "S&P 500: pérdida media del 0,7% en septiembre desde 1950",
-              "Nasdaq Composite: caída media del 0,9% desde 1971",
-              "Russell 2000: caída media del 0,8% desde 1979"
+              "Una venta mundial de deuda pública elevó los rendimientos en todos los grandes mercados",
+              "Una rentabilidad sin riesgo del 4,79% sube el listón para cualquier otro activo",
+              "Los rendimientos japonés, británico y alemán marcaron máximos de décadas el mismo día",
+              "La decisión de la Fed en septiembre es ahora el acontecimiento clave"
             ],
             "tr": [
-              "Dow: 1950'den bu yana eylulde ortalama yuzde 0,8 kayip",
-              "S&P 500: 1950'den bu yana eylulde ortalama yuzde 0,7 kayip",
-              "Nasdaq Composite: 1971'den bu yana ortalama yuzde 0,9 dusus",
-              "Russell 2000: 1979'dan bu yana ortalama yuzde 0,8 dusus"
+              "Kuresel devlet borcu satisi butun buyuk piyasalarda getirileri yukseltti",
+              "Yuzde 4,79'luk risksiz getiri diger tum varliklar icin esigi yukseltiyor",
+              "Japon, Ingiliz ve Alman getirileri ayni gun onlarca yilin zirvesini gordu",
+              "Fed'in eylul karari artik her iki piyasa icin de kilit olay"
             ]
           },
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/08/31/wall-street-heads-for-winning-month-september-may-be-a-different-story.html"
+          "source": "The Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/09/01/stock-market-midday-sept-1-stocks-slide-on-global-bond-sell-off/"
         }
       ],
       "author": "Daily Now",
-      "path": "2026-09-01__Daily Now__US Markets - 1 September 2026.json",
-      "size": 9826,
-      "mtime": 1788259066053
+      "path": "2026-09-02__Daily Now__US Markets - 2 September 2026.json",
+      "size": 10921,
+      "mtime": 1788355220216
     },
     {
       "title": {
-        "en": "World - 1 September 2026",
-        "es": "Mundo - 1 de septiembre de 2026",
-        "tr": "Dunya - 1 Eylul 2026"
+        "en": "World - 2 September 2026",
+        "es": "Mundo - 2 de septiembre de 2026",
+        "tr": "Dunya - 2 Eylul 2026"
       },
       "category": "world",
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "source": "Daily Now",
       "stories": [
         {
           "title": {
-            "en": "Iran says it hit US bases in Jordan and the UAE",
-            "es": "Iran afirma haber atacado bases de EE. UU. en Jordania y Emiratos",
-            "tr": "Iran, Urdun ve BAE'deki ABD uslerini vurdugunu acikladi"
+            "en": "US strikes Iran again as Tehran fires back across the region",
+            "es": "EE. UU. vuelve a atacar Irán y Teherán responde en toda la región",
+            "tr": "ABD Iran'i yeniden vurdu, Tahran bolge genelinde karsilik verdi"
           },
           "summary": {
-            "en": "Tehran says its Revolutionary Guard struck American bases in Jordan and the United Arab Emirates, retaliating for a US attack on Iran's Larak Island in the Strait of Hormuz.",
-            "es": "Teheran afirma que su Guardia Revolucionaria atacó bases estadounidenses en Jordania y Emiratos Árabes Unidos, en represalia por un ataque de EE. UU. contra la isla iraní de Larak, en el estrecho de Ormuz.",
-            "tr": "Tahran, Devrim Muhafizlari'nin Urdun ve Birlesik Arap Emirlikleri'ndeki Amerikan uslerini vurdugunu, bunun Hurmuz Bogazi'ndaki Larak Adasi'na yonelik ABD saldirisina misilleme oldugunu acikladi."
+            "en": "American forces hit Revolutionary Guard targets after attempted attacks on shipping in the Strait of Hormuz, and Iran answered with missiles and drones at sites across the region.",
+            "es": "Las fuerzas estadounidenses atacaron objetivos de la Guardia Revolucionaria tras intentos de ataque contra buques en el estrecho de Ormuz, e Irán respondió con misiles y drones en varios puntos de la región.",
+            "tr": "Amerikan gucleri, Hurmuz Bogazi'nda gemilere yonelik saldiri girisimlerinin ardindan Devrim Muhafizlari hedeflerini vurdu; Iran ise bolge genelindeki noktalara fuze ve insansiz hava araclariyla karsilik verdi."
           },
           "detail": {
-            "en": "Iran's Revolutionary Guard said it launched attacks on American military bases in Jordan and the United Arab Emirates after US forces bombed Larak Island, an Iranian position near the mouth of the Strait of Hormuz. The strikes mark another widening of a war that began on 28 February, when joint US and Israeli attacks killed Iran's supreme leader and several senior officials. Iran answered that opening round with missile and drone salvos against Israel and a number of Gulf states, including Saudi Arabia, drawing countries across the region into a conflict they had tried to stay out of. Negotiations between Washington and Tehran stalled in the spring, and since May the confrontation has been driven less by diplomacy than by pressure on shipping and energy routes through the Gulf. Hitting bases in Jordan and the UAE puts two more American partners directly in the line of fire and raises the risk that host governments are forced to choose sides. Energy markets are watching the Strait of Hormuz closely, since roughly a fifth of the world's seaborne oil passes through it.",
-            "es": "La Guardia Revolucionaria de Irán dijo haber lanzado ataques contra bases militares estadounidenses en Jordania y Emiratos Árabes Unidos después de que fuerzas de EE. UU. bombardearan la isla de Larak, una posición iraní cercana a la entrada del estrecho de Ormuz. Los ataques suponen otra ampliación de una guerra que comenzó el 28 de febrero, cuando ofensivas conjuntas de EE. UU. e Israel mataron al líder supremo iraní y a varios altos cargos. Irán respondió a esa primera ronda con andanadas de misiles y drones contra Israel y varios países del Golfo, entre ellos Arabia Saudí, arrastrando a la región a un conflicto del que había intentado mantenerse al margen. Las negociaciones entre Washington y Teherán se estancaron en primavera y, desde mayo, la confrontación se libra menos con diplomacia que con presión sobre las rutas marítimas y energéticas del Golfo. Golpear bases en Jordania y Emiratos coloca a dos socios más de Washington en la línea de fuego y aumenta el riesgo de que esos gobiernos se vean obligados a tomar partido. Los mercados energéticos vigilan de cerca el estrecho de Ormuz, por donde pasa cerca de una quinta parte del petróleo transportado por mar en el mundo.",
-            "tr": "Iran Devrim Muhafizlari, ABD guclerinin Hurmuz Bogazi girisine yakin bir Iran mevzisi olan Larak Adasi'ni bombalamasinin ardindan Urdun ve Birlesik Arap Emirlikleri'ndeki Amerikan askeri uslerine saldiri duzenledigini bildirdi. Saldirilar, 28 Subat'ta ABD ve Israil'in ortak harekatiyla Iran'in dini lideri ve bircok ust duzey yetkilinin oldurulmesiyle baslayan savasin bir kez daha genislemesi anlamina geliyor. Iran bu ilk rauntu Israil'e ve Suudi Arabistan dahil bircok Korfez ulkesine fuze ve insansiz hava araci saldirilariyla yanitlamis, boylece uzak durmaya calisan bolge ulkelerini de catismanin icine cekmisti. Washington ile Tahran arasindaki muzakereler ilkbaharda tikandi; mayistan bu yana catisma diplomasiden cok Korfez'deki deniz tasimaciligi ve enerji hatlari uzerindeki baski yoluyla yurutuluyor. Urdun ve BAE'deki uslerin vurulmasi, ABD'nin iki ortagini daha dogrudan hedef haline getiriyor ve bu hukumetlerin taraf secmek zorunda kalma riskini artiriyor. Enerji piyasalari Hurmuz Bogazi'ni yakindan izliyor; dunyada deniz yoluyla tasinan petrolun yaklasik beste biri buradan geciyor."
+            "en": "The US military struck targets inside Iran on Tuesday and Tehran responded with missiles and drones aimed at sites across the region, reigniting a war that has been fought in bursts since February. Washington described the strikes as a response to recent attempted attacks on commercial shipping in the Strait of Hormuz and on American troops stationed in the region, and said they were directed at Islamic Revolutionary Guard Corps targets. The pattern of the past several months has been exactly this: a period of relative quiet, a strike on shipping or on a base, a heavier retaliation, then another lull. What has changed is where the pressure now lands, since the fighting has moved decisively onto the shipping lanes rather than staying between the two militaries. That shift is why the effects are showing up immediately in oil and bond markets far from the Gulf, with Brent crude climbing back above $92 a barrel. Diplomatic channels between Washington and Tehran have been stalled since the spring, and nothing in this round suggests either side is looking for an exit.",
+            "es": "El ejército de EE. UU. atacó el martes objetivos dentro de Irán y Teherán respondió con misiles y drones dirigidos a puntos de toda la región, reavivando una guerra que se libra a rachas desde febrero. Washington presentó los ataques como respuesta a recientes intentos de agresión contra buques comerciales en el estrecho de Ormuz y contra tropas estadounidenses desplegadas en la zona, y afirmó que se dirigieron a objetivos del Cuerpo de la Guardia Revolucionaria Islámica. El patrón de los últimos meses ha sido justamente ese: un periodo de relativa calma, un ataque a un buque o a una base, una represalia más dura y otra pausa. Lo que ha cambiado es dónde recae ahora la presión, porque el combate se ha trasladado con claridad a las rutas marítimas en lugar de quedarse entre los dos ejércitos. Ese giro explica que los efectos aparezcan de inmediato en los mercados de petróleo y deuda muy lejos del Golfo, con el crudo Brent de nuevo por encima de los 92 dólares por barril. Los canales diplomáticos entre Washington y Teherán están estancados desde la primavera, y nada en esta ronda sugiere que alguna de las partes busque una salida.",
+            "tr": "ABD ordusu sali gunu Iran icindeki hedefleri vurdu, Tahran da bolge genelindeki noktalara yonelik fuze ve insansiz hava araclariyla karsilik verdi; boylece subattan bu yana araliklarla surdurulen savas yeniden alevlendi. Washington saldirilari, Hurmuz Bogazi'nda ticari gemilere ve bolgede konuslu Amerikan askerlerine yonelik son saldiri girisimlerine yanit olarak nitelendirdi ve hedeflerin Islam Devrim Muhafizlari Ordusu'na ait oldugunu bildirdi. Son aylarin kalibi tam olarak bu sekilde isliyor: goreli bir sessizlik donemi, bir gemiye ya da bir usse saldiri, daha agir bir misilleme ve ardindan yeni bir duraklama. Degisen sey baskinin nereye bindigi; cunku catisma iki ordu arasinda kalmak yerine belirgin bicimde deniz ticaret yollarina kaydi. Etkilerin Korfez'den cok uzaktaki petrol ve tahvil piyasalarinda aninda gorulmesinin nedeni de bu; Brent ham petrolu varil basina yeniden 92 dolarin uzerine cikti. Washington ile Tahran arasindaki diplomatik kanallar ilkbahardan bu yana tikali ve bu rauntta taraflardan birinin cikis aradigina dair bir isaret yok."
           },
           "points": {
             "en": [
-              "The war began on 28 February with joint US-Israeli strikes that killed Iran's supreme leader",
-              "Iran has previously fired on Israel and Gulf states including Saudi Arabia",
-              "US-Iran talks have been stalled since the spring",
-              "About a fifth of the world's seaborne oil moves through the Strait of Hormuz"
+              "US strikes targeted Islamic Revolutionary Guard Corps positions",
+              "Washington cited attempted attacks on shipping and on US troops",
+              "Iran answered with missiles and drones at sites across the region",
+              "Brent crude climbed back above $92 a barrel"
             ],
             "es": [
-              "La guerra empezó el 28 de febrero con ataques conjuntos de EE. UU. e Israel que mataron al líder supremo iraní",
-              "Irán ya había atacado a Israel y a países del Golfo, entre ellos Arabia Saudí",
-              "Las conversaciones entre EE. UU. e Irán están estancadas desde la primavera",
-              "Cerca de una quinta parte del petróleo marítimo mundial pasa por el estrecho de Ormuz"
+              "Los ataques de EE. UU. apuntaron a posiciones de la Guardia Revolucionaria Islámica",
+              "Washington alegó intentos de ataque contra buques y contra tropas estadounidenses",
+              "Irán respondió con misiles y drones en puntos de toda la región",
+              "El crudo Brent volvió a superar los 92 dólares por barril"
             ],
             "tr": [
-              "Savas, 28 Subat'ta ABD-Israil ortak saldirilariyla ve Iran'in dini liderinin oldurulmesiyle basladi",
-              "Iran daha once Israil'e ve Suudi Arabistan dahil Korfez ulkelerine saldirmisti",
-              "ABD-Iran gorusmeleri ilkbahardan bu yana tikanmis durumda",
-              "Dunyada deniz yoluyla tasinan petrolun yaklasik beste biri Hurmuz Bogazi'ndan geciyor"
-            ]
-          },
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/8/31/iran-war-live-irgc-attacks-us-bases-in-jordan-after-us-bombs-larak-island"
-        },
-        {
-          "title": {
-            "en": "Grand Canyon flash flood leaves two dead and about 15 missing",
-            "es": "Una riada repentina en el Gran Cañón deja dos muertos y unos 15 desaparecidos",
-            "tr": "Grand Canyon'daki ani selde iki kisi oldu, yaklasik 15 kisi kayip"
-          },
-          "summary": {
-            "en": "Rescue crews airlifted hikers out of the canyon after a weekend flash flood that also destroyed the national park's only water pipeline.",
-            "es": "Los equipos de rescate evacuaron en helicóptero a excursionistas tras una riada de fin de semana que además destruyó la única tubería de agua del parque nacional.",
-            "tr": "Kurtarma ekipleri, hafta sonu meydana gelen ve milli parkin tek su boru hattini da tahrip eden ani selin ardindan yuruyusculeri helikopterle bolgeden cikardi."
-          },
-          "detail": {
-            "en": "Crews spent Monday lifting people out of the depths of the Grand Canyon after a flash flood tore through the inner gorge over the weekend. At least two people have died and roughly 15 remain unaccounted for, while more than 60 have been brought out safely. The flooding also knocked out the only water pipeline serving Grand Canyon National Park, turning a search-and-rescue emergency into an infrastructure crisis. Park officials have closed the lodges to overnight guests and placed the park's roughly 1,600 year-round residents under emergency water restrictions. Repairing a pipeline that runs through steep, flood-damaged terrain is slow work, so the limits are likely to hold well past the immediate rescue effort. The search for the missing is continuing in side canyons where debris and standing water are hampering access.",
-            "es": "Los equipos de rescate pasaron el lunes evacuando a personas desde el fondo del Gran Cañón después de que una riada arrasara el desfiladero interior durante el fin de semana. Al menos dos personas han muerto y unas 15 siguen sin localizar, mientras que más de 60 han sido puestas a salvo. La inundación también destruyó la única tubería de agua que abastece al Parque Nacional del Gran Cañón, convirtiendo una emergencia de búsqueda y rescate en una crisis de infraestructuras. Las autoridades del parque han cerrado los alojamientos a los huéspedes que pernoctan y han impuesto restricciones de agua de emergencia a los cerca de 1.600 residentes permanentes. Reparar una tubería que atraviesa un terreno escarpado y dañado por la riada es un trabajo lento, así que las restricciones se mantendrán mucho después del rescate. La búsqueda de los desaparecidos continúa en cañones laterales donde los escombros y el agua estancada dificultan el acceso.",
-            "tr": "Kurtarma ekipleri pazartesi gunu, hafta sonu ic vadiyi vuran ani selin ardindan Grand Canyon'un derinliklerinden insanlari havadan tahliye etti. En az iki kisi hayatini kaybetti, yaklasik 15 kisiden haber alinamiyor; 60'tan fazla kisi ise saglikli sekilde bolgeden cikarildi. Sel ayrica Grand Canyon Milli Parki'na su saglayan tek boru hattini da kullanilamaz hale getirdi ve bir arama kurtarma acil durumunu altyapi krizine donusturdu. Park yonetimi konaklama tesislerini geceleme icin kapatti ve parkta yil boyu yasayan yaklasik 1.600 kisiyi acil su kisitlamasi kapsamina aldi. Dik ve selden zarar gormus arazide ilerleyen bir boru hattini onarmak yavas ilerleyen bir is oldugundan, kisitlamalarin kurtarma calismasi bittikten sonra da surmesi bekleniyor. Kayiplarin aranmasi, molozun ve birikintilerin erisimi zorlastirdigi yan vadilerde devam ediyor."
-          },
-          "points": {
-            "en": [
-              "More than 60 people have been brought out of the canyon safely",
-              "The park's only water pipeline was destroyed by the flooding",
-              "Lodges are closed to overnight guests",
-              "About 1,600 year-round residents are under emergency water restrictions"
-            ],
-            "es": [
-              "Más de 60 personas han sido evacuadas del cañón sin daños",
-              "La riada destruyó la única tubería de agua del parque",
-              "Los alojamientos están cerrados para pernoctaciones",
-              "Unos 1.600 residentes permanentes están bajo restricciones de agua de emergencia"
-            ],
-            "tr": [
-              "60'tan fazla kisi vadiden saglikli sekilde cikarildi",
-              "Parkin tek su boru hatti sel nedeniyle tahrip oldu",
-              "Konaklama tesisleri geceleme icin kapatildi",
-              "Yil boyu yasayan yaklasik 1.600 kisi acil su kisitlamasi altinda"
+              "ABD saldirilari Islam Devrim Muhafizlari mevzilerini hedef aldi",
+              "Washington, gemilere ve ABD askerlerine yonelik saldiri girisimlerini gerekce gosterdi",
+              "Iran bolge genelindeki noktalara fuze ve insansiz hava araclariyla karsilik verdi",
+              "Brent ham petrolu yeniden varil basina 92 dolarin uzerine cikti"
             ]
           },
           "source": "WORLD",
-          "url": "https://wng.org/podcasts/tuesday-morning-news-september-1-2026-1788204765"
+          "url": "https://wng.org/podcasts/wednesday-morning-news-september-2-2026-1788297082"
         },
         {
           "title": {
-            "en": "Trump announces sweeping Venezuela oil deal",
-            "es": "Trump anuncia un amplio acuerdo petrolero con Venezuela",
-            "tr": "Trump, Venezuela ile kapsamli bir petrol anlasmasi acikladi"
+            "en": "Israel says it seized a senior Hamas security official in Gaza raid",
+            "es": "Israel afirma haber capturado a un alto cargo de seguridad de Hamás en una incursión en Gaza",
+            "tr": "Israil, Gazze baskininda ust duzey bir Hamas guvenlik yetkilisini yakaladigini acikladi"
           },
           "summary": {
-            "en": "The president says an unnamed company has won rights to 17 Venezuelan oil fields holding some 65 billion barrels, for at least 25 years.",
-            "es": "El presidente afirma que una empresa no identificada ha obtenido los derechos sobre 17 campos petroleros venezolanos con unos 65.000 millones de barriles, por al menos 25 años.",
-            "tr": "Baskan, adi aciklanmayan bir sirketin yaklasik 65 milyar varillik 17 Venezuela petrol sahasi uzerinde en az 25 yilligina hak kazandigini soyluyor."
+            "en": "Palestinian health officials say four people were killed in strikes during the ground operation, which Prime Minister Netanyahu says captured a senior figure from Hamas's internal security apparatus.",
+            "es": "Las autoridades sanitarias palestinas afirman que cuatro personas murieron en los ataques durante la operación terrestre, en la que, según el primer ministro Netanyahu, se capturó a un alto cargo del aparato de seguridad interna de Hamás.",
+            "tr": "Filistinli saglik yetkilileri, kara harekati sirasindaki saldirilarda dort kisinin oldugunu bildirdi; Basbakan Netanyahu ise operasyonda Hamas'in ic guvenlik yapisindan ust duzey bir ismin yakalandigini soyledi."
           },
           "detail": {
-            "en": "President Trump described a newly agreed oil arrangement with Venezuela as the biggest deal in world history. Under the terms he outlined, a company he did not name receives rights to 17 Venezuelan oil fields containing roughly 65 billion barrels, on a lease running at least 25 years. Venezuela holds some of the largest proven crude reserves on the planet, but years of sanctions, underinvestment and the decay of state producer PDVSA have left much of that oil in the ground. Opening those fields to outside operators would take substantial capital and time before any meaningful volume reaches the market. The announcement also lands while energy prices are already elevated by the war with Iran and the pressure on Gulf shipping routes, which is part of why Washington is interested in non-Gulf supply. Details that would let outsiders judge the deal, including the identity of the company and the terms Caracas is getting in return, have not been released.",
-            "es": "El presidente Trump describió un nuevo acuerdo petrolero con Venezuela como el mayor de la historia mundial. Según los términos que expuso, una empresa que no identificó obtiene los derechos sobre 17 campos petroleros venezolanos con unos 65.000 millones de barriles, mediante una concesión de al menos 25 años. Venezuela posee algunas de las mayores reservas probadas de crudo del planeta, pero años de sanciones, falta de inversión y el deterioro de la estatal PDVSA han dejado buena parte de ese petróleo bajo tierra. Abrir esos campos a operadores extranjeros exigiría mucho capital y tiempo antes de que un volumen significativo llegue al mercado. El anuncio llega además cuando los precios de la energía ya están altos por la guerra con Irán y la presión sobre las rutas marítimas del Golfo, lo que explica en parte el interés de Washington en suministros ajenos a esa región. No se han publicado los datos que permitirían evaluar el acuerdo, como la identidad de la empresa o lo que recibe Caracas a cambio.",
-            "tr": "Baskan Trump, Venezuela ile varilan yeni petrol duzenlemesini dunya tarihinin en buyuk anlasmasi olarak nitelendirdi. Acikladigi kosullara gore, adini vermedigi bir sirket, yaklasik 65 milyar varil barindiran 17 Venezuela petrol sahasi uzerinde en az 25 yil surecek bir isletme hakki elde ediyor. Venezuela dunyanin en buyuk kanitlanmis ham petrol rezervlerinden bazilarina sahip; ancak yillar suren yaptirimlar, yatirim eksikligi ve devlet ureticisi PDVSA'nin cokusu bu petrolun buyuk bolumunun yer altinda kalmasina yol acti. Bu sahalarin disaridan isletmecilere acilmasi, piyasaya kayda deger bir uretim ulasmadan once ciddi sermaye ve zaman gerektirecek. Aciklama, enerji fiyatlarinin Iran savasi ve Korfez deniz yollari uzerindeki baski nedeniyle zaten yuksek oldugu bir donemde geliyor; Washington'un Korfez disi arza ilgi duymasinin bir nedeni de bu. Anlasmayi degerlendirmeye imkan verecek ayrintilar, sirketin kimligi ve Karakas'in karsiliginda ne aldigi dahil, henuz paylasilmadi."
+            "en": "Israeli forces carried out a ground operation in Gaza in which Palestinian health officials say four people were killed by Israeli strikes. Prime Minister Benjamin Netanyahu said the raid captured a senior official from Hamas's internal security apparatus, the branch responsible for policing the population and hunting suspected collaborators rather than for fighting at the front. Detaining someone from that part of the organisation is aimed at intelligence rather than territory, since internal security officers tend to know where people and materiel are held. Ground raids of this kind have become the standard form the campaign takes, replacing the broad offensives of earlier phases with narrower operations built around a specific target. For civilians in the area the distinction offers little protection, as the casualties reported today came from strikes carried out during the operation itself. Neither side has released enough detail to independently verify the identity of the man detained.",
+            "es": "Fuerzas israelíes llevaron a cabo una operación terrestre en Gaza en la que, según las autoridades sanitarias palestinas, cuatro personas murieron por ataques israelíes. El primer ministro Benjamin Netanyahu afirmó que la incursión permitió capturar a un alto cargo del aparato de seguridad interna de Hamás, la rama encargada de vigilar a la población y perseguir a presuntos colaboradores, y no de combatir en el frente. Detener a alguien de esa parte de la organización busca inteligencia más que territorio, porque los agentes de seguridad interna suelen saber dónde se guardan personas y material. Las incursiones terrestres de este tipo se han convertido en la forma habitual de la campaña, sustituyendo las grandes ofensivas de fases anteriores por operaciones más estrechas construidas en torno a un objetivo concreto. Para los civiles de la zona esa diferencia ofrece poca protección, ya que las víctimas registradas hoy se produjeron por ataques ejecutados durante la propia operación. Ninguna de las partes ha dado detalles suficientes para verificar de forma independiente la identidad del detenido.",
+            "tr": "Israil gucleri Gazze'de bir kara harekati duzenledi; Filistinli saglik yetkilileri bu sirada gerceklestirilen Israil saldirilarinda dort kisinin oldugunu bildirdi. Basbakan Benjamin Netanyahu, baskinda Hamas'in ic guvenlik yapisindan ust duzey bir yetkilinin yakalandigini soyledi; bu birim cephede savasmaktan cok halki denetlemek ve isbirlikcilikle suclananlarin pesine dusmekle gorevli. Orgutun bu bolumunden birini gozaltina almak, topraktan cok istihbarata yonelik bir hamle; cunku ic guvenlik gorevlileri genellikle kisilerin ve malzemenin nerede tutuldugunu bilir. Bu turden kara baskinlari, kampanyanin alisildik bicimi haline geldi ve onceki asamalarin genis capli taarruzlarinin yerini belirli bir hedef etrafinda kurulan dar kapsamli operasyonlar aldi. Bolgedeki siviller acisindan bu ayrim pek koruma saglamiyor; bugun bildirilen kayiplar da operasyon sirasinda yapilan saldirilardan kaynaklandi. Taraflardan hicbiri, gozaltina alinan kisinin kimligini bagimsiz olarak dogrulamaya yetecek ayrinti paylasmadi."
           },
           "points": {
             "en": [
-              "17 oil fields, around 65 billion barrels, on a lease of at least 25 years",
-              "The company receiving the rights has not been named",
-              "Sanctions and PDVSA's decline have kept most Venezuelan crude undeveloped",
-              "Energy prices are already high because of the war with Iran"
+              "Palestinian health officials report four killed in strikes during the operation",
+              "Netanyahu says a senior Hamas internal security official was captured",
+              "Internal security is Hamas's policing branch, not a frontline unit",
+              "The detainee's identity has not been independently verified"
             ],
             "es": [
-              "17 campos petroleros, unos 65.000 millones de barriles, con concesión de al menos 25 años",
-              "No se ha identificado a la empresa beneficiaria",
-              "Las sanciones y el declive de PDVSA han dejado sin explotar la mayor parte del crudo venezolano",
-              "Los precios de la energía ya son altos por la guerra con Irán"
+              "Las autoridades sanitarias palestinas informan de cuatro muertos en los ataques durante la operación",
+              "Netanyahu afirma que se capturó a un alto cargo de seguridad interna de Hamás",
+              "La seguridad interna es la rama policial de Hamás, no una unidad de combate",
+              "La identidad del detenido no ha sido verificada de forma independiente"
             ],
             "tr": [
-              "17 petrol sahasi, yaklasik 65 milyar varil, en az 25 yillik isletme hakki",
-              "Haklari alan sirketin adi aciklanmadi",
-              "Yaptirimlar ve PDVSA'nin cokusu Venezuela petrolunun buyuk bolumunu isletilemez birakti",
-              "Enerji fiyatlari Iran savasi nedeniyle zaten yuksek seyrediyor"
+              "Filistinli saglik yetkilileri operasyon sirasindaki saldirilarda dort olu bildirdi",
+              "Netanyahu, ust duzey bir Hamas ic guvenlik yetkilisinin yakalandigini soyluyor",
+              "Ic guvenlik, Hamas'in cephe birimi degil kolluk kanadi",
+              "Gozaltina alinan kisinin kimligi bagimsiz olarak dogrulanmadi"
             ]
           },
-          "source": "WORLD",
-          "url": "https://wng.org/podcasts/the-world-and-everything-in-it-september-1-2026-1788204765"
+          "source": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog-september-2-2026/"
+        },
+        {
+          "title": {
+            "en": "Judge sends Charlie Kirk assassination case to trial",
+            "es": "Un juez envía a juicio el caso del asesinato de Charlie Kirk",
+            "tr": "Yargic, Charlie Kirk suikasti davasini durusmaya gonderdi"
+          },
+          "summary": {
+            "en": "Utah Judge Tony Graf ruled that Tyler Robinson will stand trial for murder, and kept the death penalty available as a possible sentence.",
+            "es": "El juez de Utah Tony Graf dictaminó que Tyler Robinson será juzgado por asesinato y mantuvo la pena de muerte como posible condena.",
+            "tr": "Utah yargici Tony Graf, Tyler Robinson'in cinayetten yargilanacagina hukmetti ve olum cezasini olasi bir ceza olarak masada birakti."
+          },
+          "detail": {
+            "en": "A Utah judge has ruled that Tyler Robinson, the man accused of assassinating conservative activist Charlie Kirk, will stand trial for murder. Judge Tony Graf also declined to take the death penalty off the table, leaving capital punishment available if there is a conviction. The ruling follows the standard preliminary stage in which a judge decides only whether prosecutors have shown enough evidence for the case to proceed, a much lower bar than the proof required at trial. Keeping the capital charge alive matters well beyond sentencing, because it shapes jury selection, the pace of the proceedings and the calculations on both sides about any plea. Capital cases in Utah typically take years to reach a verdict, and the defence has yet to lay out the case it intends to make. Kirk's killing was among the most politically charged acts of violence in the United States in recent years, and the trial will be watched accordingly.",
+            "es": "Un juez de Utah ha dictaminado que Tyler Robinson, acusado de asesinar al activista conservador Charlie Kirk, será juzgado por asesinato. El juez Tony Graf tampoco retiró la pena de muerte, que sigue disponible en caso de condena. La decisión llega tras la fase preliminar habitual, en la que el juez solo determina si la fiscalía ha presentado indicios suficientes para que el caso avance, un listón mucho más bajo que la prueba exigida en el juicio. Mantener viva la acusación capital importa mucho más allá de la condena, porque condiciona la selección del jurado, el ritmo del proceso y los cálculos de ambas partes sobre un posible acuerdo. Los casos con pena capital en Utah suelen tardar años en llegar a veredicto, y la defensa aún no ha expuesto la estrategia que piensa seguir. El asesinato de Kirk fue uno de los actos de violencia con mayor carga política en Estados Unidos en los últimos años, y el juicio se seguirá en consecuencia.",
+            "tr": "Utah'da bir yargic, muhafazakar aktivist Charlie Kirk'e suikast duzenlemekle suclanan Tyler Robinson'in cinayetten yargilanacagina hukmetti. Yargic Tony Graf ayrica olum cezasini masadan kaldirmayi reddetti; boylece mahkumiyet halinde idam cezasi uygulanabilir kaldi. Karar, yargicin yalnizca savciligin davanin ilerlemesi icin yeterli delil sunup sunmadigini degerlendirdigi standart on asamanin ardindan geldi; bu asamanin esigi durusmada aranan ispat duzeyinden cok daha dusuktur. Idam istemli suclamanin ayakta kalmasi, verilecek cezanin cok otesinde onem tasiyor; cunku juri secimini, yargilamanin hizini ve her iki tarafin olasi bir uzlasma hesabini bicimlendiriyor. Utah'da idam istemli davalarin karara baglanmasi genellikle yillar aliyor ve savunma henuz izleyecegi stratejiyi ortaya koymadi. Kirk cinayeti, son yillarda ABD'de siyasi yuku en agir siddet olaylarindan biriydi ve durusma da buna gore izlenecek."
+          },
+          "points": {
+            "en": [
+              "Judge Tony Graf ruled the case may proceed to trial",
+              "The death penalty remains available if Robinson is convicted",
+              "A preliminary ruling tests evidence at a far lower bar than a trial",
+              "Capital cases in Utah usually take years to reach a verdict"
+            ],
+            "es": [
+              "El juez Tony Graf resolvió que el caso puede ir a juicio",
+              "La pena de muerte sigue disponible si Robinson es condenado",
+              "La fase preliminar exige un listón probatorio mucho menor que el juicio",
+              "Los casos capitales en Utah suelen tardar años en llegar a veredicto"
+            ],
+            "tr": [
+              "Yargic Tony Graf davanin durusmaya gidebilecegine hukmetti",
+              "Robinson mahkum edilirse olum cezasi uygulanabilir kaliyor",
+              "On asama, delilleri durusmadan cok daha dusuk bir esikle sinar",
+              "Utah'da idam istemli davalar genellikle yillar sonra karara baglanir"
+            ]
+          },
+          "source": "Fox News",
+          "url": "https://www.foxnews.com/us/tyler-robinson-face-trial-charlie-kirk-assassination-judge-keeps-death-penalty-table"
+        },
+        {
+          "title": {
+            "en": "USPS reviewing whistleblower claim over Trump's mail-in voting order",
+            "es": "El USPS revisa una denuncia interna sobre la orden de Trump sobre el voto por correo",
+            "tr": "USPS, Trump'in mektupla oy kullanma kararnamesine iliskin ihbarci iddiasini inceliyor"
+          },
+          "summary": {
+            "en": "The Postal Service says it is carefully reviewing an internal complaint about how it planned to implement the president's executive order on mail-in voting.",
+            "es": "El Servicio Postal afirma que está revisando con detenimiento una denuncia interna sobre cómo planeaba aplicar la orden ejecutiva del presidente sobre el voto por correo.",
+            "tr": "Posta Idaresi, baskanin mektupla oy kullanmaya iliskin kararnamesini nasil uygulamayi planladigina dair bir ic sikayeti dikkatle inceledigini bildirdi."
+          },
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/09/01/nx-s1-5950869/trump-mail-in-voting-usps"
         }
       ],
       "author": "Daily Now",
-      "path": "2026-09-01__Daily Now__World - 1 September 2026.json",
-      "size": 15767,
-      "mtime": 1788259065953
+      "path": "2026-09-02__Daily Now__World - 2 September 2026.json",
+      "size": 17181,
+      "mtime": 1788355220136
     }
   ]
 }

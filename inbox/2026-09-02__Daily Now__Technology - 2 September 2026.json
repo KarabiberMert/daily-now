@@ -1,0 +1,91 @@
+{
+  "title": {
+    "en": "Technology - 2 September 2026",
+    "es": "Tecnología - 2 de septiembre de 2026",
+    "tr": "Teknoloji - 2 Eylul 2026"
+  },
+  "category": "tech",
+  "date": "2026-09-02",
+  "source": "Daily Now",
+  "stories": [
+    {
+      "title": {
+        "en": "Sony and Warner music publishers sue Anthropic over song training data",
+        "es": "Las editoriales musicales de Sony y Warner demandan a Anthropic por los datos de entrenamiento",
+        "tr": "Sony ve Warner muzik yayincilari, sarki egitim verileri nedeniyle Anthropic'e dava acti"
+      },
+      "summary": {
+        "en": "Sony Music Publishing and Warner Chappell allege Anthropic torrented and scraped tens of thousands of copyrighted compositions to train its Claude models, and name the company's chief executive personally.",
+        "es": "Sony Music Publishing y Warner Chappell alegan que Anthropic descargó y rastreó decenas de miles de composiciones protegidas para entrenar sus modelos Claude, y señalan personalmente a su consejero delegado.",
+        "tr": "Sony Music Publishing ve Warner Chappell, Anthropic'in Claude modellerini egitmek icin on binlerce telifli besteyi torrentle indirdigini ve topladigini one suruyor; dava sirketin genel mudurunu de sahsen taraf gosteriyor."
+      },
+      "detail": {
+        "en": "Sony Music Publishing and Warner Chappell Music have sued Anthropic in the US District Court for the Northern District of California, in a complaint filed on 28 August that the publishers describe as covering one of the largest ongoing thefts of intellectual property in history. The suit alleges a campaign of illegally torrenting, scraping and downloading copyrighted works at scale in order to train the Claude family of AI models, and claims tens of thousands of musical compositions were used without permission. Songs named in the filing include Eye of the Tiger, September, Uptown Funk, Hallelujah, Taylor Swift's Paper Rings and Mariah Carey's All I Want for Christmas Is You. Unusually, the complaint names Anthropic co-founder and chief executive Dario Amodei and co-founder Benjamin Mann as individual defendants rather than suing only the company. The publishers are seeking a jury trial and damages of up to $150,000 for each infringed work, plus $25,000 for each instance of removing copyright management information. With this filing, the publishing arms of all three major music companies are now litigating against Anthropic, following a suit brought by Universal Music Publishing Group and Concord in January 2026 that covered more than 20,000 works and sought over $3 billion.",
+        "es": "Sony Music Publishing y Warner Chappell Music han demandado a Anthropic ante el Tribunal de Distrito de EE. UU. para el Distrito Norte de California, en una denuncia presentada el 28 de agosto que las editoriales describen como uno de los mayores robos continuados de propiedad intelectual de la historia. La demanda alega una campaña de descarga por torrent, rastreo y bajada ilegal de obras protegidas a gran escala para entrenar la familia de modelos Claude, y sostiene que se usaron decenas de miles de composiciones sin permiso. Entre las canciones citadas figuran Eye of the Tiger, September, Uptown Funk, Hallelujah, Paper Rings de Taylor Swift y All I Want for Christmas Is You de Mariah Carey. De forma poco habitual, la denuncia señala como demandados individuales al cofundador y consejero delegado de Anthropic, Dario Amodei, y al cofundador Benjamin Mann, en lugar de demandar solo a la empresa. Las editoriales piden juicio con jurado y hasta 150.000 dólares por cada obra infringida, más 25.000 por cada caso de eliminación de información de gestión de derechos. Con esta demanda, las divisiones editoriales de las tres grandes discográficas litigan ya contra Anthropic, tras la presentada por Universal Music Publishing Group y Concord en enero de 2026, que abarcaba más de 20.000 obras y reclamaba más de 3.000 millones de dólares.",
+        "tr": "Sony Music Publishing ve Warner Chappell Music, 28 Agustos'ta ABD Kaliforniya Kuzey Bolgesi Federal Mahkemesi'nde Anthropic aleyhine dava acti; yayincilar sikayeti, tarihin en buyuk suregelen fikri mulkiyet hirsizliklarindan biri olarak nitelendiriyor. Dava, Claude model ailesini egitmek amaciyla telifli eserlerin buyuk olcekte yasa disi bicimde torrentle indirilmesini, taranmasini ve toplanmasini iceren bir kampanya oldugunu one suruyor ve on binlerce muzik bestesinin izinsiz kullanildigini savunuyor. Dilekcede adi gecen sarkilar arasinda Eye of the Tiger, September, Uptown Funk, Hallelujah, Taylor Swift'in Paper Rings'i ve Mariah Carey'nin All I Want for Christmas Is You parcasi bulunuyor. Alisilmadik bicimde dava, yalnizca sirketi degil, Anthropic'in kurucu ortagi ve genel muduru Dario Amodei ile kurucu ortak Benjamin Mann'i da sahsen davali gosteriyor. Yayincilar juri onunde yargilama ve ihlal edilen her eser icin 150 bin dolara kadar tazminat ile telif yonetim bilgisinin kaldirildigi her bir durum icin 25 bin dolar talep ediyor. Bu dosyayla birlikte uc buyuk muzik sirketinin yayincilik kollari da Anthropic'e karsi hukuki surec yurutur hale geldi; Universal Music Publishing Group ve Concord ocak 2026'da 20 binden fazla eseri kapsayan ve 3 milyar dolarin uzerinde talep iceren bir dava acmisti."
+      },
+      "points": {
+        "en": [
+          "Filed 28 August in the Northern District of California",
+          "Chief executive Dario Amodei and co-founder Benjamin Mann named individually",
+          "Up to $150,000 sought per infringed work, plus $25,000 per rights-information removal",
+          "All three major publishers are now suing Anthropic"
+        ],
+        "es": [
+          "Presentada el 28 de agosto en el Distrito Norte de California",
+          "El consejero delegado Dario Amodei y el cofundador Benjamin Mann, demandados a título personal",
+          "Se reclaman hasta 150.000 dólares por obra infringida y 25.000 por cada supresión de datos de derechos",
+          "Las tres grandes editoriales litigan ya contra Anthropic"
+        ],
+        "tr": [
+          "Dava 28 Agustos'ta Kaliforniya Kuzey Bolgesi'nde acildi",
+          "Genel Mudur Dario Amodei ve kurucu ortak Benjamin Mann sahsen davali gosterildi",
+          "Ihlal edilen her eser icin 150 bin dolara kadar, her telif bilgisi silme icin 25 bin dolar talep ediliyor",
+          "Uc buyuk yayincinin ucu de artik Anthropic'e dava acmis durumda"
+        ]
+      },
+      "source": "Variety",
+      "url": "https://variety.com/2026/music/news/sony-music-publishing-warner-chappell-anthropic-lawsuit-1236847442/"
+    },
+    {
+      "title": {
+        "en": "Nvidia turns to MediaTek as buyers build their own AI chips",
+        "es": "Nvidia recurre a MediaTek mientras sus clientes fabrican sus propios chips de IA",
+        "tr": "Alicilar kendi yapay zeka ciplerini uretirken Nvidia MediaTek'e yoneliyor"
+      },
+      "summary": {
+        "en": "The chipmaker is partnering with MediaTek to defend its position as its largest customers design in-house hardware, while Anthropic locked in $35 billion of Nvidia-backed compute in Texas.",
+        "es": "El fabricante de chips se alía con MediaTek para defender su posición mientras sus mayores clientes diseñan hardware propio, y Anthropic cerró 35.000 millones de dólares en capacidad de cómputo respaldada por Nvidia en Texas.",
+        "tr": "Cip ureticisi, en buyuk musterileri kendi donanimlarini tasarlarken konumunu korumak icin MediaTek ile is birligi yapiyor; Anthropic ise Teksas'ta Nvidia destekli 35 milyar dolarlik islem kapasitesi baglandi."
+      },
+      "detail": {
+        "en": "Nvidia is partnering with MediaTek as it works to hold its dominant position in AI hardware against customers who are increasingly designing their own. The pressure is real: Meta, Google, Amazon and others have all moved to build in-house accelerators, and every workload that shifts onto custom silicon is one Nvidia does not sell a GPU for. Partnering with MediaTek, a company with deep experience in high-volume, cost-sensitive chip design, gives Nvidia a route into segments where its top-end parts are more capability than a buyer needs. At the same time the demand side keeps validating the incumbent, with Anthropic locking in $35 billion of Nvidia-backed compute capacity in Texas, one of the largest single commitments of its kind. Governments are becoming buyers at similar scale, and South Korea plans to supply a total of 512 Nvidia B200 units during 2026 while covering operating costs and offering generative AI assistants free, with no token limit, to its entire population. Taken together the moves show a market splitting in two: frontier training runs that still require the fastest available hardware, and an enormous volume tier where cost per inference decides the winner.",
+        "es": "Nvidia se alía con MediaTek mientras trata de mantener su posición dominante en hardware de IA frente a clientes que cada vez más diseñan el suyo propio. La presión es real: Meta, Google, Amazon y otros han avanzado en la construcción de aceleradores internos, y cada carga de trabajo que pasa a silicio propio es una GPU que Nvidia no vende. Aliarse con MediaTek, una empresa con amplia experiencia en diseño de chips de gran volumen y sensibles al coste, abre a Nvidia la puerta a segmentos donde sus piezas de gama alta ofrecen más capacidad de la que el comprador necesita. Al mismo tiempo, la demanda sigue avalando al líder: Anthropic ha cerrado 35.000 millones de dólares en capacidad de cómputo respaldada por Nvidia en Texas, uno de los mayores compromisos individuales de este tipo. Los gobiernos se están convirtiendo en compradores de escala similar, y Corea del Sur prevé suministrar un total de 512 unidades Nvidia B200 durante 2026, cubriendo además los costes operativos y ofreciendo asistentes de IA generativa gratis, sin límite de tokens, a toda su población. En conjunto, los movimientos muestran un mercado que se parte en dos: los entrenamientos de frontera que aún exigen el hardware más rápido disponible, y un enorme segmento de volumen donde gana quien logre el menor coste por inferencia.",
+        "tr": "Nvidia, musterilerinin giderek kendi donanimlarini tasarladigi bir ortamda yapay zeka donanimindaki hakim konumunu korumak icin MediaTek ile is birligine gidiyor. Baski gercek: Meta, Google, Amazon ve digerleri sirket ici hizlandirici gelistirmeye yoneldi ve ozel yongalara kayan her is yuku, Nvidia'nin satamadigi bir GPU anlamina geliyor. Yuksek hacimli ve maliyete duyarli cip tasariminda derin deneyime sahip MediaTek ile ortaklik, Nvidia'ya ust segment urunlerinin alicinin ihtiyacindan fazla geldigi alanlara giris yolu aciyor. Ayni anda talep tarafi lideri dogrulamayi surduruyor; Anthropic, Teksas'ta Nvidia destekli 35 milyar dolarlik islem kapasitesi baglayarak turunun en buyuk tekil taahhutlerinden birini yapti. Hukumetler de benzer olcekte alici haline geliyor: Guney Kore 2026 boyunca toplam 512 adet Nvidia B200 saglamayi, isletme maliyetlerini ustlenmeyi ve tum nufusuna token siniri olmadan ucretsiz uretken yapay zeka asistanlari sunmayi planliyor. Butun bunlar piyasanin ikiye ayrildigini gosteriyor: halen mevcut en hizli donanimi gerektiren sinir egitim calismalari ve kazananin cikarim basina maliyetle belirlendigi devasa bir hacim katmani."
+      },
+      "points": {
+        "en": [
+          "MediaTek partnership targets high-volume, cost-sensitive segments",
+          "Meta, Google and Amazon are all building in-house accelerators",
+          "Anthropic committed to $35 billion of Nvidia-backed compute in Texas",
+          "South Korea will supply 512 B200 units and free national AI assistants in 2026"
+        ],
+        "es": [
+          "La alianza con MediaTek apunta a segmentos de gran volumen y sensibles al coste",
+          "Meta, Google y Amazon construyen aceleradores propios",
+          "Anthropic comprometió 35.000 millones en cómputo respaldado por Nvidia en Texas",
+          "Corea del Sur suministrará 512 unidades B200 y asistentes de IA gratuitos en 2026"
+        ],
+        "tr": [
+          "MediaTek ortakligi yuksek hacimli ve maliyete duyarli segmentleri hedefliyor",
+          "Meta, Google ve Amazon kendi hizlandiricilarini gelistiriyor",
+          "Anthropic Teksas'ta Nvidia destekli 35 milyar dolarlik islem kapasitesi taahhut etti",
+          "Guney Kore 2026'da 512 adet B200 saglayacak ve ucretsiz ulusal yapay zeka asistani sunacak"
+        ]
+      },
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/09/01/top-tech-news-today-september-1-2026-amazon-anthropic-honda-openai-sony-warner-z-ai-more/"
+    }
+  ],
+  "author": "Daily Now"
+}
